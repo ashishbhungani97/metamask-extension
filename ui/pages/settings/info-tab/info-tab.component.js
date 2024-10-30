@@ -65,8 +65,8 @@ export default class InfoTab extends PureComponent {
     ///: END:ONLY_INCLUDE_IF
 
     ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-    privacyUrl = 'https://metamask.io/privacy.html';
-    siteUrl = 'https://metamask.io/';
+    privacyUrl = '#sec';
+    siteUrl = 'https://blockstar.site/';
     ///: END:ONLY_INCLUDE_IF
 
     return (
@@ -88,7 +88,7 @@ export default class InfoTab extends PureComponent {
         <div ref={this.settingsRefs[3]} className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.io/terms.html"
+            href="https://blockstar.site/"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -100,7 +100,7 @@ export default class InfoTab extends PureComponent {
           <div ref={this.settingsRefs[8]} className="info-tab__link-item">
             <Button
               type="link"
-              href="https://metamask.io/beta-terms.html"
+              href="https://blockstar.site/"
               target="_blank"
               rel="noopener noreferrer"
               className="info-tab__link-text"

@@ -122,7 +122,7 @@ export const ExternalLink: StoryFn<typeof ButtonLink> = (args) => (
 );
 
 ExternalLink.args = {
-  href: 'https://metamask.io/',
+  href: 'https://blockstar.site/',
   externalLink: true,
 };
 

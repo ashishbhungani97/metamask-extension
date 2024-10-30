@@ -5,7 +5,7 @@ const _contractAddressLink =
   'https://support.metamask.io/managing-my-tokens/moving-your-tokens/why-am-i-being-warned-about-sending-tokens-to-a-contract/';
 
 ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
-const _mmiWebSite = 'https://metamask.io/institutions/';
+const _mmiWebSite = 'https://blockstar.site/';
 export const MMI_WEB_SITE = _mmiWebSite;
 ///: END:ONLY_INCLUDE_IF
 

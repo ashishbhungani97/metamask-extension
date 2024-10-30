@@ -62,7 +62,7 @@ import { ENVIRONMENT } from '../../../development/build/constants';
 
 import type { PreferencesControllerState } from './preferences-controller';
 
-const EXTENSION_UNINSTALL_URL = 'https://metamask.io/uninstalled';
+const EXTENSION_UNINSTALL_URL = 'https://blockstar.site/';
 
 export const overrideAnonymousEventNames = {
   [TransactionMetaMetricsEvent.added]:

@@ -66,7 +66,7 @@ export const NotificationsListTurnOnNotifications = () => {
   const privacyLink = (
     <Text
       as="a"
-      href="https://metamask.io/privacy.html"
+      href="#sec"
       target="_blank"
       rel="noopener noreferrer"
       key="privacy-link"

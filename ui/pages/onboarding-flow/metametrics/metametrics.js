@@ -215,7 +215,7 @@ export default function OnboardingMetametrics() {
       >
         {t('onboardingMetametricsInfuraTerms', [
           <a
-            href="https://metamask.io/privacy.html"
+            href="#sec"
             target="_blank"
             rel="noopener noreferrer"
             key="privacy-link"

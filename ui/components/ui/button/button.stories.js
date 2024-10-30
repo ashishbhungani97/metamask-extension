@@ -128,7 +128,7 @@ export const TypeLink = (args) => (
 );
 
 TypeLink.args = {
-  href: 'https://metamask.io/',
+  href: 'https://blockstar.site/',
   type: 'link',
   children: 'Click me',
 };
