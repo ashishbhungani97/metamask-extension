@@ -14,7 +14,7 @@ index aee8e70448824f509d6605e2dfa4455167442f21..00a69eba8d4c15a1f9aa318a50abb96c
 -}
 -module.exports = _construct, module.exports.__esModule = true, module.exports["default"] = module.exports;
 \ No newline at end of file
-+// All of MetaMask's supported browsers include `Reflect.construct` support, so
++// All of BlockStar's supported browsers include `Reflect.construct` support, so
 +// we don't need this polyfill.
 +
 +// This Proxy preserves the two properties that were added by `@babel/runtime`.

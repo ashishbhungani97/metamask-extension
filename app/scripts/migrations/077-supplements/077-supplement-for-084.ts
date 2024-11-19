@@ -4,8 +4,8 @@ import { hasProperty, isObject } from '@metamask/utils';
  * Deletes network if networkId exists, on the NetworkController state.
  * Further explanation in ./077-supplements.md
  *
- * @param state - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param state - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 
 export default function transformState077For084(

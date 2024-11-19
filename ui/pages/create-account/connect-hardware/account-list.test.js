@@ -77,7 +77,7 @@ describe('AccountList', () => {
     render();
     expect(
       screen.getAllByTitle(
-        'This account has already been connected to MetaMask',
+        'This account has already been connected to BlockStar',
       ),
     ).toHaveLength(2);
   });

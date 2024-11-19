@@ -1,5 +1,5 @@
 /**
- * Hardware wallets supported by MetaMask.
+ * Hardware wallets supported by BlockStar.
  */
 export enum HardwareKeyringType {
   ledger = 'Ledger Hardware',
@@ -44,9 +44,9 @@ export enum HardwareAffiliateLinks {
 }
 
 export enum HardwareAffiliateTutorialLinks {
-  ledger = 'https://support.ledger.com/hc/en-us/articles/4404366864657-Set-up-and-use-MetaMask-to-access-your-Ledger-Ethereum-ETH-account?docs=true',
+  ledger = 'https://support.ledger.com/hc/en-us/articles/4404366864657-Set-up-and-use-BlockStar-to-access-your-Ledger-Ethereum-ETH-account?docs=true',
   gridplus = 'https://docs.gridplus.io/setup/metamask',
-  trezor = 'https://wiki.trezor.io/Apps:MetaMask',
+  trezor = 'https://wiki.trezor.io/Apps:BlockStar',
   keystone = 'https://support.keyst.one/3rd-party-wallets/eth-and-web3-wallets-keystone/bind-metamask-with-keystone',
   airgap = 'https://support.airgap.it/guides/metamask/',
   coolwallet = 'https://www.coolwallet.io/metamask-step-by-step-guides/',

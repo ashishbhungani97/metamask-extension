@@ -34,7 +34,7 @@ const UnconnectedAccountAlert = () => {
     getOrderedConnectedAccountsForActiveTab,
   );
   const internalAccounts = useSelector(getInternalAccounts);
-  // Temporary fix until https://github.com/MetaMask/metamask-extension/pull/21553
+  // Temporary fix until https://github.com/BlockStar/metamask-extension/pull/21553
   const internalAccountsMap = new Map(
     internalAccounts.map((acc) => [acc.address, acc]),
   );

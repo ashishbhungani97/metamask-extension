@@ -757,7 +757,7 @@ export default function ReviewQuote({ setReceiveToAmount }) {
       showModal({
         name: 'EDIT_APPROVAL_PERMISSION',
         decimals: selectedFromToken.decimals,
-        origin: 'MetaMask',
+        origin: 'BlockStar',
         setCustomAmount: (newCustomPermissionAmount) => {
           const customPermissionAmount =
             newCustomPermissionAmount === ''

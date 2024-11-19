@@ -3,10 +3,10 @@ import { setupLocale } from '../shared/lib/error-utils';
 const enMessages = {
   troubleStarting: {
     message:
-      'MetaMask had trouble starting. This error could be intermittent, so try restarting the extension.',
+      'BlockStar had trouble starting. This error could be intermittent, so try restarting the extension.',
   },
   restartMetamask: {
-    message: 'Restart MetaMask',
+    message: 'Restart BlockStar',
   },
   stillGettingMessage: {
     message: 'Still getting this message?',
@@ -19,7 +19,7 @@ const enMessages = {
 const esMessages = {
   troubleStarting: {
     message:
-      'MetaMask tuvo problemas para iniciarse. Este error podría ser intermitente, así que intente reiniciar la extensión.',
+      'BlockStar tuvo problemas para iniciarse. Este error podría ser intermitente, así que intente reiniciar la extensión.',
   },
   restartMetamask: {
     message: 'Reiniciar metamáscara',

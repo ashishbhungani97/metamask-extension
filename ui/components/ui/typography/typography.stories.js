@@ -114,7 +114,7 @@ export const DefaultStory = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     <Typography
@@ -140,7 +140,7 @@ export const Variant = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     {Object.values(TypographyVariant).map((variant) => (
@@ -167,7 +167,7 @@ export const Color = (args) => {
         description="<Typography/> has been deprecated in favor of the <Text /> component"
         actionButtonLabel="See details"
         actionButtonProps={{
-          href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+          href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
         }}
       />
       {Object.values(ValidColors).map((color, index) => {
@@ -229,7 +229,7 @@ export const FontWeight = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     {Object.values(FONT_WEIGHT).map((weight) => (
@@ -253,7 +253,7 @@ export const FontStyle = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     {Object.values(FONT_STYLE).map((style) => (
@@ -277,7 +277,7 @@ export const Align = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     {Object.values(TextAlign).map((align) => (
@@ -301,7 +301,7 @@ export const OverflowWrap = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     <div
@@ -329,7 +329,7 @@ export const As = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     <Typography boxProps={{ display: DISPLAY.BLOCK }} marginBottom={4}>
@@ -362,7 +362,7 @@ export const Margin = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     <Typography {...args}>
@@ -383,7 +383,7 @@ export const BoxPropsStory = (args) => (
       description="<Typography/> has been deprecated in favor of the <Text /> component"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/17670',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/17670',
       }}
     />
     <Typography {...args}>This uses the boxProps prop</Typography>

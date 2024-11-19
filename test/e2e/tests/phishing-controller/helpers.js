@@ -10,10 +10,10 @@ const {
  *
  * @enum {BlockProvider}
  * @readonly
- * @property {string} MetaMask - The name of the MetaMask block provider.
+ * @property {string} BlockStar - The name of the BlockStar block provider.
  */
 const BlockProvider = {
-  MetaMask: 'metamask',
+  BlockStar: 'metamask',
 };
 
 module.exports = {

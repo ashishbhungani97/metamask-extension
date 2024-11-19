@@ -13,7 +13,7 @@ describe('Snap Permission Cell', () => {
 
   const mockPermissionData = {
     permissionName: 'snap_dialog',
-    label: 'Display dialog windows in MetaMask.',
+    label: 'Display dialog windows in BlockStar.',
     leftIcon: 'messages',
   };
   const mockConnectionData = {
@@ -52,7 +52,7 @@ describe('Snap Permission Cell', () => {
       mockStore,
     );
     expect(
-      screen.getByText('Display dialog windows in MetaMask.'),
+      screen.getByText('Display dialog windows in BlockStar.'),
     ).toBeInTheDocument();
     expect(screen.getByText('Requested now')).toBeInTheDocument();
   });

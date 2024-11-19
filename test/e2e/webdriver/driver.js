@@ -120,7 +120,7 @@ until.foundElementCountIs = function foundElementCountIs(locator, n) {
 };
 
 /**
- * This is MetaMask's custom E2E test driver, wrapping the Selenium WebDriver.
+ * This is BlockStar's custom E2E test driver, wrapping the Selenium WebDriver.
  * For Selenium WebDriver API documentation, see:
  * https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/index_exports_WebDriver.html
  */
@@ -995,7 +995,7 @@ class Driver {
    * @throws {Error} throws an error if the target number of window handles isn't met by the timeout.
    */
   async waitUntilXWindowHandles(_x, delayStep = 1000, timeout = this.timeout) {
-    // In the MV3 build, there is an extra windowHandle with a title of "MetaMask Offscreen Page"
+    // In the MV3 build, there is an extra windowHandle with a title of "BlockStar Offscreen Page"
     // So we add 1 to the expected number of window handles
     const x = isManifestV3 ? _x + 1 : _x;
 
@@ -1180,7 +1180,7 @@ class Driver {
       for (const handle of windowHandles) {
         await this.driver.switchTo().window(handle);
         const windowTitle = await this.driver.getTitle();
-        if (windowTitle !== 'MetaMask Offscreen Page') {
+        if (windowTitle !== 'BlockStar Offscreen Page') {
           const screenshot = await this.driver.takeScreenshot();
           await fs.writeFile(
             `${filepathBase}-screenshot-${

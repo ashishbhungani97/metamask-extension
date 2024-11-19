@@ -1046,7 +1046,7 @@ export default class SecurityTab extends PureComponent {
           <div className="settings-page__content-description">
             {t('basicConfigurationDescription', [
               <a
-                href="https://consensys.io/privacy-policy"
+                href="https://blockstars.blockstar.site/knowledge-base/"
                 key="link"
                 target="_blank"
                 rel="noreferrer noopener"

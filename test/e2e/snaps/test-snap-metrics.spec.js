@@ -675,7 +675,7 @@ describe('Test Snap Metrics', function () {
         title: this.test.fullTitle(),
         testSpecificMock: mockSegment,
         ignoredConsoleErrors: [
-          'MetaMask - RPC Error: User rejected the request.',
+          'BlockStar - RPC Error: User rejected the request.',
         ],
       },
       async ({ driver, mockedEndpoint: mockedEndpoints }) => {
@@ -811,7 +811,7 @@ describe('Test Snap Metrics', function () {
         title: this.test.fullTitle(),
         testSpecificMock: mockSegment,
         ignoredConsoleErrors: [
-          'MetaMask - RPC Error: Failed to fetch snap "npm:@metamask/bip32-example-snap": Failed to fetch tarball for package "@metamask/bip32-example-snap"..',
+          'BlockStar - RPC Error: Failed to fetch snap "npm:@metamask/bip32-example-snap": Failed to fetch tarball for package "@metamask/bip32-example-snap"..',
         ],
       },
       async ({ driver, mockedEndpoint: mockedEndpoints }) => {

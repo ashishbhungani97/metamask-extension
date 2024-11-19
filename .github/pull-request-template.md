@@ -12,7 +12,7 @@ Write a short description of the changes included in this pull request, also inc
 2. What is the improvement/solution?
 -->
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MetaMask/metamask-extension/pull/PR?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/BlockStar/metamask-extension/pull/PR?quickstart=1)
 
 ## **Related issues**
 
@@ -38,11 +38,11 @@ Fixes:
 
 ## **Pre-merge author checklist**
 
-- [ ] I've followed [MetaMask Contributor Docs](https://github.com/MetaMask/contributor-docs) and [MetaMask Extension Coding Standards](https://github.com/MetaMask/metamask-extension/blob/develop/.github/guidelines/CODING_GUIDELINES.md).
+- [ ] I've followed [BlockStar Contributor Docs](https://github.com/BlockStar/contributor-docs) and [BlockStar Extension Coding Standards](https://github.com/BlockStar/metamask-extension/blob/develop/.github/guidelines/CODING_GUIDELINES.md).
 - [ ] I've completed the PR template to the best of my ability
 - [ ] I’ve included tests if applicable
 - [ ] I’ve documented my code using [JSDoc](https://jsdoc.app/) format if applicable
-- [ ] I’ve applied the right labels on the PR (see [labeling guidelines](https://github.com/MetaMask/metamask-extension/blob/develop/.github/guidelines/LABELING_GUIDELINES.md)). Not required for external contributors.
+- [ ] I’ve applied the right labels on the PR (see [labeling guidelines](https://github.com/BlockStar/metamask-extension/blob/develop/.github/guidelines/LABELING_GUIDELINES.md)). Not required for external contributors.
 
 ## **Pre-merge reviewer checklist**
 

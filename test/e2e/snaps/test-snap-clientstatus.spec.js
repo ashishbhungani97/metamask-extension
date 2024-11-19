@@ -87,7 +87,7 @@ describe('Test Snap Client Status', function () {
 
         // try to click on the lock item
         await driver.clickElement({
-          text: 'Lock MetaMask',
+          text: 'Lock BlockStar',
           tag: 'div',
         });
 

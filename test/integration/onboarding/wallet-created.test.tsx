@@ -86,7 +86,7 @@ describe('Wallet Created Events', () => {
     await waitFor(() => {
       expect(
         getByText(
-          `Pin MetaMask on your browser so it's accessible and easy to view transaction confirmations.`,
+          `Pin BlockStar on your browser so it's accessible and easy to view transaction confirmations.`,
         ),
       ).toBeInTheDocument();
     });

@@ -11,7 +11,7 @@ describe('NotificationListItemIcon', () => {
   const defaultProps = {
     type: NotificationListItemIconType.Token,
     value:
-      'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg',
+      'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg',
     badge: {
       icon: IconName.Ethereum,
       position: BadgeWrapperPosition.bottomRight,
@@ -32,7 +32,7 @@ describe('NotificationListItemIcon', () => {
     render(
       <NotificationListItemIcon
         type={NotificationListItemIconType.Token}
-        value="https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg"
+        value="https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg"
       />,
     );
     expect(screen.queryByTestId('badge-wrapper')).toBeNull();

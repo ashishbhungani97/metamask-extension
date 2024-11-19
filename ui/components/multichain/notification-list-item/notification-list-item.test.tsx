@@ -14,7 +14,7 @@ describe('NotificationListItem', () => {
     icon: {
       type: NotificationListItemIconType.Token,
       value:
-        'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg',
+        'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg',
     },
     title: {
       items: [{ text: 'Test title' }],

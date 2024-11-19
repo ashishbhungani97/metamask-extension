@@ -407,31 +407,6 @@ const SETTINGS_CONSTANTS = [
     route: `${ABOUT_US_ROUTE}#terms`,
     iconName: IconName.Info,
   },
-
-  {
-    tabMessage: (t) => t('about'),
-    sectionMessage: (t) => t('attributions'),
-    descriptionMessage: (t) => t('attributions'),
-    route: `${ABOUT_US_ROUTE}#attributions`,
-    iconName: IconName.Info,
-  },
-
-  {
-    tabMessage: (t) => t('about'),
-    sectionMessage: (t) => t('supportCenter'),
-    descriptionMessage: (t) => t('supportCenter'),
-    route: `${ABOUT_US_ROUTE}#supportcenter`,
-    iconName: IconName.Info,
-  },
-
-  {
-    tabMessage: (t) => t('about'),
-    sectionMessage: (t) => t('visitWebSite'),
-    descriptionMessage: (t) => t('visitWebSite'),
-    route: `${ABOUT_US_ROUTE}#visitwebsite`,
-    iconName: IconName.Info,
-  },
-
   {
     tabMessage: (t) => t('about'),
     sectionMessage: (t) => t('contactUs'),

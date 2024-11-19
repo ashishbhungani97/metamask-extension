@@ -17,7 +17,7 @@ const { isHeadless } = require('../../helpers/env');
  *
  * @type {string}
  */
-const TEMP_PROFILE_PATH_PREFIX = path.join(os.tmpdir(), 'MetaMask-Fx-Profile');
+const TEMP_PROFILE_PATH_PREFIX = path.join(os.tmpdir(), 'BlockStar-Fx-Profile');
 
 /**
  * Determine the appropriate proxy server value to use

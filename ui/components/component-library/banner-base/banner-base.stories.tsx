@@ -95,7 +95,7 @@ export const Children: StoryFn<typeof BannerBase> = (args) => {
       Description shouldn't repeat title. 1-3 lines. Can contain a{' '}
       <ButtonLink
         size={ButtonLinkSize.Inherit}
-        href="https://blockstar.site/"
+        href="https://blockstars.blockstar.site/knowledge-base/"
         externalLink
       >
         hyperlink

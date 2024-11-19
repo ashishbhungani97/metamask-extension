@@ -16,13 +16,13 @@ const MAX_TRANSACTION_HISTORY_LENGTH = 100;
  * result in some loss of information, but the impact is minor. The lost data
  * is only used in the "Activity log" on the transaction details page.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly
  * what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by
  * controller.
- * @returns Updated versioned MetaMask extension state.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,

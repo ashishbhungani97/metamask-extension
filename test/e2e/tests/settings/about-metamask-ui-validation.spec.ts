@@ -13,10 +13,10 @@ const selectors = {
   accountOptionsMenuButton: '[data-testid="account-options-menu-button"]',
   settingsDiv: { text: 'Settings', tag: 'div' },
   aboutDiv: { text: 'About', tag: 'div' },
-  metaMaskLabelText: { text: 'MetaMask Version', tag: 'div' },
+  metaMaskLabelText: { text: 'BlockStar Version', tag: 'div' },
   metaMaskVersion: '.info-tab__version-number',
   headerText: {
-    text: 'MetaMask is designed and built around the world.',
+    text: 'BlockStar is designed and built around the world.',
     tag: 'div',
   },
   titleText: { text: 'About', tag: 'h4' },
@@ -32,8 +32,8 @@ async function switchToAboutView(driver: Driver) {
   await driver.clickElement(selectors.aboutDiv);
 }
 
-// Test case to validate the view in the "About" - MetaMask.
-describe('Setting - About MetaMask : @no-mmi', function (this: Suite) {
+// Test case to validate the view in the "About" - BlockStar.
+describe('Setting - About BlockStar : @no-mmi', function (this: Suite) {
   it('validate the view', async function () {
     await withFixtures(
       {
@@ -67,7 +67,7 @@ describe('Setting - About MetaMask : @no-mmi', function (this: Suite) {
           'Meta Mask label is not present in the about view section',
         );
 
-        // verify the version number of the MetaMask
+        // verify the version number of the BlockStar
         const { version } = packageJson;
         await driver.waitForSelector({
           css: selectors.metaMaskVersion,

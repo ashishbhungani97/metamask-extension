@@ -16,64 +16,6 @@ import ZENDESK_URLS from '../../../../helpers/constants/zendesk-url';
 import { jsonRpcRequest } from '../../../../../shared/modules/rpc.utils';
 import { isValidASCIIURL, toPunycodeURL } from '../../utils/confirm';
 
-const UNRECOGNIZED_CHAIN = {
-  id: 'UNRECOGNIZED_CHAIN',
-  severity: Severity.Warning,
-  content: {
-    element: 'span',
-    children: {
-      element: 'MetaMaskTranslation',
-      props: {
-        translationKey: 'unrecognizedChain',
-      },
-    },
-  },
-};
-
-const SAFE_CHAIN_LIST_PROVIDER_ERROR = {
-  id: 'SAFE_CHAIN_LIST_PROVIDER_ERROR',
-  severity: Severity.Warning,
-  content: {
-    element: 'span',
-    children: {
-      element: 'MetaMaskTranslation',
-      props: {
-        translationKey: 'errorGettingSafeChainList',
-      },
-    },
-  },
-};
-
-const MISMATCHED_CHAIN_RECOMMENDATION = {
-  id: 'MISMATCHED_CHAIN_RECOMMENDATION',
-  severity: Severity.Warning,
-  content: {
-    element: 'span',
-    children: {
-      element: 'MetaMaskTranslation',
-      props: {
-        translationKey: 'mismatchedChainRecommendation',
-        variables: [
-          {
-            element: 'a',
-            key: 'mismatchedChainLink',
-            props: {
-              href: ZENDESK_URLS.VERIFY_CUSTOM_NETWORK,
-              target: '__blank',
-              tabIndex: 0,
-            },
-            children: {
-              element: 'MetaMaskTranslation',
-              props: {
-                translationKey: 'mismatchedChainLinkText',
-              },
-            },
-          },
-        ],
-      },
-    },
-  },
-};
 
 const DEPRECATED_CHAIN_ALERT = {
   id: 'DEPRECATED_CHAIN_ALERT',
@@ -190,18 +132,6 @@ async function getAlerts(pendingApproval, data) {
     if (DEPRECATED_NETWORKS.includes(pendingApproval.requestData.chainId)) {
       alerts.push(DEPRECATED_CHAIN_ALERT);
     }
-  }
-
-  if (!data.matchedChain && data.useSafeChainsListValidation) {
-    if (data.providerError) {
-      alerts.push(SAFE_CHAIN_LIST_PROVIDER_ERROR);
-    } else {
-      alerts.push(UNRECOGNIZED_CHAIN);
-    }
-  }
-
-  if (alerts.length) {
-    alerts.push(MISMATCHED_CHAIN_RECOMMENDATION);
   }
 
   return alerts;

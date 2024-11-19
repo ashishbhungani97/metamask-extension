@@ -10,7 +10,7 @@ describe('Permission Cell', () => {
   const mockPermissionData = {
     label: 'Access the Ethereum provider.',
     description:
-      'Allow the snap to communicate with MetaMask direct…blockchain and suggest messages and transactions.',
+      'Allow the snap to communicate with BlockStar direct…blockchain and suggest messages and transactions.',
     weight: 1,
     leftIcon: 'ethereum',
     permissionValue: {

@@ -124,7 +124,7 @@ export default function configureStore(preloadedState: any) {
   if (isDev) {
     enhancers.push(
       devtoolsEnhancer({
-        name: 'MetaMask',
+        name: 'BlockStar',
         hostname: 'localhost',
         port: 8000,
         realtime: true,

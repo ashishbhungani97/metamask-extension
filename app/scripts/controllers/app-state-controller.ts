@@ -651,7 +651,7 @@ export class AppStateController extends EventEmitter {
    * Sets an object with networkName and appName
    * or `null` if the message is meant to be cleared
    *
-   * @param switchedNetworkDetails - Details about the network that MetaMask just switched to.
+   * @param switchedNetworkDetails - Details about the network that BlockStar just switched to.
    */
   setSwitchedNetworkDetails(
     switchedNetworkDetails: { origin: string; networkClientId: string } | null,

@@ -13,11 +13,11 @@ export const version = 92.2;
 /**
  * This migration removes obsolete NetworkController state properties.
  *
- * @param originalVersionedState - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedState - Versioned BlockStar extension state, exactly what we persist to dist.
  * @param originalVersionedState.meta - State metadata.
  * @param originalVersionedState.meta.version - The current state version.
- * @param originalVersionedState.data - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned of MetaMask extension state.
+ * @param originalVersionedState.data - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned of BlockStar extension state.
  */
 export async function migrate(
   originalVersionedState: VersionedState,
@@ -40,7 +40,7 @@ function transformState(originalState: MetaMaskState): MetaMaskState {
 function filterOutObsoleteNetworkControllerStateProperties(
   state: MetaMaskState,
 ): MetaMaskState {
-  // https://github.com/MetaMask/core/blob/%40metamask/network-controller%4010.3.1/packages/network-controller/src/NetworkController.ts#L336-L342
+  // https://github.com/BlockStar/core/blob/%40metamask/network-controller%4010.3.1/packages/network-controller/src/NetworkController.ts#L336-L342
   const CURRENT_NETWORK_CONTROLLER_STATE_PROPS = [
     'networkId',
     'networkStatus',

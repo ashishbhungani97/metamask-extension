@@ -281,7 +281,7 @@ function defaultFixture(inputChainId = CHAIN_IDS.LOCALHOST) {
           'https://metamask.github.io': {
             extensionId: null,
             iconUrl: null,
-            name: 'MetaMask < = > Ledger Bridge',
+            name: 'BlockStar < = > Ledger Bridge',
             origin: 'https://metamask.github.io',
             subjectType: 'website',
           },

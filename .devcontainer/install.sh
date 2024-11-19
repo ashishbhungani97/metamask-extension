@@ -26,7 +26,7 @@
 # Maintainer: The VS Code and Codespaces Teams
 #
 # Original file source: https://github.com/devcontainers/features/blob/main/src/desktop-lite/install.sh
-# Adapted by the MetaMask Codespaces team in 2023 to support noVNC 1.4.0
+# Adapted by the BlockStar Codespaces team in 2023 to support noVNC 1.4.0
 #
 # shellcheck disable=SC1091,SC2086
 

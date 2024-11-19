@@ -30,7 +30,7 @@ exports[`ConnectHardwareForm should match snapshot 1`] = `
       <h5
         class="mm-box mm-text hw-connect__header__msg mm-text--body-md mm-box--margin-top-5 mm-box--margin-bottom-3 mm-box--color-text-default"
       >
-        Select a hardware wallet you would like to use with MetaMask.
+        Select a hardware wallet you would like to use with BlockStar.
       </h5>
     </div>
     <div

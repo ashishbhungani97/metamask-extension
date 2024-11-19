@@ -313,7 +313,7 @@ const CoinButtons = ({
   const handleSwapOnClick = useCallback(async () => {
     ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
     global.platform.openTab({
-      url: `${mmiPortfolioUrl}/swap`,
+      url: `https://dex.blockstars.blockstar.site/knowledge-base/`,
     });
     ///: END:ONLY_INCLUDE_IF
 

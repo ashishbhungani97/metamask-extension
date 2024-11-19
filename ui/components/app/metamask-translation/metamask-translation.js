@@ -37,7 +37,7 @@ export default function MetaMaskTranslation({ translationKey, variables }) {
       ) {
         if (!variable.key) {
           throw new Error(
-            `When using MetaMask Template Language in a MetaMaskTranslation variable, you must provide a key for the section regardless of syntax.
+            `When using BlockStar Template Language in a MetaMaskTranslation variable, you must provide a key for the section regardless of syntax.
             Section with element '${variable.element}' for translationKey: '${translationKey}' has no key property`,
           );
         }

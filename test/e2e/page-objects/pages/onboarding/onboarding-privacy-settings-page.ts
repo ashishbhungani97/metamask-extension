@@ -103,7 +103,7 @@ class OnboardingPrivacySettingsPage {
   }
 
   /**
-   * Adds a custom network to MetaMask during the onboarding process.
+   * Adds a custom network to BlockStar during the onboarding process.
    *
    * @param networkName - The name of the custom network.
    * @param chainId - The chain ID of the custom network.

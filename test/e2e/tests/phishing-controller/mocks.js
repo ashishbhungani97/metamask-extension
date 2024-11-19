@@ -23,7 +23,7 @@ const defaultStalelist = {
     allowlist: [],
     blocklist: [],
     c2DomainBlocklist: [],
-    name: ListNames.MetaMask,
+    name: ListNames.BlockStar,
   },
 };
 
@@ -42,7 +42,7 @@ const emptyHtmlPage = (blockProvider) => `<!DOCTYPE html>
  * Setup fetch mocks for the phishing detection feature.
  *
  * The mock configuration will show that "127.0.0.1" is blocked. The dynamic lookup on the warning
- * page can be customized, so that we can test the MetaMask block cases.
+ * page can be customized, so that we can test the BlockStar block cases.
  *
  * @param {import('mockttp').Mockttp} mockServer - The mock server.
  * @param {object} mockPhishingConfigResponseConfig - The response for the dynamic phishing
@@ -60,7 +60,7 @@ async function setupPhishingDetectionMocks(
     c2DomainBlocklist = [
       'a379a6f6eeafb9a55e378c118034e2751e682fab9f2d30ab13d2125586ce1947',
     ],
-    blockProvider = BlockProvider.MetaMask,
+    blockProvider = BlockProvider.BlockStar,
   },
 ) {
   const blockProviderConfig = resolveProviderConfigName(blockProvider);
@@ -106,7 +106,7 @@ async function setupPhishingDetectionMocks(
     });
 
   await mockServer
-    .forGet('https://github.com/MetaMask/eth-phishing-detect/issues/new')
+    .forGet('https://github.com/BlockStar/eth-phishing-detect/issues/new')
     .thenCallback(() => {
       return {
         statusCode: 200,
@@ -127,7 +127,7 @@ async function mockConfigLookupOnWarningPage(
 ) {
   await mockServer
     .forGet(
-      'https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json',
+      'https://raw.githubusercontent.com/BlockStar/eth-phishing-detect/master/src/config.json',
     )
     .thenCallback(() => metamaskPhishingConfigResponse);
 }
@@ -164,7 +164,7 @@ async function mockEmptyStalelistAndHotlist(mockServer) {
  * @returns {string} The name of the phishing config in the response.
  */
 function resolveProviderConfigName(providerName) {
-  if (providerName.toLowerCase() === BlockProvider.MetaMask) {
+  if (providerName.toLowerCase() === BlockProvider.BlockStar) {
     return 'eth_phishing_detect_config';
   }
   throw new Error(`Unknown provider: ${providerName}`);

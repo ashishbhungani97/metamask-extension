@@ -4,7 +4,7 @@ class OnboardingMetricsPage {
   private driver: Driver;
 
   private readonly metametricsMessage = {
-    text: 'Help us improve MetaMask',
+    text: 'Help us improve BlockStar',
     tag: 'h2',
   };
 

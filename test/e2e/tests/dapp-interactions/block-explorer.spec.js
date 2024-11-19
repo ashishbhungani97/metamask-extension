@@ -45,7 +45,7 @@ describe('Block Explorer', function () {
         });
 
         await driver.waitForSelector({
-          text: 'Empty page by MetaMask',
+          text: 'Empty page by BlockStar',
           tag: 'body',
         });
       },
@@ -100,7 +100,7 @@ describe('Block Explorer', function () {
         });
 
         await driver.waitForSelector({
-          text: 'Empty page by MetaMask',
+          text: 'Empty page by BlockStar',
           tag: 'body',
         });
       },
@@ -148,7 +148,7 @@ describe('Block Explorer', function () {
         });
 
         await driver.waitForSelector({
-          text: 'Empty page by MetaMask',
+          text: 'Empty page by BlockStar',
           tag: 'body',
         });
       },

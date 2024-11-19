@@ -11,13 +11,13 @@ export const version = 124;
  * This migration sets the preference `redesignedTransactionsEnabled` if the
  * user has existing data.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly
  * what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by
  * controller.
- * @returns Updated versioned MetaMask extension state.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,
@@ -38,7 +38,7 @@ function transformState(state: Record<string, unknown>): void {
     | undefined;
 
   if (preferences) {
-    // Existing MetaMask users will have the option off by default
+    // Existing BlockStar users will have the option off by default
     preferences.redesignedTransactionsEnabled = false;
   }
 }

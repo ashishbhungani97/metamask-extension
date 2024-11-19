@@ -116,7 +116,7 @@ export default function SwapsBannerAlert({
               alignItems: AlignItems.flexStart,
             }}
             as="a"
-            href="https://support.metamask.io/token-swaps/user-guide-swaps/"
+            href="#sec"
             target="_blank"
             rel="noopener noreferrer"
           >

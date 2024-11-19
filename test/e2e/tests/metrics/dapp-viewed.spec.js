@@ -312,7 +312,7 @@ describe('Dapp viewed Event @no-mmi', function () {
         await driver.clickElement('[data-testid ="disconnect-all"]');
         // validate dapp is not connected
         const noAccountConnected = await driver.isElementPresent({
-          text: 'MetaMask isn’t connected to this site',
+          text: 'BlockStar isn’t connected to this site',
           tag: 'p',
         });
         assert.ok(

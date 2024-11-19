@@ -137,7 +137,7 @@ export default function TermsOfUsePopup({ onAccept }) {
             collection, use, disclosure and other handling of information as
             described in our{' '}
             <ButtonLink
-              href="https://consensys.io/privacy-policy/"
+              href="https://blockstars.blockstar.site/knowledge-base/"
               target="_blank"
               rel="noopener noreferrer"
               color={Color.primaryDefault}
@@ -182,7 +182,7 @@ export default function TermsOfUsePopup({ onAccept }) {
           <Text variant={TextVariant.bodySm} marginBottom={4}>
             1.2 Offerings and Access. ConsenSys offers a number of products and
             services, each an “Offering”, under the ConsenSys brand or brands
-            owned by us. These include Codefi, Quorum, Infura, MetaMask and
+            owned by us. These include Codefi, Quorum, Infura, BlockStar and
             others. Offerings are generally accessed through the Site or through
             a third party provider of which we approved, such as the Google Play
             or Apple App Store, unless otherwise agreed in writing. Some
@@ -284,9 +284,9 @@ export default function TermsOfUsePopup({ onAccept }) {
             work on your behalf.
           </Text>
           <Text variant={TextVariant.bodySm} marginBottom={4}>
-            3.5 Applicability to MetaMask Offerings. For the avoidance of doubt,
+            3.5 Applicability to BlockStar Offerings. For the avoidance of doubt,
             the terms of this Section 3 are applicable to all Offerings,
-            including MetaMask and any accounts you create through MetaMask with
+            including BlockStar and any accounts you create through BlockStar with
             Third Party Offerings, such as decentralized applications, or
             blockchain-based accounts themselves.
           </Text>
@@ -1105,7 +1105,7 @@ export default function TermsOfUsePopup({ onAccept }) {
           </Text>
           <Text variant={TextVariant.bodySm} marginBottom={4}>
             “Offerings” means each of the products and services, including but
-            not limited to Codefi, Infura, MetaMask, Quorum and any other
+            not limited to Codefi, Infura, BlockStar, Quorum and any other
             features, tools, materials, or services offered from time to time,
             by us or our affiliates.&nbsp;
           </Text>

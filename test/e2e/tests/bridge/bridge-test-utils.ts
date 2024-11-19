@@ -69,7 +69,7 @@ export class BridgePage {
 
   verifyPortfolioTab = async (expectedHandleCount: number) => {
     await this.driver.delay(4000);
-    await this.driver.switchToWindowWithTitle('MetaMask Portfolio - Bridge');
+    await this.driver.switchToWindowWithTitle('BlockStar Portfolio - Bridge');
     assert.equal(
       (await this.driver.getAllWindowHandles()).length,
       IS_FIREFOX || !isManifestV3

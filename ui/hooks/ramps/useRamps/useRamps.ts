@@ -44,7 +44,7 @@ const useRamps = (
         params.set('marketingEnabled', String(isMarketingEnabled));
       }
 
-      return `${portfolioUrl}/buy?${params.toString()}`;
+      return `${portfolioUrl}`;
     },
     [metaMetricsId],
   );

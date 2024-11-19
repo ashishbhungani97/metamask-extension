@@ -7,28 +7,28 @@
 # follows all policies or without full understanding of the impact of
 # those changes on build, release and publishing outcomes.
 
-*                                    @MetaMask/extension-devs
-development/                         @MetaMask/extension-devs @kumavis
-lavamoat/                            @MetaMask/extension-devs @MetaMask/supply-chain
+*                                    @BlockStar/extension-devs
+development/                         @BlockStar/extension-devs @kumavis
+lavamoat/                            @BlockStar/extension-devs @BlockStar/supply-chain
 
 # The offscreen.ts script file that is included in the offscreen document html
 # file is responsible, at present, for loading the snaps execution environment
 # for MV3. Any changes to this file should require at least one member of the
 # snaps development team to review and approve the changes.
-offscreen/scripts/offscreen.ts       @MetaMask/snaps-devs
+offscreen/scripts/offscreen.ts       @BlockStar/snaps-devs
 
 
 # The .circleci/ folder instructs Circle CI on the process by which it
 # should test, build and publish releases of our application. Due to the
 # impact that changes to the files contained within this folder may have
 # on our releases, only those with the knowledge and responsibility to
-# publish libraries under the MetaMask name may approve those changes.
+# publish libraries under the BlockStar name may approve those changes.
 # Note to reviewers: We employ the use of CircleCI "Orbs", which are
 # remotely hosted sections of CircleCI configuration and scripts, to
 # empower our CI steps. ANY addition of orbs to our CircleCI config
 # should be brought to the attention of engineering leadership for
 # discussion
-.circleci/                           @MetaMask/library-admins @kumavis
+.circleci/                           @BlockStar/library-admins @kumavis
 
 # The privacy-snapshot.json file includes a list of all hosts that the
 # extension communicates with during the E2E test suite runs. It is not a
@@ -36,81 +36,81 @@ offscreen/scripts/offscreen.ts       @MetaMask/snaps-devs
 # test suite has full coverage. Anytime the privacy-snapshot file changes,
 # extra scrutiny should be applied to the pull request to confirm that it does
 # not broaden the number of hosts the extension communicates with without also
-# providing a path for users to avoid that communication. MetaMask strives to
+# providing a path for users to avoid that communication. BlockStar strives to
 # make all such communication opt IN versus opt OUT.
-privacy-snapshot.json                @MetaMask/extension-privacy-reviewers
+privacy-snapshot.json                @BlockStar/extension-privacy-reviewers
 
 # The CODEOWNERS file constitutes an agreement amongst organization
 # admins and maintainers to restrict approval capabilities to a subset
 # of contributors. Modifications to this file result in a modification of
 # that agreement and can only be approved by those with the knowledge
-# and responsibility to publish libraries under the MetaMask name.
-.github/CODEOWNERS                   @MetaMask/library-admins @kumavis
+# and responsibility to publish libraries under the BlockStar name.
+.github/CODEOWNERS                   @BlockStar/library-admins @kumavis
 
 # For now, restricting approvals inside the .devcontainer folder to devs
 # who were involved with the Codespaces project.
-.devcontainer/                       @MetaMask/library-admins @HowardBraham @plasmacorral
+.devcontainer/                       @BlockStar/library-admins @HowardBraham @plasmacorral
 
 # Confirmations team to own code for confirmations on UI.
-ui/pages/confirmations               @MetaMask/confirmations
+ui/pages/confirmations               @BlockStar/confirmations
 
-# MMI team is responsible for code related with Institutioanl version of MetaMask
-ui/pages/institutional               @MetaMask/mmi
-ui/components/institutional          @MetaMask/mmi
-ui/ducks/institutional               @MetaMask/mmi
-ui/selectors/institutional           @MetaMask/mmi
+# MMI team is responsible for code related with Institutioanl version of BlockStar
+ui/pages/institutional               @BlockStar/mmi
+ui/components/institutional          @BlockStar/mmi
+ui/ducks/institutional               @BlockStar/mmi
+ui/selectors/institutional           @BlockStar/mmi
 
 # Design System to own code for the component-library folder
 # Slack handle: @metamask-design-system-team | Slack channel: #metamask-design-system
-ui/components/component-library      @MetaMask/design-system-engineers
+ui/components/component-library      @BlockStar/design-system-engineers
 
 # The Notifications team is responsible for code related to notifications,
 # authentication, and profile syncing inside the Extension.
 
 # Controllers
-**/controllers/authentication/**                    @MetaMask/notifications
-**/controllers/metamask-notifications/**            @MetaMask/notifications
-**/controllers/push-platform-notifications/**       @MetaMask/notifications
-**/controllers/user-storage/**                      @MetaMask/notifications
+**/controllers/authentication/**                    @BlockStar/notifications
+**/controllers/metamask-notifications/**            @BlockStar/notifications
+**/controllers/push-platform-notifications/**       @BlockStar/notifications
+**/controllers/user-storage/**                      @BlockStar/notifications
 
 # UI
-**/metamask-notifications/**                        @MetaMask/notifications
-**/multichain/notification*/**                      @MetaMask/notifications
-**/pages/notification*/**                           @MetaMask/notifications
-**/utils/notification.util.ts                       @MetaMask/notifications
+**/metamask-notifications/**                        @BlockStar/notifications
+**/multichain/notification*/**                      @BlockStar/notifications
+**/pages/notification*/**                           @BlockStar/notifications
+**/utils/notification.util.ts                       @BlockStar/notifications
 
 # Accounts team is responsible for code related with snap management accounts
 # Slack handle: @accounts-team-devs | Slack channel: #metamask-accounts-team
 
-app/scripts/lib/snap-keyring         @MetaMask/accounts-engineers
+app/scripts/lib/snap-keyring         @BlockStar/accounts-engineers
 
 # Swaps team to own code for the swaps folder
-ui/pages/swaps                                        @MetaMask/swaps-engineers
-app/scripts/controllers/swaps                         @MetaMask/swaps-engineers
+ui/pages/swaps                                        @BlockStar/swaps-engineers
+app/scripts/controllers/swaps                         @BlockStar/swaps-engineers
 
 # Snaps
-**/snaps/**                          @MetaMask/snaps-devs
-shared/constants/permissions.ts      @MetaMask/snaps-devs
-ui/helpers/utils/permission.js       @MetaMask/snaps-devs
-ui/hooks/useTransactionInsights.js   @MetaMask/snaps-devs
+**/snaps/**                          @BlockStar/snaps-devs
+shared/constants/permissions.ts      @BlockStar/snaps-devs
+ui/helpers/utils/permission.js       @BlockStar/snaps-devs
+ui/hooks/useTransactionInsights.js   @BlockStar/snaps-devs
 
 # Wallet UX
-ui/components/multichain              @MetaMask/wallet-ux
-ui/components/app/whats-new-popup     @MetaMask/wallet-ux
-ui/css                                @MetaMask/wallet-ux
-ui/pages/home                         @MetaMask/wallet-ux
-ui/pages/onboarding-flow              @MetaMask/wallet-ux
+ui/components/multichain              @BlockStar/wallet-ux
+ui/components/app/whats-new-popup     @BlockStar/wallet-ux
+ui/css                                @BlockStar/wallet-ux
+ui/pages/home                         @BlockStar/wallet-ux
+ui/pages/onboarding-flow              @BlockStar/wallet-ux
 
 # Assets
-ui/components/app/add-network                         @MetaMask/metamask-assets
-ui/components/app/auto-detect-nft                     @MetaMask/metamask-assets
-ui/components/app/auto-detect-token                   @MetaMask/metamask-assets
-ui/components/app/import-token                        @MetaMask/metamask-assets
-ui/components/app/nft-default-image                   @MetaMask/metamask-assets
-ui/components/app/nft-details                         @MetaMask/metamask-assets
-ui/components/app/nft-options                         @MetaMask/metamask-assets
-ui/components/app/nfts-detection-notice-import-nfts   @MetaMask/metamask-assets
-ui/components/app/nfts-items                          @MetaMask/metamask-assets
-ui/components/app/nfts-tab                            @MetaMask/metamask-assets
-ui/components/ui/deprecated-networks                  @MetaMask/metamask-assets
-ui/components/ui/nft-collection-image                 @MetaMask/metamask-assets
+ui/components/app/add-network                         @BlockStar/metamask-assets
+ui/components/app/auto-detect-nft                     @BlockStar/metamask-assets
+ui/components/app/auto-detect-token                   @BlockStar/metamask-assets
+ui/components/app/import-token                        @BlockStar/metamask-assets
+ui/components/app/nft-default-image                   @BlockStar/metamask-assets
+ui/components/app/nft-details                         @BlockStar/metamask-assets
+ui/components/app/nft-options                         @BlockStar/metamask-assets
+ui/components/app/nfts-detection-notice-import-nfts   @BlockStar/metamask-assets
+ui/components/app/nfts-items                          @BlockStar/metamask-assets
+ui/components/app/nfts-tab                            @BlockStar/metamask-assets
+ui/components/ui/deprecated-networks                  @BlockStar/metamask-assets
+ui/components/ui/nft-collection-image                 @BlockStar/metamask-assets

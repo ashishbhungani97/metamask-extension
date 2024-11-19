@@ -77,11 +77,11 @@ export default class ReadOnlyNetworkStore {
       );
     }
     if (!state) {
-      throw new Error('MetaMask - updated state is missing');
+      throw new Error('BlockStar - updated state is missing');
     }
     if (!this.metadata) {
       throw new Error(
-        'MetaMask - metadata must be set on instance of ExtensionStore before calling "set"',
+        'BlockStar - metadata must be set on instance of ExtensionStore before calling "set"',
       );
     }
     if (!this._initialized) {

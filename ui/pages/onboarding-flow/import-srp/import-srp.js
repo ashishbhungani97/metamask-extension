@@ -24,6 +24,7 @@ import {
   MetaMetricsEventCategory,
   MetaMetricsEventName,
 } from '../../../../shared/constants/metametrics';
+import { SUPPORT_LINK } from '../../../../shared/lib/ui-utils';
 
 export default function ImportSRP({ submitSecretRecoveryPhrase }) {
   const [secretRecoveryPhrase, setSecretRecoveryPhrase] = useState('');
@@ -58,7 +59,7 @@ export default function ImportSRP({ submitSecretRecoveryPhrase }) {
             <a
               key="learnMore"
               type="link"
-              href={ZENDESK_URLS.SECRET_RECOVERY_PHRASE}
+              href={SUPPORT_LINK}
               target="_blank"
               rel="noopener noreferrer"
             >

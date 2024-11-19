@@ -22,7 +22,7 @@ import { PATH_NAME_MAP } from '../helpers/constants/routes';
 import { MetaMetricsContextProp } from '../../shared/constants/metametrics';
 import { useSegmentContext } from '../hooks/useSegmentContext';
 
-import { trackMetaMetricsEvent, trackMetaMetricsPage } from '../store/actions';
+import { trackMetaMetricsPage } from '../store/actions';
 
 // type imports
 /**
@@ -84,14 +84,6 @@ export function MetaMetricsProvider({ children }) {
   const trackEvent = useCallback(
     (payload, options) => {
       addContextPropsIntoEventProperties(payload, options);
-      trackMetaMetricsEvent(
-        {
-          ...payload,
-          environmentType: getEnvironmentType(),
-          ...context,
-        },
-        options,
-      );
     },
     [addContextPropsIntoEventProperties, context],
   );

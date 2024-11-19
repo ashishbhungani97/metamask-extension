@@ -193,7 +193,7 @@ jobs:
       - name: Commit the updated policies
         if: steps.policy-changes.outputs.HAS_CHANGES == 'true'
         run: |
-          git config --global user.name 'MetaMask Bot'
+          git config --global user.name 'BlockStar Bot'
           git config --global user.email 'metamaskbot@users.noreply.github.com'
           git commit -am "Update LavaMoat policies"
           git push

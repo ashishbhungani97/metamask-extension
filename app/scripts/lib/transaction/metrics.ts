@@ -73,7 +73,7 @@ export type TransactionMetricsRequest = {
   ) => void;
   getAccountType: (
     address: string,
-  ) => Promise<'hardware' | 'imported' | 'MetaMask'>;
+  ) => Promise<'hardware' | 'imported' | 'BlockStar'>;
   getDeviceModel: (
     address: string,
   ) => Promise<'ledger' | 'lattice' | 'N/A' | string>;

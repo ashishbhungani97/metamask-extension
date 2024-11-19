@@ -8,8 +8,8 @@ import { hasProperty, isObject, isStrictHexString } from '@metamask/utils';
  * exists within the same object.
  * Further explanation in ./077-supplements.md
  *
- * @param state - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param state - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 export default function transformState077For086(
   state: Record<string, unknown>,

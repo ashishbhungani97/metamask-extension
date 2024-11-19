@@ -1392,7 +1392,7 @@ describe('Selectors', () => {
         extensionId: null,
         iconUrl:
           'https://snaps.metamask.io/favicon-32x32.png?v=96e4834dade94988977ec34e50a62b84',
-        name: 'MetaMask Snaps Directory',
+        name: 'BlockStar Snaps Directory',
         origin: 'https://snaps.metamask.io',
         subjectType: 'website',
       },

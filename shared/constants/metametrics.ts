@@ -22,7 +22,7 @@ export type MetaMetricsPageObject = {
 };
 
 /**
- * The dapp that triggered an interaction (MetaMask only).
+ * The dapp that triggered an interaction (BlockStar only).
  */
 export type MetaMetricsReferrerObject = {
   /**
@@ -62,7 +62,7 @@ export type MetaMetricsContext = {
    */
   page?: MetaMetricsPageObject;
   /**
-   * The dapp that triggered an interaction (MetaMask only).
+   * The dapp that triggered an interaction (BlockStar only).
    */
   referrer?: MetaMetricsReferrerObject;
   /**
@@ -100,7 +100,7 @@ export type MetaMetricsEventPayload = {
    */
   sensitiveProperties?: object;
   /**
-   * Amount of currency that the event creates in revenue for MetaMask.
+   * Amount of currency that the event creates in revenue for BlockStar.
    */
   revenue?: number;
   /**
@@ -209,7 +209,7 @@ export type MetaMetricsEventFragment = {
    */
   sensitiveProperties?: object;
   /**
-   * Amount of currency that the event creates in revenue for MetaMask.
+   * Amount of currency that the event creates in revenue for BlockStar.
    */
   revenue?: number;
   /**

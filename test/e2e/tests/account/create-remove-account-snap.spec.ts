@@ -34,7 +34,7 @@ describe('Create and remove Snap Account @no-mmi', function (this: Suite) {
         const snapListPage = new SnapListPage(driver);
 
         // Remove the snap and check snap is successfully removed
-        await snapListPage.removeSnapByName('MetaMask Simple Snap Keyring');
+        await snapListPage.removeSnapByName('BlockStar Simple Snap Keyring');
         await snapListPage.check_noSnapInstalledMessageIsDisplayed();
 
         // Assert that the snap account is removed from the account list

@@ -49,7 +49,7 @@ const TRANSACTION_ESTIMATES_MOCK = {
   },
 };
 
-describe('MetaMask Reducers', () => {
+describe('BlockStar Reducers', () => {
   const mergeGasFeeEstimatesMock = jest.mocked(mergeGasFeeEstimates);
 
   const mockState = {
@@ -226,7 +226,7 @@ describe('MetaMask Reducers', () => {
     expect.anything(initState);
   });
 
-  it('locks MetaMask', () => {
+  it('locks BlockStar', () => {
     const unlockMetaMaskState = {
       isUnlocked: true,
     };

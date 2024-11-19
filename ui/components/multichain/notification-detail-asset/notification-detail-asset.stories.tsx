@@ -18,7 +18,7 @@ const Template = (args: NotificationDetailAssetProps) => (
 export const DefaultStory = Template.bind({});
 DefaultStory.args = {
   icon: {
-    src: 'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg',
+    src: 'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg',
     badge: {
       src: 'https://token.api.cx.metamask.io/assets/nativeCurrencyLogos/ethereum.svg',
     },
@@ -32,7 +32,7 @@ DefaultStory.args = {
 export const NoValueStory = Template.bind({});
 NoValueStory.args = {
   icon: {
-    src: 'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg',
+    src: 'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg',
     badge: {
       src: 'https://token.api.cx.metamask.io/assets/nativeCurrencyLogos/ethereum.svg',
     },

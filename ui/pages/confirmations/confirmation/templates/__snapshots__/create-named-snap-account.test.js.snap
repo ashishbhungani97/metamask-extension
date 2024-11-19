@@ -21,7 +21,7 @@ exports[`create-named-snap-account confirmation matches snapshot 1`] = `
             <h4
               class="mm-box mm-text mm-text--heading-sm mm-text--text-align-center mm-box--color-text-default"
             >
-              Add account to MetaMask
+              Add account to BlockStar
             </h4>
           </div>
           <div

@@ -52,7 +52,7 @@ const emptyHtmlPage = () => `<!DOCTYPE html>
     <title>E2E Test Page</title>
   </head>
   <body data-testid="empty-page-body">
-    Empty page by MetaMask
+    Empty page by BlockStar
   </body>
 </html>`;
 
@@ -406,7 +406,7 @@ async function setupMocking(
             decimals: 18,
             name: 'Dai Stablecoin',
             iconUrl:
-              'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/dai.svg',
+              'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/dai.svg',
             type: 'erc20',
             aggregators: [
               'metamask',
@@ -717,7 +717,7 @@ async function setupMocking(
   }
 
   /**
-   * Excludes hosts from the privacyReport if they are refered to by the MetaMask Portfolio
+   * Excludes hosts from the privacyReport if they are refered to by the BlockStar Portfolio
    * in a different tab. This is because the Portfolio is a separate application
    *
    * @param request

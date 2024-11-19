@@ -50,7 +50,7 @@ function setupCookieHandlerStreamsFromOrigin(origin: string): void {
     cookieHandlerPageStream,
     cookieHandlerPageMux,
     (err: Error) =>
-      logStreamDisconnectWarning('MetaMask Inpage Multiplex', err),
+      logStreamDisconnectWarning('BlockStar Inpage Multiplex', err),
   );
 
   cookieHandlerPageChannel = cookieHandlerPageMux.createStream(
@@ -82,7 +82,7 @@ export const setupCookieHandlerExtStreams = (): void => {
     cookieHandlerExtStream,
     cookieHandlerMux,
     (err: Error) => {
-      logStreamDisconnectWarning('MetaMask Background Multiplex', err);
+      logStreamDisconnectWarning('BlockStar Background Multiplex', err);
       window.postMessage(
         {
           target: 'CookieHandlerPage',
@@ -115,7 +115,7 @@ export const setupCookieHandlerExtStreams = (): void => {
     cookieHandlerPageChannel,
     (error: Error) =>
       console.debug(
-        `MetaMask: Muxed traffic for channel "${METAMASK_COOKIE_HANDLER}" failed.`,
+        `BlockStar: Muxed traffic for channel "${METAMASK_COOKIE_HANDLER}" failed.`,
         error,
       ),
   );
@@ -174,7 +174,7 @@ const onMessageSetUpCookieHandlerStreams = (msg: {
       setupCookieHandlerExtStreams();
     }
     return Promise.resolve(
-      `MetaMask: handled "${EXTENSION_MESSAGES.READY}" for phishing streams`,
+      `BlockStar: handled "${EXTENSION_MESSAGES.READY}" for phishing streams`,
     );
   }
   return undefined;

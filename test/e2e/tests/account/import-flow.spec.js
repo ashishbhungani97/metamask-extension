@@ -86,7 +86,7 @@ describe('Import flow @no-mmi', function () {
         );
         await driver.clickElement({
           css: '[data-testid="global-menu-lock"]',
-          text: 'Lock MetaMask',
+          text: 'Lock BlockStar',
         });
 
         // accepts the account password after lock
@@ -137,7 +137,7 @@ describe('Import flow @no-mmi', function () {
           '.multichain-account-list-item__account-name__button',
         );
 
-        // Send ETH from inside MetaMask
+        // Send ETH from inside BlockStar
         // starts a send transaction
         await locateAccountBalanceDOM(driver, ganacheServer);
         await openActionMenuAndStartSendFlow(driver);

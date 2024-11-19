@@ -65,7 +65,7 @@ describe('SmartTransactionStatusPage', () => {
         'Your transaction failed',
         'View transaction',
         'View activity',
-        'Sudden market changes can cause failures. If the problem continues, reach out to MetaMask customer support.',
+        'Sudden market changes can cause failures. If the problem continues, reach out to BlockStar customer support.',
       ],
       snapshotName: 'failed',
     },

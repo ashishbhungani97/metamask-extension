@@ -10,7 +10,7 @@ class SnapSimpleKeyringPage {
   };
 
   private readonly addtoMetamaskMessage = {
-    text: 'Add to MetaMask',
+    text: 'Add to BlockStar',
     tag: 'h3',
   };
 

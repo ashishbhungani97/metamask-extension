@@ -86,7 +86,7 @@ export default function CreateNewVault({
     <a
       className="create-new-vault__terms-link"
       key="create-new-vault__link-text"
-      href="#sec"
+      href="https://blockstars.blockstar.site/knowledge-base"
       target="_blank"
       rel="noopener noreferrer"
     >

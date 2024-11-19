@@ -31,7 +31,7 @@ describe('Connections page', function () {
         // should render new connections page
         const newConnectionPage = await driver.waitForSelector({
           tag: 'h2',
-          text: 'Connect with MetaMask',
+          text: 'Connect with BlockStar',
         });
         assert.ok(newConnectionPage, 'Connection Page is defined');
         await driver.clickElementAndWaitForWindowToClose({

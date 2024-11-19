@@ -45,7 +45,7 @@ const BIP44_PATH = `m/44'/60'/0'/0`;
 export const LEDGER_HD_PATHS = [
   { name: 'Ledger Live', value: LEDGER_LIVE_PATH },
   { name: 'Legacy (MEW / MyCrypto)', value: MEW_PATH },
-  { name: `BIP44 Standard (e.g. MetaMask, Trezor)`, value: BIP44_PATH },
+  { name: `BIP44 Standard (e.g. BlockStar, Trezor)`, value: BIP44_PATH },
 ];
 
 const LATTICE_STANDARD_BIP44_PATH = `m/44'/60'/0'/0/x`;
@@ -65,7 +65,7 @@ export const LATTICE_HD_PATHS = [
 
 const TREZOR_TESTNET_PATH = `m/44'/1'/0'/0`;
 export const TREZOR_HD_PATHS = [
-  { name: `BIP44 Standard (e.g. MetaMask, Trezor)`, value: BIP44_PATH },
+  { name: `BIP44 Standard (e.g. BlockStar, Trezor)`, value: BIP44_PATH },
   { name: `Legacy (Ledger / MEW / MyCrypto)`, value: MEW_PATH },
   { name: `Trezor Testnets`, value: TREZOR_TESTNET_PATH },
 ];

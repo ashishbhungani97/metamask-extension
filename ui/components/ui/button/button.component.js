@@ -25,10 +25,10 @@ const typeHash = {
 /**
  * @deprecated The <Button /> component has been deprecated in favor of the new <Button> component from the component-library.
  * Please update your code to use the new <Button> component instead, which can be found at ./ui/components/component-library/button/button.js.
- * You can find documentation for the new Button component in the MetaMask Storybook:
+ * You can find documentation for the new Button component in the BlockStar Storybook:
  * {@link https://metamask.github.io/metamask-storybook/?path=/docs/components-componentlibrary-button--default-story#button}
  * If you would like to help with the replacement of the old Button component, please submit a pull request against this GitHub issue:
- * {@link https://github.com/MetaMask/metamask-extension/issues/18896}
+ * {@link https://github.com/BlockStar/metamask-extension/issues/18896}
  * @see {@link https://metamask.github.io/metamask-storybook/?path=/docs/components-componentlibrary-button--default-story#button}
  */
 

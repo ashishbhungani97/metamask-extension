@@ -2,16 +2,16 @@ export const PRIMARY = 'PRIMARY';
 export const SECONDARY = 'SECONDARY';
 
 const _contractAddressLink =
-  'https://support.metamask.io/managing-my-tokens/moving-your-tokens/why-am-i-being-warned-about-sending-tokens-to-a-contract/';
+  'https://blockstars.blockstar.site/knowledge-base/';
 
 ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
-const _mmiWebSite = 'https://blockstar.site/';
+const _mmiWebSite = 'https://blockstars.blockstar.site/knowledge-base/';
 export const MMI_WEB_SITE = _mmiWebSite;
 ///: END:ONLY_INCLUDE_IF
 
 // eslint-disable-next-line prefer-destructuring
 export const METAMETRICS_SETTINGS_LINK =
-  'https://support.metamask.io/privacy-and-security/how-to-manage-your-metametrics-settings';
+  'https://blockstars.blockstar.site/knowledge-base/';
 // eslint-disable-next-line prefer-destructuring
 export const SUPPORT_REQUEST_LINK = process.env.SUPPORT_REQUEST_LINK;
 export const CONTRACT_ADDRESS_LINK = _contractAddressLink;

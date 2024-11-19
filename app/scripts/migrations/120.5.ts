@@ -11,13 +11,13 @@ export const version = 120.5;
 /**
  * This migration removes invalid network configuration IDs from the SelectedNetworkController.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly
  * what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by
  * controller.
- * @returns Updated versioned MetaMask extension state.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,
@@ -33,7 +33,7 @@ export async function migrate(
  * This version of the extension uses `@metamask/network-controller@18.1.2`, which in turn uses
  * the types from `@metamask/controller-utils@9.1.0`
  *
- * See https://github.com/MetaMask/core/blob/34542cf6e808f294fd83c7c5f70d1bc7418f8a9e/packages/controller-utils/src/types.ts#L4
+ * See https://github.com/BlockStar/core/blob/34542cf6e808f294fd83c7c5f70d1bc7418f8a9e/packages/controller-utils/src/types.ts#L4
  *
  * Hard-coded here rather than imported so that this migration continues to work correctly as these
  * constants get updated in the future.
@@ -50,7 +50,7 @@ const infuraNetworkTypes = [
 /**
  * Remove invalid network configuration IDs from the SelectedNetworkController.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function transformState(state: Record<string, unknown>): void {
   if (!hasProperty(state, 'SelectedNetworkController')) {

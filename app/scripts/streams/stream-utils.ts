@@ -9,7 +9,7 @@ export function logStreamDisconnectWarning(
   error: Error,
 ): void {
   console.debug(
-    `MetaMask: Content script lost connection to "${remoteLabel}".`,
+    `BlockStar: Content script lost connection to "${remoteLabel}".`,
     error,
   );
 }

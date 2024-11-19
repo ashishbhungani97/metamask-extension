@@ -14,7 +14,7 @@ class OnboardingCompletePage {
   };
 
   private readonly installCompleteMessage = {
-    text: 'Your MetaMask install is complete!',
+    text: 'Your BlockStar install is complete!',
     tag: 'h2',
   };
 

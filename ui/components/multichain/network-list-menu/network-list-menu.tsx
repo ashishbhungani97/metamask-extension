@@ -124,6 +124,7 @@ export const NetworkListMenu = ({ onClose }: { onClose: () => void }) => {
   const onboardedInThisUISession = useSelector(getOnboardedInThisUISession);
   const showNetworkBanner = useSelector(getShowNetworkBanner);
   const networkConfigurations = useSelector(getNetworkConfigurationsByChainId);
+
   const { chainId: editingChainId, editCompleted } =
     useSelector(getEditedNetwork) ?? {};
   const permittedChainIds = useSelector((state) =>
@@ -210,7 +211,7 @@ export const NetworkListMenu = ({ onClose }: { onClose: () => void }) => {
     () =>
       FEATURED_RPCS.filter(
         ({ chainId }) => !networkConfigurations[chainId],
-      ).sort((a, b) => a.name.localeCompare(b.name)),
+      ),
     [networkConfigurations],
   );
 

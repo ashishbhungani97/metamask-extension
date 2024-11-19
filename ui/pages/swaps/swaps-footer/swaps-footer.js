@@ -49,7 +49,7 @@ export default function SwapsFooter({
         <div
           className="swaps-footer__bottom-text"
           onClick={() =>
-            global.platform.openTab({ url: 'https://blockstar.site/' })
+            global.platform.openTab({ url: 'https://blockstars.blockstar.site/knowledge-base/' })
           }
         >
           {t('termsOfService')}

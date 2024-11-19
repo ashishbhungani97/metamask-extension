@@ -117,7 +117,7 @@ describe('Review Permissions page', function () {
         await driver.clickElement({ text: 'Disconnect', tag: 'button' });
         await driver.clickElement('[data-testid ="disconnect-all"]');
         const noAccountConnected = await driver.isElementPresent({
-          text: 'MetaMask isn’t connected to this site',
+          text: 'BlockStar isn’t connected to this site',
           tag: 'p',
         });
         assert.ok(

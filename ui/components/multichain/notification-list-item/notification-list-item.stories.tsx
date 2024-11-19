@@ -26,7 +26,7 @@ DefaultStory.args = {
   icon: {
     type: NotificationListItemIconType.Token,
     value:
-      'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg',
+      'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg',
     badge: {
       icon: IconName.Bridge,
       position: BadgeWrapperPosition.bottomRight,

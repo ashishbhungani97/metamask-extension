@@ -82,7 +82,7 @@ describe('Settings', function () {
           '[data-testid="ipfs-gateway-resolution-container"] .toggle-button',
         );
 
-        // Now that we no longer need the MetaMask UI, and want the browser
+        // Now that we no longer need the BlockStar UI, and want the browser
         // to handle the request error, we need to stop the server
         await server.stop();
 

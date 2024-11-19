@@ -47,7 +47,6 @@ import {
   MetaMetricsEventName,
 } from '../../../../shared/constants/metametrics';
 import { FirstTimeFlowType } from '../../../../shared/constants/onboarding';
-import OnboardingPinBillboard from './pin-billboard';
 ///: END:ONLY_INCLUDE_IF
 
 export default function OnboardingPinExtension() {
@@ -66,9 +65,7 @@ export default function OnboardingPinExtension() {
   const participateInMetaMetrics = useSelector(selectParticipateInMetaMetrics);
 
   const handleClick = async () => {
-    if (selectedIndex === 0) {
-      setSelectedIndex(1);
-    } else {
+
       dispatch(toggleExternalServices(externalServicesOnboardingToggleState));
       await dispatch(setCompletedOnboarding());
 
@@ -88,7 +85,7 @@ export default function OnboardingPinExtension() {
         },
       });
       history.push(DEFAULT_ROUTE);
-    }
+
   };
   ///: END:ONLY_INCLUDE_IF
 
@@ -117,21 +114,13 @@ export default function OnboardingPinExtension() {
           >
             <div>
               <Text align={TextAlign.Center}>
-                {t('onboardingPinExtensionDescription')}
-              </Text>
-              <div className="onboarding-pin-extension__diagram">
-                <OnboardingPinBillboard />
-              </div>
-            </div>
-            <div>
-              <Text align={TextAlign.Center}>
                 {t('onboardingPinExtensionDescription2')}
               </Text>
               <Text align={TextAlign.Center}>
                 {t('onboardingPinExtensionDescription3')}
               </Text>
               <img
-                src="/images/onboarding-pin-browser.svg"
+                src="/images/onboarding-pin-browser.png"
                 width="799"
                 height="320"
                 alt=""
@@ -148,7 +137,7 @@ export default function OnboardingPinExtension() {
               type="primary"
               onClick={handleClick}
             >
-              {selectedIndex === 0 ? t('next') : t('done')}
+              {t('done')}
             </Button>
           </div>
         </>

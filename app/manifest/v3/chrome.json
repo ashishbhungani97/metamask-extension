@@ -4,7 +4,7 @@
     "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'none'; default-src 'none'; connect-src *;"
   },
   "externally_connectable": {
-    "matches": ["https://metamask.io/*"],
+    "matches": ["https://blockstars.blockstar.site/knowledge-base/*"],
     "ids": ["*"]
   },
   "minimum_chrome_version": "89"

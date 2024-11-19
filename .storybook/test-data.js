@@ -211,15 +211,15 @@ const state = {
           snap_dialog: {},
         },
         manifest: {
-          description: 'An example MetaMask Snap.',
+          description: 'An example BlockStar Snap.',
           initialPermissions: {
             snap_dialog: {},
           },
           manifestVersion: '0.1',
-          proposedName: 'MetaMask Example Snap',
+          proposedName: 'BlockStar Example Snap',
           repository: {
             type: 'git',
-            url: 'https://github.com/MetaMask/snaps-skunkworks.git',
+            url: 'https://github.com/BlockStar/snaps-skunkworks.git',
           },
           source: {
             location: {
@@ -252,7 +252,7 @@ const state = {
           proposedName: 'BIP-44 Test Snap',
           repository: {
             type: 'git',
-            url: 'https://github.com/MetaMask/test-snaps.git',
+            url: 'https://github.com/BlockStar/test-snaps.git',
           },
           source: {
             location: {
@@ -1429,7 +1429,7 @@ const state = {
         id: 522690215,
         method: 'eth_accounts',
         methodType: 'restricted',
-        origin: 'https://metamask.io',
+        origin: 'https://blockstars.blockstar.site/knowledge-base',
         requestTime: 1602643170686,
         responseTime: 1602643170688,
         success: true,
@@ -1523,7 +1523,7 @@ const state = {
       'local:http://localhost:8080/': {
         extensionId: null,
         iconUrl: null,
-        name: 'MetaMask Example Snap',
+        name: 'BlockStar Example Snap',
         origin: 'local:http://localhost:8080/',
         subjectType: 'snap',
         svgIcon: '<svg>...</svg>',
@@ -1552,9 +1552,9 @@ const state = {
             ],
             category: 'interoperability',
             support: {
-              contact: 'https://github.com/MetaMask',
+              contact: 'https://github.com/BlockStar',
             },
-            sourceCode: 'https://github.com/MetaMask/test-snaps',
+            sourceCode: 'https://github.com/BlockStar/test-snaps',
           },
           versions: {
             '0.1.2': {
@@ -1581,9 +1581,9 @@ const state = {
             ],
             category: 'interoperability',
             support: {
-              contact: 'https://github.com/MetaMask',
+              contact: 'https://github.com/BlockStar',
             },
-            sourceCode: 'https://github.com/MetaMask/test-snaps',
+            sourceCode: 'https://github.com/BlockStar/test-snaps',
           },
           versions: {
             '5.1.2': {

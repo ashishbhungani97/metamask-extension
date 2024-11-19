@@ -12,7 +12,7 @@ class SnapListPage {
 
   private readonly continueRemoveSnapModalMessage = {
     tag: 'p',
-    text: 'Removing this Snap removes these accounts from MetaMask',
+    text: 'Removing this Snap removes these accounts from BlockStar',
   };
 
   private readonly noSnapInstalledMessage = {
@@ -48,7 +48,7 @@ class SnapListPage {
 
     const removeButton = await this.driver.findElement(this.removeSnapButton);
     // The need to scroll to the element before clicking it is due to a bug in the Snap test dapp page.
-    // This bug has been fixed in the Snap test dapp page (PR here: https://github.com/MetaMask/snaps/pull/2782), which should mitigate the flaky issue of scrolling and clicking elements in the Snap test dapp.
+    // This bug has been fixed in the Snap test dapp page (PR here: https://github.com/BlockStar/snaps/pull/2782), which should mitigate the flaky issue of scrolling and clicking elements in the Snap test dapp.
     // TODO: Once the Snaps team releases the new version with the fix, we'll be able to remove these scrolling steps and just use clickElement (which already handles scrolling).
     await this.driver.scrollToElement(removeButton);
     await this.driver.clickElement(this.removeSnapButton);

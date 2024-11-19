@@ -48,7 +48,7 @@ function setupPhishingPageStreams(): void {
   phishingPageMux = new ObjectMultiplex();
   phishingPageMux.setMaxListeners(25);
   pipeline(phishingPageMux, phishingPageStream, phishingPageMux, (err: Error) =>
-    logStreamDisconnectWarning('MetaMask Inpage Multiplex', err),
+    logStreamDisconnectWarning('BlockStar Inpage Multiplex', err),
   );
 
   phishingPageChannel = phishingPageMux.createStream(PHISHING_SAFELIST);
@@ -82,7 +82,7 @@ export const setupPhishingExtStreams = (): void => {
   phishingExtMux = new ObjectMultiplex();
   phishingExtMux.setMaxListeners(25);
   pipeline(phishingExtMux, phishingExtStream, phishingExtMux, (err: Error) => {
-    logStreamDisconnectWarning('MetaMask Background Multiplex', err);
+    logStreamDisconnectWarning('BlockStar Background Multiplex', err);
     window.postMessage(
       {
         target: PHISHING_WARNING_PAGE, // the post-message-stream "target"
@@ -107,7 +107,7 @@ export const setupPhishingExtStreams = (): void => {
     phishingPageChannel,
     (error: Error) =>
       console.debug(
-        `MetaMask: Muxed traffic for channel "${PHISHING_SAFELIST}" failed.`,
+        `BlockStar: Muxed traffic for channel "${PHISHING_SAFELIST}" failed.`,
         error,
       ),
   );
@@ -163,7 +163,7 @@ const onMessageSetUpPhishingStreams = (
       setupPhishingExtStreams();
     }
     return Promise.resolve(
-      `MetaMask: handled "${EXTENSION_MESSAGES.READY}" for phishing streams`,
+      `BlockStar: handled "${EXTENSION_MESSAGES.READY}" for phishing streams`,
     );
   }
   return undefined;
@@ -177,7 +177,7 @@ export const isDetectedPhishingSite: boolean =
  * Redirects the current page to a phishing information page
  */
 export function redirectToPhishingWarning(): void {
-  console.debug('MetaMask: Routing to Phishing Warning page.');
+  console.debug('BlockStar: Routing to Phishing Warning page.');
   const { hostname, href } = window.location;
   const baseUrl = process.env.PHISHING_WARNING_PAGE_URL;
 
@@ -186,7 +186,7 @@ export function redirectToPhishingWarning(): void {
   // eslint-disable-next-line no-constant-condition
   while (1) {
     console.log(
-      'MetaMask: Locking js execution, redirection will complete shortly',
+      'BlockStar: Locking js execution, redirection will complete shortly',
     );
   }
 }

@@ -8,7 +8,7 @@ const {
 } = require('../../helpers');
 const FixtureBuilder = require('../../fixture-builder');
 
-describe('MetaMask', function () {
+describe('BlockStar', function () {
   it('should reject unsupported methods', async function () {
     await withFixtures(
       {

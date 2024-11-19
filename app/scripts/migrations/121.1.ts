@@ -13,13 +13,13 @@ export const version = 121.1;
  * Fix AccountsController state corruption, where the `selectedAccount` state is set to an invalid
  * ID.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly
  * what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by
  * controller.
- * @returns Updated versioned MetaMask extension state.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,

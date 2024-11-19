@@ -2608,7 +2608,7 @@
     "description": "format for importing an account"
   },
   "keepReminderOfSRP": {
-    "message": "Keep a reminder of your Secret Recovery Phrase somewhere safe. If you lose it, no one can help you get it back. Even worse, you won’t be able access to your wallet ever again. $1",
+    "message": "Keep a reminder of your Secret Recovery Phrase somewhere safe. If you lose it, no one can help you get it back. Even worse, you won’t be able access to your wallet ever again.",
     "description": "$1 is a learn more link"
   },
   "keyringAccountName": {
@@ -3803,7 +3803,7 @@
     "message": "A strong password can improve the security of your wallet should your device be stolen or compromised."
   },
   "passwordTermsWarning": {
-    "message": "I understand that BlockStar cannot recover this password for me. $1"
+    "message": "I understand that BlockStar cannot recover this password for me."
   },
   "passwordsDontMatch": {
     "message": "Passwords don't match"

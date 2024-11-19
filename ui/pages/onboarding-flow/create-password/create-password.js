@@ -32,7 +32,6 @@ import {
 } from '../../../components/app/step-progress-bar';
 ///: END:ONLY_INCLUDE_IF
 import { PASSWORD_MIN_LENGTH } from '../../../helpers/constants/common';
-import ZENDESK_URLS from '../../../helpers/constants/zendesk-url';
 import {
   getFirstTimeFlowType,
   getCurrentKeyring,
@@ -242,19 +241,6 @@ export default function CreatePassword({
     }
   };
 
-  const createPasswordLink = (
-    <a
-      onClick={(e) => e.stopPropagation()}
-      key="create-password__link-text"
-      href={ZENDESK_URLS.PASSWORD_AND_SRP_ARTICLE}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <span className="create-password__link-text">
-        {t('learnMoreUpperCase')}
-      </span>
-    </a>
-  );
 
   return (
     <div className="create-password__wrapper" data-testid="create-password">
@@ -360,12 +346,12 @@ export default function CreatePassword({
                 <Text variant={TextVariant.bodyMd} marginLeft={2}>
                   {
                     ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-                    t('passwordTermsWarning', [createPasswordLink])
+                    t('passwordTermsWarning')
                     ///: END:ONLY_INCLUDE_IF
                   }
                   {
                     ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
-                    t('passwordMmiTermsWarning', [createPasswordLink])
+                    t('passwordMmiTermsWarning')
                     ///: END:ONLY_INCLUDE_IF
                   }
                 </Text>

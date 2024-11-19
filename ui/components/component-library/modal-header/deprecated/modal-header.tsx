@@ -10,7 +10,7 @@ import { ModalHeaderProps } from '.';
 
 /**
  * @deprecated This version of `ModalHeader` is deprecated. Please use the version from the component-library in ui/components/component-library/modal-header/modal-header.tsx
- * See PR https://github.com/MetaMask/metamask-extension/pull/22207 for details.
+ * See PR https://github.com/BlockStar/metamask-extension/pull/22207 for details.
  * @param options0
  * @param options0.children
  * @param options0.className

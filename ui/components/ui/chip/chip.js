@@ -14,10 +14,10 @@ import {
 /**
  * @deprecated The `<Chip />` component has been deprecated in favor of the new `<Tag>` component from the component-library.
  * Please update your code to use the new `<Tag>` component instead, which can be found at ui/components/component-library/tag/tag.tsx.
- * You can find documentation for the new `Tag` component in the MetaMask Storybook:
+ * You can find documentation for the new `Tag` component in the BlockStar Storybook:
  * {@link https://metamask.github.io/metamask-storybook/?path=/docs/components-componentlibrary-tag--docs}
  * If you would like to help with the replacement of the old `Chip` component, please submit a pull request against this GitHub issue:
- * {@link https://github.com/MetaMask/metamask-extension/issues/20487}
+ * {@link https://github.com/BlockStar/metamask-extension/issues/20487}
  */
 
 export default function Chip({

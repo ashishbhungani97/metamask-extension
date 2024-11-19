@@ -88,7 +88,7 @@ export const Children: StoryFn<typeof BannerTip> = (args) => {
       Description shouldn&apos;t repeat title. 1-3 lines. Can contain a{' '}
       <ButtonLink
         size={ButtonLinkSize.Inherit}
-        href="https://blockstar.site/"
+        href="https://blockstars.blockstar.site/knowledge-base/"
         externalLink
       >
         hyperlink.

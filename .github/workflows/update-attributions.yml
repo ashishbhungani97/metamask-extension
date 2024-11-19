@@ -130,7 +130,7 @@ jobs:
       - name: Commit the updated attributions
         if: steps.attributions-changes.outputs.HAS_CHANGES == 'true'
         run: |
-          git config --global user.name 'MetaMask Bot'
+          git config --global user.name 'BlockStar Bot'
           git config --global user.email 'metamaskbot@users.noreply.github.com'
           git commit -am "Update Attributions"
           git push

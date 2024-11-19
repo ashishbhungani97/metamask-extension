@@ -14,11 +14,11 @@ export function setupMultiplex(connectionStream) {
   /**
    * We are using this streams to send keep alive message between backend/ui without setting up a multiplexer
    * We need to tell the multiplexer to ignore them, else we get the " orphaned data for stream " warnings
-   * https://github.com/MetaMask/object-multiplex/blob/280385401de84f57ef57054d92cfeb8361ef2680/src/ObjectMultiplex.ts#L63
+   * https://github.com/BlockStar/object-multiplex/blob/280385401de84f57ef57054d92cfeb8361ef2680/src/ObjectMultiplex.ts#L63
    */
   mux.ignoreStream(EXTENSION_MESSAGES.CONNECTION_READY);
   pipeline(connectionStream, mux, connectionStream, (err) => {
-    // For context and todos related to the error message match, see https://github.com/MetaMask/metamask-extension/issues/26337
+    // For context and todos related to the error message match, see https://github.com/BlockStar/metamask-extension/issues/26337
     if (err && !err.message?.match('Premature close')) {
       console.error(err);
     }

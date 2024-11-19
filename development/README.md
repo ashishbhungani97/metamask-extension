@@ -1,6 +1,6 @@
 # Development
 
-Several files which are needed for developing on MetaMask.
+Several files which are needed for developing on BlockStar.
 
 Usually each file or directory contains information about its scope / usage.
 
@@ -42,7 +42,7 @@ To debug in a production Segment environment:
 
 Events triggered whilst using the extension will be displayed in Segment's Debugger.
 
-### Debugging Segment requests in MetaMask
+### Debugging Segment requests in BlockStar
 
 To opt in to MetaMetrics;
 - Unlock the extension
@@ -59,7 +59,7 @@ or `https://api.segment.io/v1/batch` respectively.
 ### Debugging Sentry
 
 1. Set `SENTRY_DSN_DEV`, or `SENTRY_DSN` if using a production build, in `.metamaskrc` to a suitable Sentry URL.
-  - The example value specified in `.metamaskrc.dist` uses the `test-metamask` project in the MetaMask account.
+  - The example value specified in `.metamaskrc.dist` uses the `test-metamask` project in the BlockStar account.
   - Alternatively, create a free Sentry account with a new organization and project.
   - The DSN is specified in: `Settings > Projects > [Project Name] > Client Keys (DSN)`.
 
@@ -92,7 +92,7 @@ or `https://api.segment.io/v1/batch` respectively.
 [<img src="../docs/assets/sentry-cli-release-process.gif">](sentry-cli.png)
 
 #### Publish a Release to Sentry
-1.  Build your desired MetaMask project. Examples:
+1.  Build your desired BlockStar project. Examples:
     1.  `yarn dist` to create an MV3 build
     2.  `yarn dist:mv2` to create an MV2 build
     3.  (and so on)

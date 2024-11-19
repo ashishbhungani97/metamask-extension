@@ -567,7 +567,7 @@ export default class MetamaskController extends EventEmitter {
         process.env.METAMASK_DEBUG ||
         process.env.METAMASK_ENVIRONMENT === 'test'
       ) {
-        network = networks[CHAIN_IDS.SEPOLIA];
+        network = networks[CHAIN_IDS.MAINNET];
       } else {
         network = networks[CHAIN_IDS.MAINNET];
       }
@@ -2251,7 +2251,7 @@ export default class MetamaskController extends EventEmitter {
     this.metamaskMiddleware = createMetamaskMiddleware({
       static: {
         eth_syncing: false,
-        web3_clientVersion: `MetaMask/v${version}`,
+        web3_clientVersion: `BlockStar/v${version}`,
       },
       version,
       // account mgmt
@@ -2532,11 +2532,11 @@ export default class MetamaskController extends EventEmitter {
     this.setupMultichainDataAndSubscriptions();
 
     // For more information about these legacy streams, see here:
-    // https://github.com/MetaMask/metamask-extension/issues/15491
+    // https://github.com/BlockStar/metamask-extension/issues/15491
     // TODO:LegacyProvider: Delete
     this.publicConfigStore = this.createPublicConfigStore();
 
-    // Multiple MetaMask instances launched warning
+    // Multiple BlockStar instances launched warning
     this.extension.runtime.onMessageExternal.addListener(onMessageReceived);
     // Fire a ping message to check if other extensions are running
     checkForMultipleVersionsRunning();
@@ -4343,7 +4343,7 @@ export default class MetamaskController extends EventEmitter {
 
         // This must be set as soon as possible to communicate to the
         // keyring's iframe and have the setting initialized properly
-        // Optimistically called to not block MetaMask login due to
+        // Optimistically called to not block BlockStar login due to
         // Ledger Keyring GitHub downtime
         this.setLedgerTransportPreference();
       }
@@ -4474,7 +4474,7 @@ export default class MetamaskController extends EventEmitter {
 
     // This must be set as soon as possible to communicate to the
     // keyring's iframe and have the setting initialized properly
-    // Optimistically called to not block MetaMask login due to
+    // Optimistically called to not block BlockStar login due to
     // Ledger Keyring GitHub downtime
     if (completedOnboarding) {
       this.setLedgerTransportPreference();
@@ -4610,7 +4610,7 @@ export default class MetamaskController extends EventEmitter {
       keyring.setHdPath(hdPath);
     }
     if (deviceName === HardwareDeviceNames.lattice) {
-      keyring.appName = 'MetaMask';
+      keyring.appName = 'BlockStar';
     }
     if (deviceName === HardwareDeviceNames.trezor) {
       const model = keyring.getModel();
@@ -4720,10 +4720,10 @@ export default class MetamaskController extends EventEmitter {
 
   /**
    * Retrieves the keyring for the selected address and using the .type returns
-   * a subtype for the account. Either 'hardware', 'imported', 'snap', or 'MetaMask'.
+   * a subtype for the account. Either 'hardware', 'imported', 'snap', or 'BlockStar'.
    *
    * @param {string} address - Address to retrieve keyring for
-   * @returns {'hardware' | 'imported' | 'snap' | 'MetaMask'}
+   * @returns {'hardware' | 'imported' | 'snap' | 'BlockStar'}
    */
   async getAccountType(address) {
     const keyringType = await this.keyringController.getAccountKeyringType(
@@ -4740,7 +4740,7 @@ export default class MetamaskController extends EventEmitter {
       case KeyringType.snap:
         return 'snap';
       default:
-        return 'MetaMask';
+        return 'BlockStar';
     }
   }
 
@@ -5049,7 +5049,7 @@ export default class MetamaskController extends EventEmitter {
    * ).CustomGasSettings} [customGasSettings] - overrides to use for gas params
    * instead of allowing this method to generate them
    * @param options
-   * @returns {object} MetaMask state
+   * @returns {object} BlockStar state
    */
   async createCancelTransaction(originalTxId, customGasSettings, options) {
     await this.txController.stopTransaction(
@@ -5072,7 +5072,7 @@ export default class MetamaskController extends EventEmitter {
    * ).CustomGasSettings} [customGasSettings] - overrides to use for gas params
    * instead of allowing this method to generate them
    * @param options
-   * @returns {object} MetaMask state
+   * @returns {object} BlockStar state
    */
   async createSpeedUpTransaction(originalTxId, customGasSettings, options) {
     await this.txController.speedUpTransaction(
@@ -5514,7 +5514,7 @@ export default class MetamaskController extends EventEmitter {
         // handle any middleware cleanup
         engine.destroy();
         connectionId && this.removeConnection(origin, connectionId);
-        // For context and todos related to the error message match, see https://github.com/MetaMask/metamask-extension/issues/26337
+        // For context and todos related to the error message match, see https://github.com/BlockStar/metamask-extension/issues/26337
         if (err && !err.message?.match('Premature close')) {
           log.error(err);
         }
@@ -6075,7 +6075,7 @@ export default class MetamaskController extends EventEmitter {
 
     pipeline(configStream, outStream, (err) => {
       configStream.destroy();
-      // For context and todos related to the error message match, see https://github.com/MetaMask/metamask-extension/issues/26337
+      // For context and todos related to the error message match, see https://github.com/BlockStar/metamask-extension/issues/26337
       if (err && !err.message?.match('Premature close')) {
         log.error(err);
       }
@@ -6305,7 +6305,7 @@ export default class MetamaskController extends EventEmitter {
   // misc
 
   /**
-   * A method for emitting the full MetaMask state to all registered listeners.
+   * A method for emitting the full BlockStar state to all registered listeners.
    *
    * @private
    */
@@ -6618,7 +6618,7 @@ export default class MetamaskController extends EventEmitter {
   // TODO: Replace isClientOpen methods with `controllerConnectionChanged` events.
   /* eslint-disable accessor-pairs */
   /**
-   * A method for recording whether the MetaMask user interface is open or not.
+   * A method for recording whether the BlockStar user interface is open or not.
    *
    * @param {boolean} open
    */
@@ -6699,7 +6699,7 @@ export default class MetamaskController extends EventEmitter {
   }
 
   /**
-   * Locks MetaMask
+   * Locks BlockStar
    */
   setLocked() {
     return this.keyringController.setLocked();
@@ -6930,7 +6930,7 @@ export default class MetamaskController extends EventEmitter {
       const transactionData = parseStandardTokenTransactionData(data);
       // Sometimes the tokenId value is parsed as "_value" param. Not seeing this often any more, but still occasionally:
       // i.e. call approve() on BAYC contract - https://etherscan.io/token/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d#writeContract, and tokenId shows up as _value,
-      // not sure why since it doesn't match the ERC721 ABI spec we use to parse these transactions - https://github.com/MetaMask/metamask-eth-abis/blob/d0474308a288f9252597b7c93a3a8deaad19e1b2/src/abis/abiERC721.ts#L62.
+      // not sure why since it doesn't match the ERC721 ABI spec we use to parse these transactions - https://github.com/BlockStar/metamask-eth-abis/blob/d0474308a288f9252597b7c93a3a8deaad19e1b2/src/abis/abiERC721.ts#L62.
       const transactionDataTokenId =
         getTokenIdParam(transactionData) ?? getTokenValueParam(transactionData);
 

@@ -821,7 +821,7 @@ export default class AccountTrackerController extends BaseController<
       });
     } catch (error) {
       log.warn(
-        `MetaMask - Account Tracker single call balance fetch failed`,
+        `BlockStar - Account Tracker single call balance fetch failed`,
         error,
       );
       Promise.allSettled(

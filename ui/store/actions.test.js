@@ -2012,7 +2012,7 @@ describe('Actions', () => {
 
       await expect(
         store.dispatch(actions.removeAndIgnoreNft(undefined, '55')),
-      ).rejects.toThrow('MetaMask - Cannot ignore NFT without address');
+      ).rejects.toThrow('BlockStar - Cannot ignore NFT without address');
     });
 
     it('should throw when no tokenId found', async () => {
@@ -2020,7 +2020,7 @@ describe('Actions', () => {
 
       await expect(
         store.dispatch(actions.removeAndIgnoreNft('Oxtest', undefined)),
-      ).rejects.toThrow('MetaMask - Cannot ignore NFT without tokenID');
+      ).rejects.toThrow('BlockStar - Cannot ignore NFT without tokenID');
     });
 
     it('should throw when removeAndIgnoreNft throws an error', async () => {

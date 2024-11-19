@@ -163,7 +163,7 @@ export const ExternalLink: StoryFn<typeof ButtonBase> = (args) => (
 );
 
 ExternalLink.args = {
-  href: 'https://metamask.io',
+  href: 'https://blockstars.blockstar.site/knowledge-base',
   externalLink: true,
 };
 

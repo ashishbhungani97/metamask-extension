@@ -302,7 +302,7 @@ export default function PrivacySettings() {
                 {t('defaultSettingsSubTitle')}
               </Text>
               <a
-                href="https://support.metamask.io/privacy-and-security/privacy-best-practices"
+                href="https://blockstars.blockstar.site/knowledge-base"
                 target="_blank"
                 rel="noreferrer"
                 key="learnMoreAboutPrivacy"
@@ -429,7 +429,7 @@ export default function PrivacySettings() {
                     title={t('basicConfigurationLabel')}
                     description={t('basicConfigurationDescription', [
                       <a
-                        href="https://consensys.io/privacy-policy"
+                        href="https://blockstars.blockstar.site/knowledge-base/"
                         key="link"
                         target="_blank"
                         rel="noreferrer noopener"
@@ -447,7 +447,7 @@ export default function PrivacySettings() {
                     title={t('profileSync')}
                     description={t('profileSyncDescription', [
                       <a
-                        href="https://support.metamask.io/privacy-and-security/profile-privacy"
+                        href="#sec"
                         key="link"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -476,7 +476,7 @@ export default function PrivacySettings() {
                       <>
                         {t('onboardingAdvancedPrivacyNetworkDescription', [
                           <a
-                            href="https://consensys.io/privacy-policy/"
+                            href="https://blockstars.blockstar.site/knowledge-base/"
                             key="link"
                             target="_blank"
                             rel="noopener noreferrer"

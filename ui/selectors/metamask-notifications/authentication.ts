@@ -41,7 +41,7 @@ export const selectParticipateInMetaMetrics = createSelector(
  * Selector to retrieve session data.
  *
  * This selector fetches the `sessionData` from the `metamask` state using the `createSelector` function.
- * It provides a memoized selector that returns the session data stored in the MetaMask state.
+ * It provides a memoized selector that returns the session data stored in the BlockStar state.
  *
  * @param {AppState} state - The current state of the Redux store.
  * @returns {any} Returns the session data associated with the current user session.

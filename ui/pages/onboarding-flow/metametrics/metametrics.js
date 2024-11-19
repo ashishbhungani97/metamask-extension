@@ -128,7 +128,7 @@ export default function OnboardingMetametrics() {
         <Text
           color={TextColor.primaryDefault}
           as="a"
-          href="https://support.metamask.io/privacy-and-security/profile-privacy#how-is-the-profile-created"
+          href="https://blockstars.blockstar.site/knowledge-base"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -215,7 +215,7 @@ export default function OnboardingMetametrics() {
       >
         {t('onboardingMetametricsInfuraTerms', [
           <a
-            href="#sec"
+            href="https://blockstars.blockstar.site/knowledge-base"
             target="_blank"
             rel="noopener noreferrer"
             key="privacy-link"

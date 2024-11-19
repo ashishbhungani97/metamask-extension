@@ -34,7 +34,7 @@
     "message": "活動紀錄"
   },
   "addAcquiredTokens": {
-    "message": "將您已經擁有的代幣顯示於 MetaMask"
+    "message": "將您已經擁有的代幣顯示於 BlockStar"
   },
   "addAlias": {
     "message": "新增化名"
@@ -75,15 +75,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "BlockStar",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "BlockStar Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "BlockStar Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -111,7 +111,7 @@
     "message": "自動登出計時器（分）"
   },
   "autoLockTimeLimitDescription": {
-    "message": "設定閒置分鐘上限，時間到時 MetaMask 將自動登出"
+    "message": "設定閒置分鐘上限，時間到時 BlockStar 將自動登出"
   },
   "average": {
     "message": "平均"
@@ -120,7 +120,7 @@
     "message": "上一頁"
   },
   "backupApprovalInfo": {
-    "message": "在裝置遺失、忘記密碼、需要重新安裝 MetaMask、或是想在另一裝置開啟錢包的情形下，你需要此秘密代碼來復原錢包。"
+    "message": "在裝置遺失、忘記密碼、需要重新安裝 BlockStar、或是想在另一裝置開啟錢包的情形下，你需要此秘密代碼來復原錢包。"
   },
   "backupApprovalNotice": {
     "message": "備份你的助憶詞，保護你的錢包與資金。"
@@ -172,7 +172,7 @@
     "message": "鏈 ID 用來簽署這個網路上的交易。"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要在 Google Chrome 瀏覽器使用 MetaMask 連結您的硬體錢包。"
+    "message": "您需要在 Google Chrome 瀏覽器使用 BlockStar 連結您的硬體錢包。"
   },
   "close": {
     "message": "關閉"
@@ -205,7 +205,7 @@
     "message": "手動連結到目前的網站"
   },
   "connectWithMetaMask": {
-    "message": "連結到 MetaMask"
+    "message": "連結到 BlockStar"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "您有 $1 個帳戶已連結到這個網站。",
@@ -215,7 +215,7 @@
     "message": "您有 1 個帳戶已連結到這個網站。"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask 尚未連結到這個網站。要連結到一個 web3 的網站，在該網站上尋找「連線」的按鈕。"
+    "message": "BlockStar 尚未連結到這個網站。要連結到一個 web3 的網站，在該網站上尋找「連線」的按鈕。"
   },
   "connectedSites": {
     "message": "已連結的網站"
@@ -446,7 +446,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask 遭遇錯誤",
+    "message": "BlockStar 遭遇錯誤",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -566,7 +566,7 @@
     "message": "連線硬體錢包"
   },
   "hardwareWalletsMsg": {
-    "message": "選擇要連線到 MetaMask 的硬體錢包"
+    "message": "選擇要連線到 BlockStar 的硬體錢包"
   },
   "here": {
     "message": "這裡",
@@ -599,7 +599,7 @@
     "message": "匯入帳戶"
   },
   "importAccountMsg": {
-    "message": " 匯入的帳戶並不會與您原有 MetaMask 帳戶助憶詞建立關聯。請用以下連結瞭解匯入帳戶相關的資料： "
+    "message": " 匯入的帳戶並不會與您原有 BlockStar 帳戶助憶詞建立關聯。請用以下連結瞭解匯入帳戶相關的資料： "
   },
   "importMyWallet": {
     "message": "Import My Wallet"
@@ -612,7 +612,7 @@
     "description": "status showing that an account has been fully loaded into the keyring"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMask 無法連線到區塊鏈主機。在$1查看可能的原因。",
+    "message": "BlockStar 無法連線到區塊鏈主機。在$1查看可能的原因。",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -733,7 +733,7 @@
     "message": "訊息"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "您現在能夠在 MetaMask 裡更仔細地控制您帳戶的連結。"
+    "message": "您現在能夠在 BlockStar 裡更仔細地控制您帳戶的連結。"
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "按這裡管理您已連結的帳戶。"
@@ -742,10 +742,10 @@
     "message": "連線狀態按鈕會顯示您正在造訪的網站是否已經連結到您目前選擇的帳戶。"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps 正在維護。請晚點再來看看。"
+    "message": "BlockStar Swaps 正在維護。請晚點再來看看。"
   },
   "metamaskVersion": {
-    "message": "MetaMask 版本"
+    "message": "BlockStar 版本"
   },
   "mismatchedChainLinkText": {
     "message": "驗證網路的詳細資料",
@@ -762,7 +762,7 @@
     "description": "$1 represents `needHelpLinkText`, the text which goes in the help link"
   },
   "needHelpLinkText": {
-    "message": "MetaMask 支援"
+    "message": "BlockStar 支援"
   },
   "needImportFile": {
     "message": "您必須選擇一個檔案來匯入。",
@@ -816,7 +816,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce 比建議的 $1 高",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to BlockStar's internal logic"
   },
   "nftTokenIdPlaceholder": {
     "message": "Enter the NFT ID"
@@ -880,7 +880,7 @@
     "message": "參與 MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "參與 MetaMetrics 來協助我們打造更好的 MetaMask"
+    "message": "參與 MetaMetrics 來協助我們打造更好的 BlockStar"
   },
   "password": {
     "message": "密碼"
@@ -1031,7 +1031,7 @@
     "message": "如果有人向您詢問您的助憶詞，他們十之八九是在詐騙您。"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "永遠永遠不要洩漏您的助憶詞，即使是 MetaMask 官方也一樣！"
+    "message": "永遠永遠不要洩漏您的助憶詞，即使是 BlockStar 官方也一樣！"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "什麼是助憶詞？"
@@ -1061,7 +1061,7 @@
     "message": "選擇帳戶"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "這個帳戶已經連結到 MetaMask 了"
+    "message": "這個帳戶已經連結到 BlockStar 了"
   },
   "selectHdPath": {
     "message": "選擇 HD Path"
@@ -1154,7 +1154,7 @@
     "message": "在取得狀態紀錄時發生錯誤。"
   },
   "stateLogFileName": {
-    "message": "MetaMask 狀態紀錄"
+    "message": "BlockStar 狀態紀錄"
   },
   "stateLogs": {
     "message": "狀態紀錄"
@@ -1195,7 +1195,7 @@
     "message": "造訪我們的協助中心"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "這將在 MetaMask 中將目前選擇的網路切換到剛才新增的網路："
+    "message": "這將在 BlockStar 中將目前選擇的網路切換到剛才新增的網路："
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "允許這個網站切換網路？"

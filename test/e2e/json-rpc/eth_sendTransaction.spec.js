@@ -103,7 +103,7 @@ describe('eth_sendTransaction', function () {
           });
         assert.ok(
           result.message.includes(
-            'MetaMask Tx Signature: User denied transaction signature.',
+            'BlockStar Tx Signature: User denied transaction signature.',
           ),
         );
       },

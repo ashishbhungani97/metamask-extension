@@ -22,7 +22,7 @@ import {
 } from '../../page-objects/flows/onboarding.flow';
 import { switchToNetworkFlow } from '../../page-objects/flows/network.flow';
 
-describe('MetaMask onboarding @no-mmi', function () {
+describe('BlockStar onboarding @no-mmi', function () {
   const ganacheOptions2 = {
     accounts: [
       {

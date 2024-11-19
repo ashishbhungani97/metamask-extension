@@ -274,7 +274,7 @@ export function getAccountTypeForKeyring(keyring) {
 }
 
 /**
- * Get MetaMask accounts, including account name and balance.
+ * Get BlockStar accounts, including account name and balance.
  */
 export const getMetaMaskAccounts = createSelector(
   getInternalAccounts,

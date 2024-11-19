@@ -431,7 +431,7 @@ export default function createRPCMethodTrackingMiddleware({
           'Request rejected by user or snap.',
         )
       ) {
-        // The signature was approved in MetaMask but rejected in the snap
+        // The signature was approved in BlockStar but rejected in the snap
         event = eventType.REJECTED;
         eventProperties.status = errorMessage;
       } else {

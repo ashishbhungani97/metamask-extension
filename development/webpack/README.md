@@ -1,6 +1,6 @@
-# MetaMask Development Build Tool
+# BlockStar Development Build Tool
 
-This tool is used to build the MetaMask extension for development purposes. It is not (yet) intended for production builds.
+This tool is used to build the BlockStar extension for development purposes. It is not (yet) intended for production builds.
 
 ## Usage
 
@@ -10,7 +10,7 @@ For usage, examples, and options, run the following command:
 yarn webpack --help
 ```
 
-To build the MetaMask extension, run the following command:
+To build the BlockStar extension, run the following command:
 
 ```bash
 yarn webpack
@@ -106,7 +106,7 @@ Please to file an issue if you do encounter issues!
 
 ### Linting
 
-Linting is exactly the same as the rest of the MetaMask project. To lint the build tool, run the following command:
+Linting is exactly the same as the rest of the BlockStar project. To lint the build tool, run the following command:
 
 ```bash
 yarn lint
@@ -124,7 +124,7 @@ To run the build tool's test suite, run the following command:
 yarn test:unit:webpack
 ```
 
-This will run the test suite for the build tool. These tests are also run as part of the MetaMask test suite in CI.
+This will run the test suite for the build tool. These tests are also run as part of the BlockStar test suite in CI.
 
 To output an HTML, JSON, and text coverage reports, run the following command:
 
@@ -191,18 +191,18 @@ the child and shuts down, leaving the child to run in the background so the cach
 
 ### To do:
 
-- [define and wrangle the difference between `lockdown` and `lavamoat` options.](https://github.com/MetaMask/metamask-extension/issues/26254)
-- [MV3 support](https://github.com/MetaMask/metamask-extension/issues/26255)
+- [define and wrangle the difference between `lockdown` and `lavamoat` options.](https://github.com/BlockStar/metamask-extension/issues/26254)
+- [MV3 support](https://github.com/BlockStar/metamask-extension/issues/26255)
   - Service workers, used by MV3, must load dependencies via `importScripts`.
   - there are existing webpack plugins that do this, but they are not yet integrated into this build tool and would
     require changes to our code and existing gulp-based build process to work.
-- [Make lavamoat work so we can run production builds](https://github.com/MetaMask/metamask-extension/issues/26256)
-- [Make LiveReload, Hot Module Reloading, and/or React Refresh work](https://github.com/MetaMask/metamask-extension/issues/26257)
-  - prerequisite: https://github.com/MetaMask/metamask-extension/issues/22450
-- [Make the build tool even faster (switch to RSPack once it hits 1.0.0?)](https://github.com/MetaMask/metamask-extension/issues/26258)
-- [enable `yarn webpack completion`](https://github.com/MetaMask/metamask-extension/issues/26259)
+- [Make lavamoat work so we can run production builds](https://github.com/BlockStar/metamask-extension/issues/26256)
+- [Make LiveReload, Hot Module Reloading, and/or React Refresh work](https://github.com/BlockStar/metamask-extension/issues/26257)
+  - prerequisite: https://github.com/BlockStar/metamask-extension/issues/22450
+- [Make the build tool even faster (switch to RSPack once it hits 1.0.0?)](https://github.com/BlockStar/metamask-extension/issues/26258)
+- [enable `yarn webpack completion`](https://github.com/BlockStar/metamask-extension/issues/26259)
   - It doesn't work with multiple-word commands (`yarn webpack ...`) and is currently disabled.
-- [implement overrides for icons and manifests fields for non-main builds](https://github.com/MetaMask/metamask-extension/issues/26260)
+- [implement overrides for icons and manifests fields for non-main builds](https://github.com/BlockStar/metamask-extension/issues/26260)
 
 ### Ideas
 
@@ -210,5 +210,5 @@ the child and shuts down, leaving the child to run in the background so the cach
 - make it work in Bun.js and/or Deno
 - investigate adding a long-running background daemon mode for always up-to-date builds
 - investigate adding linting, testing, validation, AI code review, etc.; especially in `--watch` mode
-- investigate a "one CLI to rule them all" approach to MetaMask developer tooling and scripts
+- investigate a "one CLI to rule them all" approach to BlockStar developer tooling and scripts
 - allow changing some options without restarting the build process

@@ -118,7 +118,7 @@
     "message": "Accédez à votre portefeuille en utilisant votre phrase secrète de récupération"
   },
   "accessYourWalletWithSRPDescription": {
-    "message": "MetaMask ne peut pas récupérer votre mot de passe. Nous utiliserons votre phrase secrète de récupération pour vérifier votre identité, restaurer votre portefeuille et définir un nouveau mot de passe. Veuillez tout d’abord saisir la phrase secrète de récupération qui vous a été fournie lorsque vous avez créé votre portefeuille. $1",
+    "message": "BlockStar ne peut pas récupérer votre mot de passe. Nous utiliserons votre phrase secrète de récupération pour vérifier votre identité, restaurer votre portefeuille et définir un nouveau mot de passe. Veuillez tout d’abord saisir la phrase secrète de récupération qui vous a été fournie lorsque vous avez créé votre portefeuille. $1",
     "description": "$1 is the words 'Learn More' from key 'learnMore', separated here so that it can be added as a link"
   },
   "accessingYourCamera": {
@@ -190,10 +190,10 @@
     "message": "Ajouter un compte"
   },
   "addAccountToMetaMask": {
-    "message": "Ajouter un compte à MetaMask"
+    "message": "Ajouter un compte à BlockStar"
   },
   "addAcquiredTokens": {
-    "message": "Ajouter les jetons que vous avez acquis par l’intermédiaire de MetaMask"
+    "message": "Ajouter les jetons que vous avez acquis par l’intermédiaire de BlockStar"
   },
   "addAlias": {
     "message": "Ajouter un alias"
@@ -340,7 +340,7 @@
     "message": "Les frais de priorité (aussi appelés « pourboire du mineur ») vont directement aux mineurs et les incitent à accorder la priorité à votre transaction."
   },
   "agreeTermsOfUse": {
-    "message": "J’accepte les $1 de MetaMask",
+    "message": "J’accepte les $1 de BlockStar",
     "description": "$1 is the `terms` link"
   },
   "airgapVault": {
@@ -434,7 +434,7 @@
     "message": "Tout"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "Soit vous avez déjà connecté tous vos comptes dépositaires, soit vous n’avez aucun compte à connecter à MetaMask Institutional."
+    "message": "Soit vous avez déjà connecté tous vos comptes dépositaires, soit vous n’avez aucun compte à connecter à BlockStar Institutional."
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "Aucun compte à connecter"
@@ -495,19 +495,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "BlockStar",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "BlockStar Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "BlockStar Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask institutionnel",
+    "message": "BlockStar institutionnel",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -598,7 +598,7 @@
     "message": "Minuterie de déconnexion automatique (minutes)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Réglez la durée d’inactivité en minutes avant que MetaMask ne se déconnecte automatiquement."
+    "message": "Réglez la durée d’inactivité en minutes avant que BlockStar ne se déconnecte automatiquement."
   },
   "average": {
     "message": "Moyen"
@@ -610,7 +610,7 @@
     "message": "Retour"
   },
   "backupApprovalInfo": {
-    "message": "Ce code secret est requis pour récupérer votre portefeuille si jamais vous perdez votre appareil, oubliez votre mot de passe, devez réinstaller MetaMask ou souhaitez accéder à votre portefeuille depuis un autre appareil."
+    "message": "Ce code secret est requis pour récupérer votre portefeuille si jamais vous perdez votre appareil, oubliez votre mot de passe, devez réinstaller BlockStar ou souhaitez accéder à votre portefeuille depuis un autre appareil."
   },
   "backupApprovalNotice": {
     "message": "Sauvegardez votre phrase secrète de récupération pour garder votre portefeuille et vos fonds en sécurité."
@@ -640,7 +640,7 @@
     "message": "La fonctionnalité de base est désactivée"
   },
   "basicConfigurationDescription": {
-    "message": "MetaMask offre des fonctionnalités de base telles que l’affichage des détails des jetons et des paramètres de gaz par le biais de services Internet. Lorsque vous utilisez des services Internet, votre adresse IP est partagée avec le fournisseur de ces services, dans ce cas MetaMask. C’est la même chose que lorsque vous visitez un site web. MetaMask conserve ces données temporairement et ne les vend jamais. Vous pouvez utiliser un VPN ou désactiver ces services, mais cela peut affecter votre expérience avec MetaMask. Pour en savoir plus, lisez notre $1.",
+    "message": "BlockStar offre des fonctionnalités de base telles que l’affichage des détails des jetons et des paramètres de gaz par le biais de services Internet. Lorsque vous utilisez des services Internet, votre adresse IP est partagée avec le fournisseur de ces services, dans ce cas BlockStar. C’est la même chose que lorsque vous visitez un site web. BlockStar conserve ces données temporairement et ne les vend jamais. Vous pouvez utiliser un VPN ou désactiver ces services, mais cela peut affecter votre expérience avec BlockStar. Pour en savoir plus, lisez notre $1.",
     "description": "$1 is to be replaced by the message for privacyMsg, and will link to https://consensys.io/privacy-policy"
   },
   "basicConfigurationLabel": {
@@ -650,10 +650,10 @@
     "message": "Je comprends et je veux continuer"
   },
   "basicConfigurationModalDisclaimerOff": {
-    "message": "Cela signifie que vous n’optimiserez pas complètement votre temps sur MetaMask. Vous n’aurez pas accès aux fonctions de base (comme les détails des jetons, les réglages optimaux du gaz, et autres)."
+    "message": "Cela signifie que vous n’optimiserez pas complètement votre temps sur BlockStar. Vous n’aurez pas accès aux fonctions de base (comme les détails des jetons, les réglages optimaux du gaz, et autres)."
   },
   "basicConfigurationModalDisclaimerOn": {
-    "message": "Pour optimiser votre temps sur MetaMask, vous devez activer cette fonction. Les fonctions de base (comme les détails des jetons, les réglages optimaux du gaz, et autres) améliorent votre expérience Web3."
+    "message": "Pour optimiser votre temps sur BlockStar, vous devez activer cette fonction. Les fonctions de base (comme les détails des jetons, les réglages optimaux du gaz, et autres) améliorent votre expérience Web3."
   },
   "basicConfigurationModalHeadingOff": {
     "message": "Désactiver la fonctionnalité de base"
@@ -672,10 +672,10 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "Version Beta de MetaMask Institutional"
+    "message": "Version Beta de BlockStar Institutional"
   },
   "betaMetamaskVersion": {
-    "message": "Version MetaMask Beta"
+    "message": "Version BlockStar Beta"
   },
   "betaTerms": {
     "message": "Conditions d’utilisation de la version bêta"
@@ -691,7 +691,7 @@
     "message": "Bitcoin"
   },
   "bitcoinSupportToggleDescription": {
-    "message": "En activant cette fonctionnalité, vous aurez la possibilité d’ajouter un compte Bitcoin à votre extension MetaMask dérivée de votre phrase secrète de récupération existante. Toute utilisation de cette fonctionnalité bêta expérimentale se fait à vos risques et périls. Pour nous faire part de vos commentaires sur cette nouvelle expérience Bitcoin, veuillez remplir ce $1.",
+    "message": "En activant cette fonctionnalité, vous aurez la possibilité d’ajouter un compte Bitcoin à votre extension BlockStar dérivée de votre phrase secrète de récupération existante. Toute utilisation de cette fonctionnalité bêta expérimentale se fait à vos risques et périls. Pour nous faire part de vos commentaires sur cette nouvelle expérience Bitcoin, veuillez remplir ce $1.",
     "description": "$1 is the link to a product feedback form"
   },
   "bitcoinSupportToggleTitle": {
@@ -786,7 +786,7 @@
     "message": "Créez votre liste de contacts"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask est conçu et établi dans le monde entier."
+    "message": "BlockStar est conçu et établi dans le monde entier."
   },
   "busy": {
     "message": "Occupé"
@@ -855,7 +855,7 @@
     "description": "$1 is a link to the privacy policy"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Pour connecter votre portefeuille matériel, vous devez utiliser MetaMask pour Google Chrome."
+    "message": "Pour connecter votre portefeuille matériel, vous devez utiliser BlockStar pour Google Chrome."
   },
   "circulatingSupply": {
     "message": "Offre en circulation"
@@ -902,10 +902,10 @@
     "description": "Default text shown in the combo field dropdown if no options."
   },
   "configureSnapPopupDescription": {
-    "message": "Vous devez maintenant quitter MetaMask pour configurer ce snap."
+    "message": "Vous devez maintenant quitter BlockStar pour configurer ce snap."
   },
   "configureSnapPopupInstallDescription": {
-    "message": "Vous devez maintenant quitter MetaMask pour installer ce snap."
+    "message": "Vous devez maintenant quitter BlockStar pour installer ce snap."
   },
   "configureSnapPopupInstallTitle": {
     "message": "Installer le snap"
@@ -1011,7 +1011,7 @@
     "description": "$1 is the snap for which a connection is being requested."
   },
   "connectWithMetaMask": {
-    "message": "Connectez-vous avec MetaMask"
+    "message": "Connectez-vous avec BlockStar"
   },
   "connectedAccounts": {
     "message": "Comptes connectés"
@@ -1024,7 +1024,7 @@
     "message": "Vous avez 1 compte connecté à ce site."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask n’est pas connecté à ce site. Pour vous connecter à un site web3, cliquez sur le bouton de connexion."
+    "message": "BlockStar n’est pas connecté à ce site. Pour vous connecter à un site web3, cliquez sur le bouton de connexion."
   },
   "connectedAccountsListTooltip": {
     "message": "$1 peut voir le solde, l’adresse et l’activité du compte, et suggérer des transactions à approuver pour les comptes connectés.",
@@ -1045,7 +1045,7 @@
     "description": "$1 is the account name"
   },
   "connectedSnapAndNoAccountDescription": {
-    "message": "MetaMask est connecté à ce site, mais aucun compte n’est encore connecté"
+    "message": "BlockStar est connecté à ce site, mais aucun compte n’est encore connecté"
   },
   "connecting": {
     "message": "Connexion…"
@@ -1098,7 +1098,7 @@
     "message": "Continuer"
   },
   "continueMmiOnboarding": {
-    "message": "Poursuivre le processus d’intégration de MetaMask Institutional"
+    "message": "Poursuivre le processus d’intégration de BlockStar Institutional"
   },
   "continueToWallet": {
     "message": "Accéder au portefeuille"
@@ -1140,7 +1140,7 @@
     "message": "Contrat de jetons"
   },
   "convertTokenToNFTDescription": {
-    "message": "Nous avons détecté que cet actif est un NFT. MetaMask prend désormais nativement en charge les NFT. Voulez-vous le retirer de votre liste de jetons et l’ajouter en tant que NFT ?"
+    "message": "Nous avons détecté que cet actif est un NFT. BlockStar prend désormais nativement en charge les NFT. Voulez-vous le retirer de votre liste de jetons et l’ajouter en tant que NFT ?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Nous avons détecté que cet actif a été ajouté en tant que NFT. Souhaitez-vous le retirer de votre liste de tokens ?"
@@ -1176,7 +1176,7 @@
     "message": "Créer un mot de passe"
   },
   "createSnapAccountDescription": {
-    "message": "$1 veut ajouter un nouveau compte à MetaMask."
+    "message": "$1 veut ajouter un nouveau compte à BlockStar."
   },
   "createSnapAccountTitle": {
     "message": "Créer un compte"
@@ -1185,7 +1185,7 @@
     "message": "Adresse du créateur"
   },
   "crossChainSwapsLink": {
-    "message": "Échanges inter-réseaux avec MetaMask Portfolio"
+    "message": "Échanges inter-réseaux avec BlockStar Portfolio"
   },
   "cryptoCompare": {
     "message": "CryptoCompare"
@@ -1237,7 +1237,7 @@
     "message": "Dépôt"
   },
   "custodianAccountAddedDesc": {
-    "message": "Vous pouvez maintenant utiliser vos comptes de dépôt dans MetaMask Institutional."
+    "message": "Vous pouvez maintenant utiliser vos comptes de dépôt dans BlockStar Institutional."
   },
   "custodianAccountAddedTitle": {
     "message": "Les comptes de dépôt $1 sélectionnés ont été ajoutés."
@@ -1252,7 +1252,7 @@
     "message": "Accédez à $1 et cliquez sur le bouton « Se connecter à MMI » dans l’interface utilisateur pour reconnecter vos comptes à MMI."
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "Vous pouvez désormais utiliser vos comptes de dépôt dans MetaMask Institutional."
+    "message": "Vous pouvez désormais utiliser vos comptes de dépôt dans BlockStar Institutional."
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "Votre jeton de dépôt a été actualisé"
@@ -1270,7 +1270,7 @@
     "message": "Accédez à $1 et cliquez sur le bouton « Se connecter à MMI » dans l’interface utilisateur pour reconnecter vos comptes à MMI."
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "Votre dépositaire émet un jeton qui authentifie l’extension « MetaMask Institutional » et vous permet ainsi de connecter vos comptes."
+    "message": "Votre dépositaire émet un jeton qui authentifie l’extension « BlockStar Institutional » et vous permet ainsi de connecter vos comptes."
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "Ce jeton expire après un certain temps pour des raisons de sécurité. Si le jeton expire, vous devrez vous reconnecter à MMI."
@@ -1360,7 +1360,7 @@
     "message": "OK"
   },
   "dataCollectionWarningPopoverDescription": {
-    "message": "Vous avez désactivé la collecte de données à des fins de marketing. Cela ne s’applique qu’à cet appareil. Si vous utilisez MetaMask sur d’autres appareils, n’oubliez pas de désactiver cette fonctionnalité sur ces appareils aussi."
+    "message": "Vous avez désactivé la collecte de données à des fins de marketing. Cela ne s’applique qu’à cet appareil. Si vous utilisez BlockStar sur d’autres appareils, n’oubliez pas de désactiver cette fonctionnalité sur ces appareils aussi."
   },
   "dataHex": {
     "message": "Hex"
@@ -1661,13 +1661,13 @@
     "message": "La détection améliorée des jetons est actuellement disponible sur $1. $2"
   },
   "ensDomainsSettingDescriptionIntroduction": {
-    "message": "MetaMask vous permet de voir les domaines ENS dans la barre d’adresse de votre navigateur. Voici comment cela fonctionne :"
+    "message": "BlockStar vous permet de voir les domaines ENS dans la barre d’adresse de votre navigateur. Voici comment cela fonctionne :"
   },
   "ensDomainsSettingDescriptionOutroduction": {
     "message": "Veuillez noter que l’utilisation de cette fonctionnalité expose votre adresse IP à des services tiers IPFS."
   },
   "ensDomainsSettingDescriptionPart1": {
-    "message": "MetaMask vérifie le contrat ENS d’Ethereum pour trouver le code lié au nom de domaine ENS."
+    "message": "BlockStar vérifie le contrat ENS d’Ethereum pour trouver le code lié au nom de domaine ENS."
   },
   "ensDomainsSettingDescriptionPart2": {
     "message": "Si le code renvoie à un IPFS, vous pouvez voir le contenu qui y est associé (généralement un site web)."
@@ -1727,7 +1727,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask a rencontré une erreur",
+    "message": "BlockStar a rencontré une erreur",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1783,7 +1783,7 @@
     "description": "Banner description displayed on Snaps list page in Settings when less than 6 Snaps is installed."
   },
   "extensionInsallCompleteDescription": {
-    "message": "Retournez à la page d’intégration des produits MetaMask Institutional pour connecter vos compte-titres ou vos comptes de dépôt."
+    "message": "Retournez à la page d’intégration des produits BlockStar Institutional pour connecter vos compte-titres ou vos comptes de dépôt."
   },
   "extensionInsallCompleteTitle": {
     "message": "L’extension a été installée avec succès"
@@ -1829,15 +1829,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "Nous ne garantissons ni la sécurité ni la stabilité de cette extension. Les nouvelles API proposées par Flask ne sont pas protégées contre les attaques d’hameçonnage, ce qui signifie que tout site ou snap nécessitant Flask pourrait être une tentative malveillante de voler vos actifs.",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using BlockStar Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "Toutes les API de Flask sont expérimentales. Elles peuvent être modifiées ou supprimées sans préavis. Elles peuvent aussi rester sur Flask indéfiniment sans jamais être migrées vers le MetaMask stable. Utilisez-les à vos risques et périls.",
+    "message": "Toutes les API de Flask sont expérimentales. Elles peuvent être modifiées ou supprimées sans préavis. Elles peuvent aussi rester sur Flask indéfiniment sans jamais être migrées vers le BlockStar stable. Utilisez-les à vos risques et périls.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "Assurez-vous de désactiver l’extension MetaMask que vous utilisez habituellement lorsque vous utilisez Flask.",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "Assurez-vous de désactiver l’extension BlockStar que vous utilisez habituellement lorsque vous utilisez Flask.",
+    "description": "This message calls to pay attention about multiple versions of BlockStar running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "J’accepte les risques",
@@ -2019,7 +2019,7 @@
     "message": "Les intégrations de portefeuilles matériels utilisent des appels API vers des serveurs externes qui peuvent voir votre adresse IP et les adresses des contrats intelligents avec lesquels vous interagissez."
   },
   "hardwareWalletsMsg": {
-    "message": "Selectionnez le portefeuille matériel que vous voulez utiliser avec MetaMask"
+    "message": "Selectionnez le portefeuille matériel que vous voulez utiliser avec BlockStar"
   },
   "here": {
     "message": "ici",
@@ -2088,7 +2088,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "Le service d’assistance de MetaMask ne vous la demandera jamais,",
+    "message": "Le service d’assistance de BlockStar ne vous la demandera jamais,",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -2153,13 +2153,13 @@
     "message": "Il ne s’agit pas d’une clé privée valide. Vous devez saisir une chaîne hexadécimale de 64 caractères."
   },
   "importAccountJsonLoading1": {
-    "message": "Cette importation JSON prendra quelques minutes et pourra faire planter MetaMask."
+    "message": "Cette importation JSON prendra quelques minutes et pourra faire planter BlockStar."
   },
   "importAccountJsonLoading2": {
     "message": "Désolé, nous essaierons d’accélérer ce processus à l’avenir."
   },
   "importAccountMsg": {
-    "message": "Les comptes importés ne seront pas associés à la phrase secrète de récupération que vous avez créée au départ dans MetaMask. En savoir plus sur les comptes importés"
+    "message": "Les comptes importés ne seront pas associés à la phrase secrète de récupération que vous avez créée au départ dans BlockStar. En savoir plus sur les comptes importés"
   },
   "importMyWallet": {
     "message": "Importer mon portefeuille"
@@ -2206,7 +2206,7 @@
     "message": "dans vos paramètres"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMask ne peut pas se connecter à l’hôte de la blockchain. Vérifiez les éventuelles raisons $1.",
+    "message": "BlockStar ne peut pas se connecter à l’hôte de la blockchain. Vérifiez les éventuelles raisons $1.",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -2254,13 +2254,13 @@
     "message": "Installer l’extension"
   },
   "installExtensionDescription": {
-    "message": "La version est conforme aux normes institutionnelles du principal fournisseur de portefeuilles Web3 au monde, MetaMask."
+    "message": "La version est conforme aux normes institutionnelles du principal fournisseur de portefeuilles Web3 au monde, BlockStar."
   },
   "installOrigin": {
     "message": "Installer Origin"
   },
   "installRequest": {
-    "message": "Ajouter à MetaMask"
+    "message": "Ajouter à BlockStar"
   },
   "installedOn": {
     "message": "Installé le $1",
@@ -2350,7 +2350,7 @@
     "message": "Passerelle IPFS"
   },
   "ipfsGatewayDescription": {
-    "message": "MetaMask utilise des services tiers pour afficher des images de vos NFT stockés sur IPFS, des informations relatives aux adresses ENS saisies dans la barre d’adresse de votre navigateur et l’icône des différents jetons. Votre adresse IP peut être exposée si vous avez recours à ces services."
+    "message": "BlockStar utilise des services tiers pour afficher des images de vos NFT stockés sur IPFS, des informations relatives aux adresses ENS saisies dans la barre d’adresse de votre navigateur et l’icône des différents jetons. Votre adresse IP peut être exposée si vous avez recours à ces services."
   },
   "ipfsToggleModalDescriptionOne": {
     "message": "Nous utilisons des services tiers pour afficher des images de vos NFT stockés sur IPFS, affichons des informations relatives aux adresses ENS saisies dans la barre d’adresse de votre navigateur et récupérons les icônes des différents jetons. Votre adresse IP peut être exposée si vous avez recours à ces services."
@@ -2456,10 +2456,10 @@
     "message": "Apprenez à établir une passerelle"
   },
   "leaveMetaMask": {
-    "message": "Voulez-vous quitter MetaMask ?"
+    "message": "Voulez-vous quitter BlockStar ?"
   },
   "leaveMetaMaskDesc": {
-    "message": "Vous allez visiter un site externe à MetaMask. Vérifiez l’URL avant de continuer."
+    "message": "Vous allez visiter un site externe à BlockStar. Vérifiez l’URL avant de continuer."
   },
   "ledgerAccountRestriction": {
     "message": "Vous devez d’abord utiliser le dernier compte que vous avez créé avant de pouvoir en ajouter un nouveau."
@@ -2553,7 +2553,7 @@
     "message": "Déconnexion"
   },
   "lockMetaMask": {
-    "message": "Verrouiller MetaMask"
+    "message": "Verrouiller BlockStar"
   },
   "lockTimeInvalid": {
     "message": "Le temps de verrouillage doit être un nombre compris entre 0 et 10 080"
@@ -2623,7 +2623,7 @@
     "message": "Message"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Vous avez maintenant davantage de contrôle sur les connexions de vos comptes dans MetaMask."
+    "message": "Vous avez maintenant davantage de contrôle sur les connexions de vos comptes dans BlockStar."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Cliquez pour gérer vos comptes connectés."
@@ -2636,19 +2636,19 @@
     "description": "$1 is the snap name and $2 is the snap NPM id."
   },
   "metamaskInstitutionalVersion": {
-    "message": "Version MetaMask Institutional"
+    "message": "Version BlockStar Institutional"
   },
   "metamaskNotificationsAreOff": {
     "message": "Les notifications du portefeuille ne sont actuellement pas activées."
   },
   "metamaskPortfolio": {
-    "message": "Portfolio MetaMask."
+    "message": "Portfolio BlockStar."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps est en cours de maintenance. Nous vous invitons à revenir plus tard."
+    "message": "BlockStar Swaps est en cours de maintenance. Nous vous invitons à revenir plus tard."
   },
   "metamaskVersion": {
-    "message": "Version de MetaMask"
+    "message": "Version de BlockStar"
   },
   "methodData": {
     "message": "Méthode"
@@ -2696,13 +2696,13 @@
     "message": "Demandez ici"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMask Institutional est conçu et établi dans le monde entier."
+    "message": "BlockStar Institutional est conçu et établi dans le monde entier."
   },
   "mmiNewNFTDetectedInNFTsTabMessage": {
-    "message": "Laissez MetaMask Institutional détecter et afficher automatiquement les NFT dans votre portefeuille."
+    "message": "Laissez BlockStar Institutional détecter et afficher automatiquement les NFT dans votre portefeuille."
   },
   "mmiPasswordSetupDetails": {
-    "message": "Ce mot de passe déverrouillera uniquement votre extension MetaMask Institutional."
+    "message": "Ce mot de passe déverrouillera uniquement votre extension BlockStar Institutional."
   },
   "more": {
     "message": "plus"
@@ -2767,7 +2767,7 @@
     "message": "Lens Protocol"
   },
   "nameProvider_token": {
-    "message": "MetaMask"
+    "message": "BlockStar"
   },
   "nameSetPlaceholder": {
     "message": "Choisissez un pseudonyme…",
@@ -2800,7 +2800,7 @@
     "message": "Partagez vos commentaires"
   },
   "needHelpLinkText": {
-    "message": "Assistance MetaMask"
+    "message": "Assistance BlockStar"
   },
   "needHelpSubmitTicket": {
     "message": "Envoyer un ticket"
@@ -2932,7 +2932,7 @@
     "description": "$1 is used for newNFTDetectedInImportNFTsMessageStrongText"
   },
   "newNFTDetectedInNFTsTabMessage": {
-    "message": "Laissez MetaMask détecter et afficher automatiquement les NFT dans votre portefeuille."
+    "message": "Laissez BlockStar détecter et afficher automatiquement les NFT dans votre portefeuille."
   },
   "newNFTsAutodetected": {
     "message": "Détection automatique des NFT"
@@ -2967,7 +2967,7 @@
   },
   "nextNonceWarning": {
     "message": "Le nonce est supérieur au nonce suggéré de $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to BlockStar's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "Ce NFT ne peut pas être ajouté, car les informations de propriété ne correspondent pas. Vérifiez que votre saisie est correcte."
@@ -2983,7 +2983,7 @@
     "message": "Détection automatique des NFT activée"
   },
   "nftDisclaimer": {
-    "message": "Avertissement : MetaMask importe le fichier multimédia de l'URL source. Cette URL est parfois modifiée par la place de marché sur laquelle le NFT a été minté."
+    "message": "Avertissement : BlockStar importe le fichier multimédia de l'URL source. Cette URL est parfois modifiée par la place de marché sur laquelle le NFT a été minté."
   },
   "nftOptions": {
     "message": "Options NFT"
@@ -3015,7 +3015,7 @@
     "message": "Aucun compte trouvé pour la demande de recherche effectuée"
   },
   "noConnectedAccountTitle": {
-    "message": "MetaMask n’est pas connecté à ce site"
+    "message": "BlockStar n’est pas connecté à ce site"
   },
   "noConversionRateAvailable": {
     "message": "Aucun taux de conversion disponible"
@@ -3048,7 +3048,7 @@
     "message": "Webcam introuvable"
   },
   "nonCustodialAccounts": {
-    "message": "MetaMask Institutional vous permet d’utiliser des comptes de détention en propre pour sauvegarder la phrase secrète de récupération."
+    "message": "BlockStar Institutional vous permet d’utiliser des comptes de détention en propre pour sauvegarder la phrase secrète de récupération."
   },
   "nonce": {
     "message": "Nonce"
@@ -3213,8 +3213,8 @@
     "message": "Notifications"
   },
   "notificationsDropLedgerFirefoxDescription": {
-    "message": "Firefox ne prend plus en charge la norme d’authentification U2F, donc Ledger ne fonctionnera pas avec MetaMask sur Firefox. Essayez plutôt d’utiliser MetaMask sur Google Chrome.",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "message": "Firefox ne prend plus en charge la norme d’authentification U2F, donc Ledger ne fonctionnera pas avec BlockStar sur Firefox. Essayez plutôt d’utiliser BlockStar sur Google Chrome.",
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use BlockStar on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "La prise en charge de Ledger ne sera plus assurée sur Firefox",
@@ -3336,7 +3336,7 @@
     "message": "J’accepte"
   },
   "onboardingMetametricsDescription": {
-    "message": "Nous aimerions recueillir des données d’utilisation et de diagnostic de base afin d’améliorer MetaMask. Sachez que nous ne vendons jamais les données que vous nous fournissez ici."
+    "message": "Nous aimerions recueillir des données d’utilisation et de diagnostic de base afin d’améliorer BlockStar. Sachez que nous ne vendons jamais les données que vous nous fournissez ici."
   },
   "onboardingMetametricsDescription2": {
     "message": "Lorsque nous recueillons des données, elles sont toujours…"
@@ -3373,7 +3373,7 @@
     "message": "Découvrez comment nous protégeons votre vie privée lors de la collecte de données d’utilisation pour votre profil."
   },
   "onboardingMetametricsTitle": {
-    "message": "Aidez-nous à améliorer MetaMask"
+    "message": "Aidez-nous à améliorer BlockStar"
   },
   "onboardingMetametricsUseDataCheckbox": {
     "message": "Nous utiliserons ces données pour savoir comment vous interagissez avec nos communications commerciales et pour partager avec vous des informations pertinentes (comme les caractéristiques des produits)."
@@ -3394,16 +3394,16 @@
     "message": "Cliquez sur l’icône d’extension du navigateur"
   },
   "onboardingPinExtensionDescription": {
-    "message": "Épinglez MetaMask dans votre navigateur pour qu’il soit accessible et qu’il soit facile de voir les confirmations de transaction."
+    "message": "Épinglez BlockStar dans votre navigateur pour qu’il soit accessible et qu’il soit facile de voir les confirmations de transaction."
   },
   "onboardingPinExtensionDescription2": {
-    "message": "Vous pouvez ouvrir MetaMask en cliquant sur l’extension pour accéder à votre portefeuille en un seul clic."
+    "message": "Vous pouvez ouvrir BlockStar en cliquant sur l’extension pour accéder à votre portefeuille en un seul clic."
   },
   "onboardingPinExtensionDescription3": {
     "message": "Cliquez sur l’icône d’extension du navigateur pour y accéder instantanément"
   },
   "onboardingPinExtensionLabel": {
-    "message": "Épingler MetaMask"
+    "message": "Épingler BlockStar"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -3412,10 +3412,10 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "Votre installation de MetaMask est terminée !"
+    "message": "Votre installation de BlockStar est terminée !"
   },
   "onboardingPinMmiExtensionLabel": {
-    "message": "Épingler MetaMask Institutional"
+    "message": "Épingler BlockStar Institutional"
   },
   "oneDayAbbreviation": {
     "message": "1 j",
@@ -3446,7 +3446,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "Passez en plein écran pour connecter votre Ledger.",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing BlockStar in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "Ouvrir dans l’explorateur de blocs"
@@ -3477,7 +3477,7 @@
     "description": "Used in the 'permission_rpc' message."
   },
   "outdatedBrowserNotification": {
-    "message": "Votre navigateur n’est pas à jour. Si vous ne mettez pas à jour votre navigateur, vous ne pourrez pas obtenir les correctifs de sécurité et profiter des nouvelles fonctionnalités de MetaMask."
+    "message": "Votre navigateur n’est pas à jour. Si vous ne mettez pas à jour votre navigateur, vous ne pourrez pas obtenir les correctifs de sécurité et profiter des nouvelles fonctionnalités de BlockStar."
   },
   "padlock": {
     "message": "Cadenas"
@@ -3489,19 +3489,19 @@
     "message": "Participer à MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participez à MetaMetrics pour nous aider à améliorer MetaMask"
+    "message": "Participez à MetaMetrics pour nous aider à améliorer BlockStar"
   },
   "password": {
     "message": "Mot de passe"
   },
   "passwordMmiTermsWarning": {
-    "message": "Je comprends que MetaMask Institutional ne pourra pas m’aider à récupérer ce mot de passe. $1"
+    "message": "Je comprends que BlockStar Institutional ne pourra pas m’aider à récupérer ce mot de passe. $1"
   },
   "passwordNotLongEnough": {
     "message": "Mot de passe trop court"
   },
   "passwordSetupDetails": {
-    "message": "Ce mot de passe permet de déverrouiller votre portefeuille MetaMask uniquement sur cet appareil. MetaMask ne peut pas récupérer ce mot de passe."
+    "message": "Ce mot de passe permet de déverrouiller votre portefeuille BlockStar uniquement sur cet appareil. BlockStar ne peut pas récupérer ce mot de passe."
   },
   "passwordStrength": {
     "message": "Robustesse du mot de passe : $1",
@@ -3511,7 +3511,7 @@
     "message": "Un mot de passe robuste peut améliorer la sécurité de votre portefeuille en cas de vol ou de compromission de votre appareil."
   },
   "passwordTermsWarning": {
-    "message": "Je comprends que MetaMask ne peut pas me récupérer ce mot de passe. $1"
+    "message": "Je comprends que BlockStar ne peut pas me récupérer ce mot de passe. $1"
   },
   "passwordsDontMatch": {
     "message": "Les mots de passe ne correspondent pas"
@@ -3589,11 +3589,11 @@
     "description": "An extended description for the `snap_cronjob` permission. $1 is the snap name."
   },
   "permission_dialog": {
-    "message": "Afficher les boîtes de dialogue dans MetaMask.",
+    "message": "Afficher les boîtes de dialogue dans BlockStar.",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_dialogDescription": {
-    "message": "Autoriser le Snap $1 à afficher des fenêtres contextuelles MetaMask contenant du texte personnalisé, un champ de saisie et des boutons pour approuver ou rejeter une action.\nCela permet de créer par exemple des alertes, des confirmations et des flux d'adhésion pour un snap.",
+    "message": "Autoriser le Snap $1 à afficher des fenêtres contextuelles BlockStar contenant du texte personnalisé, un champ de saisie et des boutons pour approuver ou rejeter une action.\nCela permet de créer par exemple des alertes, des confirmations et des flux d'adhésion pour un snap.",
     "description": "An extended description for the `snap_dialog` permission. $1 is the snap name."
   },
   "permission_ethereumAccounts": {
@@ -3605,7 +3605,7 @@
     "description": "The description for the `endowment:ethereum-provider` permission"
   },
   "permission_ethereumProviderDescription": {
-    "message": "Autorisez le Snap $1 à communiquer directement avec MetaMask, afin qu'il puisse lire les données de la blockchain et suggérer des messages et des transactions.",
+    "message": "Autorisez le Snap $1 à communiquer directement avec BlockStar, afin qu'il puisse lire les données de la blockchain et suggérer des messages et des transactions.",
     "description": "An extended description for the `endowment:ethereum-provider` permission. $1 is the snap name."
   },
   "permission_getEntropy": {
@@ -3613,7 +3613,7 @@
     "description": "The description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getEntropyDescription": {
-    "message": "Autoriser le Snap $1 à dériver des clés arbitraires uniques au Snap $1, sans les divulguer. Ces clés sont distinctes de votre ou vos comptes MetaMask et ne sont pas liées à vos clés privées ou à votre phrase secrète de récupération. Les autres snaps ne peuvent pas accéder à ces informations.",
+    "message": "Autoriser le Snap $1 à dériver des clés arbitraires uniques au Snap $1, sans les divulguer. Ces clés sont distinctes de votre ou vos comptes BlockStar et ne sont pas liées à vos clés privées ou à votre phrase secrète de récupération. Les autres snaps ne peuvent pas accéder à ces informations.",
     "description": "An extended description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getLocale": {
@@ -3621,7 +3621,7 @@
     "description": "The description for the `snap_getLocale` permission"
   },
   "permission_getLocaleDescription": {
-    "message": "Autoriser le Snap $1 à accéder à vos paramètres MetaMask pour qu’il puisse identifier votre langue préférée. Cela permet de localiser et d’afficher le contenu du Snap $1 dans votre langue.",
+    "message": "Autoriser le Snap $1 à accéder à vos paramètres BlockStar pour qu’il puisse identifier votre langue préférée. Cela permet de localiser et d’afficher le contenu du Snap $1 dans votre langue.",
     "description": "An extended description for the `snap_getLocale` permission. $1 is the snap name."
   },
   "permission_homePage": {
@@ -3629,7 +3629,7 @@
     "description": "The description for the `endowment:page-home` permission"
   },
   "permission_homePageDescription": {
-    "message": "Laissez $1 afficher un écran d’accueil personnalisé dans MetaMask. Celui-ci peut être utilisé pour les interfaces utilisateur, la configuration et les tableaux de bord.",
+    "message": "Laissez $1 afficher un écran d’accueil personnalisé dans BlockStar. Celui-ci peut être utilisé pour les interfaces utilisateur, la configuration et les tableaux de bord.",
     "description": "An extended description for the `endowment:page-home` permission. $1 is the snap name."
   },
   "permission_keyring": {
@@ -3681,7 +3681,7 @@
     "description": "The description for the `endowment:name-lookup` permission."
   },
   "permission_nameLookupDescription": {
-    "message": "Autorisez le Snap à récupérer et à afficher les adresses et les noms de domaine dans différentes parties de l’interface utilisateur de MetaMask.",
+    "message": "Autorisez le Snap à récupérer et à afficher les adresses et les noms de domaine dans différentes parties de l’interface utilisateur de BlockStar.",
     "description": "An extended description for the `endowment:name-lookup` permission."
   },
   "permission_notifications": {
@@ -3689,7 +3689,7 @@
     "description": "The description for the `snap_notify` permission"
   },
   "permission_notificationsDescription": {
-    "message": "Autoriser le Snap $1 à afficher des notifications dans MetaMask. Un court texte de notification peut être déclenché par un snap pour fournir des informations exploitables ou sensibles au facteur temps.",
+    "message": "Autoriser le Snap $1 à afficher des notifications dans BlockStar. Un court texte de notification peut être déclenché par un snap pour fournir des informations exploitables ou sensibles au facteur temps.",
     "description": "An extended description for the `snap_notify` permission. $1 is the snap name."
   },
   "permission_rpc": {
@@ -3725,7 +3725,7 @@
     "description": "The description for the `endowment:transaction-insight` permission"
   },
   "permission_transactionInsightDescription": {
-    "message": "Autoriser le Snap $1 à décoder les transactions et à afficher des informations dans l'interface utilisateur de MetaMask. Cela peut être utilisé pour des solutions de sécurité et de lutte contre l'hameçonnage.",
+    "message": "Autoriser le Snap $1 à décoder les transactions et à afficher des informations dans l'interface utilisateur de BlockStar. Cela peut être utilisé pour des solutions de sécurité et de lutte contre l'hameçonnage.",
     "description": "An extended description for the `endowment:transaction-insight` permission. $1 is the snap name."
   },
   "permission_transactionInsightOrigin": {
@@ -3792,7 +3792,7 @@
     "message": "Cette option vous permet d’attribuer un pseudonyme à n’importe quelle adresse. Nous vous suggérerons, si possible, des pseudonymes que vous pourrez attribuer aux adresses avec lesquelles vous interagissez."
   },
   "pinExtensionDescription": {
-    "message": "Allez dans le menu de l’extension et épinglez MetaMask Institutional pour y faciliter l’accès."
+    "message": "Allez dans le menu de l’extension et épinglez BlockStar Institutional pour y faciliter l’accès."
   },
   "pinExtensionTitle": {
     "message": "Épingler l’extension"
@@ -3887,7 +3887,7 @@
     "message": "Si vous désactivez la synchronisation du profil, vous ne pourrez plus recevoir de notifications."
   },
   "profileSyncDescription": {
-    "message": "Crée un profil que MetaMask utilise pour synchroniser certains paramètres entre vos appareils. Ceci est nécessaire pour activer des notifications. $1."
+    "message": "Crée un profil que BlockStar utilise pour synchroniser certains paramètres entre vos appareils. Ceci est nécessaire pour activer des notifications. $1."
   },
   "profileSyncPrivacyLink": {
     "message": "Découvrez comment nous protégeons vos données personnelles"
@@ -3968,7 +3968,7 @@
     "message": "Annulation du staking terminée"
   },
   "pushPlatformNotificationsSwapCompletedDescription": {
-    "message": "Votre swap MetaMask a été effectué avec succès"
+    "message": "Votre swap BlockStar a été effectué avec succès"
   },
   "pushPlatformNotificationsSwapCompletedTitle": {
     "message": "Swap terminé"
@@ -4013,7 +4013,7 @@
     "message": "Ne partagez jamais votre phrase secrète de récupération avec qui que ce soit"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "L’équipe MetaMask ne vous demandera jamais votre phrase secrète de récupération"
+    "message": "L’équipe BlockStar ne vous demandera jamais votre phrase secrète de récupération"
   },
   "recoveryPhraseReminderSubText": {
     "message": "Votre phrase secrète de récupération contrôle tous vos comptes."
@@ -4073,10 +4073,10 @@
     "message": "Êtes-vous sûr de vouloir supprimer ce jeton ? Tous les comptes attribués à ce jeton seront également supprimés de l’extension : "
   },
   "removeKeyringSnap": {
-    "message": "En supprimant ce snap, vous supprimerez ces comptes de MetaMask :"
+    "message": "En supprimant ce snap, vous supprimerez ces comptes de BlockStar :"
   },
   "removeKeyringSnapToolTip": {
-    "message": "Les comptes sont gérés par ce snap. Si vous le supprimez, les comptes seront supprimés de MetaMask, mais pas de la blockchain."
+    "message": "Les comptes sont gérés par ce snap. Si vous le supprimez, les comptes seront supprimés de BlockStar, mais pas de la blockchain."
   },
   "removeNFT": {
     "message": "Supprimer le NFT"
@@ -4091,7 +4091,7 @@
     "message": "Supprimer le Snap"
   },
   "removeSnapAccountDescription": {
-    "message": "Si vous continuez, ce compte ne sera plus disponible dans MetaMask."
+    "message": "Si vous continuez, ce compte ne sera plus disponible dans BlockStar."
   },
   "removeSnapAccountTitle": {
     "message": "Supprimer le compte"
@@ -4149,7 +4149,7 @@
     "message": "Réinitialiser le portefeuille"
   },
   "resetWalletSubHeader": {
-    "message": "MetaMask ne conserve pas de copie de votre mot de passe. Si vous avez des difficultés à déverrouiller votre compte, vous devrez réinitialiser votre portefeuille. Vous pouvez le faire en fournissant la phrase de récupération secrète que vous avez saisie lors de la configuration de votre portefeuille."
+    "message": "BlockStar ne conserve pas de copie de votre mot de passe. Si vous avez des difficultés à déverrouiller votre compte, vous devrez réinitialiser votre portefeuille. Vous pouvez le faire en fournissant la phrase de récupération secrète que vous avez saisie lors de la configuration de votre portefeuille."
   },
   "resetWalletUsingSRP": {
     "message": "Cette action supprimera votre portefeuille actuel et votre phrase de récupération secrète de cet appareil, ainsi que la liste des comptes que vous avez sélectionnés. Après la réinitialisation avec une phrase de récupération secrète, vous verrez une liste de comptes basés sur la phrase de récupération secrète que vous utilisez pour réinitialiser. Cette nouvelle liste comprendra automatiquement les comptes qui ont un solde. Vous pourrez également $1 créé auparavant. Les comptes personnalisés que vous avez importés devront être $2 et tous les jetons personnalisés que vous avez ajoutés à un compte devront également être $3."
@@ -4158,7 +4158,7 @@
     "message": "Vérifiez que vous avez saisi correctement la phrase de récupération secrète avant de continuer. Vous ne pourrez pas annuler cette action."
   },
   "restartMetamask": {
-    "message": "Redémarrer MetaMask"
+    "message": "Redémarrer BlockStar"
   },
   "restore": {
     "message": "Restaurer"
@@ -4192,7 +4192,7 @@
     "description": "This is a sentence consisting of link using 'revealSeedWordsSRPName' as $1 and bolded text using 'revealSeedWordsDescription3' as $2."
   },
   "revealSeedWordsDescription2": {
-    "message": "MetaMask est un $1. Cela signifie que vous êtes le seul à connaître votre PSR.",
+    "message": "BlockStar est un $1. Cela signifie que vous êtes le seul à connaître votre PSR.",
     "description": "$1 is text link with the message from 'revealSeedWordsNonCustodialWallet'"
   },
   "revealSeedWordsDescription3": {
@@ -4215,7 +4215,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "Le service d’assistance de MetaMask ne vous la demandera jamais.",
+    "message": "Le service d’assistance de BlockStar ne vous la demandera jamais.",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealSensitiveContent": {
@@ -4340,7 +4340,7 @@
     "message": "Si quelqu’un vous demande votre phrase de récupération, il est probable qu’il essaie de vous arnaquer pour dérober les fonds de votre portefeuille"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "Ne partagez jamais, au grand jamais, votre phrase secrète de récupération, pas même avec MetaMask !"
+    "message": "Ne partagez jamais, au grand jamais, votre phrase secrète de récupération, pas même avec BlockStar !"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "Qu’est-ce qu’une phrase secrète de récupération ?"
@@ -4385,10 +4385,10 @@
     "message": "Sélectionner un compte"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "Ce compte a déjà été connecté à MetaMask"
+    "message": "Ce compte a déjà été connecté à BlockStar"
   },
   "selectAnAccountHelp": {
-    "message": "Sélectionnez les comptes de dépôt que vous voulez utiliser dans MetaMask Institutional."
+    "message": "Sélectionnez les comptes de dépôt que vous voulez utiliser dans BlockStar Institutional."
   },
   "selectEnableDisplayMediaPrivacyPreference": {
     "message": "Activer l’option « Afficher les supports NFT »"
@@ -4645,7 +4645,7 @@
     "message": "Votre transaction a échoué"
   },
   "smartTransactionErrorDescription": {
-    "message": "Des changements soudains sur le marché peuvent entraîner des échecs de transaction. Si le problème persiste, contactez le service d’assistance à la clientèle de MetaMask."
+    "message": "Des changements soudains sur le marché peuvent entraîner des échecs de transaction. Si le problème persiste, contactez le service d’assistance à la clientèle de BlockStar."
   },
   "smartTransactionPending": {
     "message": "Soumettre votre transaction"
@@ -4705,7 +4705,7 @@
     "message": "Compte supprimé"
   },
   "snapAccountRemovedDescription": {
-    "message": "Ce compte ne pourra plus être utilisé dans MetaMask."
+    "message": "Ce compte ne pourra plus être utilisé dans BlockStar."
   },
   "snapAccounts": {
     "message": "Snaps de compte"
@@ -4929,7 +4929,7 @@
     "message": "Pour révéler votre Phrase secrète de récupération, vous devez répondre correctement à deux questions"
   },
   "srpSecurityQuizQuestionOneQuestion": {
-    "message": "Si vous perdez votre Phrase secrète de récupération, MetaMask..."
+    "message": "Si vous perdez votre Phrase secrète de récupération, BlockStar..."
   },
   "srpSecurityQuizQuestionOneRightAnswer": {
     "message": "Ne pourra pas vous aider"
@@ -5006,7 +5006,7 @@
     "message": "Erreur lors du chargement des journaux d’état."
   },
   "stateLogFileName": {
-    "message": "Journaux d’événements de MetaMask"
+    "message": "Journaux d’événements de BlockStar"
   },
   "stateLogs": {
     "message": "Journaux d’événements"
@@ -5027,7 +5027,7 @@
     "message": "Connectez votre Lattice1"
   },
   "step1LatticeWalletMsg": {
-    "message": "Vous pouvez connecter MetaMask à votre dispositif Lattice1 une fois qu’il est configuré et en ligne. Déverrouillez votre appareil et préparez son ID.",
+    "message": "Vous pouvez connecter BlockStar à votre dispositif Lattice1 une fois qu’il est configuré et en ligne. Déverrouillez votre appareil et préparez son ID.",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -5131,7 +5131,7 @@
     "message": "Répondez à notre sondage"
   },
   "surveyTitle": {
-    "message": "Façonnez l’avenir de MetaMask"
+    "message": "Façonnez l’avenir de BlockStar"
   },
   "swap": {
     "message": "Swap"
@@ -5197,7 +5197,7 @@
     "message": "Modifier la limite"
   },
   "swapEnableDescription": {
-    "message": "Cette information est nécessaire et autorise MetaMask à effectuer le swap de vos $1.",
+    "message": "Cette information est nécessaire et autorise BlockStar à effectuer le swap de vos $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -5250,22 +5250,22 @@
     "message": "Les frais de carburant indiqués dans l’écran précédent sont répartis entre ces deux transactions."
   },
   "swapGasFeesSummary": {
-    "message": "Les frais de carburant sont payés aux mineurs de cryptomonnaies qui traitent les transactions sur le réseau $1. MetaMask ne tire aucun profit des frais de carburant.",
+    "message": "Les frais de carburant sont payés aux mineurs de cryptomonnaies qui traitent les transactions sur le réseau $1. BlockStar ne tire aucun profit des frais de carburant.",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippage": {
     "message": "Important effet de glissement"
   },
   "swapIncludesMMFee": {
-    "message": "Comprend des frais MetaMask à hauteur de $1 %.",
+    "message": "Comprend des frais BlockStar à hauteur de $1 %.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapIncludesMMFeeAlt": {
-    "message": "La cotation inclut les frais de change de MetaMask qui s’élèvent à $1 %",
+    "message": "La cotation inclut les frais de change de BlockStar qui s’élèvent à $1 %",
     "description": "Provides information about the fee that metamask takes for swaps using the latest copy. $1 is a decimal number."
   },
   "swapIncludesMetaMaskFeeViewAllQuotes": {
-    "message": "Comprend des frais MetaMask à hauteur de $1 % – $2",
+    "message": "Comprend des frais BlockStar à hauteur de $1 % – $2",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
   },
   "swapLearnMore": {
@@ -5281,10 +5281,10 @@
     "message": "Glissement maximal"
   },
   "swapMetaMaskFee": {
-    "message": "Frais MetaMask"
+    "message": "Frais BlockStar"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "Des frais de $1 % sont automatiquement ajoutés à ce devis. Ces frais vous sont facturés en échange d'une licence d'utilisation du logiciel d'agrégation d'informations sur les fournisseurs de liquidités de MetaMask.",
+    "message": "Des frais de $1 % sont automatiquement ajoutés à ce devis. Ces frais vous sont facturés en échange d'une licence d'utilisation du logiciel d'agrégation d'informations sur les fournisseurs de liquidités de BlockStar.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -5494,7 +5494,7 @@
     "message": "Changer"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "Ceci permet de remplacer le réseau sélectionné dans MetaMask par un réseau précédemment ajouté :"
+    "message": "Ceci permet de remplacer le réseau sélectionné dans BlockStar par un réseau précédemment ajouté :"
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "Autoriser ce site à changer de réseau ?"
@@ -5544,7 +5544,7 @@
     "message": "Conditions de service"
   },
   "termsOfUseAgreeText": {
-    "message": " J’accepte les conditions d’utilisation de MetaMask et de ses fonctionnalités"
+    "message": " J’accepte les conditions d’utilisation de BlockStar et de ses fonctionnalités"
   },
   "termsOfUseFooterText": {
     "message": "Faites défiler pour lire toutes les sections"
@@ -5556,7 +5556,7 @@
     "message": "Thème"
   },
   "themeDescription": {
-    "message": "Choisissez votre thème MetaMask préféré."
+    "message": "Choisissez votre thème BlockStar préféré."
   },
   "thingsToKeep": {
     "message": "Les choses que vous devez garder à l’esprit :"
@@ -5692,7 +5692,7 @@
     "message": "Site suggéré"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "Modifier pour utiliser les frais de carburant recommandé par MetaMask selon le dernier bloc."
+    "message": "Modifier pour utiliser les frais de carburant recommandé par BlockStar selon le dernier bloc."
   },
   "transactionDetailGasHeading": {
     "message": "Frais de carburant estimés"
@@ -5704,7 +5704,7 @@
     "message": "Les frais de carburant sont définis par le réseau et fluctuent selon le trafic réseau et la complexité de la transaction."
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "Les frais de carburant sont payés aux mineurs de cryptomonnaies qui traitent les transactions sur le réseau $1. MetaMask ne tire aucun profit des frais de carburant."
+    "message": "Les frais de carburant sont payés aux mineurs de cryptomonnaies qui traitent les transactions sur le réseau $1. BlockStar ne tire aucun profit des frais de carburant."
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "Montant + frais de carburant"
@@ -5803,7 +5803,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "Impossible de démarrer MetaMask. Cette erreur peut être occasionnelle, essayez donc de redémarrer lextension."
+    "message": "Impossible de démarrer BlockStar. Cette erreur peut être occasionnelle, essayez donc de redémarrer lextension."
   },
   "trustSiteApprovePermission": {
     "message": "En accordant cette autorisation, vous permettez au(x) $1 suivant(s) d’accéder à vos fonds"
@@ -5858,7 +5858,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect BlockStar to Ledger devices."
   },
   "unapproved": {
     "message": "Non autorisé"
@@ -5930,7 +5930,7 @@
     "message": "Décoder les contrats intelligents"
   },
   "use4ByteResolutionDescription": {
-    "message": "Pour améliorer l’expérience utilisateur, nous personnalisons les messages qui s’affichent dans l’onglet d’activité en fonction des contrats intelligents avec lesquels vous interagissez. MetaMask utilise un service appelé 4byte.directory pour décoder les données et vous montrer une version plus facile à lire des contrats intelligents. Ainsi vous aurez moins de chances d’approuver l’exécution de contrats intelligents malveillants, mais cela peut nécessiter le partage de votre adresse IP."
+    "message": "Pour améliorer l’expérience utilisateur, nous personnalisons les messages qui s’affichent dans l’onglet d’activité en fonction des contrats intelligents avec lesquels vous interagissez. BlockStar utilise un service appelé 4byte.directory pour décoder les données et vous montrer une version plus facile à lire des contrats intelligents. Ainsi vous aurez moins de chances d’approuver l’exécution de contrats intelligents malveillants, mais cela peut nécessiter le partage de votre adresse IP."
   },
   "useMultiAccountBalanceChecker": {
     "message": "Demandes d’informations concernant le solde de plusieurs comptes"
@@ -5942,7 +5942,7 @@
     "message": "Détection automatique des NFT"
   },
   "useNftDetectionDescriptionText": {
-    "message": "Laissez MetaMask ajouter les NFT que vous possédez en utilisant des services tiers. La détection automatique des NFT révèle votre adresse IP et l’adresse de votre compte à ces services. Si vous activez cette fonctionnalité, un lien pourrait être établi entre votre adresse IP et votre adresse Ethereum, et entrainer l’affichage de faux NFT parachutés par des arnaqueurs. Vous pouvez ajouter des jetons manuellement pour éviter ce risque."
+    "message": "Laissez BlockStar ajouter les NFT que vous possédez en utilisant des services tiers. La détection automatique des NFT révèle votre adresse IP et l’adresse de votre compte à ces services. Si vous activez cette fonctionnalité, un lien pourrait être établi entre votre adresse IP et votre adresse Ethereum, et entrainer l’affichage de faux NFT parachutés par des arnaqueurs. Vous pouvez ajouter des jetons manuellement pour éviter ce risque."
   },
   "usePhishingDetection": {
     "message": "Utiliser la fonction anti-hameçonnage"
@@ -5954,7 +5954,7 @@
     "message": "Vérification des détails du réseau"
   },
   "useSafeChainsListValidationDescription": {
-    "message": "MetaMask utilise un service tiers appelé $1 pour afficher des détails précis et standardisés concernant les réseaux. Vous limitez ainsi les risques de vous connecter à un réseau malveillant ou au mauvais réseau. En utilisant cette fonctionnalité, vous exposez votre adresse IP à chainid.network."
+    "message": "BlockStar utilise un service tiers appelé $1 pour afficher des détails précis et standardisés concernant les réseaux. Vous limitez ainsi les risques de vous connecter à un réseau malveillant ou au mauvais réseau. En utilisant cette fonctionnalité, vous exposez votre adresse IP à chainid.network."
   },
   "useSafeChainsListValidationWebsite": {
     "message": "chainid.network",
@@ -6086,7 +6086,7 @@
     "message": "Explorer des applications décentralisées"
   },
   "welcomeLoginDescription": {
-    "message": "Utilisez votre MetaMask pour vous connecter à des applications décentralisées. Nul besoin de vous inscrire !"
+    "message": "Utilisez votre BlockStar pour vous connecter à des applications décentralisées. Nul besoin de vous inscrire !"
   },
   "welcomeLoginTitle": {
     "message": "Dites bonjour à votre portefeuille"
@@ -6095,11 +6095,11 @@
     "message": "C’est parti !"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "MetaMask est un portefeuille sécurisé utilisé par des millions de personnes qui rend l’univers du web3 accessible à toutes et à tous."
+    "message": "BlockStar est un portefeuille sécurisé utilisé par des millions de personnes qui rend l’univers du web3 accessible à toutes et à tous."
   },
   "whatsNew": {
     "message": "Nouveautés",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to BlockStar."
   },
   "whatsThis": {
     "message": "Qu’est-ce que c’est ?"

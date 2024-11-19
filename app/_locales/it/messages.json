@@ -100,7 +100,7 @@
     "message": "Accedi al tuo portafoglio con la tua frase di recupero segreta"
   },
   "accessYourWalletWithSRPDescription": {
-    "message": "MetaMask non può recuperare la tua password. Useremo la tua frase di recupero segreta per assicurarci tu sia il proprietario, ripristinare il tuo portafoglio e impostare una nuova password. Innanzitutto, inserisci la frase di recupero segreta che ti è stata data in fase di creazione del tuo portafoglio. $1",
+    "message": "BlockStar non può recuperare la tua password. Useremo la tua frase di recupero segreta per assicurarci tu sia il proprietario, ripristinare il tuo portafoglio e impostare una nuova password. Innanzitutto, inserisci la frase di recupero segreta che ti è stata data in fase di creazione del tuo portafoglio. $1",
     "description": "$1 is the words 'Learn More' from key 'learnMore', separated here so that it can be added as a link"
   },
   "accessingYourCamera": {
@@ -141,7 +141,7 @@
     "message": "Aggiungo un nickname"
   },
   "addAcquiredTokens": {
-    "message": "Aggiungi i token che hai acquistato usando MetaMask"
+    "message": "Aggiungi i token che hai acquistato usando BlockStar"
   },
   "addAlias": {
     "message": "Aggiungi alias"
@@ -215,15 +215,15 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "BlockStar",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "BlockStar Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "BlockStar Flask",
     "description": "The name of the application (Flask)"
   },
   "approve": {
@@ -265,7 +265,7 @@
     "message": "Timer di logout automatico (minuti)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Imposta il tempo di inattività dopo il quale MetaMask fa il log out automaticamente"
+    "message": "Imposta il tempo di inattività dopo il quale BlockStar fa il log out automaticamente"
   },
   "average": {
     "message": "Media"
@@ -274,7 +274,7 @@
     "message": "Indietro"
   },
   "backupApprovalInfo": {
-    "message": "Questo codice è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare MetaMask o voglia accedere al tuo portafoglio su un altro dispositivo."
+    "message": "Questo codice è necessario per recuperare il tuo portafoglio nel caso in cui perdi il tuo dispositivo, dimentichi la tua password, debba reinstallare BlockStar o voglia accedere al tuo portafoglio su un altro dispositivo."
   },
   "backupApprovalNotice": {
     "message": "Mantieni al sicuro il portafoglio e i fondi eseguendo il backup della frase di recupero."
@@ -298,7 +298,7 @@
     "message": "Presta attenzione"
   },
   "betaMetamaskVersion": {
-    "message": "MetaMask Versione Beta"
+    "message": "BlockStar Versione Beta"
   },
   "blockExplorerAccountAction": {
     "message": "Profilo",
@@ -324,7 +324,7 @@
     "message": "Costruisci la tua lista contatti"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask è progettato e costruito in tutto il mondo."
+    "message": "BlockStar è progettato e costruito in tutto il mondo."
   },
   "busy": {
     "message": "Occupato"
@@ -363,7 +363,7 @@
     "message": "Questo Chain ID al momento è usato dalla rete $1."
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Devi usare MetaMask con Google Chrome per connettere il tuo Portafoglio Hardware"
+    "message": "Devi usare BlockStar con Google Chrome per connettere il tuo Portafoglio Hardware"
   },
   "clickToConnectLedgerViaWebHID": {
     "message": "Clicca qui per connettere il tuo Ledger tramite WebHID",
@@ -403,7 +403,7 @@
     "message": "Connettiti al sito manualmente"
   },
   "connectWithMetaMask": {
-    "message": "Connetti con MetaMask"
+    "message": "Connetti con BlockStar"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "Hai $1 account connessi a questo sito.",
@@ -413,7 +413,7 @@
     "message": "Hai un account connesso a questo sito."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask non è connesso a questo sito. Per connetterti ad un sito web3, trova il pulsante di connessione."
+    "message": "BlockStar non è connesso a questo sito. Per connetterti ad un sito web3, trova il pulsante di connessione."
   },
   "connectedSites": {
     "message": "Siti connessi"
@@ -481,7 +481,7 @@
     "message": "Token contratto"
   },
   "convertTokenToNFTDescription": {
-    "message": "Abbiamo rilevato che questa risorsa è un NFT. MetaMask ora ha il supporto nativo completo per NFT. Vuoi rimuoverlo dal tuo elenco di token e aggiungerlo come NFT?"
+    "message": "Abbiamo rilevato che questa risorsa è un NFT. BlockStar ora ha il supporto nativo completo per NFT. Vuoi rimuoverlo dal tuo elenco di token e aggiungerlo come NFT?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Abbiamo rilevato che questa risorsa è stata aggiunta come NFT. Vuoi rimuoverlo dal tuo elenco di token?"
@@ -749,7 +749,7 @@
     "description": "Displayed error name for debugging purposes. $1 is the error name"
   },
   "errorPageTitle": {
-    "message": "MetaMask ha riscontrato un errore",
+    "message": "BlockStar ha riscontrato un errore",
     "description": "Title of generic error page"
   },
   "ethereumPublicAddress": {
@@ -846,7 +846,7 @@
     "message": "Connetti portafoglio hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selezione un portafoglio hardware che vuoi utilizzare con MetaMask"
+    "message": "Selezione un portafoglio hardware che vuoi utilizzare con BlockStar"
   },
   "here": {
     "message": "qui",
@@ -876,7 +876,7 @@
     "message": "Importa Account"
   },
   "importAccountMsg": {
-    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con MetaMask. Scopri di più sugli account importati "
+    "message": " Gli account importati non saranno associati alla frase seed originariamente creata con BlockStar. Scopri di più sugli account importati "
   },
   "imported": {
     "message": "Importato",
@@ -994,7 +994,7 @@
     "message": "Messaggio"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "Ora hai piu controllo sulle connessioni del tuo account in MetaMask."
+    "message": "Ora hai piu controllo sulle connessioni del tuo account in BlockStar."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "Clicca per gestire i tuo account connessi."
@@ -1003,10 +1003,10 @@
     "message": "Il bottone di stato della connessione mostra se il sito che stai visitando è connesso all'account corrente"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps è in manutenzione. Prova più tardi."
+    "message": "BlockStar Swaps è in manutenzione. Prova più tardi."
   },
   "metamaskVersion": {
-    "message": "versione di MetaMask"
+    "message": "versione di BlockStar"
   },
   "mustSelectOne": {
     "message": "Devi selezionare almeno un token."
@@ -1044,7 +1044,7 @@
   },
   "nextNonceWarning": {
     "message": "Numero di transazione deve essere maggiore di $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to BlockStar's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "Non è possibile aggiungere questo NFT poiché i dettagli della proprietà non corrispondono. Assicurati di aver inserito le informazioni corrette."
@@ -1100,7 +1100,7 @@
     "message": "Participa in MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa in MetaMetrics per aiutarci a rendere MetaMask migliore"
+    "message": "Participa in MetaMetrics per aiutarci a rendere BlockStar migliore"
   },
   "passwordNotLongEnough": {
     "message": "Password non abbastanza lunga"
@@ -1330,7 +1330,7 @@
     "message": "Errore nel recupero dei log di stato."
   },
   "stateLogFileName": {
-    "message": "Log di Stato di MetaMask"
+    "message": "Log di Stato di BlockStar"
   },
   "stateLogs": {
     "message": "Log di stato"
@@ -1380,7 +1380,7 @@
     "message": "Modifica limite"
   },
   "swapEnableDescription": {
-    "message": "Questo è richiesto e darà a MetaMask il permesso di scambiare $1.",
+    "message": "Questo è richiesto e darà a BlockStar il permesso di scambiare $1.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEstimatedNetworkFees": {
@@ -1402,10 +1402,10 @@
     "message": "Slippage massimo"
   },
   "swapMetaMaskFee": {
-    "message": "Tassa MetaMask"
+    "message": "Tassa BlockStar"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "Troviamo i migliori prezzi dalle sorgenti di liquidità migliori, sempre. Una tassa del $1% è automaticamente aggiunta ad ogni quotazione, ciò serve a supportare lo sviluppo in modo da rendere MetaMask sempre migliore.",
+    "message": "Troviamo i migliori prezzi dalle sorgenti di liquidità migliori, sempre. Una tassa del $1% è automaticamente aggiunta ad ogni quotazione, ciò serve a supportare lo sviluppo in modo da rendere BlockStar sempre migliore.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNewQuoteIn": {

@@ -1,4 +1,4 @@
-Welcome to MetaMask Codespaces!
+Welcome to BlockStar Codespaces!
 
 ## Quickstart Instructions
 
@@ -7,7 +7,7 @@ Welcome to MetaMask Codespaces!
      - Click the button at the upper-right of the Simple Browser tab to open the noVNC window in its own tab
      - Open the noVNC sidebar on the left, click the gear icon, change the Scaling Mode to Remote Resizing
 2. Wait about 20 extra seconds on the first launch, for the scripts to finish
-3. Right-click on the noVNC desktop to launch Chrome or Firefox with MetaMask pre-installed
+3. Right-click on the noVNC desktop to launch Chrome or Firefox with BlockStar pre-installed
 4. Change some code, then run `yarn start` to build in dev mode
 5. After a minute or two, it will finish building, and you can see your changes in the noVNC desktop
 

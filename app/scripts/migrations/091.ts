@@ -6,11 +6,11 @@ export const version = 91;
 /**
  * Delete network configurations if they do not have a chain id
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(originalVersionedData: {
   meta: { version: number };

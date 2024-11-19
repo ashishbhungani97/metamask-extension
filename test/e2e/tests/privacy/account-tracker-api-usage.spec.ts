@@ -95,7 +95,7 @@ describe('Account Tracker API Usage', function () {
   it('should not make eth_call or eth_getBalance requests before the UI is opened and should make those requests after the UI is opened', async function () {
     // Note: we are not testing that eth_getBlockByNumber is not called before the UI
     // is opened because there is a known bug that results in it being called if the
-    // user is already onboarded: https://github.com/MetaMask/MetaMask-planning/issues/2151
+    // user is already onboarded: https://github.com/BlockStar/BlockStar-planning/issues/2151
     // Once that issue is resolved, we can add eth_getBlockByNumber to the below array.
     const RPC_METHODS_TO_TEST = ['eth_call', 'eth_getBalance'];
 

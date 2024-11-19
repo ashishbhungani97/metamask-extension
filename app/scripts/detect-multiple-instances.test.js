@@ -81,7 +81,7 @@ describe('multiple instances running detector', function () {
       onMessageReceived(PING_MESSAGE);
 
       expect(console.warn).toHaveBeenCalledWith(
-        'Warning! You have multiple instances of MetaMask running!',
+        'Warning! You have multiple instances of BlockStar running!',
       );
     });
 

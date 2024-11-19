@@ -80,7 +80,7 @@ export type Account = {
 };
 
 /**
- * @todo - Remove after MetaMask Institutional 778 PR is merged
+ * @todo - Remove after BlockStar Institutional 778 PR is merged
  * and a new version for the package 'types' has been published
  * with the new ICustodianType
  */

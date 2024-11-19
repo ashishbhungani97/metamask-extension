@@ -434,7 +434,7 @@
     "message": "すべて"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "すでにすべてのカストディアンアカウントを接続したか、MetaMask Institutionalに接続するアカウントがありません。"
+    "message": "すでにすべてのカストディアンアカウントを接続したか、BlockStar Institutionalに接続するアカウントがありません。"
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "接続できるアカウントがありません"
@@ -495,7 +495,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "BlockStar",
     "description": "The name of the application"
   },
   "appNameBeta": {
@@ -503,11 +503,11 @@
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "BlockStar Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "BlockStar Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -672,7 +672,7 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "MetaMask Institutionalベータ版"
+    "message": "BlockStar Institutionalベータ版"
   },
   "betaMetamaskVersion": {
     "message": "MetaMaskベータ版"
@@ -1098,7 +1098,7 @@
     "message": "続行"
   },
   "continueMmiOnboarding": {
-    "message": "MetaMask Institutionalのオンボーディングを続ける"
+    "message": "BlockStar Institutionalのオンボーディングを続ける"
   },
   "continueToWallet": {
     "message": "ウォレットに進む"
@@ -1185,7 +1185,7 @@
     "message": "クリエイターのアドレス"
   },
   "crossChainSwapsLink": {
-    "message": "MetaMask Portfolioでネットワーク間でスワップ"
+    "message": "BlockStar Portfolioでネットワーク間でスワップ"
   },
   "cryptoCompare": {
     "message": "CryptoCompare"
@@ -1237,7 +1237,7 @@
     "message": "カストディアン"
   },
   "custodianAccountAddedDesc": {
-    "message": "MetaMask Institutionalでアカウントが使えるようになりました。"
+    "message": "BlockStar Institutionalでアカウントが使えるようになりました。"
   },
   "custodianAccountAddedTitle": {
     "message": "選択された$1個のアカウントが追加されました。"
@@ -1783,7 +1783,7 @@
     "description": "Banner description displayed on Snaps list page in Settings when less than 6 Snaps is installed."
   },
   "extensionInsallCompleteDescription": {
-    "message": "MetaMask Institutionalの製品オンボーディングに戻って、カストディアルまたはセルフカストディアルアカウントを接続します。"
+    "message": "BlockStar Institutionalの製品オンボーディングに戻って、カストディアルまたはセルフカストディアルアカウントを接続します。"
   },
   "extensionInsallCompleteTitle": {
     "message": "拡張機能のインストールが完了しました"
@@ -1829,7 +1829,7 @@
   },
   "flaskWelcomeWarning2": {
     "message": "この拡張機能の安全性や安定性は保証されていません。Flaskで提供される新しいAPIはフィッシング攻撃への対策ができていないため、Flaskを必要とするサイトまたはsnapは、資産の窃取を目的とした悪質なものである可能性があります。",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using BlockStar Flask"
   },
   "flaskWelcomeWarning3": {
     "message": "Flask APIはすべて試験運用です。これらは通知なしに変更または削除される可能性があり、安定したMetaMaskに移行することなく永久にFlaskに残る可能性もあります。自己責任でご使用ください。",
@@ -1837,7 +1837,7 @@
   },
   "flaskWelcomeWarning4": {
     "message": "Flaskの使用中は、通常のMetaMask拡張機能を無効にしてください。",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "description": "This message calls to pay attention about multiple versions of BlockStar running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "リスクを受け入れる",
@@ -2636,16 +2636,16 @@
     "description": "$1 is the snap name and $2 is the snap NPM id."
   },
   "metamaskInstitutionalVersion": {
-    "message": "MetaMask Institutionalバージョン"
+    "message": "BlockStar Institutionalバージョン"
   },
   "metamaskNotificationsAreOff": {
     "message": "ウォレットの通知は現在無効になっています"
   },
   "metamaskPortfolio": {
-    "message": "MetaMask Portfolio。"
+    "message": "BlockStar Portfolio。"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swapsはメンテナンス中です。後でもう一度確認してください。"
+    "message": "BlockStar Swapsはメンテナンス中です。後でもう一度確認してください。"
   },
   "metamaskVersion": {
     "message": "MetaMaskのバージョン"
@@ -2699,7 +2699,7 @@
     "message": "MetaMaskは、世界中でデザイン・開発されています。"
   },
   "mmiNewNFTDetectedInNFTsTabMessage": {
-    "message": "MetaMask Institutionalによるウォレット内のNFTの自動検出と表示を許可します。"
+    "message": "BlockStar Institutionalによるウォレット内のNFTの自動検出と表示を許可します。"
   },
   "mmiPasswordSetupDetails": {
     "message": "このパスワードはMetaMask Institutional拡張機能のロックしか解除しません。"
@@ -2767,7 +2767,7 @@
     "message": "Lensプロトコル"
   },
   "nameProvider_token": {
-    "message": "MetaMask"
+    "message": "BlockStar"
   },
   "nameSetPlaceholder": {
     "message": "ニックネームを選択...",
@@ -2967,7 +2967,7 @@
   },
   "nextNonceWarning": {
     "message": "ナンスが提案された$1よりも大きいです",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to BlockStar's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "所有者情報が一致していないため、NFTを追加できません。入力された情報が正しいことを確認してください。"
@@ -3048,7 +3048,7 @@
     "message": "Webカメラが見つかりません"
   },
   "nonCustodialAccounts": {
-    "message": "MetaMask Institutionalでは、非カストディアルアカウントを使用できます。これらのアカウントを使用する場合は、シークレットリカバリーフレーズをバックアップしてください。"
+    "message": "BlockStar Institutionalでは、非カストディアルアカウントを使用できます。これらのアカウントを使用する場合は、シークレットリカバリーフレーズをバックアップしてください。"
   },
   "nonce": {
     "message": "ナンス"
@@ -3214,7 +3214,7 @@
   },
   "notificationsDropLedgerFirefoxDescription": {
     "message": "FirefoxはU2Fをサポートしなくなったため、LedgerはFirefox版の MetaMaskでは機能しません。代わりにGoogle Chrome版のMetaMaskをお試しください。",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use BlockStar on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "FirefoxでのLedger サポートの停止",
@@ -3415,7 +3415,7 @@
     "message": "MetaMaskのインストールが完了しました！"
   },
   "onboardingPinMmiExtensionLabel": {
-    "message": "MetaMask Institutionalをピン留めする"
+    "message": "BlockStar Institutionalをピン留めする"
   },
   "oneDayAbbreviation": {
     "message": "1日",
@@ -3446,7 +3446,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "全画面モードにしてLedgerを接続します。",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing BlockStar in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "ブロックエクスプローラーで開く"
@@ -3495,7 +3495,7 @@
     "message": "パスワード"
   },
   "passwordMmiTermsWarning": {
-    "message": "私は、MetaMask Institutionalがこのパスワードを復元できないことを理解しています。$1"
+    "message": "私は、BlockStar Institutionalがこのパスワードを復元できないことを理解しています。$1"
   },
   "passwordNotLongEnough": {
     "message": "パスワードの長さが足りません"
@@ -3725,7 +3725,7 @@
     "description": "The description for the `endowment:transaction-insight` permission"
   },
   "permission_transactionInsightDescription": {
-    "message": "$1によるトランザクションのデコードと、MetaMask UI内でのインサイトの表示を許可します。これは、フィッシング対策やセキュリティソリューションに使用されます。",
+    "message": "$1によるトランザクションのデコードと、BlockStar UI内でのインサイトの表示を許可します。これは、フィッシング対策やセキュリティソリューションに使用されます。",
     "description": "An extended description for the `endowment:transaction-insight` permission. $1 is the snap name."
   },
   "permission_transactionInsightOrigin": {
@@ -3792,7 +3792,7 @@
     "message": "これにより、すべてのアドレスにニックネームを割り当てられるようになります。可能な場合、やり取りがあるアドレスの名前が提案されます。"
   },
   "pinExtensionDescription": {
-    "message": "拡張機能のメニューに移動し、MetaMask Institutionalをピン留めすると、スムーズにアクセスできます。"
+    "message": "拡張機能のメニューに移動し、BlockStar Institutionalをピン留めすると、スムーズにアクセスできます。"
   },
   "pinExtensionTitle": {
     "message": "拡張機能をピン留めする"
@@ -4158,7 +4158,7 @@
     "message": "続行する前に、正しいシークレットリカバリーフレーズを使用していることを確認してください。これは元に戻せません。"
   },
   "restartMetamask": {
-    "message": "MetaMask を再起動"
+    "message": "BlockStar を再起動"
   },
   "restore": {
     "message": "復元"
@@ -4388,7 +4388,7 @@
     "message": "このアカウントはすでにMetaMaskに接続されています"
   },
   "selectAnAccountHelp": {
-    "message": "MetaMask Institutionalで使用するカストディアンアカウントを選択します。"
+    "message": "BlockStar Institutionalで使用するカストディアンアカウントを選択します。"
   },
   "selectEnableDisplayMediaPrivacyPreference": {
     "message": "NFTメディアの表示をオンにする"
@@ -5858,7 +5858,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect BlockStar to Ledger devices."
   },
   "unapproved": {
     "message": "未承認"
@@ -6099,7 +6099,7 @@
   },
   "whatsNew": {
     "message": "新機能",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to BlockStar."
   },
   "whatsThis": {
     "message": "これは何ですか？"

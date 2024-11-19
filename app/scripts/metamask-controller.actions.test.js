@@ -87,7 +87,7 @@ describe('MetaMaskController', function () {
             fuzzylist: [],
             allowlist: [],
             blocklist: ['127.0.0.1'],
-            name: ListNames.MetaMask,
+            name: ListNames.BlockStar,
           },
         }),
       )

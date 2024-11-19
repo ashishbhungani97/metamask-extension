@@ -1,4 +1,4 @@
-name: "MetaMask Security Code Scanner"
+name: "BlockStar Security Code Scanner"
 
 on:
   push:
@@ -14,8 +14,8 @@ jobs:
       contents: read
       security-events: write
     steps:
-      - name: MetaMask Security Code Scanner
-        uses: MetaMask/Security-Code-Scanner@main
+      - name: BlockStar Security Code Scanner
+        uses: BlockStar/Security-Code-Scanner@main
         with:
           repo: ${{ github.repository }}
           paths_ignored: |

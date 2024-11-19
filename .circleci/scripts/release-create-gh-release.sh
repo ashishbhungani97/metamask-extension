@@ -49,7 +49,7 @@ function publish_tag ()
     local build_version="${1}"; shift
 
     git config user.email "metamaskbot@users.noreply.github.com"
-    git config user.name "MetaMask Bot"
+    git config user.name "BlockStar Bot"
     git tag -a "v${build_version}" -m "${build_name} version ${build_version}"
     repo_slug="$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME"
     git push "https://$GITHUB_TOKEN@github.com/$repo_slug" "v${build_version}"

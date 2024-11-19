@@ -30,7 +30,7 @@ describe('NotificationDetailButton', () => {
           usd: '1.00',
           name: 'Dai Stablecoin',
           image:
-            'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/dai.svg',
+            'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/dai.svg',
           amount: '232708000000000000000000',
           symbol: 'DAI',
           address: '0x6b175474e89094c44da98b954eedeac495271d0f',

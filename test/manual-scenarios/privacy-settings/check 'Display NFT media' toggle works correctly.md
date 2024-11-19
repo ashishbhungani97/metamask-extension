@@ -4,7 +4,7 @@ Below is a summary of the validations included:
 
 * Validate that the 'Display NFT media' toggle is present in the Security & Privacy settings and is ON by default.
 * Validate that the toggle can be turned on and off.
-* Validate that when the toggle is turned on, MetaMask displays NFT media and data.
+* Validate that when the toggle is turned on, BlockStar displays NFT media and data.
 * Validate that NFT autodetection relies on this setting and won't be available when this is turned off.
 
 ```markdown
@@ -36,8 +36,8 @@ Then the toggle switch should visually indicate to ON
 
 Given I am on the Security & Privacy settings page
 And the "Display NFT media" toggle is set to ON
-When I view my NFTs in MetaMask
-Then MetaMask should display NFT media and data
+When I view my NFTs in BlockStar
+Then BlockStar should display NFT media and data
 
 
 ```

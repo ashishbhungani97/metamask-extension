@@ -7,11 +7,11 @@ export const version = 103;
 /**
  * Sets the default ledger transport method of Ledger U2F or Ledger Live on chrome to Webhid.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(originalVersionedData: {
   meta: { version: number };

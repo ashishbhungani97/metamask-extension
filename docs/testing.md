@@ -1,4 +1,4 @@
-# Automated Testing in the MetaMask Extension Repository
+# Automated Testing in the BlockStar Extension Repository
 
 The purpose of this document is to summarize the testing tactics we want to align on for this repository.
 
@@ -28,13 +28,13 @@ For consistency in syntax and coverage tooling, we favor using Jest for all unit
 
 While Mocha is a test runner that can be used for unit, integration, and end-to-end testing, jest has been built specifically for unit testing and is much faster.
 
-To get a sense of the syntactic differences between the two approaches, you can see this [example PR](https://github.com/MetaMask/metamask-extension/pull/17226/files).
+To get a sense of the syntactic differences between the two approaches, you can see this [example PR](https://github.com/BlockStar/metamask-extension/pull/17226/files).
 
 ### Tests Should Mirror How Software is Used
 
 One possible way to write tests is to manipulate the internal state directly and artificially increase test coverage. Unfortunately, these tests are ephemeral and brittle because they are coupled with implementation details. In other words, if a piece of code is altered or refactored, the tests need to be substantially rewritten, and we can't conclusively determine whether or not functionality has changed.
 
-The goal of tests is precisely to improve the quality of the implementation while keeping functionality constant. When testing the UI, the test might include inspecting the text in DOM elements and simulating clicking behaviors. [This PR includes good examples](https://github.com/MetaMask/metamask-extension/pull/17360/files) of that. Instead of changing the internal state and props of the component programmatically, the testing API encourages interaction with DOM elements. This was a [deliberate design choice](https://testing-library.com/docs/guiding-principles) for React Testing Library.
+The goal of tests is precisely to improve the quality of the implementation while keeping functionality constant. When testing the UI, the test might include inspecting the text in DOM elements and simulating clicking behaviors. [This PR includes good examples](https://github.com/BlockStar/metamask-extension/pull/17360/files) of that. Instead of changing the internal state and props of the component programmatically, the testing API encourages interaction with DOM elements. This was a [deliberate design choice](https://testing-library.com/docs/guiding-principles) for React Testing Library.
 
 For unit tests that are not related to the UI of the extension, we can't rely on the library to direct us on how to write our tests, but the same principle can be generalized. We aim to test a unit code for all the possible interaction scenarios. Mocks should be used sparingly, as they often make the test diverge from how the unit is used in production.
 
@@ -167,7 +167,7 @@ async function advanceTimersByTime(ms) {
 }
 ```
 
-Here's [an example PR](https://github.com/MetaMask/core/pull/1002/files) for this pattern in our core library.
+Here's [an example PR](https://github.com/BlockStar/core/pull/1002/files) for this pattern in our core library.
 
 For UI tests, React Testing Library exposes another API that relies on the same idea of abstracting the passage of time instead of explicitly managing it:
 
@@ -181,7 +181,7 @@ waitFor(() => {
 
 ### Code Coverage Requirements
 
-Thanks to @brad.decker, we can now see our total test coverage using [codecov](https://app.codecov.io/gh/MetaMask/metamask-extension).
+Thanks to @brad.decker, we can now see our total test coverage using [codecov](https://app.codecov.io/gh/BlockStar/metamask-extension).
 
 Codeconv's quality gate enforces that code coverage does not decrease. As per our 2023 Q1 OKR of ["Increase platform-wide reliability by expanding test coverage, and improving tooling and infrastructure"](https://docs.google.com/document/d/1dUCE9PJA0L6EMlVgG3y0dyiDrht1-MG-DhbEXp78QAs/edit#bookmark=id.s8dqtv3asm7x), we are working towards 80 code coverage.
 
@@ -205,8 +205,8 @@ We use shareable git hooks using Husky to drive these incremental changes. Fitne
 
 ## References and further reading
 
-https://github.com/MetaMask/core/issues/413
+https://github.com/BlockStar/core/issues/413
 
-https://github.com/MetaMask/metamask-extension/pull/17056/files#r1064860162
+https://github.com/BlockStar/metamask-extension/pull/17056/files#r1064860162
 
 https://github.com/testjavascript/nodejs-integration-tests-best-practices

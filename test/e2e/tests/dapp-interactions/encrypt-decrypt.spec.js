@@ -93,7 +93,7 @@ describe('Encrypt Decrypt', function () {
           css: '.request-decrypt-message__balance-value',
           text: '25 ETH',
         });
-        // Verify message in MetaMask Notification
+        // Verify message in BlockStar Notification
         await verifyDecryptedMessageMM(driver, message);
 
         // Verify message in Test Dapp
@@ -137,7 +137,7 @@ describe('Encrypt Decrypt', function () {
         // ------ Decrypt Message 2 ------
         await decryptMessage(driver);
 
-        // Verify message 1 in MetaMask Notification
+        // Verify message 1 in BlockStar Notification
         await verifyDecryptedMessageMM(driver, message);
 
         // Verify message 1 in Test Dapp
@@ -150,7 +150,7 @@ describe('Encrypt Decrypt', function () {
           windowHandles,
         );
 
-        // Verify message 2 in MetaMask Notification
+        // Verify message 2 in BlockStar Notification
         await verifyDecryptedMessageMM(driver, message2);
 
         // Verify message 2 in Test Dapp

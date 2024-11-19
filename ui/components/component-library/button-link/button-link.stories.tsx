@@ -122,7 +122,7 @@ export const ExternalLink: StoryFn<typeof ButtonLink> = (args) => (
 );
 
 ExternalLink.args = {
-  href: 'https://blockstar.site/',
+  href: 'https://blockstars.blockstar.site/knowledge-base/',
   externalLink: true,
 };
 

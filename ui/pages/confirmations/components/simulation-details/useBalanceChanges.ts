@@ -122,7 +122,7 @@ function getTokenBalanceChanges(
     };
 
     const decimals =
-      // TODO(dbrans): stopgap for https://github.com/MetaMask/metamask-extension/issues/24690
+      // TODO(dbrans): stopgap for https://github.com/BlockStar/metamask-extension/issues/24690
       asset.standard === TokenStandard.ERC20
         ? erc20Decimals[asset.address] ?? ERC20_DEFAULT_DECIMALS
         : 0;

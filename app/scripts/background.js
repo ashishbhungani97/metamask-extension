@@ -154,7 +154,7 @@ const {
 } = deferredPromise();
 
 /**
- * Sends a message to the dapp(s) content script to signal it can connect to MetaMask background as
+ * Sends a message to the dapp(s) content script to signal it can connect to BlockStar background as
  * the backend is not active. It is required to re-connect dapps after service worker re-activates.
  * For non-dapp pages, the message will be sent and ignored.
  */
@@ -247,7 +247,7 @@ function maybeDetectPhishing(theController) {
       // domain it blocked it now "safe", but it does this _after_ the request
       // begins (which would get blocked by this listener). So we have to bail
       // on detection here.
-      // This check can be removed once  https://github.com/MetaMask/phishing-warning/issues/160
+      // This check can be removed once  https://github.com/BlockStar/phishing-warning/issues/160
       // is shipped.
       if (
         details.initiator &&
@@ -409,12 +409,12 @@ function saveTimestamp() {
 
 /**
  * @typedef VersionedData
- * @property {MetaMaskState} data - The data emitted from MetaMask controller, or used to initialize it.
+ * @property {MetaMaskState} data - The data emitted from BlockStar controller, or used to initialize it.
  * @property {number} version - The latest migration version that has been run.
  */
 
 /**
- * Initializes the MetaMask controller, and sets up all platform configuration.
+ * Initializes the BlockStar controller, and sets up all platform configuration.
  *
  * @returns {Promise} Setup complete.
  */
@@ -481,7 +481,7 @@ async function initialize() {
       await loadPhishingWarningPage();
     }
     await sendReadyMessageToTabs();
-    log.info('MetaMask initialization complete.');
+    log.info('BlockStar initialization complete.');
 
     resolveInitialization();
   } catch (error) {
@@ -561,7 +561,7 @@ async function loadPhishingWarningPage() {
  * Loads any stored data, prioritizing the latest storage strategy.
  * Migrates that data schema in case it was last loaded on an older version.
  *
- * @returns {Promise<MetaMaskState>} Last data emitted from previous instance of MetaMask.
+ * @returns {Promise<MetaMaskState>} Last data emitted from previous instance of BlockStar.
  */
 export async function loadStateFromPersistence() {
   // migrations
@@ -590,7 +590,7 @@ export async function loadStateFromPersistence() {
   if (versionedData && !versionedData.data) {
     // unable to recover, clear state
     versionedData = migrator.generateInitialState(firstTimeState);
-    sentry.captureMessage('MetaMask - Empty vault found - unable to recover');
+    sentry.captureMessage('BlockStar - Empty vault found - unable to recover');
   }
 
   // report migration errors to sentry
@@ -606,19 +606,19 @@ export async function loadStateFromPersistence() {
   // migrate data
   versionedData = await migrator.migrateData(versionedData);
   if (!versionedData) {
-    throw new Error('MetaMask - migrator returned undefined');
+    throw new Error('BlockStar - migrator returned undefined');
   } else if (!isObject(versionedData.meta)) {
     throw new Error(
-      `MetaMask - migrator metadata has invalid type '${typeof versionedData.meta}'`,
+      `BlockStar - migrator metadata has invalid type '${typeof versionedData.meta}'`,
     );
   } else if (typeof versionedData.meta.version !== 'number') {
     throw new Error(
-      `MetaMask - migrator metadata version has invalid type '${typeof versionedData
+      `BlockStar - migrator metadata version has invalid type '${typeof versionedData
         .meta.version}'`,
     );
   } else if (!isObject(versionedData.data)) {
     throw new Error(
-      `MetaMask - migrator data has invalid type '${typeof versionedData.data}'`,
+      `BlockStar - migrator data has invalid type '${typeof versionedData.data}'`,
     );
   }
   // this initializes the meta/version data as a class variable to be used for future writes
@@ -707,7 +707,7 @@ function trackDappView(remotePort) {
 }
 
 /**
- * Initializes the MetaMask Controller with any initial state and default language.
+ * Initializes the BlockStar Controller with any initial state and default language.
  * Configures platform-specific error reporting strategy.
  * Streams emitted state updates to platform-specific storage strategy.
  * Creates platform listeners for new Dapps/Contexts, and sets up their data connections to the controller.
@@ -728,7 +728,7 @@ export function setupController(
   offscreenPromise,
 ) {
   //
-  // MetaMask Controller
+  // BlockStar Controller
   //
 
   controller = new MetamaskController({
@@ -777,7 +777,7 @@ export function setupController(
       statePersistenceEvents.emit('state-persisted', state);
     }),
     (error) => {
-      log.error('MetaMask - Persistence pipeline failed', error);
+      log.error('BlockStar - Persistence pipeline failed', error);
     },
   );
 
@@ -818,8 +818,8 @@ export function setupController(
    */
 
   /**
-   * Connects a Port to the MetaMask controller via a multiplexed duplex stream.
-   * This method identifies trusted (MetaMask) interfaces, and connects them differently from untrusted (web pages).
+   * Connects a Port to the BlockStar controller via a multiplexed duplex stream.
+   * This method identifies trusted (BlockStar) interfaces, and connects them differently from untrusted (web pages).
    *
    * @param {Port} remotePort - The port provided by a new context.
    */
@@ -1237,7 +1237,7 @@ const addAppInstalledEvent = () => {
   }, 500);
 };
 
-// On first install, open a new tab with MetaMask
+// On first install, open a new tab with BlockStar
 async function onInstall() {
   const storeAlreadyExisted = Boolean(await localStore.get());
   // If the store doesn't exist, then this is the first time running this script,

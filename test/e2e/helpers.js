@@ -348,10 +348,10 @@ async function withFixtures(options, testSuite) {
 }
 
 const WINDOW_TITLES = Object.freeze({
-  ExtensionInFullScreenView: 'MetaMask',
+  ExtensionInFullScreenView: 'BlockStar',
   InstalledExtensions: 'Extensions',
-  Dialog: 'MetaMask Dialog',
-  Phishing: 'MetaMask Phishing Detection',
+  Dialog: 'BlockStar Dialog',
+  Phishing: 'BlockStar Phishing Detection',
   ServiceWorkerSettings: 'Inspect with Chrome Developer Tools',
   SnapSimpleKeyringDapp: 'SSK - Simple Snap Keyring',
   TestDApp: 'E2E Test Dapp',
@@ -363,9 +363,9 @@ const WINDOW_TITLES = Object.freeze({
  * @param {*} driver - Selenium driver
  * @param {*} handlesCount - total count of windows that should be loaded
  * @returns handles - an object with window handles, properties in object represent windows:
- *            1. extension: MetaMask extension window
+ *            1. extension: BlockStar extension window
  *            2. dapp: test-app window
- *            3. popup: MetaMask extension popup window
+ *            3. popup: BlockStar extension popup window
  */
 const getWindowHandles = async (driver, handlesCount) => {
   await driver.waitUntilXWindowHandles(handlesCount);
@@ -491,7 +491,7 @@ const onboardingChooseMetametricsOption = async (driver, option = false) => {
 };
 
 /**
- * Set a password for MetaMask during onboarding
+ * Set a password for BlockStar during onboarding
  *
  * @param {WebDriver} driver
  * @param {string} password - Password to set

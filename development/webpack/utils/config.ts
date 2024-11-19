@@ -68,7 +68,7 @@ export function getBuildName(
 ) {
   const buildName =
     build.buildNameOverride ||
-    `MetaMask ${type.slice(0, 1).toUpperCase()}${type.slice(1)}`;
+    `BlockStar ${type.slice(0, 1).toUpperCase()}${type.slice(1)}`;
   if (isDev) {
     const mv3Str = args.manifest_version === 3 ? ' MV3' : '';
     const lavamoatStr = args.lavamoat ? ' lavamoat' : '';

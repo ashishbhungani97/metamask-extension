@@ -44,7 +44,7 @@ type RPCPreferences = {
 };
 
 /**
- * An object that describes a network to be used inside of MetaMask
+ * An object that describes a network to be used inside of BlockStar
  */
 export type RPCDefinition = {
   /**
@@ -72,7 +72,7 @@ export type RPCDefinition = {
 /**
  * Throughout the extension we set the current provider by referencing its
  * "type", which can be any of the values in the below object. These values
- * represent the built-in networks of MetaMask, including test nets, as well
+ * represent the built-in networks of BlockStar, including test nets, as well
  * as "rpc" which is the "type" of a custom network added by the user or via
  * wallet_addEthereumChain.
  */
@@ -85,6 +85,8 @@ export const NETWORK_TYPES = {
   LINEA_GOERLI: 'linea-goerli',
   LINEA_SEPOLIA: 'linea-sepolia',
   LINEA_MAINNET: 'linea-mainnet',
+  BLOCKSTAR_MAINNET : 'blockstar-mainnet',
+  BLOCKSTAR_TESTNET : 'blockstar-testnet',
 } as const;
 
 /**
@@ -102,6 +104,8 @@ export const CHAIN_SPEC_URL = 'https://chainid.network/chains.json';
  * those that we have added custom code to support our feature set.
  */
 export const CHAIN_IDS = {
+  BLOCKSTAR_MAINNET : '0x1588',
+  BLOCKSTAR_TESTNET : '0x37',
   MAINNET: '0x1',
   GOERLI: '0x5',
   LOCALHOST: '0x539',
@@ -227,7 +231,8 @@ export const DEPRECATED_NETWORKS = [
  * Explanation: https://gist.github.com/rekmarks/a47bd5f2525936c4b8eee31a16345553
  */
 export const MAX_SAFE_CHAIN_ID = 4503599627370476;
-
+export const BLOCKSTAR_MAINNET_DISPLAY_NAME = "BlockStar Mainnet";
+export const BLOCKSTAR_TESTNET_DISPLAY_NAME = "BlockStar Testnet";
 export const MAINNET_DISPLAY_NAME = 'Ethereum Mainnet';
 export const GOERLI_DISPLAY_NAME = 'Goerli';
 export const SEPOLIA_DISPLAY_NAME = 'Sepolia';
@@ -269,6 +274,8 @@ export const getRpcUrl = ({
 }) =>
   `https://${network}.infura.io/v3/${excludeProjectId ? '' : infuraProjectId}`;
 
+  export const BLOCKSTAR_MAINNET_RPC_URL = 'https://mainnet-rpc.blockstar.one';
+  export const BLOCKSTAR_TESTNET_RPC_URL = 'https://testnet-rpc.blockstar.one';
 export const MAINNET_RPC_URL = getRpcUrl({
   network: NETWORK_TYPES.MAINNET,
 });
@@ -314,6 +321,7 @@ export const CURRENCY_SYMBOLS = {
   GLIMMER: 'GLMR',
   MOONRIVER: 'MOVR',
   ONE: 'ONE',
+  BLOCKSTAR : 'BST'
 } as const;
 
 const CHAINLIST_CURRENCY_SYMBOLS_MAP = {
@@ -381,6 +389,8 @@ export const CHAINLIST_CURRENCY_SYMBOLS_MAP_NETWORK_COLLISION = {
   CHZ: 'CHZ',
 };
 
+export const BLOCKSTAR_TOKEN_IMAGE_URL="./images/bst_token.svg";
+export const BLOCKSTAR_NETWORK_IMAGE_URL="./images/bst_logo.svg";
 export const ETH_TOKEN_IMAGE_URL = './images/eth_logo.svg';
 export const LINEA_GOERLI_TOKEN_IMAGE_URL = './images/linea-logo-testnet.png';
 export const LINEA_SEPOLIA_TOKEN_IMAGE_URL = './images/linea-logo-testnet.png';
@@ -463,14 +473,11 @@ export const INFURA_PROVIDER_TYPES = [
 ] as const;
 
 export const TEST_CHAINS = [
-  CHAIN_IDS.SEPOLIA,
-  CHAIN_IDS.LINEA_SEPOLIA,
-  CHAIN_IDS.LOCALHOST,
+  CHAIN_IDS.BLOCKSTAR_TESTNET
 ];
 
 export const MAINNET_CHAINS = [
-  { chainId: CHAIN_IDS.MAINNET, rpcUrl: MAINNET_RPC_URL },
-  { chainId: CHAIN_IDS.LINEA_MAINNET, rpcUrl: LINEA_MAINNET_RPC_URL },
+  { chainId: CHAIN_IDS.BLOCKSTAR_MAINNET, rpcUrl: BLOCKSTAR_MAINNET_RPC_URL }
 ];
 
 const typedCapitalize = <K extends string>(k: K): Capitalize<K> =>
@@ -479,7 +486,7 @@ const typedCapitalize = <K extends string>(k: K): Capitalize<K> =>
 export const TEST_NETWORK_TICKER_MAP: {
   [K in Exclude<
     NetworkType,
-    'localhost' | 'mainnet' | 'rpc' | 'linea-mainnet'
+    'localhost' | 'mainnet' | 'rpc' | 'linea-mainnet' | 'blockstar-mainnet'
   >]: string;
 } = {
   [NETWORK_TYPES.GOERLI]: `${typedCapitalize(NETWORK_TYPES.GOERLI)}${
@@ -490,30 +497,41 @@ export const TEST_NETWORK_TICKER_MAP: {
   }`,
   [NETWORK_TYPES.LINEA_GOERLI]: `Linea${CURRENCY_SYMBOLS.ETH}`,
   [NETWORK_TYPES.LINEA_SEPOLIA]: `Linea${CURRENCY_SYMBOLS.ETH}`,
+  [NETWORK_TYPES.BLOCKSTAR_TESTNET] : `Blockstar${CURRENCY_SYMBOLS.BLOCKSTAR}`
 };
 
 /**
  * Map of all build-in Infura networks to their network, ticker and chain IDs.
  */
 export const BUILT_IN_NETWORKS = {
-  [NETWORK_TYPES.SEPOLIA]: {
-    chainId: CHAIN_IDS.SEPOLIA,
-    ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.SEPOLIA],
-    blockExplorerUrl: `https://${NETWORK_TYPES.SEPOLIA}.etherscan.io`,
-  },
-  [NETWORK_TYPES.LINEA_SEPOLIA]: {
-    chainId: CHAIN_IDS.LINEA_SEPOLIA,
-    ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.LINEA_SEPOLIA],
-    blockExplorerUrl: 'https://sepolia.lineascan.build',
-  },
-  [NETWORK_TYPES.MAINNET]: {
-    chainId: CHAIN_IDS.MAINNET,
-    blockExplorerUrl: `https://etherscan.io`,
+  // [NETWORK_TYPES.SEPOLIA]: {
+  //   chainId: CHAIN_IDS.SEPOLIA,
+  //   ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.SEPOLIA],
+  //   blockExplorerUrl: `https://${NETWORK_TYPES.SEPOLIA}.etherscan.io`,
+  // },
+  // [NETWORK_TYPES.LINEA_SEPOLIA]: {
+  //   chainId: CHAIN_IDS.LINEA_SEPOLIA,
+  //   ticker: TEST_NETWORK_TICKER_MAP[NETWORK_TYPES.LINEA_SEPOLIA],
+  //   blockExplorerUrl: 'https://sepolia.lineascan.build',
+  // },
+  // [NETWORK_TYPES.MAINNET]: {
+  //   chainId: CHAIN_IDS.MAINNET,
+  //   blockExplorerUrl: `https://etherscan.io`,
+  //   ticker: CURRENCY_SYMBOLS.ETH,
+  // },
+  // [NETWORK_TYPES.LINEA_MAINNET]: {
+  //   chainId: CHAIN_IDS.LINEA_MAINNET,
+  //   blockExplorerUrl: 'https://lineascan.build',
+  //   ticker: CURRENCY_SYMBOLS.ETH,
+  // },
+  [NETWORK_TYPES.BLOCKSTAR_MAINNET]: {
+    chainId: CHAIN_IDS.BLOCKSTAR_MAINNET,
+    blockExplorerUrl: `https://scan.blockstar.one`,
     ticker: CURRENCY_SYMBOLS.ETH,
   },
-  [NETWORK_TYPES.LINEA_MAINNET]: {
-    chainId: CHAIN_IDS.LINEA_MAINNET,
-    blockExplorerUrl: 'https://lineascan.build',
+  [NETWORK_TYPES.BLOCKSTAR_TESTNET]: {
+    chainId: CHAIN_IDS.BLOCKSTAR_TESTNET,
+    blockExplorerUrl: `https://testnet-scan.blockstar.one`,
     ticker: CURRENCY_SYMBOLS.ETH,
   },
   [NETWORK_TYPES.LOCALHOST]: {
@@ -545,6 +563,8 @@ export const NETWORK_TO_NAME_MAP = {
   [NETWORK_TYPES.LOCALHOST]: LOCALHOST_DISPLAY_NAME,
   [NETWORK_TYPES.SEPOLIA]: SEPOLIA_DISPLAY_NAME,
 
+  [CHAIN_IDS.BLOCKSTAR_MAINNET] : BLOCKSTAR_MAINNET_DISPLAY_NAME,
+  [CHAIN_IDS.BLOCKSTAR_TESTNET] : BLOCKSTAR_TESTNET_DISPLAY_NAME,
   [CHAIN_IDS.ARBITRUM]: ARBITRUM_DISPLAY_NAME,
   [CHAIN_IDS.AVALANCHE]: AVALANCHE_DISPLAY_NAME,
   [CHAIN_IDS.BSC]: BSC_DISPLAY_NAME,
@@ -567,6 +587,8 @@ export const NETWORK_TO_NAME_MAP = {
 } as const;
 
 export const CHAIN_ID_TO_CURRENCY_SYMBOL_MAP = {
+  [CHAINLIST_CHAIN_IDS_MAP.BLOCKSTAR_MAINNET]: CHAINLIST_CURRENCY_SYMBOLS_MAP.BLOCKSTAR,
+  [CHAINLIST_CHAIN_IDS_MAP.BLOCKSTAR_TESTNET]: CHAINLIST_CURRENCY_SYMBOLS_MAP.BLOCKSTAR,
   [CHAINLIST_CHAIN_IDS_MAP.AVALANCHE]: CHAINLIST_CURRENCY_SYMBOLS_MAP.AVALANCHE,
   [CHAINLIST_CHAIN_IDS_MAP.APE]: CHAINLIST_CURRENCY_SYMBOLS_MAP.APE,
   [CHAINLIST_CHAIN_IDS_MAP.BSC]: CHAINLIST_CURRENCY_SYMBOLS_MAP.BNB,
@@ -711,6 +733,8 @@ export const CHAIN_ID_TO_TYPE_MAP = {
 } as const;
 
 export const CHAIN_ID_TO_RPC_URL_MAP = {
+  [CHAIN_IDS.BLOCKSTAR_MAINNET] : BLOCKSTAR_MAINNET_RPC_URL,
+  [CHAIN_IDS.BLOCKSTAR_TESTNET] : BLOCKSTAR_TESTNET_RPC_URL,
   [CHAIN_IDS.GOERLI]: GOERLI_RPC_URL,
   [CHAIN_IDS.SEPOLIA]: SEPOLIA_RPC_URL,
   [CHAIN_IDS.LINEA_GOERLI]: LINEA_GOERLI_RPC_URL,
@@ -721,6 +745,8 @@ export const CHAIN_ID_TO_RPC_URL_MAP = {
 } as const;
 
 export const CHAIN_ID_TO_NETWORK_IMAGE_URL_MAP = {
+  [CHAIN_IDS.BLOCKSTAR_MAINNET] : BLOCKSTAR_NETWORK_IMAGE_URL,
+  [CHAIN_IDS.BLOCKSTAR_TESTNET] : BLOCKSTAR_NETWORK_IMAGE_URL,
   [CHAIN_IDS.MAINNET]: ETH_TOKEN_IMAGE_URL,
   [CHAIN_IDS.LINEA_GOERLI]: LINEA_GOERLI_TOKEN_IMAGE_URL,
   [CHAIN_IDS.LINEA_SEPOLIA]: LINEA_SEPOLIA_TOKEN_IMAGE_URL,
@@ -804,6 +830,8 @@ export const CHAIN_ID_TO_ETHERS_NETWORK_NAME_MAP = {
 } as const;
 
 export const CHAIN_ID_TOKEN_IMAGE_MAP = {
+  [CHAIN_IDS.BLOCKSTAR_MAINNET]: BLOCKSTAR_TOKEN_IMAGE_URL,
+  [CHAIN_IDS.BLOCKSTAR_TESTNET]: BLOCKSTAR_TOKEN_IMAGE_URL,
   [CHAIN_IDS.MAINNET]: ETH_TOKEN_IMAGE_URL,
   [CHAIN_IDS.TEST_ETH]: TEST_ETH_TOKEN_IMAGE_URL,
   [CHAIN_IDS.BSC]: BNB_TOKEN_IMAGE_URL,
@@ -835,6 +863,14 @@ const defaultEtherscanSubdomainPrefix = 'api';
  * Map of all Etherscan supported networks.
  */
 export const ETHERSCAN_SUPPORTED_NETWORKS = {
+  [CHAIN_IDS.BLOCKSTAR_MAINNET]: {
+    domain: 'scan.blockstar.one',
+    subdomain: defaultEtherscanSubdomainPrefix,
+  },
+  [CHAIN_IDS.BLOCKSTAR_TESTNET]: {
+    domain: 'testnet-scan.blockstar.one',
+    subdomain: defaultEtherscanSubdomainPrefix,
+  },
   [CHAIN_IDS.GOERLI]: {
     domain: defaultEtherscanDomain,
     subdomain: `${defaultEtherscanSubdomainPrefix}-${
@@ -939,6 +975,34 @@ export const UNSUPPORTED_RPC_METHODS = new Set([
 export const IPFS_DEFAULT_GATEWAY_URL = 'dweb.link';
 
 export const FEATURED_RPCS: AddNetworkFields[] = [
+  {
+    chainId: CHAIN_IDS.BLOCKSTAR_MAINNET,
+    name: BLOCKSTAR_MAINNET_DISPLAY_NAME,
+    nativeCurrency: CURRENCY_SYMBOLS.BLOCKSTAR,
+    rpcEndpoints: [
+      {
+        url: BLOCKSTAR_MAINNET_RPC_URL,
+        type: RpcEndpointType.Custom,
+      },
+    ],
+    defaultRpcEndpointIndex: 0,
+    blockExplorerUrls: ['https://scan.blockstar.one/'],
+    defaultBlockExplorerUrlIndex: 0,
+  },
+  {
+    chainId: CHAIN_IDS.BLOCKSTAR_TESTNET,
+    name: BLOCKSTAR_TESTNET_DISPLAY_NAME,
+    nativeCurrency: CURRENCY_SYMBOLS.BLOCKSTAR,
+    rpcEndpoints: [
+      {
+        url: BLOCKSTAR_TESTNET_RPC_URL,
+        type: RpcEndpointType.Custom,
+      },
+    ],
+    defaultRpcEndpointIndex: 0,
+    blockExplorerUrls: ['https://testnet-scan.blockstar.one/'],
+    defaultBlockExplorerUrlIndex: 0,
+  },
   {
     chainId: CHAIN_IDS.LINEA_MAINNET,
     name: LINEA_MAINNET_DISPLAY_NAME,

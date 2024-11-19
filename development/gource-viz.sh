@@ -18,7 +18,7 @@ gource \
   --date-format "%b %d, %Y" \
   --highlight-dirs \
   --user-friction 0.1 \
-  --title "MetaMask Development History" \
+  --title "BlockStar Development History" \
   --output-ppm-stream - \
   --output-framerate 30 \
   | \

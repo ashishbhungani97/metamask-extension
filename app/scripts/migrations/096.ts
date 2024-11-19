@@ -20,11 +20,11 @@ export const version = 96;
  * 2. then append the test networks
  * 3. each of them would become a key coming with the value Ture/False from `showIncomingTransactions`
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,

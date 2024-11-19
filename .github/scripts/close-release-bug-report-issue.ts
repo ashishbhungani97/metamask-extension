@@ -13,14 +13,14 @@ async function main(): Promise<void> {
   // "GITHUB_TOKEN" does not have access to other repositories, even when they belong to the same organization.
   // As we want to update bug report issues which are not located in the same repository,
   // we need to create our own "BUG_REPORT_TOKEN" with "repo" permissions.
-  // Such a token allows to access other repositories of the MetaMask organisation.
+  // Such a token allows to access other repositories of the BlockStar organisation.
   const personalAccessToken = process.env.BUG_REPORT_TOKEN;
   if (!personalAccessToken) {
     core.setFailed('BUG_REPORT_TOKEN not found');
     process.exit(1);
   }
 
-  const repoOwner = context.repo.owner; // MetaMask
+  const repoOwner = context.repo.owner; // BlockStar
 
   const bugReportRepo = process.env.BUG_REPORT_REPO;
   if (!bugReportRepo) {

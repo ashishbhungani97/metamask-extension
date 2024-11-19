@@ -20,7 +20,7 @@ describe('Account syncing - Add Account @no-mmi', function () {
   if (!IS_ACCOUNT_SYNCING_ENABLED) {
     return;
   }
-  describe('from inside MetaMask', function () {
+  describe('from inside BlockStar', function () {
     it('syncs newly added accounts - custom name', async function () {
       const userStorageMockttpController = new UserStorageMockttpController();
 

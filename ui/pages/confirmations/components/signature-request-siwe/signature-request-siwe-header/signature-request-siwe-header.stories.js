@@ -7,7 +7,7 @@ const primaryAccount = Object.values(
 )[0];
 const subjectMetadata = {
   iconUrl: '/images/logo/metamask-fox.svg',
-  name: 'MetaMask',
+  name: 'BlockStar',
   origin: 'http://localhost:8080',
 };
 

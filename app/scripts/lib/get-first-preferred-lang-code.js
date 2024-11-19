@@ -29,7 +29,7 @@ export default async function getFirstPreferredLangCode() {
   }
 
   // safeguard for Brave Browser until they implement chrome.i18n.getAcceptLanguages
-  // https://github.com/MetaMask/metamask-extension/issues/4270
+  // https://github.com/BlockStar/metamask-extension/issues/4270
   if (!userPreferredLocaleCodes) {
     userPreferredLocaleCodes = [];
   }

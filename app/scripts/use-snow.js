@@ -11,7 +11,7 @@ Changing this code must be done cautiously to avoid breaking the app!
   // eslint-disable-next-line no-undef
   const isWorker = !self.document;
   const msg =
-    'Snow detected a new realm creation attempt in MetaMask. Performing scuttling on new realm.';
+    'Snow detected a new realm creation attempt in BlockStar. Performing scuttling on new realm.';
   // eslint-disable-next-line no-undef
   Object.defineProperty(self, 'SCUTTLER', {
     value: (realm, scuttle) => {

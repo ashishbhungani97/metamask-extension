@@ -120,7 +120,7 @@ const ProfileSyncToggle = () => {
           >
             {t('profileSyncDescription', [
               <a
-                href="https://support.metamask.io/privacy-and-security/profile-privacy"
+                href="#sec"
                 key="link"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -12,11 +12,11 @@ type VersionedData = {
 /**
  * Removes all Snaps domains (identified as starting with 'npm:' or 'local:') from the SelectedNetworkController's domains state.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,
@@ -30,7 +30,7 @@ export async function migrate(
 /**
  * Removes all domains starting with 'npm:' or 'local:' from the SelectedNetworkController's domains state.
  *
- * @param state - The entire state object of the MetaMask extension.
+ * @param state - The entire state object of the BlockStar extension.
  */
 function transformState(state: Record<string, unknown>) {
   const selectedNetworkControllerState = state.SelectedNetworkController;

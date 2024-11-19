@@ -1,7 +1,7 @@
 import { HardwareKeyringType } from './hardware-wallets';
 
 /**
- * These are the keyrings that are managed entirely by MetaMask.
+ * These are the keyrings that are managed entirely by BlockStar.
  */
 export enum InternalKeyringType {
   hdKeyTree = 'HD Key Tree',
@@ -15,7 +15,7 @@ export enum SnapKeyringType {
 ///: END:ONLY_INCLUDE_IF
 
 /**
- * All keyrings supported by MetaMask.
+ * All keyrings supported by BlockStar.
  */
 export const KeyringType = {
   ...HardwareKeyringType,

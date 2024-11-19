@@ -36,9 +36,9 @@ mkdir temp
 
 git config --global user.email "metamaskbot@users.noreply.github.com"
 
-git config --global user.name "MetaMask Bot"
+git config --global user.name "BlockStar Bot"
 
-git clone git@github.com:MetaMask/extension_bundlesize_stats.git temp
+git clone git@github.com:BlockStar/extension_bundlesize_stats.git temp
 
 {
     echo " '${CIRCLE_SHA1}': ";

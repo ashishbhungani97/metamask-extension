@@ -18,7 +18,7 @@ describe('Account syncing - New User @no-mmi', function () {
     return;
   }
 
-  describe('from inside MetaMask', function () {
+  describe('from inside BlockStar', function () {
     it('syncs after new wallet creation', async function () {
       const userStorageMockttpController = new UserStorageMockttpController();
       let walletSrp: string;

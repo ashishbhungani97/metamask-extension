@@ -53,7 +53,7 @@ export enum BlockaidReason {
 
   other = 'other',
 
-  // MetaMask defined reasons
+  // BlockStar defined reasons
   errored = 'Error',
   notApplicable = 'NotApplicable',
   inProgress = 'validation_in_progress',
@@ -65,7 +65,7 @@ export enum BlockaidResultType {
   Benign = 'Benign',
   Errored = 'Error',
 
-  // MetaMask defined result types
+  // BlockStar defined result types
   NotApplicable = 'NotApplicable',
   Loading = 'loading',
 }

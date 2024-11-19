@@ -21,7 +21,7 @@ In web automation testing, locators are crucial commands that guide the framewor
 
 The **`buildLocator`** function enhances element-matching capabilities by introducing support for inline locators, offering an alternative to the traditional use of Selenium's `By` abstraction.
 
-[source](https://github.com/MetaMask/metamask-extension/blob/1f2bfb388695034db8859877ed21b4b045514f9f/test/e2e/webdriver/driver.js#L190)
+[source](https://github.com/BlockStar/metamask-extension/blob/1f2bfb388695034db8859877ed21b4b045514f9f/test/e2e/webdriver/driver.js#L190)
 
 #### Arguments
 
@@ -39,7 +39,7 @@ CSS Selectors in Selenium are string patterns used to identify an element based 
 > <details><summary><b>Class - CSS Selector</b></summary>
 > To locate an element by its class using a CSS selector, prepend the class name with a dot (.) symbol.
 >
-> ![Screenshot displays the send transaction screen of MetaMask, highlighting how to locate the amount text box using its class.](image/classSelector.png)
+> ![Screenshot displays the send transaction screen of BlockStar, highlighting how to locate the amount text box using its class.](image/classSelector.png)
 >
 > Syntax for locating by Class
 >
@@ -52,7 +52,7 @@ CSS Selectors in Selenium are string patterns used to identify an element based 
 >
 > To locate an element by its ID using a CSS selector, prepend the ID with a hash sign (#).
 >
-> ![Screenshot displays the login screen of MetaMask, highlighting how to locate the password text box using its ID.](image/idSelector.png)
+> ![Screenshot displays the login screen of BlockStar, highlighting how to locate the password text box using its ID.](image/idSelector.png)
 >
 > Syntax for locating by ID
 >
@@ -65,7 +65,7 @@ CSS Selectors in Selenium are string patterns used to identify an element based 
 >
 > To target an element based on its attribute using a CSS selector, use square brackets ([]) to specify the attribute name and its value.
 >
-> ![Screenshot displays the overview screen of MetaMask, highlighting how to locate the button ‘Buy & Sell’ using its unique attribute **data-testid and its value**.](image/attributeSelector.png)
+> ![Screenshot displays the overview screen of BlockStar, highlighting how to locate the button ‘Buy & Sell’ using its unique attribute **data-testid and its value**.](image/attributeSelector.png)
 >
 > Syntax for locating the attribute **data-testid**
 >
@@ -78,7 +78,7 @@ CSS Selectors in Selenium are string patterns used to identify an element based 
 >
 > Tag and attribute selectors provide a powerful way to precisely target and style HTML elements based on their type and characteristics.
 >
-> ![Screenshot displays the onboarding - Add custom network screen of MetaMask, highlighting how to locate the input field using the tag name and attribute type text.](image/attributeTagSelector.png)
+> ![Screenshot displays the onboarding - Add custom network screen of BlockStar, highlighting how to locate the input field using the tag name and attribute type text.](image/attributeTagSelector.png)
 >
 > Syntax for locating the elements of type input text.
 >
@@ -91,7 +91,7 @@ CSS Selectors in Selenium are string patterns used to identify an element based 
 >
 > This type of CSS locator applies only to hyperlink texts with the anchor tags.
 >
-> ![Screenshot displays the contacts screen of MetaMask, highlighting how to locate the ‘Delete contact’ link using its type as Anchor(a).](image/linkTextSelector.png)
+> ![Screenshot displays the contacts screen of BlockStar, highlighting how to locate the ‘Delete contact’ link using its type as Anchor(a).](image/linkTextSelector.png)
 >
 > Syntax for locating the links
 >
@@ -106,7 +106,7 @@ XPath is a language used for locating nodes in an XML document, which can also b
 <br>
 Below is the video to locate the element based on XPath.
 
-https://github.com/MetaMask/metamask-extension/assets/539738/7a67a35f-5e42-465c-a376-4b24f931783a
+https://github.com/BlockStar/metamask-extension/assets/539738/7a67a35f-5e42-465c-a376-4b24f931783a
 
 There are two types of XPath
 
@@ -199,7 +199,7 @@ Finding web elements is a fundamental task in web automation and testing, allowi
 
 > **`findElement`** returns a reference to the first element in the DOM that the provided locator matches.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/1f2bfb388695034db8859877ed21b4b045514f9f/test/e2e/webdriver/driver.js#L458)
+> [source](https://github.com/BlockStar/metamask-extension/blob/1f2bfb388695034db8859877ed21b4b045514f9f/test/e2e/webdriver/driver.js#L458)
 >
 > #### Arguments
 >
@@ -230,7 +230,7 @@ Finding web elements is a fundamental task in web automation and testing, allowi
 
 > **`findElements`** function return a collection of element references. If there are no matches, an empty list is returned.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L370)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L370)
 >
 > #### Arguments
 >
@@ -260,7 +260,7 @@ Finding web elements is a fundamental task in web automation and testing, allowi
 
 > **`findVisibleElement`** function is used to track (or) find DOM element which is visible
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L355)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L355)
 >
 > #### Arguments
 >
@@ -284,7 +284,7 @@ Finding web elements is a fundamental task in web automation and testing, allowi
 
 > **`findClickableElement`** function is used to track (or) find DOM element which is clickable
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L361)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L361)
 >
 > #### Arguments
 >
@@ -305,7 +305,7 @@ Finding web elements is a fundamental task in web automation and testing, allowi
 
 > **`findClickableElements`** function is used to track (or) find DOM elements which are clickable
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L379)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L379)
 >
 > #### Arguments
 >
@@ -343,7 +343,7 @@ Each of these actions requires first [locating](#locators) the web element you w
 
 > **`fill`** function is designed to locate a web element on the page and input a specified text value into it. This function is particularly useful for automating interactions with text fields, such as username or password inputs, search boxes, or any editable text areas within a web application.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L208)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L208)
 >
 > #### Arguments
 >
@@ -368,7 +368,7 @@ Each of these actions requires first [locating](#locators) the web element you w
 
 > **`clickElementSafe`** clicks on an element if it's present. If the element is not found, catch the exception, log the failure to the console, but do not cause the test to fail. It is particularly useful in instances where an element requires scrolling, but the scroll button does not appear due to rendering differences.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L420)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L420)
 >
 > #### Arguments
 >
@@ -390,7 +390,7 @@ Each of these actions requires first [locating](#locators) the web element you w
 
 > **`clickElement`** function is an asynchronous function that aims to simulate a click action on a specified web element within a web page. This function is commonly used to interact with clickable elements such as buttons, links, checkboxes, or any other elements that respond to click events.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L393)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L393)
 >
 > #### Arguments
 >
@@ -412,7 +412,7 @@ Each of these actions requires first [locating](#locators) the web element you w
 
 > **`press`** function enables the simulation of keyboard actions on a specified web element. This can include typing characters into a text field, activating keyboard shortcuts, or any other keyboard-related interactions within a web page.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L214)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L214)
 >
 > #### Arguments
 >
@@ -491,7 +491,7 @@ This organization helps provide a clear structure for understanding the various 
 
 > **`wait`** function is an asynchronous function to wait for a specific condition to be met within a given timeout period, with an option to catch and handle any errors that occur during the wait.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L224)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L224)
 >
 > #### Arguments
 >
@@ -541,7 +541,7 @@ This organization helps provide a clear structure for understanding the various 
 > - Ensuring a modal dialog is visible before attempting to close it.
 > - Verifying that an item has been removed from the page after a delete action.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L236)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L236)
 >
 > #### Arguments
 >
@@ -569,7 +569,7 @@ This organization helps provide a clear structure for understanding the various 
 > - Waiting for all parts of a page to load before performing a comprehensive test.
 > - Ensuring multiple UI components are removed after an action.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L357)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L357)
 >
 > #### Arguments
 >
@@ -596,7 +596,7 @@ This organization helps provide a clear structure for understanding the various 
 > - Waiting for a success message after submitting a form.
 > - Ensuring that a dynamically loaded piece of text, like a user's name or a search result, is displayed before proceeding.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L262)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L262)
 >
 > #### Arguments
 >
@@ -621,7 +621,7 @@ This organization helps provide a clear structure for understanding the various 
 
 > **`waitForElementState`** function waits for a specific state of an element.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L55)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L55)
 >
 > #### Arguments
 >
@@ -650,7 +650,7 @@ This organization helps provide a clear structure for understanding the various 
 > For scenarios where the clicked element, such as a notification or popup, needs to disappear afterward.
 > The wait ensures that subsequent interactions are not obscured by the initial notification or popup element.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L406)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L406)
 >
 > #### Arguments
 >
@@ -671,7 +671,7 @@ This organization helps provide a clear structure for understanding the various 
 
 > **`elementCountBecomesN`** function waits until the expected number of tokens to be rendered <br>
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L270)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L270)
 >
 > #### Arguments
 >
@@ -697,7 +697,7 @@ This organization helps provide a clear structure for understanding the various 
 
 > **`waitUntilXWindowHandles`** function waits until the specified number of window handles are present.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L574)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L574)
 >
 > #### Arguments
 >
@@ -755,7 +755,7 @@ await approveInput.clear();
 
 > **`pasteIntoField`** function simulates the pasting of content into a specified field, employing a unique approach to managing the clipboard.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L502)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L502)
 >
 > #### Arguments
 >
@@ -784,7 +784,7 @@ A representation of any pointer device for interacting with a web page.
 
 > **`clickElementUsingMouseMove`** function by simulating a more natural mouse movement towards the element before initiating a click. This is essential for web pages with buttons that only respond correctly to user interactions when the mouse physically moves to the button before clicking, as opposed to executing a direct click command.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L440)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L440)
 >
 > #### Arguments
 >
@@ -809,7 +809,7 @@ A representation of any pointer device for interacting with a web page.
 
 > **`scrollToElement`** function scrolls the web page until the specified element comes into view.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L471)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L471)
 >
 > #### Arguments
 >
@@ -835,7 +835,7 @@ A representation of any pointer device for interacting with a web page.
 
 > **`holdMouseDownOnElement`** function simulates the action of pressing and holding down the mouse button on a specific element for a specified duration.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L459)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L459)
 >
 > #### Arguments
 >
@@ -864,7 +864,7 @@ A representation of any pointer device for interacting with a web page.
 
 > **`clickPoint`** function is designed to click on a specific point, determined by the x and y coordinates
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L450)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L450)
 >
 > #### Arguments
 >
@@ -890,7 +890,7 @@ Navigation refers to the process of moving through web pages within a browser se
 
 > **`navigate`** function is an asynchronous function designed for navigating to different pages within a web application.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L522)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L522)
 >
 > #### Arguments
 >
@@ -925,7 +925,7 @@ Navigation refers to the process of moving through web pages within a browser se
 
 > **`getCurrentUrl`** function to retrieve the current URL of the browser session.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L532)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L532)
 >
 > #### Returns
 >
@@ -943,7 +943,7 @@ Navigation refers to the process of moving through web pages within a browser se
 
 > **`refresh`** function to refresh the current page in the browser.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L554)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L554)
 >
 > **Returns**
 >
@@ -968,7 +968,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`openNewPage`** function to open a new browser tab or window and navigate to a specified URL.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L547)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L547)
 >
 > #### Arguments
 >
@@ -990,7 +990,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`openNewURL`** function to open a new URL in the browser window controlled by the driver.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L543)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L543)
 >
 > #### Arguments
 >
@@ -1012,7 +1012,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`switchToNewWindow`** function to open a new browser window and switch the WebDriver's context to this new window.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L562)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L562)
 >
 > #### Returns
 >
@@ -1032,7 +1032,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`getAllWindowHandles`** function retrieves all window handles that are currently open in the WebDriver session.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L570)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L570)
 >
 > #### Returns
 >
@@ -1051,7 +1051,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`switchToHandleAndWaitForTitleToBe`** switches to a specific window tab using its ID and waits for the title to match the expectedTitle.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L589)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L589)
 >
 > #### Arguments
 >
@@ -1079,7 +1079,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`switchToWindow`** function designed to switch the context of the browser session to the window or tab with the given handle.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L558)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L558)
 >
 > #### Arguments
 >
@@ -1101,7 +1101,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`switchToWindowWithUrl`** function is intended switches the context of the browser session to the window tab with the given URL.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L631)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L631)
 >
 > #### Arguments
 >
@@ -1131,7 +1131,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`switchToWindowWithTitle`** function is intended for use in web automation testing and aims to switch the testing framework's context to a window or tab that matches a specific title. This functionality is especially valuable in complex testing scenarios involving multiple windows or tabs, allowing for interaction with a particular window or tab based on its title.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L594)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L594)
 >
 > #### Arguments
 >
@@ -1165,7 +1165,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`closeWindow`** function loses the current window tab in the browser session. This is particularly useful for cleaning up after a test or when switching between different window tabs.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L668)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L668)
 >
 > #### Returns
 >
@@ -1183,7 +1183,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`closeWindowHandle`** function closes a specific browser window or tab identified by its window handle.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L672)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L672)
 >
 > #### Arguments
 >
@@ -1209,7 +1209,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`closeAllWindowHandlesExcept`** function close all browser windows or tabs except for those specified in a list of exceptions.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L689)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L689)
 >
 > #### Arguments
 >
@@ -1226,7 +1226,7 @@ Web browsers can have multiple windows or tabs open at the same time. In web aut
 
 > **`quit`** function quits driver and closing every associated window.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L336)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L336)
 >
 > #### Returns
 >
@@ -1250,7 +1250,7 @@ Alerts are pop-up messages that appear
 
 > **`closeAlertPopup` is method to handle and close alert popups in a web browser.**
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L678)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L678)
 >
 > #### Returns
 >
@@ -1275,7 +1275,7 @@ Web pages can be segmented into frames or IFrames, which are essentially documen
 
 > **`switchToFrame`** is function to switch the WebDriver's context to a specified iframe or frame within a web page.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L566)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L566)
 >
 > #### Arguments
 >
@@ -1317,7 +1317,7 @@ They are used to verify that the application under test behaves as expected unde
 
 > **`isElementPresent`** function to check if a specific web element, exists on the web page.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L478)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L478)
 >
 > #### Arguments
 >
@@ -1346,7 +1346,7 @@ They are used to verify that the application under test behaves as expected unde
 
 > **`isElementPresentAndVisible`** function to check not only if a specific web element, exists on the web page but also if it is visible to the user.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L487)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L487)
 >
 > #### Arguments
 >
@@ -1375,7 +1375,7 @@ They are used to verify that the application under test behaves as expected unde
 
 > **`assertElementNotPresent`** function wait until an element is absent. This function MUST have a guard to prevent a race condition. For example, when the previous step is to click a button that loads a new page, then of course during page load, the rawLocator element will be absent, even though it will appear a half-second later. The first choice for the guard is to use the findElementGuard, which executes before the search for the rawLocator element. The second choice for the guard is to use the waitAtLeastGuard parameter.
 >
-> [source](https://github.com/MetaMask/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L303)
+> [source](https://github.com/BlockStar/metamask-extension/blob/671c9975424a83904a4752dfb8a7cf728ae67355/test/e2e/webdriver/driver.js#L303)
 >
 > #### Arguments
 >

@@ -12,13 +12,13 @@ export const version = 120.4;
  * This migration removes properties from the CurrencyController state that
  * are no longer used. There presence in state causes "No metadata found" errors
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly
  * what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by
  * controller.
- * @returns Updated versioned MetaMask extension state.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,
@@ -35,10 +35,10 @@ export async function migrate(
  * The six properties deleted here were no longer used as of
  * assets-controllers v18.0.0
  *
- * See https://github.com/MetaMask/core/pull/1805 for the removal of these
+ * See https://github.com/BlockStar/core/pull/1805 for the removal of these
  * properties from the controller.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function removeObsoleteCurrencyControllerState(
   state: Record<string, unknown>,
@@ -65,7 +65,7 @@ function removeObsoleteCurrencyControllerState(
 /**
  * Remove obsolete PhishingController state
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function removeObsoletePhishingControllerState(
   state: Record<string, unknown>,
@@ -88,7 +88,7 @@ function removeObsoletePhishingControllerState(
 /**
  * Remove obsolete NetworkController state
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function removeObsoleteNetworkControllerState(
   state: Record<string, unknown>,
@@ -110,7 +110,7 @@ function removeObsoleteNetworkControllerState(
 /**
  * Remove obsolete controller state.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function transformState(state: Record<string, unknown>): void {
   removeObsoleteCurrencyControllerState(state);

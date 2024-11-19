@@ -434,7 +434,7 @@
     "message": "모두"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "현재 모든 수탁 계정이 연결되어 있거나 MetaMask Institutional에 연결할 계정이 없습니다."
+    "message": "현재 모든 수탁 계정이 연결되어 있거나 BlockStar Institutional에 연결할 계정이 없습니다."
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "연결할 계정 없음"
@@ -495,19 +495,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "BlockStar",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "BlockStar Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "BlockStar Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "BlockStar Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -640,7 +640,7 @@
     "message": "기본 기능이 꺼져 있습니다."
   },
   "basicConfigurationDescription": {
-    "message": "MetaMask는 인터넷 서비스를 통해 토큰 세부 정보 및 가스 설정과 같은 기본 기능을 제공합니다. 인터넷 서비스를 이용할 때 IP 주소가 공유되며, 이 경우 MetaMask와 공유됩니다. 이는 다른 웹사이트를 방문할 때와 마찬가지입니다. MetaMask는 이 데이터를 일시적으로 사용하며 데이터를 절대 판매하지 않습니다. VPN을 사용하거나 이러한 서비스를 비활성화할 수 있지만 MetaMask 사용 환경에 영향을 미칠 수 있습니다. 자세한 내용은 $1 내용을 참고하세요.",
+    "message": "MetaMask는 인터넷 서비스를 통해 토큰 세부 정보 및 가스 설정과 같은 기본 기능을 제공합니다. 인터넷 서비스를 이용할 때 IP 주소가 공유되며, 이 경우 MetaMask와 공유됩니다. 이는 다른 웹사이트를 방문할 때와 마찬가지입니다. MetaMask는 이 데이터를 일시적으로 사용하며 데이터를 절대 판매하지 않습니다. VPN을 사용하거나 이러한 서비스를 비활성화할 수 있지만 BlockStar 사용 환경에 영향을 미칠 수 있습니다. 자세한 내용은 $1 내용을 참고하세요.",
     "description": "$1 is to be replaced by the message for privacyMsg, and will link to https://consensys.io/privacy-policy"
   },
   "basicConfigurationLabel": {
@@ -672,10 +672,10 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional 베타 버전"
+    "message": "BlockStar Institutional 베타 버전"
   },
   "betaMetamaskVersion": {
-    "message": "MetaMask 베타 버전"
+    "message": "BlockStar 베타 버전"
   },
   "betaTerms": {
     "message": "베타 이용약관"
@@ -691,7 +691,7 @@
     "message": "비트코인"
   },
   "bitcoinSupportToggleDescription": {
-    "message": "이 기능을 켜면 기존 비밀복구구문에서 파생된 MetaMask 확장에 비트코인 계정을 추가할 수 있는 옵션을 이용할 수 있습니다. 이 기능은 실험적 베타 기능이므로 사용자의 책임하에 사용해야 합니다. 이 새로운 비트코인 경험에 대한 피드백을 보내려면 이 $1을(를) 작성해 주세요.",
+    "message": "이 기능을 켜면 기존 비밀복구구문에서 파생된 BlockStar 확장에 비트코인 계정을 추가할 수 있는 옵션을 이용할 수 있습니다. 이 기능은 실험적 베타 기능이므로 사용자의 책임하에 사용해야 합니다. 이 새로운 비트코인 경험에 대한 피드백을 보내려면 이 $1을(를) 작성해 주세요.",
     "description": "$1 is the link to a product feedback form"
   },
   "bitcoinSupportToggleTitle": {
@@ -902,10 +902,10 @@
     "description": "Default text shown in the combo field dropdown if no options."
   },
   "configureSnapPopupDescription": {
-    "message": "이제 이 스냅 구성을 위해 MetaMask 페이지를 떠나게 됩니다."
+    "message": "이제 이 스냅 구성을 위해 BlockStar 페이지를 떠나게 됩니다."
   },
   "configureSnapPopupInstallDescription": {
-    "message": "이제 이 스냅 설치를 위해 MetaMask 페이지를 떠나게 됩니다."
+    "message": "이제 이 스냅 설치를 위해 BlockStar 페이지를 떠나게 됩니다."
   },
   "configureSnapPopupInstallTitle": {
     "message": "스냅 설치"
@@ -1098,7 +1098,7 @@
     "message": "계속"
   },
   "continueMmiOnboarding": {
-    "message": "MetaMask Institutional 온보딩 계속"
+    "message": "BlockStar Institutional 온보딩 계속"
   },
   "continueToWallet": {
     "message": "지갑으로 계속"
@@ -1185,7 +1185,7 @@
     "message": "크리에이터 주소"
   },
   "crossChainSwapsLink": {
-    "message": "MetaMask Portfolio로 네트워크 간 스왑"
+    "message": "BlockStar Portfolio로 네트워크 간 스왑"
   },
   "cryptoCompare": {
     "message": "CryptoCompare"
@@ -1237,7 +1237,7 @@
     "message": "수탁자"
   },
   "custodianAccountAddedDesc": {
-    "message": "이제 MetaMask Institutional에서 계정을 사용할 수 있습니다."
+    "message": "이제 BlockStar Institutional에서 계정을 사용할 수 있습니다."
   },
   "custodianAccountAddedTitle": {
     "message": "선택한 $1 계정을 추가했습니다."
@@ -1252,7 +1252,7 @@
     "message": "계정을 MMI에 다시 연결하려면 $1에서 해당 사용자 인터페이스를 찾아 'MMI로 연결' 버튼을 클릭하면 됩니다."
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "이제 MetaMask Institutional에서 수탁 계정을 사용할 수 있습니다."
+    "message": "이제 BlockStar Institutional에서 수탁 계정을 사용할 수 있습니다."
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "수탁 토큰이 새로고침되었습니다"
@@ -1270,7 +1270,7 @@
     "message": "계정을 MMI에 다시 연결하려면 $1에서 해당 사용자 인터페이스를 찾아 'MMI로 연결' 버튼을 클릭하면 됩니다."
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "수탁자가 MetaMask Institutional 확장을 인증하는 토큰을 발행하면 계정을 연결할 수 있습니다."
+    "message": "수탁자가 BlockStar Institutional 확장을 인증하는 토큰을 발행하면 계정을 연결할 수 있습니다."
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "이 토큰은 보안상의 이유로 일정 기간이 지나면 만료됩니다. 그러면 MMI에 다시 연결해야 합니다."
@@ -1727,7 +1727,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask 오류 발생",
+    "message": "BlockStar 오류 발생",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1783,7 +1783,7 @@
     "description": "Banner description displayed on Snaps list page in Settings when less than 6 Snaps is installed."
   },
   "extensionInsallCompleteDescription": {
-    "message": "MetaMask Institutional 제품 온보딩으로 돌아가 수탁 또는 자기 수탁 계정을 연결합니다."
+    "message": "BlockStar Institutional 제품 온보딩으로 돌아가 수탁 또는 자기 수탁 계정을 연결합니다."
   },
   "extensionInsallCompleteTitle": {
     "message": "확장 설치 완료"
@@ -1829,15 +1829,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "이 확장 프로그램은 안전성이나 안정성을 보장하지 않습니다. Flask에서 제공하는 새로운 API는 피싱 공격에 대비한 강화 과정을 거치지 않았습니다. 즉, Flask가 필요한 모든 사이트나 스냅은 자산을 훔치려는 악의적 시도일 수 있습니다.",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using BlockStar Flask"
   },
   "flaskWelcomeWarning3": {
     "message": "모든 Flask의 API는 실험 단계입니다. 따라서 예고 없이 변경, 제거되거나 안정적인 MetaMask로 마이그레이션되지 않고 Flask에 무기한 남아 있을 수 있습니다. 사용 시 위험은 본인 책임입니다.",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "Flask를 사용할 때는 정규 MetaMask 익스텐션을 비활성화하세요.",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "Flask를 사용할 때는 정규 BlockStar 익스텐션을 비활성화하세요.",
+    "description": "This message calls to pay attention about multiple versions of BlockStar running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "본인은 이 위험을 감수합니다",
@@ -2088,7 +2088,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "MetaMask 지원팀은 이러한 정보를 절대로 묻지 않습니다,",
+    "message": "BlockStar 지원팀은 이러한 정보를 절대로 묻지 않습니다,",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -2159,7 +2159,7 @@
     "message": "죄송합니다. 향후에는 더 빠르게 개선하겠습니다."
   },
   "importAccountMsg": {
-    "message": "가져온 계정은 MetaMask 계정 비밀복구구문과 연결하지 못합니다. 가져온 계정에 대해 자세히 알아보기"
+    "message": "가져온 계정은 BlockStar 계정 비밀복구구문과 연결하지 못합니다. 가져온 계정에 대해 자세히 알아보기"
   },
   "importMyWallet": {
     "message": "내 지갑 가져오기"
@@ -2459,7 +2459,7 @@
     "message": "MetaMask를 나가시겠습니까?"
   },
   "leaveMetaMaskDesc": {
-    "message": "MetaMask 외부의 사이트를 방문하려고 합니다. 계속하기 전에 URL을 다시 한번 확인하세요."
+    "message": "BlockStar 외부의 사이트를 방문하려고 합니다. 계속하기 전에 URL을 다시 한번 확인하세요."
   },
   "ledgerAccountRestriction": {
     "message": "새 계정을 추가하려면 먼저 기존의 최종 계정을 사용해야 합니다."
@@ -2553,7 +2553,7 @@
     "message": "잠금"
   },
   "lockMetaMask": {
-    "message": "MetaMask 고정"
+    "message": "BlockStar 고정"
   },
   "lockTimeInvalid": {
     "message": "잠금 시간은 반드시 0에서 10080 사이여야 합니다"
@@ -2636,19 +2636,19 @@
     "description": "$1 is the snap name and $2 is the snap NPM id."
   },
   "metamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional 버전"
+    "message": "BlockStar Institutional 버전"
   },
   "metamaskNotificationsAreOff": {
     "message": "현재 지갑 알림이 꺼져 있습니다."
   },
   "metamaskPortfolio": {
-    "message": "MetaMask Portfolio."
+    "message": "BlockStar Portfolio."
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps 점검 중입니다. 나중에 다시 확인하세요."
+    "message": "BlockStar Swaps 점검 중입니다. 나중에 다시 확인하세요."
   },
   "metamaskVersion": {
-    "message": "MetaMask 버전"
+    "message": "BlockStar 버전"
   },
   "methodData": {
     "message": "메소드"
@@ -2696,13 +2696,13 @@
     "message": "여기에서 요청하세요"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMask Institutional은 전 세계적으로 설계 및 구축되었습니다."
+    "message": "BlockStar Institutional은 전 세계적으로 설계 및 구축되었습니다."
   },
   "mmiNewNFTDetectedInNFTsTabMessage": {
-    "message": "MetaMask Institutional을 통해 자동으로 NFT를 감지하여 지갑에 표시할 수 있습니다."
+    "message": "BlockStar Institutional을 통해 자동으로 NFT를 감지하여 지갑에 표시할 수 있습니다."
   },
   "mmiPasswordSetupDetails": {
-    "message": "이 비밀번호는 MetaMask Institutional 확장만 잠금 해제합니다."
+    "message": "이 비밀번호는 BlockStar Institutional 확장만 잠금 해제합니다."
   },
   "more": {
     "message": "그 외"
@@ -2767,7 +2767,7 @@
     "message": "Lens Protocol"
   },
   "nameProvider_token": {
-    "message": "MetaMask"
+    "message": "BlockStar"
   },
   "nameSetPlaceholder": {
     "message": "닉네임을 선택하세요...",
@@ -2800,7 +2800,7 @@
     "message": "피드백 공유"
   },
   "needHelpLinkText": {
-    "message": "MetaMask 지원"
+    "message": "BlockStar 지원"
   },
   "needHelpSubmitTicket": {
     "message": "티켓 제출"
@@ -2967,7 +2967,7 @@
   },
   "nextNonceWarning": {
     "message": "논스가 권장 논스값인 $1보다 큽니다.",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to BlockStar's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "소유권 정보가 일치하지 않아 NFT를 추가할 수 없습니다. 올바른 정보를 입력했는지 확인하세요."
@@ -3048,7 +3048,7 @@
     "message": "웹캠을 찾을 수 없음"
   },
   "nonCustodialAccounts": {
-    "message": "이러한 계정을 비밀복구구문 백업에 사용하려는 경우 MetaMask Institutional은 비수탁형 계정을 사용할 수 있도록 허용합니다."
+    "message": "이러한 계정을 비밀복구구문 백업에 사용하려는 경우 BlockStar Institutional은 비수탁형 계정을 사용할 수 있도록 허용합니다."
   },
   "nonce": {
     "message": "논스"
@@ -3214,7 +3214,7 @@
   },
   "notificationsDropLedgerFirefoxDescription": {
     "message": "Firefox에서 더 이상 U2F를 지원하지 않아 Firefox를 이용한 MetaMask에서 Ledger를 이용할 수 없습니다. 대신 Google Chrome에서 MetaMask를 이용해 보세요.",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use BlockStar on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "Firefox의 Ledger 지원 중단",
@@ -3373,7 +3373,7 @@
     "message": "프로필의 사용 데이터를 수집하는 동안 개인정보를 보호하는 방법을 알아보세요."
   },
   "onboardingMetametricsTitle": {
-    "message": "MetaMask 개선에 도움을 주세요"
+    "message": "BlockStar 개선에 도움을 주세요"
   },
   "onboardingMetametricsUseDataCheckbox": {
     "message": "해당 데이터를 사용하여 사용자가 마케팅 커뮤니케이션과 어떻게 상호 작용하는지 파악할 것입니다. 관련 뉴스(예: 제품 기능 및 기타 자료)를 공유할 수 있습니다."
@@ -3403,7 +3403,7 @@
     "message": "브라우저 확장 아이콘을 클릭하여 즉시 액세스하세요."
   },
   "onboardingPinExtensionLabel": {
-    "message": "MetaMask 고정"
+    "message": "BlockStar 고정"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -3412,10 +3412,10 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "MetaMask 설치가 완료되었습니다!"
+    "message": "BlockStar 설치가 완료되었습니다!"
   },
   "onboardingPinMmiExtensionLabel": {
-    "message": "MetaMask Institutional 고정"
+    "message": "BlockStar Institutional 고정"
   },
   "oneDayAbbreviation": {
     "message": "1일",
@@ -3446,7 +3446,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "전체 화면으로 이동하여 Ledger를 연결하세요.",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing BlockStar in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "블록 탐색기 열기"
@@ -3489,19 +3489,19 @@
     "message": "MetaMetrics에 참여"
   },
   "participateInMetaMetricsDescription": {
-    "message": "MetaMetrics에 참여하여 MetaMask 개선에 도움을 주세요."
+    "message": "MetaMetrics에 참여하여 BlockStar 개선에 도움을 주세요."
   },
   "password": {
     "message": "비밀번호"
   },
   "passwordMmiTermsWarning": {
-    "message": "MetaMask Institutional이 이 비밀번호를 복구할 수 없음을 이해합니다. $1"
+    "message": "BlockStar Institutional이 이 비밀번호를 복구할 수 없음을 이해합니다. $1"
   },
   "passwordNotLongEnough": {
     "message": "비밀번호가 짧습니다."
   },
   "passwordSetupDetails": {
-    "message": "이 비밀번호는 이 장치에서만 MetaMask 지갑의 잠금을 해제합니다. MetaMask는 이 비밀번호를 복구할 수 없습니다."
+    "message": "이 비밀번호는 이 장치에서만 BlockStar 지갑의 잠금을 해제합니다. MetaMask는 이 비밀번호를 복구할 수 없습니다."
   },
   "passwordStrength": {
     "message": "비밀번호 강도: $1",
@@ -3589,11 +3589,11 @@
     "description": "An extended description for the `snap_cronjob` permission. $1 is the snap name."
   },
   "permission_dialog": {
-    "message": "MetaMask 대화창 표시",
+    "message": "BlockStar 대화창 표시",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_dialogDescription": {
-    "message": "$1 스냅이 MetaMask 팝업을 만들고 여기에 맞춤 텍스트와 입력란, 그리고 버튼을 표시하여 승인 또는 거부에 활용하도록 허용합니다.\n이는 경고, 컨펌, Snap에 필요한 옵트인 플로우 등을 만드는 데 사용할 수 있습니다.",
+    "message": "$1 스냅이 BlockStar 팝업을 만들고 여기에 맞춤 텍스트와 입력란, 그리고 버튼을 표시하여 승인 또는 거부에 활용하도록 허용합니다.\n이는 경고, 컨펌, Snap에 필요한 옵트인 플로우 등을 만드는 데 사용할 수 있습니다.",
     "description": "An extended description for the `snap_dialog` permission. $1 is the snap name."
   },
   "permission_ethereumAccounts": {
@@ -3613,7 +3613,7 @@
     "description": "The description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getEntropyDescription": {
-    "message": "$1 스냅이 노출을 피하여 $1에 고유한 임의의 키를 파생하도록 허용합니다. 이 키는 MetaMask 계정과 별개이며 개인 키 또는 비밀복구구문과 관련이 없습니다. 다른 Snap은 이 정보에 액세스할 수 없습니다.",
+    "message": "$1 스냅이 노출을 피하여 $1에 고유한 임의의 키를 파생하도록 허용합니다. 이 키는 BlockStar 계정과 별개이며 개인 키 또는 비밀복구구문과 관련이 없습니다. 다른 Snap은 이 정보에 액세스할 수 없습니다.",
     "description": "An extended description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getLocale": {
@@ -3621,7 +3621,7 @@
     "description": "The description for the `snap_getLocale` permission"
   },
   "permission_getLocaleDescription": {
-    "message": "MetaMask 설정에서 원하는 언어로 $1 스냅을 사용하세요. 이 기능을 사용하면 선택한 언어로 $1의 콘텐츠를 현지화하고 표시할 수 있습니다.",
+    "message": "BlockStar 설정에서 원하는 언어로 $1 스냅을 사용하세요. 이 기능을 사용하면 선택한 언어로 $1의 콘텐츠를 현지화하고 표시할 수 있습니다.",
     "description": "An extended description for the `snap_getLocale` permission. $1 is the snap name."
   },
   "permission_homePage": {
@@ -3681,7 +3681,7 @@
     "description": "The description for the `endowment:name-lookup` permission."
   },
   "permission_nameLookupDescription": {
-    "message": "Snap이 주소 및 도메인 조회를 가져와 MetaMask UI의 다른 부분에 표시하도록 허용합니다.",
+    "message": "Snap이 주소 및 도메인 조회를 가져와 BlockStar UI의 다른 부분에 표시하도록 허용합니다.",
     "description": "An extended description for the `endowment:name-lookup` permission."
   },
   "permission_notifications": {
@@ -3725,7 +3725,7 @@
     "description": "The description for the `endowment:transaction-insight` permission"
   },
   "permission_transactionInsightDescription": {
-    "message": "$1 스냅이 트랜잭션을 디코딩하고 MetaMask UI에서 인사이트를 표시하도록 허용합니다. 피싱 방지와 보안 솔루션에 사용할 수 있습니다.",
+    "message": "$1 스냅이 트랜잭션을 디코딩하고 BlockStar UI에서 인사이트를 표시하도록 허용합니다. 피싱 방지와 보안 솔루션에 사용할 수 있습니다.",
     "description": "An extended description for the `endowment:transaction-insight` permission. $1 is the snap name."
   },
   "permission_transactionInsightOrigin": {
@@ -3792,7 +3792,7 @@
     "message": "이 기능을 사용하면 모든 주소에 닉네임을 지정할 수 있습니다. 가능한 경우 상호 작용하는 주소에 닉네임을 추천합니다."
   },
   "pinExtensionDescription": {
-    "message": "확장 메뉴로 이동 후 MetaMask Institutional을 고정하여 원활하게 액세스하세요."
+    "message": "확장 메뉴로 이동 후 BlockStar Institutional을 고정하여 원활하게 액세스하세요."
   },
   "pinExtensionTitle": {
     "message": "확장 고정"
@@ -3968,7 +3968,7 @@
     "message": "언스테이킹 완료"
   },
   "pushPlatformNotificationsSwapCompletedDescription": {
-    "message": "MetaMask 스왑에 성공했습니다"
+    "message": "BlockStar 스왑에 성공했습니다"
   },
   "pushPlatformNotificationsSwapCompletedTitle": {
     "message": "스왑 완료"
@@ -4013,7 +4013,7 @@
     "message": "절대로 다른 사람과 비밀복구구문을 공유하지 마십시오"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "MetaMask 팀에서는 절대로 비밀복구구문을 묻지 않습니다"
+    "message": "BlockStar 팀에서는 절대로 비밀복구구문을 묻지 않습니다"
   },
   "recoveryPhraseReminderSubText": {
     "message": "비밀복구구문은 모든 계정을 관리합니다."
@@ -4158,7 +4158,7 @@
     "message": "계속하기 전에 비밀복구구문이 정확한지 확인하세요. 이 작업은 취소할 수 없습니다."
   },
   "restartMetamask": {
-    "message": "MetaMask 재시작"
+    "message": "BlockStar 재시작"
   },
   "restore": {
     "message": "복구"
@@ -4215,7 +4215,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "MetaMask 지원팀은 이러한 정보를 절대로 묻지 않습니다,",
+    "message": "BlockStar 지원팀은 이러한 정보를 절대로 묻지 않습니다,",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealSensitiveContent": {
@@ -4388,7 +4388,7 @@
     "message": "이 계정은 이미 MetaMask와 연결되어 있습니다."
   },
   "selectAnAccountHelp": {
-    "message": "MetaMask Institutional에서 사용할 수탁 계정을 선택하세요."
+    "message": "BlockStar Institutional에서 사용할 수탁 계정을 선택하세요."
   },
   "selectEnableDisplayMediaPrivacyPreference": {
     "message": "NFT 미디어 표시 켜기"
@@ -4645,7 +4645,7 @@
     "message": "트랜잭션 실패"
   },
   "smartTransactionErrorDescription": {
-    "message": "시장 상황이 갑자기 변하면 실패할 수 있습니다. 문제가 지속되면 MetaMask 고객 지원으로 문의하세요."
+    "message": "시장 상황이 갑자기 변하면 실패할 수 있습니다. 문제가 지속되면 BlockStar 고객 지원으로 문의하세요."
   },
   "smartTransactionPending": {
     "message": "트랜잭션 제출 중"
@@ -5006,7 +5006,7 @@
     "message": "상태 로그를 가져오는 도중 오류가 발생했습니다."
   },
   "stateLogFileName": {
-    "message": "MetaMask 상태 로그"
+    "message": "BlockStar 상태 로그"
   },
   "stateLogs": {
     "message": "상태 로그"
@@ -5257,15 +5257,15 @@
     "message": "높은 슬리피지"
   },
   "swapIncludesMMFee": {
-    "message": "$1%의 MetaMask 요금이 포함됩니다.",
+    "message": "$1%의 BlockStar 요금이 포함됩니다.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapIncludesMMFeeAlt": {
-    "message": "견적에는 $1%의 MetaMask 수수료가 반영됩니다",
+    "message": "견적에는 $1%의 BlockStar 수수료가 반영됩니다",
     "description": "Provides information about the fee that metamask takes for swaps using the latest copy. $1 is a decimal number."
   },
   "swapIncludesMetaMaskFeeViewAllQuotes": {
-    "message": "$1% MetaMask 요금 - $2 포함",
+    "message": "$1% BlockStar 요금 - $2 포함",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number and $2 is a link to view all quotes."
   },
   "swapLearnMore": {
@@ -5281,7 +5281,7 @@
     "message": "최대 슬리패지"
   },
   "swapMetaMaskFee": {
-    "message": "MetaMask 수수료"
+    "message": "BlockStar 수수료"
   },
   "swapMetaMaskFeeDescription": {
     "message": "$1%의 수수료는 자동으로 각 견적에 반영됩니다. 이는 MetaMask의 유동성 공급자 정보 집계용 소프트웨어 사용 라이선스 비용입니다.",
@@ -5556,7 +5556,7 @@
     "message": "테마"
   },
   "themeDescription": {
-    "message": "원하는 MetaMask 테마를 선택하세요."
+    "message": "원하는 BlockStar 테마를 선택하세요."
   },
   "thingsToKeep": {
     "message": "유의 사항:"
@@ -5803,7 +5803,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "MetaMask 실행 중 오류가 발생했습니다. 일시적인 오류일 수 있으니 확장 프로그램을 재시작해 보세요."
+    "message": "BlockStar 실행 중 오류가 발생했습니다. 일시적인 오류일 수 있으니 확장 프로그램을 재시작해 보세요."
   },
   "trustSiteApprovePermission": {
     "message": "권한을 부여하면 다음 $1에서 회원님의 자금에 액세스할 수 있습니다."
@@ -5858,7 +5858,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect BlockStar to Ledger devices."
   },
   "unapproved": {
     "message": "승인되지 않음"
@@ -6099,7 +6099,7 @@
   },
   "whatsNew": {
     "message": "새로운 소식",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to BlockStar."
   },
   "whatsThis": {
     "message": "이것은 무엇인가요?"

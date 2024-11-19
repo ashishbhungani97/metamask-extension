@@ -123,7 +123,7 @@ function SnapSettings({ snapId, initRemove, resetInitRemove }) {
         version: latestRegistryVersion,
       },
     };
-    const approvalId = await dispatch(updateSnap('MetaMask', snapToInstall));
+    const approvalId = await dispatch(updateSnap('BlockStar', snapToInstall));
 
     if (approvalId) {
       history.push(`${CONNECT_ROUTE}/${approvalId}`);

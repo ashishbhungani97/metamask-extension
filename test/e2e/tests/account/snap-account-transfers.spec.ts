@@ -155,7 +155,7 @@ describe('Snap Account Transfers @no-mmi', function (this: Suite) {
           false,
         );
 
-        // check the transaction is failed in MetaMask activity list
+        // check the transaction is failed in BlockStar activity list
         const homepage = new HomePage(driver);
         await homepage.check_pageIsLoaded();
         await homepage.check_failedTxNumberDisplayedInActivity();

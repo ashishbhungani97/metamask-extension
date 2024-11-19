@@ -303,7 +303,7 @@ async function main() {
             value: '0x0',
           },
         },
-        // returns a number right now. see here: https://github.com/MetaMask/metamask-extension/pull/14822
+        // returns a number right now. see here: https://github.com/BlockStar/metamask-extension/pull/14822
         // {
         //   name: 'getTransactionCountExamplePending',
         //   description: 'Example of a pending getTransactionCount request',
@@ -338,7 +338,7 @@ async function main() {
         'wallet_switchEthereumChain',
 
         // commented out because its not returning 4001 error.
-        // see here https://github.com/MetaMask/metamask-extension/issues/24227
+        // see here https://github.com/BlockStar/metamask-extension/issues/24227
         // 'eth_getEncryptionPublicKey', // requires permissions for eth_accounts
       ];
       const filteredMethods = openrpcDocument.methods
@@ -355,7 +355,7 @@ async function main() {
             methodsWithConfirmations.includes(m.name) ||
             // filters are currently 0 prefixed for odd length on
             // extension which doesn't pass spec
-            // see here: https://github.com/MetaMask/eth-json-rpc-filters/issues/152
+            // see here: https://github.com/BlockStar/eth-json-rpc-filters/issues/152
             m.name.includes('filter') ||
             m.name.includes('Filter')
           );
@@ -373,8 +373,8 @@ async function main() {
         ],
         skip: [
           'eth_coinbase',
-          // these 2 methods below are not supported by MetaMask extension yet and
-          // don't get passed through. See here: https://github.com/MetaMask/metamask-extension/issues/24225
+          // these 2 methods below are not supported by BlockStar extension yet and
+          // don't get passed through. See here: https://github.com/BlockStar/metamask-extension/issues/24225
           'eth_getBlockReceipts',
           'eth_maxPriorityFeePerGas',
         ],

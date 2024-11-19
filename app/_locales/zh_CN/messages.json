@@ -190,7 +190,7 @@
     "message": "添加账户"
   },
   "addAccountToMetaMask": {
-    "message": "向 MetaMask 添加账户"
+    "message": "向 BlockStar 添加账户"
   },
   "addAcquiredTokens": {
     "message": "添加您通过MetaMask获得的代币"
@@ -434,7 +434,7 @@
     "message": "所有"
   },
   "allCustodianAccountsConnectedSubtitle": {
-    "message": "您或者已连接所有托管账户，或者没有任何账户可连接到 MetaMask Institutional。"
+    "message": "您或者已连接所有托管账户，或者没有任何账户可连接到 BlockStar Institutional。"
   },
   "allCustodianAccountsConnectedTitle": {
     "message": "没有可连接的账户"
@@ -495,19 +495,19 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "BlockStar",
     "description": "The name of the application"
   },
   "appNameBeta": {
-    "message": "MetaMask Beta",
+    "message": "BlockStar Beta",
     "description": "The name of the application (Beta)"
   },
   "appNameFlask": {
-    "message": "MetaMask Flask",
+    "message": "BlockStar Flask",
     "description": "The name of the application (Flask)"
   },
   "appNameMmi": {
-    "message": "MetaMask Institutional",
+    "message": "BlockStar Institutional",
     "description": "The name of the application (MMI)"
   },
   "approve": {
@@ -598,7 +598,7 @@
     "message": "自动锁定计时器（分钟）"
   },
   "autoLockTimeLimitDescription": {
-    "message": "设置 MetaMask 将被锁定前的空闲时间（单位：分钟）。"
+    "message": "设置 BlockStar 将被锁定前的空闲时间（单位：分钟）。"
   },
   "average": {
     "message": "平均值"
@@ -610,7 +610,7 @@
     "message": "返回"
   },
   "backupApprovalInfo": {
-    "message": "如果不慎丢失个人设备，忘记密码，需要重新安装 MetaMask，或者需在另一台设备上访问钱包，使用此助记词才能恢复您的钱包。"
+    "message": "如果不慎丢失个人设备，忘记密码，需要重新安装 BlockStar，或者需在另一台设备上访问钱包，使用此助记词才能恢复您的钱包。"
   },
   "backupApprovalNotice": {
     "message": "请备份您的私钥助记词，确保您的钱包和资金安全。"
@@ -640,7 +640,7 @@
     "message": "基本功能已关闭"
   },
   "basicConfigurationDescription": {
-    "message": "MetaMask 通过互联网服务提供代币详情和燃料设置等基本功能。当您使用互联网服务时，您的 IP 地址会共享，在本例中与 MetaMask 共享。这就像您访问任何网站一样。MetaMask 暂时使用这些数据，并且绝不会出卖您的数据。您可以使用 VPN 或关闭这些服务，但这可能会影响您的 MetaMask 体验。要了解详情，请参阅我们的 $1。",
+    "message": "BlockStar 通过互联网服务提供代币详情和燃料设置等基本功能。当您使用互联网服务时，您的 IP 地址会共享，在本例中与 BlockStar 共享。这就像您访问任何网站一样。BlockStar 暂时使用这些数据，并且绝不会出卖您的数据。您可以使用 VPN 或关闭这些服务，但这可能会影响您的 BlockStar 体验。要了解详情，请参阅我们的 $1。",
     "description": "$1 is to be replaced by the message for privacyMsg, and will link to https://consensys.io/privacy-policy"
   },
   "basicConfigurationLabel": {
@@ -650,10 +650,10 @@
     "message": "我理解并想继续"
   },
   "basicConfigurationModalDisclaimerOff": {
-    "message": "这意味着您不能充分优化您在 MetaMask 上的时间。您将无法使用基本功能（例如代币详情、最优燃料设置等）。"
+    "message": "这意味着您不能充分优化您在 BlockStar 上的时间。您将无法使用基本功能（例如代币详情、最优燃料设置等）。"
   },
   "basicConfigurationModalDisclaimerOn": {
-    "message": "如需优化您在 MetaMask 上的时间，您将需要开启此功能。基本功能（例如代币详情、最优燃料设置等）对于 Web3 体验至关重要。"
+    "message": "如需优化您在 BlockStar 上的时间，您将需要开启此功能。基本功能（例如代币详情、最优燃料设置等）对于 Web3 体验至关重要。"
   },
   "basicConfigurationModalHeadingOff": {
     "message": "关闭基本功能"
@@ -672,10 +672,10 @@
     "description": "$1 represents the word 'here' in a hyperlink"
   },
   "betaMetamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional 测试版本"
+    "message": "BlockStar Institutional 测试版本"
   },
   "betaMetamaskVersion": {
-    "message": "MetaMask 测试版本"
+    "message": "BlockStar 测试版本"
   },
   "betaTerms": {
     "message": "测试版使用条款"
@@ -691,7 +691,7 @@
     "message": "比特币"
   },
   "bitcoinSupportToggleDescription": {
-    "message": "启用此功能后，您可以选择将比特币账户添加到衍生自现有私钥助记词的 MetaMask Extension 中。这是一个实验性的测试版功能，因此您应自行承担使用风险。为了向我们提供有关此新比特币体验的反馈，请填写此 $1。",
+    "message": "启用此功能后，您可以选择将比特币账户添加到衍生自现有私钥助记词的 BlockStar Extension 中。这是一个实验性的测试版功能，因此您应自行承担使用风险。为了向我们提供有关此新比特币体验的反馈，请填写此 $1。",
     "description": "$1 is the link to a product feedback form"
   },
   "bitcoinSupportToggleTitle": {
@@ -786,7 +786,7 @@
     "message": "建立您的联系人列表"
   },
   "builtAroundTheWorld": {
-    "message": "MetaMask 是在世界各地设计和建造的。"
+    "message": "BlockStar 是在世界各地设计和建造的。"
   },
   "busy": {
     "message": "忙碌中"
@@ -855,7 +855,7 @@
     "description": "$1 is a link to the privacy policy"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要在 Google Chrome 上使用 MetaMask 以连接到您的硬件钱包。"
+    "message": "您需要在 Google Chrome 上使用 BlockStar 以连接到您的硬件钱包。"
   },
   "circulatingSupply": {
     "message": "循环供应"
@@ -1011,7 +1011,7 @@
     "description": "$1 is the snap for which a connection is being requested."
   },
   "connectWithMetaMask": {
-    "message": "与 MetaMask 连接"
+    "message": "与 BlockStar 连接"
   },
   "connectedAccounts": {
     "message": "已连接的账户"
@@ -1024,7 +1024,7 @@
     "message": "您有1个账户连接到了该网站。"
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask 没有连接到该网站。要连接到 web3 网站，请找到并点击连接按钮。"
+    "message": "BlockStar 没有连接到该网站。要连接到 web3 网站，请找到并点击连接按钮。"
   },
   "connectedAccountsListTooltip": {
     "message": "$1 可以查看账户余额、地址、活动，并建议要批准的关联账户交易。",
@@ -1045,7 +1045,7 @@
     "description": "$1 is the account name"
   },
   "connectedSnapAndNoAccountDescription": {
-    "message": "MetaMask 已连接到此网站，但尚未连接任何账户"
+    "message": "BlockStar 已连接到此网站，但尚未连接任何账户"
   },
   "connecting": {
     "message": "连接中……"
@@ -1176,7 +1176,7 @@
     "message": "创建密码"
   },
   "createSnapAccountDescription": {
-    "message": "$1 想在 MetaMask 添加一个新账户。"
+    "message": "$1 想在 BlockStar 添加一个新账户。"
   },
   "createSnapAccountTitle": {
     "message": "创建账户"
@@ -1185,7 +1185,7 @@
     "message": "创建者地址"
   },
   "crossChainSwapsLink": {
-    "message": "使用 MetaMask Portfolio 跨网络兑换"
+    "message": "使用 BlockStar Portfolio 跨网络兑换"
   },
   "cryptoCompare": {
     "message": "CryptoCompare"
@@ -1237,7 +1237,7 @@
     "message": "托管人"
   },
   "custodianAccountAddedDesc": {
-    "message": "您现在可以在 MetaMask Institutional 使用您的账户。"
+    "message": "您现在可以在 BlockStar Institutional 使用您的账户。"
   },
   "custodianAccountAddedTitle": {
     "message": "已添加所选 $1 账户。"
@@ -1252,7 +1252,7 @@
     "message": "请转到 $1，点击其用户界面内的“连接到 MMI”按钮，再次将您的账户连接到 MMI。"
   },
   "custodianReplaceRefreshTokenChangedSubtitle": {
-    "message": "您现在可以在 MetaMask Institutional 使用您的托管账户。"
+    "message": "您现在可以在 BlockStar Institutional 使用您的托管账户。"
   },
   "custodianReplaceRefreshTokenChangedTitle": {
     "message": "您的托管代币已刷新"
@@ -1270,7 +1270,7 @@
     "message": "请转到$1，然后点击用户界面中的“连接到MMI”按钮，将您的账户再次连接到MMI。"
   },
   "custodyRefreshTokenModalDescription1": {
-    "message": "您的托管人会发出一个令牌来验证 MetaMask Institutional 扩展，使您可以连接您的账户。"
+    "message": "您的托管人会发出一个令牌来验证 BlockStar Institutional 扩展，使您可以连接您的账户。"
   },
   "custodyRefreshTokenModalDescription2": {
     "message": "由于安全原因，此令牌会在一段时间后过期。这使您需要重新连接到MMI。"
@@ -1360,7 +1360,7 @@
     "message": "好的"
   },
   "dataCollectionWarningPopoverDescription": {
-    "message": "您关闭了我们用于营销目的的数据收集。此操作仅适用于此设备。如果您在其他设备上使用 MetaMask，请务必也在其他设备上选择关闭。"
+    "message": "您关闭了我们用于营销目的的数据收集。此操作仅适用于此设备。如果您在其他设备上使用 BlockStar，请务必也在其他设备上选择关闭。"
   },
   "dataHex": {
     "message": "十六进制"
@@ -1661,13 +1661,13 @@
     "message": "$1. $2目前提供增强型代币检测"
   },
   "ensDomainsSettingDescriptionIntroduction": {
-    "message": "MetaMask 让您可以直接在浏览器地址栏中看到 ENS（Ethereum 域名服务）域。其工作原理如下："
+    "message": "BlockStar 让您可以直接在浏览器地址栏中看到 ENS（Ethereum 域名服务）域。其工作原理如下："
   },
   "ensDomainsSettingDescriptionOutroduction": {
     "message": "请谨记，使用此功能时，IPFS 第三方服务可以看到您的 IP 地址。"
   },
   "ensDomainsSettingDescriptionPart1": {
-    "message": "MetaMask 会检查以太坊的 ENS（Ethereum 域名服务）合约，以查找与 ENS 名称相关的代码。"
+    "message": "BlockStar 会检查以太坊的 ENS（Ethereum 域名服务）合约，以查找与 ENS 名称相关的代码。"
   },
   "ensDomainsSettingDescriptionPart2": {
     "message": "如果代码与 IPFS 关联，您就可以看到与之相关的内容（通常是网站）。"
@@ -1727,7 +1727,7 @@
     "description": "Message displayed on generic error page in the popup UI, $1 is a clickable link with text defined by the 'here' key. The link will open to a form where users can file support tickets."
   },
   "errorPageTitle": {
-    "message": "MetaMask 遇到了一个错误",
+    "message": "BlockStar 遇到了一个错误",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -1829,15 +1829,15 @@
   },
   "flaskWelcomeWarning2": {
     "message": "我们不保证此扩展程序的安全性或稳定性。Flask 提供的新API并未针对网络钓鱼攻击进行强化，这意味着任何需要 Flask 的站点或快取都可能是窃取您资产的恶意企图。",
-    "description": "This explains the risks of using MetaMask Flask"
+    "description": "This explains the risks of using BlockStar Flask"
   },
   "flaskWelcomeWarning3": {
-    "message": "所有Flask API都是实验性的。它们可能会在未事先通知的情况下被更改或删除，它们也可能会无限期地留在 Flask 上而不会迁移到稳定的 MetaMask。您需要自行承担使用它们的风险。",
+    "message": "所有Flask API都是实验性的。它们可能会在未事先通知的情况下被更改或删除，它们也可能会无限期地留在 Flask 上而不会迁移到稳定的 BlockStar。您需要自行承担使用它们的风险。",
     "description": "This message warns developers about unstable Flask APIs"
   },
   "flaskWelcomeWarning4": {
-    "message": "确保在使用Flask时禁用常规 MetaMask 扩展程序。",
-    "description": "This message calls to pay attention about multiple versions of MetaMask running on the same site (Flask + Prod)"
+    "message": "确保在使用Flask时禁用常规 BlockStar 扩展程序。",
+    "description": "This message calls to pay attention about multiple versions of BlockStar running on the same site (Flask + Prod)"
   },
   "flaskWelcomeWarningAcceptButton": {
     "message": "我接受风险",
@@ -2019,7 +2019,7 @@
     "message": "硬件钱包集成使用API调用外部服务器，这些外部服务器可以看到您的IP地址和您与之交互的智能合约地址。"
   },
   "hardwareWalletsMsg": {
-    "message": "选择希望用于 MetaMask 的硬件钱包。"
+    "message": "选择希望用于 BlockStar 的硬件钱包。"
   },
   "here": {
     "message": "此处",
@@ -2088,7 +2088,7 @@
     "description": "$1 is a message from 'holdToRevealContent4' and $2 is a text link with the message from 'holdToRevealContent5'"
   },
   "holdToRevealContent4": {
-    "message": "MetaMask 支持团队不会要求提供此项信息，",
+    "message": "BlockStar 支持团队不会要求提供此项信息，",
     "description": "Part of 'holdToRevealContent3'"
   },
   "holdToRevealContent5": {
@@ -2153,13 +2153,13 @@
     "message": "这不是有效的私钥。必须输入长度为 64 个字符的十六进制字符串。"
   },
   "importAccountJsonLoading1": {
-    "message": "预计此 JSON 导入需要几分钟时间并暂停 MetaMask。"
+    "message": "预计此 JSON 导入需要几分钟时间并暂停 BlockStar。"
   },
   "importAccountJsonLoading2": {
     "message": "很抱歉，在未来我们将会加快此流程。"
   },
   "importAccountMsg": {
-    "message": "导入的账户将不会与最初创建的 MetaMask 账户私钥助记词相关联。了解更多有关导入账户的信息"
+    "message": "导入的账户将不会与最初创建的 BlockStar 账户私钥助记词相关联。了解更多有关导入账户的信息"
   },
   "importMyWallet": {
     "message": "导入我的钱包"
@@ -2206,7 +2206,7 @@
     "message": "在设置中"
   },
   "infuraBlockedNotification": {
-    "message": "MetaMask 无法连接到区块链主机。请检查可能的原因 $1。",
+    "message": "BlockStar 无法连接到区块链主机。请检查可能的原因 $1。",
     "description": "$1 is a clickable link with with text defined by the 'here' key"
   },
   "initialTransactionConfirmed": {
@@ -2260,7 +2260,7 @@
     "message": "安装源"
   },
   "installRequest": {
-    "message": "添加到 MetaMask"
+    "message": "添加到 BlockStar"
   },
   "installedOn": {
     "message": "已在 $1 上安装",
@@ -2456,10 +2456,10 @@
     "message": "了解跨链桥"
   },
   "leaveMetaMask": {
-    "message": "要离开 MetaMask？"
+    "message": "要离开 BlockStar？"
   },
   "leaveMetaMaskDesc": {
-    "message": "您即将访问 MetaMask 之外的网站。继续之前请仔细检查 URL。"
+    "message": "您即将访问 BlockStar 之外的网站。继续之前请仔细检查 URL。"
   },
   "ledgerAccountRestriction": {
     "message": "您需要先使用最后一个账户，然后才能添加新账户。"
@@ -2553,7 +2553,7 @@
     "message": "注销"
   },
   "lockMetaMask": {
-    "message": "锁定 MetaMask"
+    "message": "锁定 BlockStar"
   },
   "lockTimeInvalid": {
     "message": "锁定时间必须是 0 到 10080 之间的数字"
@@ -2623,7 +2623,7 @@
     "message": "消息"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "现在您可以更好地控制 MetaMask 中的账户连接。"
+    "message": "现在您可以更好地控制 BlockStar 中的账户连接。"
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "点击它以管理您的连接账户。"
@@ -2636,19 +2636,19 @@
     "description": "$1 is the snap name and $2 is the snap NPM id."
   },
   "metamaskInstitutionalVersion": {
-    "message": "MetaMask Institutional 版本"
+    "message": "BlockStar Institutional 版本"
   },
   "metamaskNotificationsAreOff": {
     "message": "钱包通知目前未开启。"
   },
   "metamaskPortfolio": {
-    "message": "MetaMask Portfolio。"
+    "message": "BlockStar Portfolio。"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps 正在进行维护。请稍后再查看。"
+    "message": "BlockStar Swaps 正在进行维护。请稍后再查看。"
   },
   "metamaskVersion": {
-    "message": "MetaMask 版本"
+    "message": "BlockStar 版本"
   },
   "methodData": {
     "message": "方法"
@@ -2696,10 +2696,10 @@
     "message": "在这里请求"
   },
   "mmiBuiltAroundTheWorld": {
-    "message": "MetaMask Institutional 面向全球各地设计并建立。"
+    "message": "BlockStar Institutional 面向全球各地设计并建立。"
   },
   "mmiNewNFTDetectedInNFTsTabMessage": {
-    "message": "让 MetaMask Institutional 自动检测您钱包中的 NFT，并在检测到时显示那些 NFT。"
+    "message": "让 BlockStar Institutional 自动检测您钱包中的 NFT，并在检测到时显示那些 NFT。"
   },
   "mmiPasswordSetupDetails": {
     "message": "此密码仅会解锁您的MetaMask Institutional扩展程序。"
@@ -2767,7 +2767,7 @@
     "message": "Lens 协议"
   },
   "nameProvider_token": {
-    "message": "MetaMask"
+    "message": "BlockStar"
   },
   "nameSetPlaceholder": {
     "message": "选择昵称......",
@@ -2800,7 +2800,7 @@
     "message": "分享您的反馈"
   },
   "needHelpLinkText": {
-    "message": "MetaMask 支持"
+    "message": "BlockStar 支持"
   },
   "needHelpSubmitTicket": {
     "message": "提交工单"
@@ -2932,7 +2932,7 @@
     "description": "$1 is used for newNFTDetectedInImportNFTsMessageStrongText"
   },
   "newNFTDetectedInNFTsTabMessage": {
-    "message": "让 MetaMask 自动检测您钱包中的 NFT，并在检测到时显示那些 NFT。"
+    "message": "让 BlockStar 自动检测您钱包中的 NFT，并在检测到时显示那些 NFT。"
   },
   "newNFTsAutodetected": {
     "message": "NFT 自动检测"
@@ -2967,7 +2967,7 @@
   },
   "nextNonceWarning": {
     "message": "Nonce 高于所指出的 Nonce: $1",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to BlockStar's internal logic"
   },
   "nftAddFailedMessage": {
     "message": "由于所有权信息不匹配，无法添加NFT。请确保所输入的信息正确无误。"
@@ -2983,7 +2983,7 @@
     "message": "已启用 NFT 自动检测"
   },
   "nftDisclaimer": {
-    "message": "免责声明：MetaMask 从源网址中提取媒体文件。该网址有时会因铸造 NFT 的市场而改变。"
+    "message": "免责声明：BlockStar 从源网址中提取媒体文件。该网址有时会因铸造 NFT 的市场而改变。"
   },
   "nftOptions": {
     "message": "NFT 期权"
@@ -3015,7 +3015,7 @@
     "message": "未找到符合给定查询条件的账户"
   },
   "noConnectedAccountTitle": {
-    "message": "MetaMask 未连接到此站点"
+    "message": "BlockStar 未连接到此站点"
   },
   "noConversionRateAvailable": {
     "message": "无可用汇率"
@@ -3048,7 +3048,7 @@
     "message": "未找到网络摄像头"
   },
   "nonCustodialAccounts": {
-    "message": "MetaMask Institutional 允许您使用非托管账户，如果您计划使用这些账户，请备份私钥助记词。"
+    "message": "BlockStar Institutional 允许您使用非托管账户，如果您计划使用这些账户，请备份私钥助记词。"
   },
   "nonce": {
     "message": "Nonce"
@@ -3213,8 +3213,8 @@
     "message": "通知"
   },
   "notificationsDropLedgerFirefoxDescription": {
-    "message": "Firefox 不再支持 U2F，因此在 Firefox 上，MetaMask 无法使用 Ledger。请尝试在 Google Chrome 上使用 MetaMask。",
-    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use MetaMask on chrome for ledger support instead."
+    "message": "Firefox 不再支持 U2F，因此在 Firefox 上，BlockStar 无法使用 Ledger。请尝试在 Google Chrome 上使用 BlockStar。",
+    "description": "Description of a notification in the 'See What's New' popup. Describes that ledger will not longer be supported for firefox users and they should use BlockStar on chrome for ledger support instead."
   },
   "notificationsDropLedgerFirefoxTitle": {
     "message": "放弃在 Firefox 上支持 Ledger",
@@ -3336,7 +3336,7 @@
     "message": "我同意"
   },
   "onboardingMetametricsDescription": {
-    "message": "我们希望收集基本的使用和诊断数据，以改进 MetaMask。请注意，我们绝不会出卖您在此处提供的数据。"
+    "message": "我们希望收集基本的使用和诊断数据，以改进 BlockStar。请注意，我们绝不会出卖您在此处提供的数据。"
   },
   "onboardingMetametricsDescription2": {
     "message": "当我们收集指标时，总是..."
@@ -3373,7 +3373,7 @@
     "message": "了解我们如何在收集您的个人资料使用数据的同时保护您的隐私。"
   },
   "onboardingMetametricsTitle": {
-    "message": "请帮助我们改进 MetaMask"
+    "message": "请帮助我们改进 BlockStar"
   },
   "onboardingMetametricsUseDataCheckbox": {
     "message": "我们将使用此数据来了解您如何与我们的营销通信交互。我们可能会分享相关资讯（例如产品特点）。"
@@ -3394,16 +3394,16 @@
     "message": "点击浏览器扩展程序图标"
   },
   "onboardingPinExtensionDescription": {
-    "message": "在您的浏览器上固定 MetaMask，以便访问并轻松查看交易确认。"
+    "message": "在您的浏览器上固定 BlockStar，以便访问并轻松查看交易确认。"
   },
   "onboardingPinExtensionDescription2": {
-    "message": "您可以通过点击扩展程序打开 MetaMask，并一键访问您的钱包。"
+    "message": "您可以通过点击扩展程序打开 BlockStar，并一键访问您的钱包。"
   },
   "onboardingPinExtensionDescription3": {
     "message": "点击浏览器扩展程序图标即可即时访问它"
   },
   "onboardingPinExtensionLabel": {
-    "message": "固定 MetaMask"
+    "message": "固定 BlockStar"
   },
   "onboardingPinExtensionStep1": {
     "message": "1"
@@ -3412,7 +3412,7 @@
     "message": "2"
   },
   "onboardingPinExtensionTitle": {
-    "message": "您的 MetaMask 安装完成！"
+    "message": "您的 BlockStar 安装完成！"
   },
   "onboardingPinMmiExtensionLabel": {
     "message": "将MetaMask Institutional置顶"
@@ -3446,7 +3446,7 @@
   },
   "openFullScreenForLedgerWebHid": {
     "message": "全屏打开以连接您的 Ledger。",
-    "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
+    "description": "Shown to the user on the confirm screen when they are viewing BlockStar in a popup window but need to connect their ledger via webhid."
   },
   "openInBlockExplorer": {
     "message": "在区块浏览器上打开"
@@ -3489,7 +3489,7 @@
     "message": "参加 MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "加入 MetaMetrics ，帮助我们改进 MetaMask"
+    "message": "加入 MetaMetrics ，帮助我们改进 BlockStar"
   },
   "password": {
     "message": "密码"
@@ -3501,7 +3501,7 @@
     "message": "密码长度不足"
   },
   "passwordSetupDetails": {
-    "message": "此密码只会在此设备上解锁您的 MetaMask 钱包。MetaMask 无法恢复此密码。"
+    "message": "此密码只会在此设备上解锁您的 BlockStar 钱包。BlockStar 无法恢复此密码。"
   },
   "passwordStrength": {
     "message": "密码强度：$1",
@@ -3511,7 +3511,7 @@
     "message": "强密码可以提高钱包的安全性，以防设备被盗或被入侵。"
   },
   "passwordTermsWarning": {
-    "message": "我明白 MetaMask 无法为我恢复此密码。$1"
+    "message": "我明白 BlockStar 无法为我恢复此密码。$1"
   },
   "passwordsDontMatch": {
     "message": "密码不匹配"
@@ -3589,11 +3589,11 @@
     "description": "An extended description for the `snap_cronjob` permission. $1 is the snap name."
   },
   "permission_dialog": {
-    "message": "在 MetaMask 中显示对话框窗口。",
+    "message": "在 BlockStar 中显示对话框窗口。",
     "description": "The description for the `snap_dialog` permission"
   },
   "permission_dialogDescription": {
-    "message": "允许 $1 显示带有以下内容的 MetaMask 弹出窗口：自定义文本、输入字段以及用于批准或拒绝操作的按钮。\n这适用于创建 snap 的提醒、确认和流程加入选项等。",
+    "message": "允许 $1 显示带有以下内容的 BlockStar 弹出窗口：自定义文本、输入字段以及用于批准或拒绝操作的按钮。\n这适用于创建 snap 的提醒、确认和流程加入选项等。",
     "description": "An extended description for the `snap_dialog` permission. $1 is the snap name."
   },
   "permission_ethereumAccounts": {
@@ -3605,7 +3605,7 @@
     "description": "The description for the `endowment:ethereum-provider` permission"
   },
   "permission_ethereumProviderDescription": {
-    "message": "允许 $1 直接与 MetaMask 通信，使其可以从区块链中读取数据，并提供消息和交易建议。",
+    "message": "允许 $1 直接与 BlockStar 通信，使其可以从区块链中读取数据，并提供消息和交易建议。",
     "description": "An extended description for the `endowment:ethereum-provider` permission. $1 is the snap name."
   },
   "permission_getEntropy": {
@@ -3613,7 +3613,7 @@
     "description": "The description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getEntropyDescription": {
-    "message": "允许 $1 派生 $1 独有的任意私钥，但不公开私钥。这些私钥与您的 MetaMask 账户是分开的，与您的私钥或私钥助记词无关。其他 snap 无法访问此信息。",
+    "message": "允许 $1 派生 $1 独有的任意私钥，但不公开私钥。这些私钥与您的 BlockStar 账户是分开的，与您的私钥或私钥助记词无关。其他 snap 无法访问此信息。",
     "description": "An extended description for the `snap_getEntropy` permission. $1 is the snap name."
   },
   "permission_getLocale": {
@@ -3621,7 +3621,7 @@
     "description": "The description for the `snap_getLocale` permission"
   },
   "permission_getLocaleDescription": {
-    "message": "允许 $1 访问您的 MetaMask 首选语言设置。这可用于进行本地化，以及使用您的语言显示$1的内容。",
+    "message": "允许 $1 访问您的 BlockStar 首选语言设置。这可用于进行本地化，以及使用您的语言显示$1的内容。",
     "description": "An extended description for the `snap_getLocale` permission. $1 is the snap name."
   },
   "permission_homePage": {
@@ -3629,7 +3629,7 @@
     "description": "The description for the `endowment:page-home` permission"
   },
   "permission_homePageDescription": {
-    "message": "让 $1 在 MetaMask 中显示自定义主屏幕。这可以用于用户界面、配置和控制面板。",
+    "message": "让 $1 在 BlockStar 中显示自定义主屏幕。这可以用于用户界面、配置和控制面板。",
     "description": "An extended description for the `endowment:page-home` permission. $1 is the snap name."
   },
   "permission_keyring": {
@@ -3681,7 +3681,7 @@
     "description": "The description for the `endowment:name-lookup` permission."
   },
   "permission_nameLookupDescription": {
-    "message": "允许 Snap 在 MetaMask UI 的不同部分中获取和显示地址并进行域查找。",
+    "message": "允许 Snap 在 BlockStar UI 的不同部分中获取和显示地址并进行域查找。",
     "description": "An extended description for the `endowment:name-lookup` permission."
   },
   "permission_notifications": {
@@ -3689,7 +3689,7 @@
     "description": "The description for the `snap_notify` permission"
   },
   "permission_notificationsDescription": {
-    "message": "允许 $1 在 MetaMask 中显示通知。snap 可以触发简短的通知文本，以提供可操作或对时间敏感的信息。",
+    "message": "允许 $1 在 BlockStar 中显示通知。snap 可以触发简短的通知文本，以提供可操作或对时间敏感的信息。",
     "description": "An extended description for the `snap_notify` permission. $1 is the snap name."
   },
   "permission_rpc": {
@@ -3725,7 +3725,7 @@
     "description": "The description for the `endowment:transaction-insight` permission"
   },
   "permission_transactionInsightDescription": {
-    "message": "允许 $1 在 MetaMask UI 中对交易进行解码，并显示见解。这可用于防止网络钓鱼和采取安全措施。",
+    "message": "允许 $1 在 BlockStar UI 中对交易进行解码，并显示见解。这可用于防止网络钓鱼和采取安全措施。",
     "description": "An extended description for the `endowment:transaction-insight` permission. $1 is the snap name."
   },
   "permission_transactionInsightOrigin": {
@@ -3887,7 +3887,7 @@
     "message": "如果您关闭配置文件同步，您将无法收到通知。"
   },
   "profileSyncDescription": {
-    "message": "创建配置文件，MetaMask 用以在您的不同设备之间同步某些设置。这是获取通知的必需条件。$1。"
+    "message": "创建配置文件，BlockStar 用以在您的不同设备之间同步某些设置。这是获取通知的必需条件。$1。"
   },
   "profileSyncPrivacyLink": {
     "message": "了解我们如何保护您的隐私"
@@ -3968,7 +3968,7 @@
     "message": "解除质押完成"
   },
   "pushPlatformNotificationsSwapCompletedDescription": {
-    "message": "您的 MetaMask 兑换已成功"
+    "message": "您的 BlockStar 兑换已成功"
   },
   "pushPlatformNotificationsSwapCompletedTitle": {
     "message": "兑换已完成"
@@ -4013,7 +4013,7 @@
     "message": "切勿与任何人分享您的账户私钥助记词"
   },
   "recoveryPhraseReminderItemTwo": {
-    "message": "MetaMask 团队绝对不会索要您的账户私钥助记词"
+    "message": "BlockStar 团队绝对不会索要您的账户私钥助记词"
   },
   "recoveryPhraseReminderSubText": {
     "message": "您的账户私钥助记词控制您的所有账户。"
@@ -4091,7 +4091,7 @@
     "message": "移除 Snap"
   },
   "removeSnapAccountDescription": {
-    "message": "如果您继续，此账户将不可在 MetaMask 中使用。"
+    "message": "如果您继续，此账户将不可在 BlockStar 中使用。"
   },
   "removeSnapAccountTitle": {
     "message": "去除账户"
@@ -4192,7 +4192,7 @@
     "description": "This is a sentence consisting of link using 'revealSeedWordsSRPName' as $1 and bolded text using 'revealSeedWordsDescription3' as $2."
   },
   "revealSeedWordsDescription2": {
-    "message": "MetaMask 是$1。这意味着您是自己的 SRP 的所有者。",
+    "message": "BlockStar 是$1。这意味着您是自己的 SRP 的所有者。",
     "description": "$1 is text link with the message from 'revealSeedWordsNonCustodialWallet'"
   },
   "revealSeedWordsDescription3": {
@@ -4215,7 +4215,7 @@
     "description": "$1 is bolded text using the message from 'revealSeedWordsWarning2'"
   },
   "revealSeedWordsWarning2": {
-    "message": "MetaMask 支持团队绝对不会要求提供此项信息。",
+    "message": "BlockStar 支持团队绝对不会要求提供此项信息。",
     "description": "The bolded texted in the second part of 'revealSeedWordsWarning'"
   },
   "revealSensitiveContent": {
@@ -4340,7 +4340,7 @@
     "message": "如果有人要求您的恢复短语，他们可能会试图欺诈您并偷窃您的钱包资金"
   },
   "seedPhraseIntroSidebarCopyTwo": {
-    "message": "切勿分享您的账户私钥助记词，包括也不能与 MetaMask 分享！"
+    "message": "切勿分享您的账户私钥助记词，包括也不能与 BlockStar 分享！"
   },
   "seedPhraseIntroSidebarTitleOne": {
     "message": "什么是账户私钥助记词？"
@@ -4385,10 +4385,10 @@
     "message": "选择一个账户"
   },
   "selectAnAccountAlreadyConnected": {
-    "message": "此账户已连接到 MetaMask"
+    "message": "此账户已连接到 BlockStar"
   },
   "selectAnAccountHelp": {
-    "message": "选择要在 MetaMask Institutional 使用的托管账户。"
+    "message": "选择要在 BlockStar Institutional 使用的托管账户。"
   },
   "selectEnableDisplayMediaPrivacyPreference": {
     "message": "打开\"显示 NFT 媒体\""
@@ -4645,7 +4645,7 @@
     "message": "您的交易失败"
   },
   "smartTransactionErrorDescription": {
-    "message": "市场的突然变化可导致失败。如果问题仍然存在，请联系 MetaMask 客户支持团队。"
+    "message": "市场的突然变化可导致失败。如果问题仍然存在，请联系 BlockStar 客户支持团队。"
   },
   "smartTransactionPending": {
     "message": "正在提交您的交易"
@@ -4705,7 +4705,7 @@
     "message": "账户已去除"
   },
   "snapAccountRemovedDescription": {
-    "message": "此账户将在 MetaMask 中不再可用。"
+    "message": "此账户将在 BlockStar 中不再可用。"
   },
   "snapAccounts": {
     "message": "账户Snap"
@@ -4929,7 +4929,7 @@
     "message": "要查看私钥助记词，您需要答对两个问题"
   },
   "srpSecurityQuizQuestionOneQuestion": {
-    "message": "如果您丢失了私钥助记词，MetaMask..."
+    "message": "如果您丢失了私钥助记词，BlockStar..."
   },
   "srpSecurityQuizQuestionOneRightAnswer": {
     "message": "无法帮助您"
@@ -5006,7 +5006,7 @@
     "message": "检索状态日志时出错。"
   },
   "stateLogFileName": {
-    "message": "MetaMask 状态日志"
+    "message": "BlockStar 状态日志"
   },
   "stateLogs": {
     "message": "状态日志"
@@ -5027,7 +5027,7 @@
     "message": "关联您的 Lattice1"
   },
   "step1LatticeWalletMsg": {
-    "message": "当您的 Lattice1 设备设置好并在线时，您可以将 MetaMask 与其相关联。解锁您的设备并准备好您的设备 ID。",
+    "message": "当您的 Lattice1 设备设置好并在线时，您可以将 BlockStar 与其相关联。解锁您的设备并准备好您的设备 ID。",
     "description": "$1 represents the `hardwareWalletSupportLinkConversion` localization key"
   },
   "step1LedgerWallet": {
@@ -5197,7 +5197,7 @@
     "message": "编辑限制"
   },
   "swapEnableDescription": {
-    "message": "这是必须的，并且允许 MetaMask 兑换您的 $1。",
+    "message": "这是必须的，并且允许 BlockStar 兑换您的 $1。",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEnableTokenForSwapping": {
@@ -5250,18 +5250,18 @@
     "message": "上一个屏幕上的燃料费用在这两笔交易之间分摊。"
   },
   "swapGasFeesSummary": {
-    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。MetaMask 不会从燃料费用中获利。",
+    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。BlockStar 不会从燃料费用中获利。",
     "description": "$1 is the selected network, e.g. Ethereum or BSC"
   },
   "swapHighSlippage": {
     "message": "高滑点"
   },
   "swapIncludesMMFee": {
-    "message": "包括 $1% 的 MetaMask 费用。",
+    "message": "包括 $1% 的 BlockStar 费用。",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapIncludesMMFeeAlt": {
-    "message": "报价反映了 $1% MetaMask 费用",
+    "message": "报价反映了 $1% BlockStar 费用",
     "description": "Provides information about the fee that metamask takes for swaps using the latest copy. $1 is a decimal number."
   },
   "swapIncludesMetaMaskFeeViewAllQuotes": {
@@ -5281,10 +5281,10 @@
     "message": "最大滑点"
   },
   "swapMetaMaskFee": {
-    "message": "MetaMask 费用"
+    "message": "BlockStar 费用"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "该报价中会自动计入一笔 $1% 的费用。您支付该费用以换取使用 MetaMask 流动性提供商信息聚合软件的许可证。",
+    "message": "该报价中会自动计入一笔 $1% 的费用。您支付该费用以换取使用 BlockStar 流动性提供商信息聚合软件的许可证。",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNQuotesWithDot": {
@@ -5494,7 +5494,7 @@
     "message": "切换"
   },
   "switchEthereumChainConfirmationDescription": {
-    "message": "这将切换 MetaMask 中选定的网络到以前添加的网络："
+    "message": "这将切换 BlockStar 中选定的网络到以前添加的网络："
   },
   "switchEthereumChainConfirmationTitle": {
     "message": "允许此网站切换网络？"
@@ -5692,7 +5692,7 @@
     "message": "建议的网站"
   },
   "transactionDetailDappGasTooltip": {
-    "message": "编辑以使用 MetaMask 建议的基于最新区块的燃料费用。"
+    "message": "编辑以使用 BlockStar 建议的基于最新区块的燃料费用。"
   },
   "transactionDetailGasHeading": {
     "message": "估算的燃料费"
@@ -5704,7 +5704,7 @@
     "message": "燃料费由网络设定，并根据网络流量和交易的复杂性而波动。"
   },
   "transactionDetailGasTooltipIntro": {
-    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。MetaMask 不会从燃料费用中获利。"
+    "message": "燃料费用支付给在 $1 网络上处理交易的加密矿工。BlockStar 不会从燃料费用中获利。"
   },
   "transactionDetailGasTotalSubtitle": {
     "message": "金额 + 燃料费"
@@ -5858,7 +5858,7 @@
   },
   "u2f": {
     "message": "U2F",
-    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect MetaMask to Ledger devices."
+    "description": "A name on an API for the browser to interact with devices that support the U2F protocol. On some browsers we use it to connect BlockStar to Ledger devices."
   },
   "unapproved": {
     "message": "未批准"
@@ -5930,7 +5930,7 @@
     "message": "对智能合约进行解码"
   },
   "use4ByteResolutionDescription": {
-    "message": "为了改善用户体验，我们根据与您交互的智能合约消息，自定义活动选项卡。MetaMask 使用名为 4byte.directory 的服务来对数据进行解码，并向您显示更方便阅读的智能合约版本。这有助于减少您批准恶意智能合约操作的机会，但可能导致您的 IP 地址被共享。"
+    "message": "为了改善用户体验，我们根据与您交互的智能合约消息，自定义活动选项卡。BlockStar 使用名为 4byte.directory 的服务来对数据进行解码，并向您显示更方便阅读的智能合约版本。这有助于减少您批准恶意智能合约操作的机会，但可能导致您的 IP 地址被共享。"
   },
   "useMultiAccountBalanceChecker": {
     "message": "账户余额分批请求"
@@ -5942,7 +5942,7 @@
     "message": "自动检测NFT"
   },
   "useNftDetectionDescriptionText": {
-    "message": "让 MetaMask 使用第三方服务来添加您所拥有的 NFT。打开自动检测 NFT 功能后，这些服务就可以看到您的 IP 地址和账户地址。启用此功能可能会将您的 IP 地址与以太坊地址关联起来，并显示骗子空投的虚假 NFT。您可以手动添加代币以避免此风险。"
+    "message": "让 BlockStar 使用第三方服务来添加您所拥有的 NFT。打开自动检测 NFT 功能后，这些服务就可以看到您的 IP 地址和账户地址。启用此功能可能会将您的 IP 地址与以太坊地址关联起来，并显示骗子空投的虚假 NFT。您可以手动添加代币以避免此风险。"
   },
   "usePhishingDetection": {
     "message": "使用网络钓鱼检测"
@@ -5954,7 +5954,7 @@
     "message": "网络详细信息检查"
   },
   "useSafeChainsListValidationDescription": {
-    "message": "MetaMask 使用名为$1的第三方服务来显示标准化网络的准确详细信息。这可减少您连接到恶意或不正确网络的机会。使用此功能时，chainid.network 可以看到您的 IP 地址。"
+    "message": "BlockStar 使用名为$1的第三方服务来显示标准化网络的准确详细信息。这可减少您连接到恶意或不正确网络的机会。使用此功能时，chainid.network 可以看到您的 IP 地址。"
   },
   "useSafeChainsListValidationWebsite": {
     "message": "chainid.network",
@@ -6086,7 +6086,7 @@
     "message": "探索去中心化应用"
   },
   "welcomeLoginDescription": {
-    "message": "使用您的 MetaMask 登录去中心化应用 - 无需注册。"
+    "message": "使用您的 BlockStar 登录去中心化应用 - 无需注册。"
   },
   "welcomeLoginTitle": {
     "message": "迎接您的钱包"
@@ -6095,11 +6095,11 @@
     "message": "让我们开始吧"
   },
   "welcomeToMetaMaskIntro": {
-    "message": "MetaMask 深受数百万人信任，是一款可以让所有人进入 web3 世界的安全钱包。"
+    "message": "BlockStar 深受数百万人信任，是一款可以让所有人进入 web3 世界的安全钱包。"
   },
   "whatsNew": {
     "message": "最新动态",
-    "description": "This is the title of a popup that gives users notifications about new features and updates to MetaMask."
+    "description": "This is the title of a popup that gives users notifications about new features and updates to BlockStar."
   },
   "whatsThis": {
     "message": "这是什么？"

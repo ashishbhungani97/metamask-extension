@@ -489,10 +489,10 @@ export const draftTransactionInitialState = {
  *  Describes which list of recipients the user is shown on the add recipient
  *  screen. When this key is set to 'MY_ACCOUNTS' the user is shown the list of
  *  accounts they own. When it is 'CONTACT_LIST' the user is shown the list of
- *  contacts they have saved in MetaMask and any addresses they have recently
+ *  contacts they have saved in BlockStar and any addresses they have recently
  *  sent to.
  * @property {Account} selectedAccount - The currently selected account in
- *  MetaMask. Native balance and address will be pulled from this account if a
+ *  BlockStar. Native balance and address will be pulled from this account if a
  *  fromAccount is not specified in the draftTransaction object. During an edit
  *  the fromAccount is specified.
  * @property {MapValuesToUnion<SendStateStages>} stage - The stage of the
@@ -646,7 +646,7 @@ export const initializeSendState = createAsyncThunk(
   async ({ chainHasChanged = false } = {}, thunkApi) => {
     /**
      * @typedef {object} ReduxState
-     * @property {object} metamask - Half baked type for the MetaMask object
+     * @property {object} metamask - Half baked type for the BlockStar object
      * @property {SendState} send - the send state
      */
 

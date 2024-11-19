@@ -25,8 +25,8 @@ async function fetchAuthorTeamsFile() {
     const { data } = await octokit.request(
       'GET /repos/{owner}/{repo}/contents/{path}',
       {
-        owner: 'MetaMask',
-        repo: 'MetaMask-planning',
+        owner: 'BlockStar',
+        repo: 'BlockStar-planning',
         path: 'teams.json',
       },
     );
@@ -63,7 +63,7 @@ async function getGitHubUsername(commitHash) {
     const { data } = await octokit.request(
       'GET /repos/{owner}/{repo}/commits/{ref}',
       {
-        owner: 'MetaMask',
+        owner: 'BlockStar',
         repo: 'metamask-extension',
         ref: commitHash,
       },
@@ -118,7 +118,7 @@ async function filterCommitsByTeam(branchA, branchB, authorTeams) {
       // Extract PR number from the commit message using regex
       const prMatch = message.match(/\(#(\d+)\)/u);
       const prLink = prMatch
-        ? `https://github.com/MetaMask/metamask-extension/pull/${prMatch[1]}`
+        ? `https://github.com/BlockStar/metamask-extension/pull/${prMatch[1]}`
         : '';
 
       // Check if the commit message is unique and exclude 'Changelog' or 'Merge pull request' or 'master-sync' in the message
@@ -130,7 +130,7 @@ async function filterCommitsByTeam(branchA, branchB, authorTeams) {
         !message.includes('master-sync')
       ) {
         const labels = await getPRLabels(
-          'MetaMask',
+          'BlockStar',
           'metamask-extension',
           prMatch[1],
         );

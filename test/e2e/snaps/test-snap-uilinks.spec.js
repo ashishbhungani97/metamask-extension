@@ -93,7 +93,7 @@ describe('Test Snap UI Links', function () {
         });
 
         // switch to new tab
-        await driver.switchToWindowWithTitle('MetaMask Snaps Directory');
+        await driver.switchToWindowWithTitle('BlockStar Snaps Directory');
 
         // check that the correct page has been opened
         await driver.waitForSelector({

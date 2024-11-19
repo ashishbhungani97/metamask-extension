@@ -696,11 +696,11 @@ export const As: StoryFn<typeof Box> = (args) => {
         Box as 'button' tag and disabled
       </Box>
       <br />
-      <Box as="a" href="https://metamask.io">
+      <Box as="a" href="https://blockstars.blockstar.site/knowledge-base">
         Box as 'a' tag with href
       </Box>
       <br />
-      <Box as="p" href="https://metamask.io" data-testid="hello">
+      <Box as="p" href="https://blockstars.blockstar.site/knowledge-base" data-testid="hello">
         Box as 'p' tag with href and data-testid
       </Box>
       <br />

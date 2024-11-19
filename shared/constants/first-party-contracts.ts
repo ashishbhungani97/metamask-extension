@@ -2,12 +2,12 @@ import { Hex } from '@metamask/utils';
 import { CHAIN_IDS } from './network';
 
 export enum EXPERIENCES_TYPE {
-  METAMASK_VALIDATOR_STAKING = 'MetaMask Validator Staking',
-  METAMASK_POOLED_STAKING = 'MetaMask Pooled Staking',
-  METAMASK_THIRD_PARTY_STAKING = 'MetaMask Third Party Staking',
-  METAMASK_POOLED_STAKING_V1 = 'MetaMask Pool Staking (v1)',
-  METAMASK_BRIDGE = 'MetaMask Bridge',
-  METAMASK_SWAPS = 'MetaMask Swaps',
+  METAMASK_VALIDATOR_STAKING = 'BlockStar Validator Staking',
+  METAMASK_POOLED_STAKING = 'BlockStar Pooled Staking',
+  METAMASK_THIRD_PARTY_STAKING = 'BlockStar Third Party Staking',
+  METAMASK_POOLED_STAKING_V1 = 'BlockStar Pool Staking (v1)',
+  METAMASK_BRIDGE = 'BlockStar Bridge',
+  METAMASK_SWAPS = 'BlockStar Swaps',
 }
 
 /**

@@ -9,7 +9,7 @@ const {
 } = require('../../helpers');
 const FixtureBuilder = require('../../fixture-builder');
 
-describe('MetaMask Responsive UI', function () {
+describe('BlockStar Responsive UI', function () {
   it('Creating a new wallet @no-mmi', async function () {
     const driverOptions = { constrainWindowSize: true };
 
@@ -129,7 +129,7 @@ describe('MetaMask Responsive UI', function () {
       async ({ driver, ganacheServer }) => {
         await logInWithBalanceValidation(driver, ganacheServer);
 
-        // Send ETH from inside MetaMask
+        // Send ETH from inside BlockStar
         // starts to send a transaction
         await openActionMenuAndStartSendFlow(driver);
         await driver.fill(

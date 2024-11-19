@@ -40,7 +40,7 @@ commands inside the parameter parentheses:
 ```
 
 It's critical that this transform runs before anything else processes our code.
-For details, see [`@metamask/build-utils`](https://github.com/MetaMask/core/tree/main/packages/build-utils).
+For details, see [`@metamask/build-utils`](https://github.com/BlockStar/core/tree/main/packages/build-utils).
 
 ### Gotchas
 

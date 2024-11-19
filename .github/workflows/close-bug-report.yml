@@ -20,6 +20,6 @@ jobs:
 
       - name: Close release bug report issue
         env:
-          BUG_REPORT_REPO: MetaMask-planning
+          BUG_REPORT_REPO: BlockStar-planning
           BUG_REPORT_TOKEN: ${{ secrets.BUG_REPORT_TOKEN }}
         run: yarn run close-release-bug-report-issue

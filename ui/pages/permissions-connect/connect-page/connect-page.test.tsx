@@ -57,7 +57,7 @@ describe('ConnectPage', () => {
 
   it('should render title correctly', () => {
     const { getByText } = render();
-    expect(getByText('Connect with MetaMask')).toBeDefined();
+    expect(getByText('Connect with BlockStar')).toBeDefined();
   });
 
   it('should render account connectionListItem', () => {

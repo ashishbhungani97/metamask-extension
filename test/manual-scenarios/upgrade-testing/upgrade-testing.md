@@ -1,18 +1,18 @@
-# MetaMask Extension Upgrade Testing from Master to Release Branch
+# BlockStar Extension Upgrade Testing from Master to Release Branch
 
 ## Feature: Validate Functionality Post-Upgrade
 
-To ensure MetaMask extension's upgrade process is seamless and retains user data and functionality, we need to validate the transition from the previously shipped version (master branch) to the upcoming release (release branch).
+To ensure BlockStar extension's upgrade process is seamless and retains user data and functionality, we need to validate the transition from the previously shipped version (master branch) to the upcoming release (release branch).
 
 ## Scenario: Validate Upgrade Retains Data and Functionality
 
 ### Pre-Upgrade Actions on Master Branch
 
-- **Given** the user checks out the master branch, runs `yarn` and `yarn start` to build locally, and has loaded the MetaMask extension. For instructions on how to load extension on Chrome and Firefox, check the guidelines [here for Chrome](https://github.com/MetaMask/metamask-extension/blob/develop/docs/add-to-chrome.md) and [here for Firefox](https://github.com/MetaMask/metamask-extension/blob/develop/docs/add-to-firefox.md).
+- **Given** the user checks out the master branch, runs `yarn` and `yarn start` to build locally, and has loaded the BlockStar extension. For instructions on how to load extension on Chrome and Firefox, check the guidelines [here for Chrome](https://github.com/BlockStar/metamask-extension/blob/develop/docs/add-to-chrome.md) and [here for Firefox](https://github.com/BlockStar/metamask-extension/blob/develop/docs/add-to-firefox.md).
 - **And** the user has successfully onboarded.
 - **And** the user creates two accounts.
 - **And** the user sends a transaction between these accounts.
-- **And** the user uses TestDapp to create an ERC20 token and imports it into MetaMask.
+- **And** the user uses TestDapp to create an ERC20 token and imports it into BlockStar.
 
 ### Upgrade Actions
 
@@ -33,6 +33,6 @@ To ensure MetaMask extension's upgrade process is seamless and retains user data
 
 ### Expected Outcome
 
-After upgrading from the master branch to the release branch, the MetaMask extension should:
+After upgrading from the master branch to the release branch, the BlockStar extension should:
 - Retain all user data including accounts, transactions, and imported tokens.
 - Maintain full functionality, enabling the user to continue using extension without any issues.

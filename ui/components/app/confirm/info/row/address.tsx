@@ -43,7 +43,7 @@ export const ConfirmInfoRowAddress = memo(
         {
           // PetNames on this component are disabled for snaps until the `<Name />`
           // component can support variations. See this comment for context: //
-          // https://github.com/MetaMask/metamask-extension/pull/23487#discussion_r1525055546
+          // https://github.com/BlockStar/metamask-extension/pull/23487#discussion_r1525055546
           isPetNamesEnabled && !isSnapUsingThis ? (
             <Name
               value={hexAddress}

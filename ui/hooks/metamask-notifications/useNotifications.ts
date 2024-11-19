@@ -112,7 +112,7 @@ export function useCreateNotifications(): {
 }
 
 /**
- * Custom hook to enable MetaMask notifications.
+ * Custom hook to enable BlockStar notifications.
  * This hook encapsulates the logic for enabling notifications, handling loading and error states.
  * It uses Redux to dispatch actions related to notifications.
  *

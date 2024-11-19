@@ -408,7 +408,7 @@ describe('Sentry errors', function () {
       );
     });
 
-    // todo: reenable this test https://github.com/MetaMask/metamask-extension/issues/21807
+    // todo: reenable this test https://github.com/BlockStar/metamask-extension/issues/21807
     // eslint-disable-next-line mocha/no-skipped-tests
     it.skip('should capture migration log breadcrumbs when there is an invariant state error in a migration', async function () {
       await withFixtures(

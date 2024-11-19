@@ -920,11 +920,11 @@ describe('util', () => {
   });
 
   describe('isDefaultMetaMaskChain()', () => {
-    it('should return true if the provided chainId is a default MetaMask chain', () => {
+    it('should return true if the provided chainId is a default BlockStar chain', () => {
       expect(util.isDefaultMetaMaskChain(CHAIN_IDS.GOERLI)).toBeTruthy();
     });
 
-    it('should return false if the provided chainId is a not default MetaMask chain', () => {
+    it('should return false if the provided chainId is a not default BlockStar chain', () => {
       expect(util.isDefaultMetaMaskChain(CHAIN_IDS.CELO)).toBeFalsy();
     });
   });

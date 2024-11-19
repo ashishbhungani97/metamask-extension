@@ -40,7 +40,7 @@ export const TokenIconStory = Template.bind({});
 TokenIconStory.args = {
   type: NotificationListItemIconType.Token,
   value:
-    'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg',
+    'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg',
   badge: {
     icon: IconName.Bridge,
     position: BadgeWrapperPosition.bottomRight,
@@ -51,7 +51,7 @@ export const TokenIconStoryTopBadge = Template.bind({});
 TokenIconStoryTopBadge.args = {
   type: NotificationListItemIconType.Token,
   value:
-    'https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/usdc.svg',
+    'https://raw.githubusercontent.com/BlockStar/contract-metadata/master/images/usdc.svg',
   badge: {
     icon: IconName.SwapHorizontal,
     position: BadgeWrapperPosition.topRight,

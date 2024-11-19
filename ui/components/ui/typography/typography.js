@@ -65,7 +65,7 @@ export const ValidTags = [
  *
  * See storybook documentation for Text here https://metamask.github.io/metamask-storybook/?path=/docs/components-componentlibrary-text--default-story#text
  *
- * Help to replace `Typography` with `Text` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/17670
+ * Help to replace `Typography` with `Text` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/17670
  */
 
 export default function Typography({

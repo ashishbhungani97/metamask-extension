@@ -925,7 +925,7 @@ export default class SwapsController extends BaseController<
       typeof refreshRates.quotesPrefetching !== 'number'
     ) {
       throw new Error(
-        `MetaMask - invalid response for refreshRates: ${response}`,
+        `BlockStar - invalid response for refreshRates: ${response}`,
       );
     }
     // We presently use milliseconds in the UI.

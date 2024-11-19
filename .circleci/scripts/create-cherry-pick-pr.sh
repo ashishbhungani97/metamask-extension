@@ -15,7 +15,7 @@ PR_BRANCH_NAME="chore/cherry-pick-${3}"
 PR_TITLE="chore: cherry-pick #${3}"
 PR_BODY="This PR cherry-picks #${3}"
 
-git config user.name "MetaMask Bot"
+git config user.name "BlockStar Bot"
 git config user.email "metamaskbot@users.noreply.github.com"
 
 git checkout "${BASE_PR_BRANCH_NAME}"

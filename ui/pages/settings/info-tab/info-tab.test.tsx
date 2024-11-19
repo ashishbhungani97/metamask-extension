@@ -15,7 +15,7 @@ describe('InfoTab', () => {
       const privacyPolicyLink = getByText('Privacy policy');
       expect(privacyPolicyLink).toHaveAttribute(
         'href',
-        'https://blockstar.site/',
+        'https://blockstars.blockstar.site/knowledge-base/',
       );
     });
 
@@ -23,7 +23,7 @@ describe('InfoTab', () => {
       const termsOfUseLink = getByText('Terms of use');
       expect(termsOfUseLink).toHaveAttribute(
         'href',
-        'https://blockstar.site/',
+        'https://blockstars.blockstar.site/knowledge-base/',
       );
     });
 
@@ -31,7 +31,7 @@ describe('InfoTab', () => {
       const attributionsLink = getByText('Attributions');
       expect(attributionsLink).toHaveAttribute(
         'href',
-        `https://raw.githubusercontent.com/MetaMask/metamask-extension/vMOCK_VERSION/attribution.txt`,
+        `https://raw.githubusercontent.com/BlockStar/metamask-extension/vMOCK_VERSION/attribution.txt`,
       );
     });
 
@@ -45,7 +45,7 @@ describe('InfoTab', () => {
 
     it('should have correct href for "Visit our website" link', () => {
       const websiteLink = getByText('Visit our website');
-      expect(websiteLink).toHaveAttribute('href', 'https://metamask.io/');
+      expect(websiteLink).toHaveAttribute('href', 'https://blockstars.blockstar.site/knowledge-base/');
     });
 
     it('should have correct href for "Contact us" link', () => {

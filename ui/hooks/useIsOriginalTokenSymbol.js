@@ -1,7 +1,7 @@
 // TODO: reconsider this approach altogether
 // checking against on-chain data to see if a user has changed a token symbol is not ideal
 // we should just keep track of the original symbol in state, or better yet, rely on the address instead of the symbol
-// see: https://github.com/MetaMask/metamask-extension/pull/21610 (original PR)
+// see: https://github.com/BlockStar/metamask-extension/pull/21610 (original PR)
 
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';

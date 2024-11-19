@@ -2416,11 +2416,11 @@ Blockaid BSL License, Version 1.0 (EPL-1.0)
 Licensor:  Blockaid, Inc.
 
 Licensed Work: PPOM. The Licensed Work is Copyright © 2023 Blockaid, Inc.
- 
+
 Additional Use Grant:  No additional use right is granted.
- 
+
 Change Date: Four years from release date.
- 
+
 Change License: Version 2 or later of the GNU General Public License as published by the Free Software Foundation.
 
 License text copyright © 2023 MariaDB plc, All Rights Reserved. “Business Source License” is a trademark of MariaDB plc.
@@ -2442,7 +2442,7 @@ You must conspicuously display this License on each original or modified copy of
 Any use of the Licensed Work in violation of this License will automatically terminate your rights under this License for the current and all other versions of the Licensed Work.
 
 This License does not grant you any right in any trademark or logo of Licensor or its affiliates (provided that you may use a trademark or logo of Licensor as expressly required by this License). TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED WORK IS PROVIDED ON AN “AS IS” BASIS. LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING (WITHOUT LIMITATION) WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND TITLE. MariaDB hereby grants you permission to use this License’s text to license your works, and to refer to it using the trademark “Business Source License”, as long as you comply with the Covenants of Licensor below.
- 
+
 ________________________________________________________________________________________________________________________________________________________________________________
 
 Covenants of Licensor
@@ -2771,13 +2771,13 @@ bplist-creator
 
 Copyright (c) 2012 Near Infinity Corporation
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 and associated documentation files (the "Software"), to deal in the Software without restriction,
 including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
 and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial 
+The above copyright notice and this permission notice shall be included in all copies or substantial
 portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
@@ -3374,7 +3374,7 @@ exhaustive, and do not form part of our licenses.
      such as asking that all changes be marked or described.
      Although not required by our licenses, you are encouraged to
      respect those requests where reasonable. More_considerations
-     for the public: 
+     for the public:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
@@ -4624,25 +4624,25 @@ The MIT License
 
 Copyright (c) 2013 Max Ogden
 
-Permission is hereby granted, free of charge, 
-to any person obtaining a copy of this software and 
-associated documentation files (the "Software"), to 
-deal in the Software without restriction, including 
-without limitation the rights to use, copy, modify, 
-merge, publish, distribute, sublicense, and/or sell 
-copies of the Software, and to permit persons to whom 
-the Software is furnished to do so, 
+Permission is hereby granted, free of charge,
+to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to
+deal in the Software without restriction, including
+without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom
+the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice 
+The above copyright notice and this permission notice
 shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
-ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ******************************
@@ -4784,7 +4784,7 @@ SOFTWARE.
 
 convert-source-map
 2.0.0 <https://github.com/thlorenz/convert-source-map>
-Copyright 2013 Thorsten Lorenz. 
+Copyright 2013 Thorsten Lorenz.
 All rights reserved.
 
 Permission is hereby granted, free of charge, to any person
@@ -5086,7 +5086,7 @@ crypto-js
 
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2009-2013 Jeff Mott  
+Copyright (c) 2009-2013 Jeff Mott
 Copyright (c) 2013-2016 Evan Vosberg
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -6880,7 +6880,7 @@ authors: Dan Finlay
 3.1.1 <https://github.com/ethereumjs/ethereumjs-monorepo>
 The MIT License (MIT)
 
-Copyright (c) 2015 
+Copyright (c) 2015
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -6908,7 +6908,7 @@ SOFTWARE.
 3.2.0 <https://github.com/ethereumjs/ethereumjs-monorepo>
 The MIT License (MIT)
 
-Copyright (c) 2015 
+Copyright (c) 2015
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -6936,7 +6936,7 @@ SOFTWARE.
 4.3.0 <https://github.com/ethereumjs/ethereumjs-monorepo>
 The MIT License (MIT)
 
-Copyright (c) 2015 
+Copyright (c) 2015
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -6999,7 +6999,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -7378,7 +7378,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -7757,7 +7757,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -8136,7 +8136,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -8515,7 +8515,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -10793,10 +10793,10 @@ SOFTWARE.
 ******************************
 
 eth-method-registry
-4.0.0 <https://github.com/MetaMask/eth-method-registry>
+4.0.0 <https://github.com/BlockStar/eth-method-registry>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -10814,7 +10814,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 eth-phishing-detect
-1.2.0 <https://github.com/MetaMask/eth-phishing-detect>
+1.2.0 <https://github.com/BlockStar/eth-phishing-detect>
 # DON'T BE A DICK PUBLIC LICENSE
 
 > Version 1.1, December 2016
@@ -10846,10 +10846,10 @@ you a DONKEY dick. Fix the problem yourself. A non-dick would submit the fix bac
 ******************************
 
 eth-rpc-errors
-4.0.3 <https://github.com/MetaMask/eth-rpc-errors>
+4.0.3 <https://github.com/BlockStar/eth-rpc-errors>
 MIT License
 
-Copyright (c) 2019 MetaMask
+Copyright (c) 2019 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11220,10 +11220,10 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ******************************
 
 extension-port-stream
-2.1.1 <git+https://git@github.com/MetaMask/extension-port-stream>
+2.1.1 <git+https://git@github.com/BlockStar/extension-port-stream>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -11241,10 +11241,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 extension-port-stream
-3.0.0 <git+https://git@github.com/MetaMask/extension-port-stream>
+3.0.0 <git+https://git@github.com/BlockStar/extension-port-stream>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -11484,7 +11484,7 @@ The MIT License (MIT)
 
 Copyright (c) 2016 David Mark Clements
 Copyright (c) 2017 David Mark Clements & Matteo Collina
-Copyright (c) 2018 David Mark Clements, Matteo Collina & Ruben Bridgewater 
+Copyright (c) 2018 David Mark Clements, Matteo Collina & Ruben Bridgewater
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -13701,7 +13701,7 @@ of nodejs/io.js:
   Jan Schär (jscissr).
 
   Node.js is licensed for use as follows:
-  
+
   """
   Copyright Node.js contributors. All rights reserved.
 
@@ -13747,7 +13747,7 @@ of nodejs/io.js:
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
   IN THE SOFTWARE.
   """
-  
+
 
 ******************************
 
@@ -15733,9 +15733,9 @@ This software is covered under the following copyright:
  * The above copyright notice and this permission notice shall be
  * included in all copies or substantial portions of the Software.
  *
- * THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, 
- * EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY 
- * WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  
+ * THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+ * WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
  *
  * IN NO EVENT SHALL TOM WU BE LIABLE FOR ANY SPECIAL, INCIDENTAL,
  * INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER
@@ -15825,35 +15825,35 @@ The MIT License
 
 Copyright (c) 2012 Tim Caswell
 
-Permission is hereby granted, free of charge, 
-to any person obtaining a copy of this software and 
-associated documentation files (the "Software"), to 
-deal in the Software without restriction, including 
-without limitation the rights to use, copy, modify, 
-merge, publish, distribute, sublicense, and/or sell 
-copies of the Software, and to permit persons to whom 
-the Software is furnished to do so, 
+Permission is hereby granted, free of charge,
+to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to
+deal in the Software without restriction, including
+without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom
+the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice 
+The above copyright notice and this permission notice
 shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
-ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ******************************
 
 json-rpc-engine
-6.1.0 <https://github.com/MetaMask/json-rpc-engine>
+6.1.0 <https://github.com/BlockStar/json-rpc-engine>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -15871,10 +15871,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 json-rpc-middleware-stream
-5.0.1 <https://github.com/MetaMask/json-rpc-middleware-stream>
+5.0.1 <https://github.com/BlockStar/json-rpc-middleware-stream>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -16050,19 +16050,19 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 jsonwebtoken
 9.0.0 <https://github.com/auth0/node-jsonwebtoken>
 The MIT License (MIT)
- 
+
 Copyright (c) 2015 Auth0, Inc. <support@auth0.com> (http://auth0.com)
- 
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
- 
+
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
- 
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -16275,18 +16275,18 @@ jwa
 1.4.1 <https://github.com/brianloveswords/node-jwa>
 Copyright (c) 2013 Brian J. Brennan
 
-Permission is hereby granted, free of charge, to any person obtaining a copy 
-of this software and associated documentation files (the "Software"), to deal in 
-the Software without restriction, including without limitation the rights to use, 
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the 
-Software, and to permit persons to whom the Software is furnished to do so, 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all 
+The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
 PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
 FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
@@ -16298,18 +16298,18 @@ jws
 3.2.2 <https://github.com/brianloveswords/node-jws>
 Copyright (c) 2013 Brian J. Brennan
 
-Permission is hereby granted, free of charge, to any person obtaining a copy 
-of this software and associated documentation files (the "Software"), to deal in 
-the Software without restriction, including without limitation the rights to use, 
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the 
-Software, and to permit persons to whom the Software is furnished to do so, 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all 
+The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
 PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
 FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
@@ -16740,7 +16740,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 lie
 3.1.1 <https://github.com/calvinmetcalf/lie>
-#Copyright (c) 2014 Calvin Metcalf 
+#Copyright (c) 2014 Calvin Metcalf
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -18182,17 +18182,17 @@ authors: Egor Gumenyuk <boo1ean0807@gmail.com>
 ******************************
 
 @metamask/abi-utils
-2.0.2 <https://github.com/MetaMask/abi-utils>
+2.0.2 <https://github.com/BlockStar/abi-utils>
 license: (Apache-2.0 AND MIT)
 authors: Maarten Zuidhoorn <maarten@zuidhoorn.com>
 
 ******************************
 
 @metamask/accounts-controller
-14.0.0 <https://github.com/MetaMask/core>
+14.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18215,10 +18215,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/address-book-controller
-4.0.1 <https://github.com/MetaMask/core>
+4.0.1 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18241,10 +18241,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/announcement-controller
-6.1.0 <https://github.com/MetaMask/core>
+6.1.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18267,10 +18267,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/approval-controller
-6.0.2 <https://github.com/MetaMask/core>
+6.0.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18293,10 +18293,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/approval-controller
-7.0.0 <https://github.com/MetaMask/core>
+7.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18319,10 +18319,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/assets-controllers
-29.0.0 <https://github.com/MetaMask/core>
+29.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18345,10 +18345,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/base-controller
-3.2.3 <https://github.com/MetaMask/core>
+3.2.3 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18371,10 +18371,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/base-controller
-4.1.1 <https://github.com/MetaMask/core>
+4.1.1 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18397,10 +18397,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/base-controller
-5.0.2 <https://github.com/MetaMask/core>
+5.0.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18423,10 +18423,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/base-controller
-6.0.0 <https://github.com/MetaMask/core>
+6.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18449,10 +18449,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/browser-passworder
-4.3.0 <https://github.com/MetaMask/browser-passworder>
+4.3.0 <https://github.com/BlockStar/browser-passworder>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18470,10 +18470,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/contract-metadata
-2.5.0 <https://github.com/MetaMask/contract-metadata>
+2.5.0 <https://github.com/BlockStar/contract-metadata>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18491,10 +18491,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/controller-utils
-11.0.0 <https://github.com/MetaMask/core>
+11.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18517,10 +18517,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/controller-utils
-8.0.4 <https://github.com/MetaMask/core>
+8.0.4 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18543,10 +18543,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/controller-utils
-9.1.0 <https://github.com/MetaMask/core>
+9.1.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18569,17 +18569,17 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/design-tokens
-3.0.0 <https://github.com/MetaMask/design-tokens>
+3.0.0 <https://github.com/BlockStar/design-tokens>
 license: MIT
 authors: undefined
 
 ******************************
 
 @metamask/desktop
-0.3.0 <https://github.com/MetaMask/metamask-desktop>
+0.3.0 <https://github.com/BlockStar/metamask-desktop>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18603,10 +18603,10 @@ SOFTWARE.
 ******************************
 
 @metamask/ens-controller
-10.0.1 <https://github.com/MetaMask/core>
+10.0.1 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18629,10 +18629,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/eth-block-tracker
-9.0.3 <https://github.com/MetaMask/eth-block-tracker>
+9.0.3 <https://github.com/BlockStar/eth-block-tracker>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18655,10 +18655,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/etherscan-link
-3.0.0 <https://github.com/MetaMask/etherscan-link>
+3.0.0 <https://github.com/BlockStar/etherscan-link>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18676,10 +18676,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-hd-keyring
-7.0.1 <https://github.com/MetaMask/eth-hd-keyring>
+7.0.1 <https://github.com/BlockStar/eth-hd-keyring>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18697,7 +18697,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/ethjs
-0.6.0 <https://github.com/MetaMask/ethjs>
+0.6.0 <https://github.com/BlockStar/ethjs>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -18724,7 +18724,7 @@ THE SOFTWARE.
 ******************************
 
 @metamask/ethjs-contract
-0.4.1 <https://github.com/MetaMask/ethjs-contract>
+0.4.1 <https://github.com/BlockStar/ethjs-contract>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -18751,7 +18751,7 @@ THE SOFTWARE.
 ******************************
 
 @metamask/ethjs-filter
-0.3.0 <https://github.com/MetaMask/ethjs-filter>
+0.3.0 <https://github.com/BlockStar/ethjs-filter>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -18778,7 +18778,7 @@ THE SOFTWARE.
 ******************************
 
 @metamask/ethjs-format
-0.3.0 <https://github.com/MetaMask/ethjs-format>
+0.3.0 <https://github.com/BlockStar/ethjs-format>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -18805,10 +18805,10 @@ THE SOFTWARE.
 ******************************
 
 @metamask/eth-json-rpc-filters
-7.0.0 <https://github.com/MetaMask/eth-json-rpc-filters>
+7.0.0 <https://github.com/BlockStar/eth-json-rpc-filters>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18826,10 +18826,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-json-rpc-infura
-9.1.0 <https://github.com/MetaMask/eth-json-rpc-infura>
+9.1.0 <https://github.com/BlockStar/eth-json-rpc-infura>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18847,10 +18847,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-json-rpc-middleware
-12.1.1 <https://github.com/MetaMask/eth-json-rpc-middleware>
+12.1.1 <https://github.com/BlockStar/eth-json-rpc-middleware>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18868,10 +18868,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-json-rpc-provider
-2.3.2 <https://github.com/MetaMask/core>
+2.3.2 <https://github.com/BlockStar/core>
 ISC License
 
-Copyright (c) 2022 MetaMask
+Copyright (c) 2022 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18889,10 +18889,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-json-rpc-provider
-3.0.2 <https://github.com/MetaMask/core>
+3.0.2 <https://github.com/BlockStar/core>
 ISC License
 
-Copyright (c) 2022 MetaMask
+Copyright (c) 2022 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -18910,7 +18910,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/ethjs-provider-http
-0.3.0 <git+https://git@github.com/MetaMask/ethjs-provider-http>
+0.3.0 <git+https://git@github.com/BlockStar/ethjs-provider-http>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -18937,7 +18937,7 @@ THE SOFTWARE.
 ******************************
 
 @metamask/ethjs-query
-0.7.1 <https://github.com/MetaMask/ethjs-query>
+0.7.1 <https://github.com/BlockStar/ethjs-query>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -18964,7 +18964,7 @@ THE SOFTWARE.
 ******************************
 
 @metamask/ethjs-rpc
-0.4.0 <https://github.com/MetaMask/ethjs-rpc>
+0.4.0 <https://github.com/BlockStar/ethjs-rpc>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -18991,7 +18991,7 @@ THE SOFTWARE.
 ******************************
 
 @metamask/ethjs-unit
-0.3.0 <https://github.com/MetaMask/ethjs-unit>
+0.3.0 <https://github.com/BlockStar/ethjs-unit>
 The MIT License (MIT)
 
 Copyright (c) 2016 Nick Dodson
@@ -19018,7 +19018,7 @@ THE SOFTWARE.
 ******************************
 
 @metamask/ethjs-util
-0.3.0 <https://github.com/MetaMask/ethjs-util>
+0.3.0 <https://github.com/BlockStar/ethjs-util>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -19045,10 +19045,10 @@ THE SOFTWARE.
 ******************************
 
 @metamask/eth-ledger-bridge-keyring
-2.0.1 <https://github.com/MetaMask/eth-ledger-bridge-keyring>
+2.0.1 <https://github.com/BlockStar/eth-ledger-bridge-keyring>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19066,24 +19066,24 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-query
-3.0.1 <https://github.com/MetaMask/eth-query>
+3.0.1 <https://github.com/BlockStar/eth-query>
 license: ISC
 authors: undefined
 
 ******************************
 
 @metamask/eth-query
-4.0.0 <https://github.com/MetaMask/eth-query>
+4.0.0 <https://github.com/BlockStar/eth-query>
 license: ISC
 authors: undefined
 
 ******************************
 
 @metamask/eth-sig-util
-7.0.1 <https://github.com/MetaMask/eth-sig-util>
+7.0.1 <https://github.com/BlockStar/eth-sig-util>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19101,10 +19101,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-simple-keyring
-6.0.1 <https://github.com/MetaMask/eth-simple-keyring>
+6.0.1 <https://github.com/BlockStar/eth-simple-keyring>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19122,17 +19122,17 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-snap-keyring
-4.2.1 <https://github.com/MetaMask/eth-snap-keyring>
+4.2.1 <https://github.com/BlockStar/eth-snap-keyring>
 license: Custom: https://metamask.github.io/eth-snap-keyring/latest/
 authors: undefined
 
 ******************************
 
 @metamask/eth-token-tracker
-8.0.0 <https://github.com/MetaMask/eth-token-tracker>
+8.0.0 <https://github.com/BlockStar/eth-token-tracker>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19150,10 +19150,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/eth-trezor-keyring
-3.1.0 <https://github.com/MetaMask/eth-trezor-keyring>
+3.1.0 <https://github.com/BlockStar/eth-trezor-keyring>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19171,10 +19171,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/gas-fee-controller
-15.1.2 <https://github.com/MetaMask/core>
+15.1.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19197,10 +19197,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/gas-fee-controller
-17.0.0 <https://github.com/MetaMask/core>
+17.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19547,10 +19547,10 @@ SOFTWARE.
 ******************************
 
 @metamask/jazzicon
-2.0.0 <https://github.com/MetaMask/jazzicon>
+2.0.0 <https://github.com/BlockStar/jazzicon>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19568,10 +19568,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/json-rpc-engine
-7.3.3 <https://github.com/MetaMask/core>
+7.3.3 <https://github.com/BlockStar/core>
 ISC License
 
-Copyright (c) 2022 MetaMask
+Copyright (c) 2022 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19589,10 +19589,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/json-rpc-engine
-8.0.2 <https://github.com/MetaMask/core>
+8.0.2 <https://github.com/BlockStar/core>
 ISC License
 
-Copyright (c) 2022 MetaMask
+Copyright (c) 2022 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19610,10 +19610,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/json-rpc-middleware-stream
-7.0.1 <https://github.com/MetaMask/core>
+7.0.1 <https://github.com/BlockStar/core>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19631,24 +19631,24 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/keyring-api
-5.1.0 <https://github.com/MetaMask/keyring-api>
+5.1.0 <https://github.com/BlockStar/keyring-api>
 license: Custom: https://docs.metamask.io/snaps/
 authors: undefined
 
 ******************************
 
 @metamask/keyring-api
-6.3.1 <https://github.com/MetaMask/keyring-api>
+6.3.1 <https://github.com/BlockStar/keyring-api>
 license: Custom: https://docs.metamask.io/snaps/
 authors: undefined
 
 ******************************
 
 @metamask/keyring-controller
-15.0.0 <https://github.com/MetaMask/core>
+15.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19671,10 +19671,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/key-tree
-9.1.1 <https://github.com/MetaMask/key-tree>
+9.1.1 <https://github.com/BlockStar/key-tree>
 MIT License
 
-Copyright (c) 2021 MetaMask
+Copyright (c) 2021 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19698,17 +19698,17 @@ SOFTWARE.
 ******************************
 
 @metamask/logging-controller
-3.0.1 <https://github.com/MetaMask/core>
+3.0.1 <https://github.com/BlockStar/core>
 license: MIT
 authors: undefined
 
 ******************************
 
 @metamask/logo
-3.1.2 <https://github.com/MetaMask/logo>
+3.1.2 <https://github.com/BlockStar/logo>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19726,10 +19726,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/message-manager
-7.3.9 <https://github.com/MetaMask/core>
+7.3.9 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19752,10 +19752,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/message-manager
-8.0.2 <https://github.com/MetaMask/core>
+8.0.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19778,17 +19778,17 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/message-signing-snap
-0.3.3 <https://github.com/MetaMask/message-signing-snap>
+0.3.3 <https://github.com/BlockStar/message-signing-snap>
 license: Custom: http://localhost
 authors: undefined
 
 ******************************
 
 @metamask/metamask-eth-abis
-3.1.1 <https://github.com/MetaMask/metamask-eth-abis>
+3.1.1 <https://github.com/BlockStar/metamask-eth-abis>
 ISC License
 
-Copyright (c) 2021 MetaMask
+Copyright (c) 2021 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19805,10 +19805,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/name-controller
-6.0.1 <https://github.com/MetaMask/core>
+6.0.1 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2023 MetaMask
+Copyright (c) 2023 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19831,10 +19831,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/network-controller
-18.1.2 <https://github.com/MetaMask/core>
+18.1.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19857,10 +19857,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/nonce-tracker
-5.0.0 <https://github.com/MetaMask/nonce-tracker>
+5.0.0 <https://github.com/BlockStar/nonce-tracker>
 MIT License
 
-Copyright (c) 2019 MetaMask
+Copyright (c) 2019 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19884,10 +19884,10 @@ SOFTWARE.
 ******************************
 
 @metamask/notification-controller
-3.0.0 <https://github.com/MetaMask/core>
+3.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19910,7 +19910,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/number-to-bn
-1.7.1 <https://github.com/MetaMask/number-to-bn>
+1.7.1 <https://github.com/BlockStar/number-to-bn>
 The MIT License
 
 Copyright (c) 2016 Nick Dodson. nickdodson.com
@@ -19937,10 +19937,10 @@ THE SOFTWARE.
 ******************************
 
 @metamask/object-multiplex
-2.0.0 <https://github.com/MetaMask/object-multiplex>
+2.0.0 <https://github.com/BlockStar/object-multiplex>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19958,10 +19958,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/obs-store
-5.0.0 <https://github.com/MetaMask/obs-store>
+5.0.0 <https://github.com/BlockStar/obs-store>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -19979,10 +19979,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/obs-store
-7.0.0 <https://github.com/MetaMask/obs-store>
+7.0.0 <https://github.com/BlockStar/obs-store>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20000,10 +20000,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/obs-store
-8.1.0 <https://github.com/MetaMask/obs-store>
+8.1.0 <https://github.com/BlockStar/obs-store>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20021,10 +20021,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/obs-store
-9.0.0 <https://github.com/MetaMask/obs-store>
+9.0.0 <https://github.com/BlockStar/obs-store>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20042,10 +20042,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/permission-controller
-9.0.2 <https://github.com/MetaMask/core>
+9.0.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20068,7 +20068,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/permission-log-controller
-2.0.1 <https://github.com/MetaMask/core>
+2.0.1 <https://github.com/BlockStar/core>
 Copyright ConsenSys Software Inc. 2022. All rights reserved.
 
 You acknowledge and agree that ConsenSys Software Inc. (“ConsenSys”) (or ConsenSys’s licensors) own all legal right, title and interest in and to the work, software, application, source code, documentation and any other documents in this repository (collectively, the “Program”), including any intellectual property rights which subsist in the Program (whether those rights happen to be registered or not, and wherever in the world those rights may exist), whether in source code or any other form.
@@ -20092,10 +20092,10 @@ If you have any questions, comments or interest in pursuing any other use cases,
 ******************************
 
 @metamask/phishing-controller
-9.0.2 <https://github.com/MetaMask/core>
+9.0.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20118,10 +20118,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/polling-controller
-6.0.2 <https://github.com/MetaMask/core>
+6.0.2 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20144,10 +20144,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/polling-controller
-8.0.0 <https://github.com/MetaMask/core>
+8.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20170,10 +20170,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/post-message-stream
-8.1.0 <https://github.com/MetaMask/post-message-stream>
+8.1.0 <https://github.com/BlockStar/post-message-stream>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20191,17 +20191,17 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/ppom-validator
-0.30.0 <https://github.com/MetaMask/ppom-validator>
+0.30.0 <https://github.com/BlockStar/ppom-validator>
 license: Custom: https://nodejs.org
 authors: undefined
 
 ******************************
 
 @metamask/preferences-controller
-11.0.0 <https://github.com/MetaMask/core>
+11.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20224,10 +20224,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/providers
-14.0.2 <https://github.com/MetaMask/providers>
+14.0.2 <https://github.com/BlockStar/providers>
 MIT License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20251,10 +20251,10 @@ SOFTWARE.
 ******************************
 
 @metamask/providers
-16.1.0 <https://github.com/MetaMask/providers>
+16.1.0 <https://github.com/BlockStar/providers>
 MIT License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20278,10 +20278,10 @@ SOFTWARE.
 ******************************
 
 @metamask/queued-request-controller
-0.10.0 <https://github.com/MetaMask/core>
+0.10.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2023 MetaMask
+Copyright (c) 2023 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20304,10 +20304,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/rate-limit-controller
-5.0.1 <https://github.com/MetaMask/core>
+5.0.1 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20330,10 +20330,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/rpc-errors
-6.2.1 <https://github.com/MetaMask/rpc-errors>
+6.2.1 <https://github.com/BlockStar/rpc-errors>
 MIT License
 
-Copyright (c) 2019 MetaMask
+Copyright (c) 2019 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20360,7 +20360,7 @@ SOFTWARE.
 2.0.0 <>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20378,10 +20378,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/safe-event-emitter
-3.1.1 <https://github.com/MetaMask/safe-event-emitter>
+3.1.1 <https://github.com/BlockStar/safe-event-emitter>
 ISC License
 
-Copyright (c) 2020 MetaMask
+Copyright (c) 2020 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20399,7 +20399,7 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/scure-bip39
-2.1.1 <https://github.com/MetaMask/scure-bip39>
+2.1.1 <https://github.com/BlockStar/scure-bip39>
 The MIT License (MIT)
 
 Copyright (c) 2022 Patricio Palladino, Paul Miller (paulmillr.com)
@@ -20426,10 +20426,10 @@ THE SOFTWARE.
 ******************************
 
 @metamask/selected-network-controller
-13.0.0 <https://github.com/MetaMask/core>
+13.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2023 MetaMask
+Copyright (c) 2023 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20452,10 +20452,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/signature-controller
-14.0.1 <https://github.com/MetaMask/core>
+14.0.1 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2023 MetaMask
+Copyright (c) 2023 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20478,62 +20478,62 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/slip44
-3.1.0 <https://github.com/MetaMask/slip44>
+3.1.0 <https://github.com/BlockStar/slip44>
 license: ISC
 authors: Dan Finlay <dan@danfinlay.com>
 
 ******************************
 
 @metamask/smart-transactions-controller
-10.0.1 <https://github.com/MetaMask/smart-transactions-controller>
+10.0.1 <https://github.com/BlockStar/smart-transactions-controller>
 Copyright ConsenSys Software Inc. 2020. All rights reserved.
- 
+
 You acknowledge and agree that ConsenSys Software Inc. (“ConsenSys”) (or ConsenSys’s licensors) own all legal right, title and interest in and to the work, software, application, source code, documentation and any other documents in this repository (collectively, the “Program”), including any intellectual property rights which subsist in the Program (whether those rights happen to be registered or not, and wherever in the world those rights may exist), whether in source code or any other form.
- 
+
 Subject to the limited license below, you may not (and you may not permit anyone else to) distribute, publish, copy, modify, merge, combine with another program, create derivative works of, reverse engineer, decompile or otherwise attempt to extract the source code of, the Program or any part thereof, except that you may contribute to this repository.
- 
+
 You are granted a non-exclusive, non-transferable, non-sublicensable license to distribute, publish, copy, modify, merge, combine with another program or create derivative works of the Program (such resulting program, collectively, the “Resulting Program”) solely for Non-Commercial Use as long as you:
  1. give prominent notice (“Notice”) with each copy of the Resulting Program that the Program is used in the Resulting Program and that the Program is the copyright of ConsenSys; and
  2. subject the Resulting Program and any distribution, publication, copy, modification, merger therewith, combination with another program or derivative works thereof to the same Notice requirement and Non-Commercial Use restriction set forth herein.
- 
-“Non-Commercial Use” means each use as described in clauses (1)-(3) below, as reasonably determined by ConsenSys in its sole discretion: 
+
+“Non-Commercial Use” means each use as described in clauses (1)-(3) below, as reasonably determined by ConsenSys in its sole discretion:
  1. personal use for research, personal study, private entertainment, hobby projects or amateur pursuits, in each case without any anticipated commercial application;
  2. use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization or government institution; or
  3. the number of monthly active users of the Resulting Program across all versions thereof and platforms globally do not exceed 10,000 at any time.
- 
+
 You will not use any trade mark, service mark, trade name, logo of ConsenSys or any other company or organization in a way that is likely or intended to cause confusion about the owner or authorized user of such marks, names or logos.
- 
+
 If you have any questions, comments or interest in pursuing any other use cases, please reach out to us at metamask.license@consensys.net.
 
 
 ******************************
 
 @metamask/snaps-controllers
-8.2.0 <https://github.com/MetaMask/snaps>
+8.2.0 <https://github.com/BlockStar/snaps>
 Copyright ConsenSys Software Inc. 2021. All rights reserved.
- 
+
 You acknowledge and agree that ConsenSys Software Inc. (“ConsenSys”) (or ConsenSys’s licensors) own all legal right, title and interest in and to the work, software, application, source code, documentation and any other documents in this repository (collectively, the “Program”), including any intellectual property rights which subsist in the Program (whether those rights happen to be registered or not, and wherever in the world those rights may exist), whether in source code or any other form.
- 
+
 Subject to the limited license below, you may not (and you may not permit anyone else to) distribute, publish, copy, modify, merge, combine with another program, create derivative works of, reverse engineer, decompile or otherwise attempt to extract the source code of, the Program or any part thereof, except that you may contribute to this repository.
- 
+
 You are granted a non-exclusive, non-transferable, non-sublicensable license to distribute, publish, copy, modify, merge, combine with another program or create derivative works of the Program (such resulting program, collectively, the “Resulting Program”) solely for Non-Commercial Use as long as you:
  1. give prominent notice (“Notice”) with each copy of the Resulting Program that the Program is used in the Resulting Program and that the Program is the copyright of ConsenSys; and
  2. subject the Resulting Program and any distribution, publication, copy, modification, merger therewith, combination with another program or derivative works thereof to the same Notice requirement and Non-Commercial Use restriction set forth herein.
- 
-“Non-Commercial Use” means each use as described in clauses (1)-(3) below, as reasonably determined by ConsenSys in its sole discretion: 
+
+“Non-Commercial Use” means each use as described in clauses (1)-(3) below, as reasonably determined by ConsenSys in its sole discretion:
  1. personal use for research, personal study, private entertainment, hobby projects or amateur pursuits, in each case without any anticipated commercial application;
  2. use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization or government institution; or
  3. the number of monthly active users of the Resulting Program across all versions thereof and platforms globally do not exceed 10,000 at any time.
- 
+
 You will not use any trade mark, service mark, trade name, logo of ConsenSys or any other company or organization in a way that is likely or intended to cause confusion about the owner or authorized user of such marks, names or logos.
- 
+
 If you have any questions, comments or interest in pursuing any other use cases, please reach out to us at metamask.license@consensys.net.
 
 
 ******************************
 
 @metamask/snaps-execution-environments
-6.2.0 <https://github.com/MetaMask/snaps>
+6.2.0 <https://github.com/BlockStar/snaps>
 Copyright ConsenSys Software Inc. 2022. All rights reserved.
 
 You acknowledge and agree that ConsenSys Software Inc. (“ConsenSys”) (or ConsenSys’s licensors) own all legal right, title and interest in and to the work, software, application, source code, documentation and any other documents in this repository (collectively, the “Program”), including any intellectual property rights which subsist in the Program (whether those rights happen to be registered or not, and wherever in the world those rights may exist), whether in source code or any other form.
@@ -20559,7 +20559,7 @@ If you have any questions, comments or interest in pursuing any other use cases,
 ******************************
 
 @metamask/snaps-registry
-3.1.0 <https://github.com/MetaMask/snaps-registry>
+3.1.0 <https://github.com/BlockStar/snaps-registry>
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -20766,34 +20766,34 @@ If you have any questions, comments or interest in pursuing any other use cases,
 ******************************
 
 @metamask/snaps-rpc-methods
-9.1.0 <https://github.com/MetaMask/snaps>
+9.1.0 <https://github.com/BlockStar/snaps>
 Copyright ConsenSys Software Inc. 2021. All rights reserved.
- 
+
 You acknowledge and agree that ConsenSys Software Inc. (“ConsenSys”) (or ConsenSys’s licensors) own all legal right, title and interest in and to the work, software, application, source code, documentation and any other documents in this repository (collectively, the “Program”), including any intellectual property rights which subsist in the Program (whether those rights happen to be registered or not, and wherever in the world those rights may exist), whether in source code or any other form.
- 
+
 Subject to the limited license below, you may not (and you may not permit anyone else to) distribute, publish, copy, modify, merge, combine with another program, create derivative works of, reverse engineer, decompile or otherwise attempt to extract the source code of, the Program or any part thereof, except that you may contribute to this repository.
- 
+
 You are granted a non-exclusive, non-transferable, non-sublicensable license to distribute, publish, copy, modify, merge, combine with another program or create derivative works of the Program (such resulting program, collectively, the “Resulting Program”) solely for Non-Commercial Use as long as you:
  1. give prominent notice (“Notice”) with each copy of the Resulting Program that the Program is used in the Resulting Program and that the Program is the copyright of ConsenSys; and
  2. subject the Resulting Program and any distribution, publication, copy, modification, merger therewith, combination with another program or derivative works thereof to the same Notice requirement and Non-Commercial Use restriction set forth herein.
- 
-“Non-Commercial Use” means each use as described in clauses (1)-(3) below, as reasonably determined by ConsenSys in its sole discretion: 
+
+“Non-Commercial Use” means each use as described in clauses (1)-(3) below, as reasonably determined by ConsenSys in its sole discretion:
  1. personal use for research, personal study, private entertainment, hobby projects or amateur pursuits, in each case without any anticipated commercial application;
  2. use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization or government institution; or
  3. the number of monthly active users of the Resulting Program across all versions thereof and platforms globally do not exceed 10,000 at any time.
- 
+
 You will not use any trade mark, service mark, trade name, logo of ConsenSys or any other company or organization in a way that is likely or intended to cause confusion about the owner or authorized user of such marks, names or logos.
- 
+
 If you have any questions, comments or interest in pursuing any other use cases, please reach out to us at metamask.license@consensys.net.
 
 
 ******************************
 
 @metamask/snaps-sdk
-4.3.0 <https://github.com/MetaMask/snaps>
+4.3.0 <https://github.com/BlockStar/snaps>
 ISC License
 
-Copyright (c) 2023 MetaMask
+Copyright (c) 2023 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20811,10 +20811,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/snaps-utils
-7.4.0 <https://github.com/MetaMask/snaps>
+7.4.0 <https://github.com/BlockStar/snaps>
 ISC License
 
-Copyright (c) 2022 MetaMask
+Copyright (c) 2022 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20832,17 +20832,17 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/swappable-obj-proxy
-2.2.0 <https://github.com/MetaMask/swappable-obj-proxy>
+2.2.0 <https://github.com/BlockStar/swappable-obj-proxy>
 license: ISC
 authors: undefined
 
 ******************************
 
 @metamask/transaction-controller
-32.0.0 <https://github.com/MetaMask/core>
+32.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2018 MetaMask
+Copyright (c) 2018 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20865,10 +20865,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/user-operation-controller
-10.0.0 <https://github.com/MetaMask/core>
+10.0.0 <https://github.com/BlockStar/core>
 MIT License
 
-Copyright (c) 2023 MetaMask
+Copyright (c) 2023 BlockStar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20891,10 +20891,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ******************************
 
 @metamask/utils
-5.0.2 <https://github.com/MetaMask/utils>
+5.0.2 <https://github.com/BlockStar/utils>
 ISC License
 
-Copyright (c) 2022 MetaMask
+Copyright (c) 2022 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -20912,10 +20912,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ******************************
 
 @metamask/utils
-8.4.0 <https://github.com/MetaMask/utils>
+8.4.0 <https://github.com/BlockStar/utils>
 ISC License
 
-Copyright (c) 2022 MetaMask
+Copyright (c) 2022 BlockStar
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -23848,7 +23848,7 @@ react-inspector
 6.0.2 <https://github.com/xyc/react-inspector>
 The MIT License (MIT)
 
-Copyright (c) 2017 Xiaoyi Chen 
+Copyright (c) 2017 Xiaoyi Chen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24786,18 +24786,18 @@ rfdc
 1.3.0 <https://github.com/davidmarkclements/rfdc>
 Copyright 2019 "David Mark Clements <david.mark.clements@gmail.com>"
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
-documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
-the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and
 to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions
 of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 
 
@@ -25144,7 +25144,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -25523,7 +25523,7 @@ Mozilla Public License Version 2.0
     means any form of the work other than Source Code Form.
 
 1.7. "Larger Work"
-    means a work that combines Covered Software with other material, in 
+    means a work that combines Covered Software with other material, in
     a separate file or files, that is not Covered Software.
 
 1.8. "License"
@@ -26999,7 +26999,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 @sinclair/typebox
 0.31.28 <https://github.com/sinclairzx81/typebox>
-TypeBox: JSON Schema Type Builder with Static Type Resolution for TypeScript 
+TypeBox: JSON Schema Type Builder with Static Type Resolution for TypeScript
 
 The MIT License (MIT)
 
@@ -29558,7 +29558,7 @@ Apache License
 
 Version 2.0, January 2004
 
-http://www.apache.org/licenses/ 
+http://www.apache.org/licenses/
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 

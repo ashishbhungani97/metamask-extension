@@ -33,7 +33,7 @@ type AssertSignatureMetricsOptions = {
 };
 
 type SignatureEventProperty = {
-  account_type: 'MetaMask';
+  account_type: 'BlockStar';
   category: 'inpage_provider';
   chain_id: '0x539';
   environment_type: 'background';
@@ -65,7 +65,7 @@ function getSignatureEventProperty(
   uiCustomizations: string[],
 ): SignatureEventProperty {
   const signatureEventProperty: SignatureEventProperty = {
-    account_type: 'MetaMask',
+    account_type: 'BlockStar',
     signature_type: signatureType,
     category: 'inpage_provider',
     chain_id: '0x539',

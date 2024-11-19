@@ -31,7 +31,7 @@ export const FINALIZED_TRANSACTION_STATUSES = [
 ///: END:ONLY_INCLUDE_IF
 
 /**
- * Transaction Group Status is a MetaMask construct to track the status of groups
+ * Transaction Group Status is a BlockStar construct to track the status of groups
  * of transactions.
  */
 export enum TransactionGroupStatus {
@@ -72,7 +72,7 @@ export enum TransactionApprovalAmountType {
 }
 
 /**
- * Transaction Group Category is a MetaMask construct to categorize the intent
+ * Transaction Group Category is a BlockStar construct to categorize the intent
  * of a group of transactions for purposes of displaying in the UI
  */
 export enum TransactionGroupCategory {
@@ -102,7 +102,7 @@ export enum TransactionGroupCategory {
    */
   signatureRequest = 'signature-request',
   /**
-   * Transaction group representing a token swap through MetaMask Swaps. This
+   * Transaction group representing a token swap through BlockStar Swaps. This
    * transaction group's primary currency changes depending on context. If the
    * user is viewing an asset page for a token received from a swap, the
    * primary currency will be the received token. Otherwise the token exchanged
@@ -110,7 +110,7 @@ export enum TransactionGroupCategory {
    */
   swap = 'swap',
   /**
-   * Transaction group representing a token swap through MetaMask Swaps, where the final token is sent to another address.
+   * Transaction group representing a token swap through BlockStar Swaps, where the final token is sent to another address.
    */
   swapAndSend = 'swapAndSend',
 }
@@ -122,11 +122,11 @@ export enum TransactionMetaMetricsEvent {
   /**
    * All transactions, except incoming ones, are added to the controller state
    * in an unapproved status. When this happens we fire the Transaction Added
-   * event to show that the transaction has been added to the user's MetaMask.
+   * event to show that the transaction has been added to the user's BlockStar.
    */
   added = 'Transaction Added',
   /**
-   * When an unapproved transaction is in the controller state, MetaMask will
+   * When an unapproved transaction is in the controller state, BlockStar will
    * render a confirmation screen for that transaction. If the user approves
    * the transaction we fire this event to indicate that the user has approved
    * the transaction for submission to the network.
@@ -139,7 +139,7 @@ export enum TransactionMetaMetricsEvent {
    */
   finalized = 'Transaction Finalized',
   /**
-   * When an unapproved transaction is in the controller state, MetaMask will
+   * When an unapproved transaction is in the controller state, BlockStar will
    * render a confirmation screen for that transaction. If the user rejects the
    * transaction we fire this event to indicate that the user has rejected the
    * transaction. It will be removed from state as a result.
@@ -148,7 +148,7 @@ export enum TransactionMetaMetricsEvent {
   /**
    * After a transaction is approved by the user, it is then submitted to the
    * network for inclusion in a block. When this happens we fire the
-   * Transaction Submitted event to indicate that MetaMask is submitting a
+   * Transaction Submitted event to indicate that BlockStar is submitting a
    * transaction at the user's request.
    */
   submitted = 'Transaction Submitted',

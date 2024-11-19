@@ -1584,10 +1584,10 @@ __metadata:
 
 "@babel/runtime@patch:@babel/runtime@npm%3A7.25.9#~/.yarn/patches/@babel-runtime-npm-7.25.9-fe8c62510a.patch":
   version: 7.25.9
-  resolution: "@babel/runtime@patch:@babel/runtime@npm%3A7.25.9#~/.yarn/patches/@babel-runtime-npm-7.25.9-fe8c62510a.patch::version=7.25.9&hash=1f0739"
+  resolution: "@babel/runtime@patch:@babel/runtime@npm%3A7.25.9#~/.yarn/patches/@babel-runtime-npm-7.25.9-fe8c62510a.patch::version=7.25.9&hash=8dce20"
   dependencies:
     regenerator-runtime: "npm:^0.14.0"
-  checksum: 10/10b33c61b2e97285a220a4e621daced63d96cebbe155d4c5b322867f4d6eb269a9ab658e9eee6bb3e6bfe1a6bbe84e53347112716e79b57850c8f44edb74773e
+  checksum: 10/9673edc6a7e9c95e4114744878380c564895078ab11529c819ee13554740dcc32e99272f8e5a351f85d83be4becf1b907f19f4706b694c1903e52e82b0886616
   languageName: node
   linkType: hard
 
@@ -5678,7 +5678,7 @@ __metadata:
 
 "@metamask/network-controller@patch:@metamask/network-controller@npm%3A21.0.0#~/.yarn/patches/@metamask-network-controller-npm-21.0.0-559aa8e395.patch":
   version: 21.0.0
-  resolution: "@metamask/network-controller@patch:@metamask/network-controller@npm%3A21.0.0#~/.yarn/patches/@metamask-network-controller-npm-21.0.0-559aa8e395.patch::version=21.0.0&hash=1a5039"
+  resolution: "@metamask/network-controller@patch:@metamask/network-controller@npm%3A21.0.0#~/.yarn/patches/@metamask-network-controller-npm-21.0.0-559aa8e395.patch::version=21.0.0&hash=d6757e"
   dependencies:
     "@metamask/base-controller": "npm:^7.0.0"
     "@metamask/controller-utils": "npm:^11.2.0"
@@ -5697,7 +5697,7 @@ __metadata:
     reselect: "npm:^5.1.1"
     uri-js: "npm:^4.4.1"
     uuid: "npm:^8.3.2"
-  checksum: 10/6c3fdf78360df8bf39a0045f7d5e6d0b7fd8984eaee7a3348bd688ee2740669c654803790dbf2429f8559b69d88101de0add0cc76e5c42661cf2eec14b263cb0
+  checksum: 10/c77a2641455e706e92c2c48567f51a37d8a8bfb266ac9f0efda68784cf14ef6cbac291a074f2a9dd3462dd9172a1e91a72f366d12410eaec80bc88d3e9ceda8b
   languageName: node
   linkType: hard
 
@@ -24575,13 +24575,13 @@ __metadata:
 
 "lavamoat-core@patch:lavamoat-core@npm%3A15.1.1#~/.yarn/patches/lavamoat-core-npm-15.1.1-51fbe39988.patch":
   version: 15.1.1
-  resolution: "lavamoat-core@patch:lavamoat-core@npm%3A15.1.1#~/.yarn/patches/lavamoat-core-npm-15.1.1-51fbe39988.patch::version=15.1.1&hash=95165a"
+  resolution: "lavamoat-core@patch:lavamoat-core@npm%3A15.1.1#~/.yarn/patches/lavamoat-core-npm-15.1.1-51fbe39988.patch::version=15.1.1&hash=ed1e47"
   dependencies:
     json-stable-stringify: "npm:1.0.2"
     lavamoat-tofu: "npm:^7.1.0"
     merge-deep: "npm:3.0.3"
     type-fest: "npm:4.7.1"
-  checksum: 10/e408e3fd65987e0083a4649da3b158ace2eb55379add58a2a0c9a2d1b9b5aee86d03dd44dc616796a5c1c07f303c0691db7c41877b2c3cc4ce86d80af229844b
+  checksum: 10/50ef73e8ab182bf4b29667ea49bb96f51c236c70e4f0d8eaf99fb2926bbddbb31792ac6b0e35fb3dfd9f0277bbf182175461ec4c64b9b93d1d23c66de64cd919
   languageName: node
   linkType: hard
 

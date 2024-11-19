@@ -20,7 +20,7 @@ import { SnapKeyringBuilderMessenger } from './types';
 /**
  * Get the addresses of the accounts managed by a given Snap.
  *
- * @param controller - Instance of the MetaMask Controller.
+ * @param controller - Instance of the BlockStar Controller.
  * @param snapId - Snap ID to get accounts for.
  * @returns The addresses of the accounts.
  */

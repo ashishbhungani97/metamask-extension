@@ -103,7 +103,7 @@ async function selectDappClickPersonalSign(driver, dappUrl) {
 }
 
 async function switchToDialogPopoverValidateDetails(driver, expectedDetails) {
-  // Switches to the MetaMask Dialog window for confirmation
+  // Switches to the BlockStar Dialog window for confirmation
   await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
   await driver.findElement({

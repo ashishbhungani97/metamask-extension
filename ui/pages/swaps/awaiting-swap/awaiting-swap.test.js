@@ -81,7 +81,7 @@ describe('AwaitingSwap', () => {
     expect(getByText('Offline for maintenance')).toBeInTheDocument();
     expect(
       getByText(
-        'MetaMask Swaps is undergoing maintenance. Please check back later.',
+        'BlockStar Swaps is undergoing maintenance. Please check back later.',
       ),
     ).toBeInTheDocument();
     expect(getByText('Close')).toBeInTheDocument();

@@ -58,7 +58,7 @@ describe('LocalStore', () => {
     it('should throw an error if not passed a truthy value as an argument', async () => {
       const localStore = setup();
       await expect(() => localStore.set()).rejects.toThrow(
-        'MetaMask - updated state is missing',
+        'BlockStar - updated state is missing',
       );
     });
 
@@ -67,7 +67,7 @@ describe('LocalStore', () => {
       await expect(() =>
         localStore.set({ appState: { test: true } }),
       ).rejects.toThrow(
-        'MetaMask - metadata must be set on instance of ExtensionStore before calling "set"',
+        'BlockStar - metadata must be set on instance of ExtensionStore before calling "set"',
       );
     });
 

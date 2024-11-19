@@ -12,7 +12,7 @@ import { Web3Provider } from '@ethersproject/providers';
 /**
  * Gets either the '_tokenId' parameter or the 'id' param of the passed token transaction data.,
  * These are the parsed tokenId values returned by `parseStandardTokenTransactionData` as defined
- * in the ERC721 and ERC1155 ABIs from metamask-eth-abis (https://github.com/MetaMask/metamask-eth-abis/tree/main/src/abis)
+ * in the ERC721 and ERC1155 ABIs from metamask-eth-abis (https://github.com/BlockStar/metamask-eth-abis/tree/main/src/abis)
  *
  * @param tokenData - ethers Interface token data.
  * @returns A decimal string value.

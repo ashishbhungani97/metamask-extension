@@ -159,7 +159,7 @@ describe('Simple Send Security Alert - Blockaid @no-mmi', function () {
   it('should show security alerts for malicious requests', async function () {
     await withFixtures(
       // we need to use localhost instead of the ip
-      // see issue: https://github.com/MetaMask/MetaMask-planning/issues/3560
+      // see issue: https://github.com/BlockStar/BlockStar-planning/issues/3560
       {
         dapp: true,
         fixtures: new FixtureBuilder()

@@ -64,7 +64,7 @@ function documentElementCheck() {
  * @returns {boolean} {@code true} if the current domain is blocked
  */
 function blockedDomainCheck() {
-  // If making any changes, please also update the same list found in the MetaMask-Mobile & SDK repositories
+  // If making any changes, please also update the same list found in the BlockStar-Mobile & SDK repositories
   const blockedDomains = [
     'execution.consensys.io',
     'execution.metamask.io',

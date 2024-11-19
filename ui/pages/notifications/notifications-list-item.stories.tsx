@@ -32,7 +32,7 @@ const snapNotifications = processSnapNotifications([
   {
     createdDate: 1728380597788,
     id: 'TRYkTTkpGf1BqhajRQz8h',
-    message: 'Hello from within MetaMask!',
+    message: 'Hello from within BlockStar!',
     origin: 'npm:@metamask/notification-example-snap',
     readDate: undefined,
   },

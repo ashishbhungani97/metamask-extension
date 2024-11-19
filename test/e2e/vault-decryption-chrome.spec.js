@@ -181,7 +181,7 @@ describe('Vault Decryptor Page', function () {
         // as there is no socket for window communications in prod builds
         const windowHandles = await driver.driver.getAllWindowHandles();
 
-        // switch to MetaMask window
+        // switch to BlockStar window
         await driver.driver.switchTo().window(windowHandles[2]);
 
         // create a new vault through onboarding flow
@@ -233,7 +233,7 @@ describe('Vault Decryptor Page', function () {
         // as there is no socket for window communications in prod builds
         const windowHandles = await driver.driver.getAllWindowHandles();
 
-        // switch to MetaMask window
+        // switch to BlockStar window
         await driver.driver.switchTo().window(windowHandles[2]);
 
         // create a new vault through onboarding flow

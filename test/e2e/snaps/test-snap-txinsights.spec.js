@@ -56,7 +56,7 @@ describe('Test Snap TxInsights', function () {
         await driver.switchToWindowWithTitle(WINDOW_TITLES.TestSnaps);
         await driver.clickElement('#getAccounts');
 
-        // switch back to MetaMask window and deal with dialogs
+        // switch back to BlockStar window and deal with dialogs
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
         await driver.clickElementAndWaitForWindowToClose({
           text: 'Connect',
@@ -67,7 +67,7 @@ describe('Test Snap TxInsights', function () {
         await driver.switchToWindowWithTitle(WINDOW_TITLES.TestSnaps);
         await driver.clickElement('#sendInsights');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.delay(2000);
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 

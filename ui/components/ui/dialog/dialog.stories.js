@@ -30,7 +30,7 @@ export const DefaultDialog = (args) => (
       If you would like to help with the replacement of the old Dialog component, please submit a pull request to metamask-extension"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/20463',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/20463',
       }}
       marginBottom={4}
     />

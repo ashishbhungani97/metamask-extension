@@ -66,7 +66,7 @@ export default class InfoTab extends PureComponent {
 
     ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
     privacyUrl = '#sec';
-    siteUrl = 'https://blockstar.site/';
+    siteUrl = 'https://blockstars.blockstar.site/knowledge-base/';
     ///: END:ONLY_INCLUDE_IF
 
     return (
@@ -88,7 +88,7 @@ export default class InfoTab extends PureComponent {
         <div ref={this.settingsRefs[3]} className="info-tab__link-item">
           <Button
             type="link"
-            href="https://blockstar.site/"
+            href="https://blockstars.blockstar.site/knowledge-base/"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -100,7 +100,7 @@ export default class InfoTab extends PureComponent {
           <div ref={this.settingsRefs[8]} className="info-tab__link-item">
             <Button
               type="link"
-              href="https://blockstar.site/"
+              href="https://blockstars.blockstar.site/knowledge-base/"
               target="_blank"
               rel="noopener noreferrer"
               className="info-tab__link-text"
@@ -113,7 +113,7 @@ export default class InfoTab extends PureComponent {
         <div ref={this.settingsRefs[4]} className="info-tab__link-item">
           <Button
             type="link"
-            href={`https://raw.githubusercontent.com/MetaMask/metamask-extension/v${this.state.version}/attribution.txt`}
+            href="#sec"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -254,7 +254,7 @@ export default class InfoTab extends PureComponent {
             <img
               src="./images/logo/metamask-fox.svg"
               className="info-tab__logo"
-              alt="MetaMask Logo"
+              alt="BlockStar Logo"
             />
           </div>
           ///: END:ONLY_INCLUDE_IF

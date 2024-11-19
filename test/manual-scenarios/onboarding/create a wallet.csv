@@ -2,8 +2,8 @@ Step,Test Steps,Test Data,Expected Result,Notes
 1,Open the extension.,,The Welcome screen is shown.,
 2,Agree to the Terms of use.,,,
 3,Proceed to Create a new wallet.,,,
-4,Allow MetaMask to gather usage data.,,,
-5,Create a password for your MetaMask wallet.,password (8 characters min).,,
+4,Allow BlockStar to gather usage data.,,,
+5,Create a password for your BlockStar wallet.,password (8 characters min).,,
 6,Watch the secure your wallet video.,,"The video plays.
 The video is audible.
 Subtitles are shown in the video.",

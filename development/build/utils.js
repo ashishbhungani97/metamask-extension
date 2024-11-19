@@ -233,7 +233,7 @@ function wrapAgainstScuttling(content, bag = {}) {
  * (The backslashes had to be converted to forward-slashes)
  * This helper function was written to fix the Windows problem, and also end reliance on writing paths that start with './node_modules/'
  *
- * @see {@link https://github.com/MetaMask/metamask-extension/pull/16550}
+ * @see {@link https://github.com/BlockStar/metamask-extension/pull/16550}
  * @param {string} packageName - The name of the package, such as '@lavamoat/lavapack'
  * @param {string} pathToFiles - The path of the file or folder inside the package, optionally starting with /
  */
@@ -270,7 +270,7 @@ function getBuildName({
 
   let name =
     config.buildTypes[buildType].buildNameOverride ||
-    `MetaMask ${capitalize(buildType)}`;
+    `BlockStar ${capitalize(buildType)}`;
 
   if (environment !== ENVIRONMENT.PRODUCTION) {
     const mv3Str = isManifestV3 ? ' MV3' : '';

@@ -1,19 +1,16 @@
 import React, { useContext, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-
 import { I18nContext } from '../../../contexts/i18n';
 import {
   SEND_ROUTE,
   ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-  PREPARE_SWAP_ROUTE,
+  // no-op
   ///: END:ONLY_INCLUDE_IF
 } from '../../../helpers/constants/routes';
 import { startNewDraftTransaction } from '../../../ducks/send';
 ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-import { isHardwareKeyring } from '../../../helpers/utils/hardware';
-import { setSwapsFromToken } from '../../../ducks/swaps/swaps';
-import useRamps from '../../../hooks/ramps/useRamps/useRamps';
+// no-op
 ///: END:ONLY_INCLUDE_IF
 ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
 import {
@@ -22,15 +19,13 @@ import {
 } from '../../../selectors/institutional/selectors';
 ///: END:ONLY_INCLUDE_IF
 import {
-  getIsSwapsChain,
   getCurrentChainId,
   ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-  getIsBridgeChain,
-  getCurrentKeyring,
+  // no-op
   ///: END:ONLY_INCLUDE_IF
 } from '../../../selectors';
 ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-import useBridging from '../../../hooks/bridge/useBridging';
+// no-op
 ///: END:ONLY_INCLUDE_IF
 
 import { INVALID_ASSET_TYPE } from '../../../helpers/constants/error-keys';
@@ -55,7 +50,7 @@ import {
   IconSize,
 } from '../../../components/component-library';
 ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-import { getIsNativeTokenBuyable } from '../../../ducks/ramps';
+// no-op
 ///: END:ONLY_INCLUDE_IF
 import { Asset } from './asset-page';
 
@@ -70,17 +65,12 @@ const TokenButtons = ({
   const history = useHistory();
 
   ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-  const keyring = useSelector(getCurrentKeyring);
-  const usingHardwareWallet = isHardwareKeyring(keyring.type);
+  // no-op
   ///: END:ONLY_INCLUDE_IF
 
   const chainId = useSelector(getCurrentChainId);
-  const isSwapsChain = useSelector(getIsSwapsChain);
   ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-  const isBridgeChain = useSelector(getIsBridgeChain);
-  const isBuyableChain = useSelector(getIsNativeTokenBuyable);
-  const { openBuyCryptoInPdapp } = useRamps();
-  const { openBridgeExperience } = useBridging();
+  // no-op
   ///: END:ONLY_INCLUDE_IF
 
   ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
@@ -113,6 +103,12 @@ const TokenButtons = ({
     }
   }, [token.isERC721, token.address, dispatch]);
 
+  const openBuyCryptoInPdapp = () =>{
+    const url = 'https://dex.blockstars.blockstar.site/knowledge-base/';  // Replace with the desired URL
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+
+
   return (
     <Box display={Display.Flex} justifyContent={JustifyContent.spaceEvenly}>
       {
@@ -130,18 +126,7 @@ const TokenButtons = ({
           data-testid="token-overview-buy"
           onClick={() => {
             openBuyCryptoInPdapp();
-            trackEvent({
-              event: MetaMetricsEventName.NavBuyButtonClicked,
-              category: MetaMetricsEventCategory.Navigation,
-              properties: {
-                location: 'Token Overview',
-                text: 'Buy',
-                chain_id: chainId,
-                token_symbol: token.symbol,
-              },
-            });
           }}
-          disabled={token.isERC721 || !isBuyableChain}
           tooltipRender={null}
         />
         ///: END:ONLY_INCLUDE_IF
@@ -237,7 +222,7 @@ const TokenButtons = ({
         disabled={token.isERC721}
         tooltipRender={null}
       />
-      {isSwapsChain && (
+
         <IconButton
           className="token-overview__button"
           Icon={
@@ -249,75 +234,16 @@ const TokenButtons = ({
           }
           onClick={() => {
             ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
-            global.platform.openTab({
-              url: `${mmiPortfolioUrl}/swap`,
-            });
+            openBuyCryptoInPdapp()
             ///: END:ONLY_INCLUDE_IF
 
             ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-            trackEvent({
-              event: MetaMetricsEventName.NavSwapButtonClicked,
-              category: MetaMetricsEventCategory.Swaps,
-              properties: {
-                token_symbol: token.symbol,
-                location: MetaMetricsSwapsEventSource.TokenView,
-                text: 'Swap',
-                chain_id: chainId,
-              },
-            });
-            dispatch(
-              setSwapsFromToken({
-                ...token,
-                address: token.address.toLowerCase(),
-                iconUrl: token.image,
-                balance: token.balance.value,
-                string: token.balance.display,
-              }),
-            );
-            if (usingHardwareWallet) {
-              global.platform.openExtensionInBrowser?.(
-                PREPARE_SWAP_ROUTE,
-                undefined,
-                false,
-              );
-            } else {
-              history.push(PREPARE_SWAP_ROUTE);
-            }
+            // no-op
             ///: END:ONLY_INCLUDE_IF
           }}
           label={t('swap')}
           tooltipRender={null}
         />
-      )}
-
-      {
-        ///: BEGIN:ONLY_INCLUDE_IF(build-main,build-beta,build-flask)
-        isBridgeChain && (
-          <IconButton
-            className="token-overview__button"
-            data-testid="token-overview-bridge"
-            Icon={
-              <Icon
-                name={IconName.Bridge}
-                color={IconColor.primaryInverse}
-                size={IconSize.Sm}
-              />
-            }
-            label={t('bridge')}
-            onClick={() => {
-              openBridgeExperience(MetaMetricsSwapsEventSource.TokenView, {
-                ...token,
-                iconUrl: token.image,
-                balance: token.balance.value,
-                string: token.balance.display,
-                name: token.name ?? '',
-              });
-            }}
-            tooltipRender={null}
-          />
-        )
-        ///: END:ONLY_INCLUDE_IF
-      }
     </Box>
   );
 };

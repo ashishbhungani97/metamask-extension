@@ -1052,7 +1052,7 @@ export default function PrepareSwapPage({
                 event: MetaMetricsEventName.BridgeLinkClicked,
                 properties: {
                   location: 'Swaps',
-                  text: 'Swap across networks with MetaMask Portfolio',
+                  text: 'Swap across networks with BlockStar Portfolio',
                   chain_id: chainId,
                   token_symbol: fromTokenSymbol,
                 },

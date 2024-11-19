@@ -266,7 +266,7 @@ const firstTimeState = {
         fuzzylist: [],
         tolerance: 0,
         version: 0,
-        name: 'MetaMask',
+        name: 'BlockStar',
       },
     ],
   },
@@ -297,7 +297,7 @@ describe('MetaMaskController', () => {
             fuzzylist: [],
             allowlist: [],
             blocklist: ['test.metamask-phishing.io'],
-            name: ListNames.MetaMask,
+            name: ListNames.BlockStar,
           },
         }),
       )

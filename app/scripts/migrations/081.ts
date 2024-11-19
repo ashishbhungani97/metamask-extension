@@ -8,11 +8,11 @@ export const version = 81;
  * Now the permission has been changed to `wallet_snap` and the current snap permissions
  * that are under wildcards will be added as caveats to a parent `wallet_snap` permission.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(originalVersionedData: {
   meta: { version: number };

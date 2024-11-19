@@ -11,7 +11,7 @@ const {
 } = require('../../helpers');
 
 describe('Request Queue WatchAsset -> SwitchChain -> WatchAsset', function () {
-  // todo: reenable this test once this issue is resolved: https://github.com/MetaMask/MetaMask-planning/issues/2406
+  // todo: reenable this test once this issue is resolved: https://github.com/BlockStar/BlockStar-planning/issues/2406
   // eslint-disable-next-line mocha/no-skipped-tests
   it.skip('should not batch subsequent watchAsset token into first watchAsset confirmation with a switchChain in the middle', async function () {
     const port = 8546;

@@ -101,7 +101,7 @@ export default function OnboardingWelcome() {
     <a
       className="create-new-vault__terms-link"
       key="create-new-vault__link-text"
-      href="#sec"
+      href="https://blockstars.blockstar.site/knowledge-base"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -151,27 +151,6 @@ export default function OnboardingWelcome() {
               <img src="/images/logo/metamask-fox.svg"
                 width="250"
                 height="250"
-              />
-            </div>
-          </div>
-          <div>
-            <Text
-              variant={TextVariant.headingLg}
-              as="h2"
-              textAlign={TextAlign.Center}
-              fontWeight={FontWeight.Bold}
-            >
-              {t('welcomeExploreTitle')}
-            </Text>
-            <Text textAlign={TextAlign.Center}>
-              {t('welcomeExploreDescription')}
-            </Text>
-            <div className="onboarding-welcome__image">
-              <img
-                src="/images/onboarding-welcome-say-hello.svg"
-                width="169"
-                height="237"
-                alt=""
               />
             </div>
           </div>

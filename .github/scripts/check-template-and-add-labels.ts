@@ -81,7 +81,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  // If author is not part of the MetaMask organisation
+  // If author is not part of the BlockStar organisation
   if (!knownBots.includes(labelable?.author) && !(await userBelongsToMetaMaskOrg(octokit, labelable?.author))) {
     // Add external contributor label to the issue
     await addLabelToLabelable(octokit, labelable, externalContributorLabel);
@@ -132,7 +132,7 @@ async function main(): Promise<void> {
 
     } else {
       const errorMessage =
-        "Issue body does not match any of expected templates ('general-issue.yml' or 'bug-report.yml').\n\nMake sure issue's body includes all section titles.\n\nSections titles are listed here: https://github.com/MetaMask/metamask-extension/blob/develop/.github/scripts/shared/template.ts#L14-L37";
+        "Issue body does not match any of expected templates ('general-issue.yml' or 'bug-report.yml').\n\nMake sure issue's body includes all section titles.\n\nSections titles are listed here: https://github.com/BlockStar/metamask-extension/blob/develop/.github/scripts/shared/template.ts#L14-L37";
       console.log(errorMessage);
 
       // Add label to indicate issue doesn't match any template
@@ -152,7 +152,7 @@ async function main(): Promise<void> {
       );
     } else {
       const errorMessage =
-        `PR body does not match template ('pull-request-template.md').\n\nMake sure PR's body includes all section titles.\n\nSections titles are listed here: https://github.com/MetaMask/metamask-extension/blob/develop/.github/scripts/shared/template.ts#L40-L47`;
+        `PR body does not match template ('pull-request-template.md').\n\nMake sure PR's body includes all section titles.\n\nSections titles are listed here: https://github.com/BlockStar/metamask-extension/blob/develop/.github/scripts/shared/template.ts#L40-L47`;
       console.log(errorMessage);
 
       // Add label to indicate PR body doesn't match template
@@ -303,7 +303,7 @@ async function addRegressionLabelToIssue(
   );
 }
 
-// This function checks if user belongs to MetaMask organization on Github
+// This function checks if user belongs to BlockStar organization on Github
 async function userBelongsToMetaMaskOrg(
   octokit: InstanceType<typeof GitHub>,
   username: string,
@@ -311,7 +311,7 @@ async function userBelongsToMetaMaskOrg(
   const userBelongsToMetaMaskOrgQuery = `
     query UserBelongsToMetaMaskOrg($login: String!) {
       user(login: $login) {
-        organization(login: "MetaMask") {
+        organization(login: "BlockStar") {
           id
         }
       }

@@ -24,7 +24,7 @@ export default function createMetamaskMiddleware({
   const metamaskMiddleware = mergeMiddleware([
     createScaffoldMiddleware({
       eth_syncing: false,
-      web3_clientVersion: `MetaMask/v${version}`,
+      web3_clientVersion: `BlockStar/v${version}`,
     }),
     createWalletMiddleware({
       getAccounts,

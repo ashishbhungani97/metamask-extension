@@ -13,11 +13,11 @@ export const version = 120.2;
  * This migration removes obsolete state from various controllers. In all cases, this was done to
  * address Sentry errors.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly what we persist to dist.
  * @param originalVersionedData.meta - State metadata.
  * @param originalVersionedData.meta.version - The current state version.
- * @param originalVersionedData.data - The persisted MetaMask state, keyed by controller.
- * @returns Updated versioned MetaMask extension state.
+ * @param originalVersionedData.data - The persisted BlockStar state, keyed by controller.
+ * @returns Updated versioned BlockStar extension state.
  */
 export async function migrate(
   originalVersionedData: VersionedData,
@@ -34,7 +34,7 @@ export async function migrate(
  * The `snapErrors` property was never intended to be persisted, but the initial state for this
  * property was accidentally persisted for some users due to a bug. See #26280 for details.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function removeObsoleteSnapControllerState(
   state: Record<string, unknown>,
@@ -63,7 +63,7 @@ function removeObsoleteSnapControllerState(
  * erasing the state. The consequences of this state being erased are minimal, and this was easier
  * than fixing state corruption without resetting it.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function removeObsoleteSelectedNetworkControllerState(
   state: Record<string, unknown>,
@@ -87,7 +87,7 @@ function removeObsoleteSelectedNetworkControllerState(
  * We don't know exactly why yet, but we see from Sentry that some users have these properties
  * in state. They should have been removed by migrations long ago. They are no longer used.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function removeObsoleteNetworkControllerState(
   state: Record<string, unknown>,
@@ -165,7 +165,7 @@ function removeObsoleteNetworkControllerState(
  * We don't know exactly why yet, but we see from Sentry that some users have this property still
  * in state. It is no longer used.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function removeObsoletePhishingControllerState(
   state: Record<string, unknown>,
@@ -188,7 +188,7 @@ function removeObsoletePhishingControllerState(
 /**
  * Remove obsolete controller state.
  *
- * @param state - The persisted MetaMask state, keyed by controller.
+ * @param state - The persisted BlockStar state, keyed by controller.
  */
 function transformState(state: Record<string, unknown>): void {
   removeObsoleteSnapControllerState(state);

@@ -41,7 +41,7 @@ describe('ReviewQuote', () => {
     const { getByText } = renderWithProvider(<ReviewQuote {...props} />, store);
     expect(getByText('New quotes in')).toBeInTheDocument();
     expect(getByText('Quote rate*')).toBeInTheDocument();
-    expect(getByText('Includes a 1% MetaMask fee –')).toBeInTheDocument();
+    expect(getByText('Includes a 1% BlockStar fee –')).toBeInTheDocument();
     expect(getByText('view all quotes')).toBeInTheDocument();
     expect(getByText('Estimated gas fee')).toBeInTheDocument();
     expect(getByText('0.00008 ETH')).toBeInTheDocument();
@@ -63,7 +63,7 @@ describe('ReviewQuote', () => {
     const { getByText } = renderWithProvider(<ReviewQuote {...props} />, store);
     expect(getByText('New quotes in')).toBeInTheDocument();
     expect(getByText('Quote rate*')).toBeInTheDocument();
-    expect(getByText('Includes a 1% MetaMask fee –')).toBeInTheDocument();
+    expect(getByText('Includes a 1% BlockStar fee –')).toBeInTheDocument();
     expect(getByText('view all quotes')).toBeInTheDocument();
     expect(getByText('Estimated gas fee')).toBeInTheDocument();
     expect(getByText('0.00008 ETH')).toBeInTheDocument();
@@ -86,7 +86,7 @@ describe('ReviewQuote', () => {
     const { getByText } = renderWithProvider(<ReviewQuote {...props} />, store);
     expect(getByText('New quotes in')).toBeInTheDocument();
     expect(getByText('Quote rate*')).toBeInTheDocument();
-    expect(getByText('Includes a 1% MetaMask fee –')).toBeInTheDocument();
+    expect(getByText('Includes a 1% BlockStar fee –')).toBeInTheDocument();
     expect(getByText('view all quotes')).toBeInTheDocument();
     expect(getByText('Estimated gas fee')).toBeInTheDocument();
     expect(getByText('0.00008 ETH')).toBeInTheDocument();
@@ -117,7 +117,7 @@ describe('ReviewQuote', () => {
     expect(getByText('New quotes in')).toBeInTheDocument();
     expect(getByText('Quote rate*')).toBeInTheDocument();
     expect(
-      getByText('* Includes gas and a 1% MetaMask fee'),
+      getByText('* Includes gas and a 1% BlockStar fee'),
     ).toBeInTheDocument();
     expect(getByText('view all quotes')).toBeInTheDocument();
     expect(getByText('Gas fee')).toBeInTheDocument();

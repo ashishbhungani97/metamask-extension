@@ -120,7 +120,7 @@ export function NotificationsSettingsAllowNotifications({
     () => (
       <Text
         as="a"
-        href="https://support.metamask.io/privacy-and-security/profile-privacy"
+        href="#sec"
         target="_blank"
         rel="noopener noreferrer"
         key="privacy-link"

@@ -68,7 +68,7 @@ describe('Snap Account Contract interaction @no-mmi', function (this: Suite) {
         await testDapp.check_pageIsLoaded();
         await testDapp.createDepositTransaction();
 
-        // Confirm the transaction in activity list on MetaMask
+        // Confirm the transaction in activity list on BlockStar
         await driver.switchToWindowWithTitle(
           WINDOW_TITLES.ExtensionInFullScreenView,
         );

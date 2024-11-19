@@ -94,7 +94,7 @@ function getOrdinalSuffix(day) {
   }
 }
 /**
- * Determines if the provided chainId is a default MetaMask chain
+ * Determines if the provided chainId is a default BlockStar chain
  *
  * @param {string} chainId - chainId to check
  */

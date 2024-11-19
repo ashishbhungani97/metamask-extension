@@ -99,13 +99,13 @@ export const getCaveatSpecifications = ({
  *   getInternalAccounts: () => Record<string, import('@metamask/keyring-api').InternalAccount>,
  * }} options - Options bag.
  * @param options.getAllAccounts - A function that returns all Ethereum accounts
- * in the current MetaMask instance.
+ * in the current BlockStar instance.
  * @param options.getInternalAccounts - A function that returns the
  * `AccountsController` internalAccount objects for all accounts in the
  * @param options.captureKeyringTypesWithMissingIdentities - A function that
  * captures extra error information about the "Missing identity for address"
  * error.
- * current MetaMask instance.
+ * current BlockStar instance.
  */
 export const getPermissionSpecifications = ({
   getAllAccounts,

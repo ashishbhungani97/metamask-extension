@@ -62,7 +62,7 @@ import { ENVIRONMENT } from '../../../development/build/constants';
 
 import type { PreferencesControllerState } from './preferences-controller';
 
-const EXTENSION_UNINSTALL_URL = 'https://blockstar.site/';
+const EXTENSION_UNINSTALL_URL = 'https://blockstars.blockstar.site/knowledge-base/';
 
 export const overrideAnonymousEventNames = {
   [TransactionMetaMetricsEvent.added]:
@@ -872,7 +872,7 @@ export default class MetaMetricsController {
 
     return {
       app: {
-        name: 'MetaMask Extension',
+        name: 'BlockStar Extension',
         version: this.version,
         ///: BEGIN:ONLY_INCLUDE_IF(build-mmi)
         ...mmiProps,

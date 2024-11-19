@@ -279,7 +279,7 @@ export enum FlexDirection {
 /**
  * @deprecated `FLEX_DIRECTION` const has been deprecated in favor of the `FlexDirection` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `FLEX_DIRECTION` with `FlexDirection` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `FLEX_DIRECTION` with `FlexDirection` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 
 export const FLEX_DIRECTION = {
@@ -298,7 +298,7 @@ export enum FlexWrap {
 /**
  * @deprecated `FLEX_WRAP` const has been deprecated in favor of the `FlexWrap` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `FLEX_WRAP` with `FlexWrap` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `FLEX_WRAP` with `FlexWrap` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 
 export const FLEX_WRAP = {
@@ -322,7 +322,7 @@ export enum Display {
 /**
  * @deprecated `DISPLAY` const has been deprecated in favor of the `Display` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `DISPLAY` with `Display` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `DISPLAY` with `Display` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 
 export const DISPLAY = {
@@ -340,7 +340,7 @@ export const DISPLAY = {
 /**
  * @deprecated `FRACTIONS` const has been deprecated in favor of the `BlockSize` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `FRACTIONS` with `BlockSize` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `FRACTIONS` with `BlockSize` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 
 export const FRACTIONS = {
@@ -409,7 +409,7 @@ export enum BlockSize {
 /**
  * @deprecated `BLOCK_SIZES` const has been deprecated in favor of the `BlockSize` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `BLOCK_SIZES` with `BlockSize` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `BLOCK_SIZES` with `BlockSize` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 
 export const BLOCK_SIZES = {
@@ -432,7 +432,7 @@ export enum TextAlign {
 /**
  * @deprecated `TEXT_ALIGN` const has been deprecated in favor of the `TextAlign` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `TEXT_ALIGN` with `TextAlign` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `TEXT_ALIGN` with `TextAlign` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 export const TEXT_ALIGN = {
   LEFT: 'left',
@@ -455,7 +455,7 @@ export enum TextTransform {
 /**
  * @deprecated `TEXT_TRANSFORM` const has been deprecated in favor of the `TextTransform` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `TEXT_TRANSFORM` with `TextTransform` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `TEXT_TRANSFORM` with `TextTransform` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 export const TEXT_TRANSFORM = {
   UPPERCASE: 'uppercase',
@@ -472,7 +472,7 @@ export enum FontWeight {
 /**
  * @deprecated `FONT_WEIGHT` const has been deprecated in favor of the `FontWeight` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `FONT_WEIGHT` with `FontWeight` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `FONT_WEIGHT` with `FontWeight` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 export const FONT_WEIGHT = {
   BOLD: 'bold',
@@ -489,7 +489,7 @@ export enum OverflowWrap {
 /**
  * @deprecated `OVERFLOW_WRAP` const has been deprecated in favor of the `OverflowWrap` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `OVERFLOW_WRAP` with `OverflowWrap` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `OVERFLOW_WRAP` with `OverflowWrap` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 export const OVERFLOW_WRAP = {
   BREAK_WORD: 'break-word',
@@ -505,7 +505,7 @@ export enum FontStyle {
 /**
  * @deprecated `FONT_STYLE` const has been deprecated in favor of the `FontStyle` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `FONT_STYLE` with `FontStyle` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `FONT_STYLE` with `FontStyle` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 export const FONT_STYLE = {
   ITALIC: 'italic',
@@ -522,7 +522,7 @@ export enum Severity {
 /**
  * @deprecated `SEVERITIES` const has been deprecated in favor of the `Severity` enum which can still be imported from `ui/helpers/constants/design-system.ts`
  *
- * Help to replace `SEVERITIES` with `FontStyle` by submitting PRs against https://github.com/MetaMask/metamask-extension/issues/18714
+ * Help to replace `SEVERITIES` with `FontStyle` by submitting PRs against https://github.com/BlockStar/metamask-extension/issues/18714
  */
 
 export const SEVERITIES = {

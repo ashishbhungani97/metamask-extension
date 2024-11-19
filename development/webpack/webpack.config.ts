@@ -72,7 +72,7 @@ const webAccessibleResources =
 const cache = args.cache
   ? ({
       type: 'filesystem',
-      name: `MetaMask—${args.env}`,
+      name: `BlockStar—${args.env}`,
       version: cacheKey,
       idleTimeout: 0,
       idleTimeoutForInitialStore: 0,
@@ -183,7 +183,7 @@ const config = {
   context,
   mode: args.env,
   stats: args.stats ? 'normal' : 'none',
-  name: `MetaMask – ${args.env}`,
+  name: `BlockStar – ${args.env}`,
   // use the `.browserlistrc` file directly to avoid browserslist searching
   target: `browserslist:${browsersListPath}:defaults`,
   // TODO: look into using SourceMapDevToolPlugin and its exclude option to speed up the build
@@ -265,7 +265,7 @@ const config = {
         include: NODE_MODULES_RE,
         // never process `@lavamoat/snow/**.*`
         exclude: /^.*\/node_modules\/@lavamoat\/snow\/.*$/u,
-        // can be removed once https://github.com/MetaMask/key-tree/issues/152 is resolved
+        // can be removed once https://github.com/BlockStar/key-tree/issues/152 is resolved
         resolve: { fullySpecified: false },
         use: ecmaLoader,
       },

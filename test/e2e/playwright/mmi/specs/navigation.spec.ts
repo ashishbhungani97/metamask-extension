@@ -9,13 +9,13 @@ import {
 import { MMIMainMenuPage } from '../pageObjects/mmi-mainMenu-page';
 import { MMIMainPage } from '../pageObjects/mmi-main-page';
 
-const support = 'https://support.metamask-institutional.io';
-const supportContactUs = 'https://support.metamask-institutional.io';
-const mmiHomePage = 'https://metamask.io/institutions/';
-const privacyAndNotice = 'https://consensys.io/privacy-notice';
+const support = 'https://blockstars.blockstar.site/knowledge-base';
+const supportContactUs = 'https://blockstars.blockstar.site/knowledge-base';
+const mmiHomePage = 'https://blockstars.blockstar.site/knowledge-base/';
+const privacyAndNotice = 'https://blockstars.blockstar.site/knowledge-base';
 const openSeaTermsOfUse = 'https://opensea.io/securityproviderterms';
 const termsOfUse = 'https://consensys.io/terms-of-use';
-const learnMoreArticles = 'https://support.metamask.io/';
+const learnMoreArticles = 'https://blockstars.blockstar.site/knowledge-base';
 
 test.describe('MMI Navigation', () => {
   test('MMI full navigation links', async ({ page, context }) => {
@@ -56,7 +56,7 @@ test.describe('MMI Navigation', () => {
     await checkLinkURL(
       context,
       mainPage.page,
-      'MetaMask Institutional support',
+      'BlockStar Institutional support',
       support,
     );
 
@@ -65,14 +65,14 @@ test.describe('MMI Navigation', () => {
     await checkLinkURL(
       context,
       mainPage.page,
-      'MetaMask Institutional support',
+      'BlockStar Institutional support',
       support,
     );
     await mainPage.NFTsTab.click();
     await checkLinkURL(
       context,
       mainPage.page,
-      'MetaMask Institutional support',
+      'BlockStar Institutional support',
       support,
     );
 

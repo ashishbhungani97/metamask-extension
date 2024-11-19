@@ -32,17 +32,17 @@ async function start() {
         })
         .option('build-type', {
           default: loadBuildTypesConfig().default,
-          description: 'The MetaMask extension build type',
+          description: 'The BlockStar extension build type',
           choices: Object.keys(loadBuildTypesConfig().buildTypes),
         })
         .option('build-version', {
           default: 0,
-          description: 'The MetaMask extension build version',
+          description: 'The BlockStar extension build version',
           type: 'number',
         })
         .option('dist', {
           description:
-            'The MetaMask extension build distribution (typically for MV2 builds, omit for MV3)',
+            'The BlockStar extension build distribution (typically for MV2 builds, omit for MV3)',
           type: 'string',
         }),
   );

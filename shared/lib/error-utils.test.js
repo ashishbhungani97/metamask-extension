@@ -39,10 +39,10 @@ describe('Error utils Tests', function () {
         current: {
           troubleStarting: {
             message:
-              'MetaMask had trouble starting. This error could be intermittent, so try restarting the extension.',
+              'BlockStar had trouble starting. This error could be intermittent, so try restarting the extension.',
           },
           restartMetamask: {
-            message: 'Restart MetaMask',
+            message: 'Restart BlockStar',
           },
           stillGettingMessage: {
             message: 'Still getting this message?',

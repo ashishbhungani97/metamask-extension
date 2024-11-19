@@ -319,7 +319,7 @@ export class BalancesController extends BaseController<
     // Updating the balance here would resume at some point but the event emitter
     // will not `await` this (so we have no real control "when" the balance will
     // really be updated), see:
-    // - https://github.com/MetaMask/core/blob/v213.0.0/packages/accounts-controller/src/AccountsController.ts#L1036-L1039
+    // - https://github.com/BlockStar/core/blob/v213.0.0/packages/accounts-controller/src/AccountsController.ts#L1036-L1039
   }
 
   /**

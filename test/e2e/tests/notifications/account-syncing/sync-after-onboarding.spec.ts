@@ -20,7 +20,7 @@ describe('Account syncing - Onboarding @no-mmi', function () {
   if (!IS_ACCOUNT_SYNCING_ENABLED) {
     return;
   }
-  describe('from inside MetaMask', function () {
+  describe('from inside BlockStar', function () {
     it('retrieves all previously synced accounts', async function () {
       const userStorageMockttpController = new UserStorageMockttpController();
 

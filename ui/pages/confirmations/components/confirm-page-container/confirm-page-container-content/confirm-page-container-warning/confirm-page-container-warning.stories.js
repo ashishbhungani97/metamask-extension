@@ -25,7 +25,7 @@ export const DefaultStory = (args) => (
       If you would like to help with the replacement of the old ConfirmPageContainerWarning component, please submit a pull request to metamask-extension"
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/20466',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/20466',
       }}
       marginBottom={4}
     />

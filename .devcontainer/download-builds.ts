@@ -12,7 +12,7 @@ function getGitBranch() {
 
 async function getCircleJobs(branch: string) {
   let response = await fetch(
-    `https://circleci.com/api/v2/project/gh/MetaMask/metamask-extension/pipeline?branch=${branch}`,
+    `https://circleci.com/api/v2/project/gh/BlockStar/metamask-extension/pipeline?branch=${branch}`,
   );
 
   const pipelineId = (await response.json()).items[0].id;
@@ -47,7 +47,7 @@ async function getBuilds(branch: string, jobNames: string[]) {
 
     // Using the CircleCI API version 1.1 here, because this endpoint recently started requiring Authorization in v2
     const response = await fetch(
-      `https://circleci.com/api/v1.1/project/gh/MetaMask/metamask-extension/${jobId}/artifacts`,
+      `https://circleci.com/api/v1.1/project/gh/BlockStar/metamask-extension/${jobId}/artifacts`,
     );
 
     const artifacts = await response.json();

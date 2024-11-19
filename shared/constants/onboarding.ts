@@ -10,9 +10,9 @@ export enum FirstTimeFlowType {
    */
   create = 'create',
   /**
-   * A special case for when a user's MetaMask encounters an error during the
+   * A special case for when a user's BlockStar encounters an error during the
    * loading of state. They will be presented with an option to restore their
-   * MetaMask if their vault was backed up. This will set their
+   * BlockStar if their vault was backed up. This will set their
    * firstTimeFlowType to 'restore'.
    */
   restore = 'restore',

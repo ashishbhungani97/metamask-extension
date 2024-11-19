@@ -40,7 +40,7 @@ describe('Phishing Detection', function () {
     });
   });
 
-  it('should display the MetaMask Phishing Detection page and take the user to the blocked page if they continue', async function () {
+  it('should display the BlockStar Phishing Detection page and take the user to the blocked page if they continue', async function () {
     await withFixtures(
       {
         fixtures: new FixtureBuilder().build(),
@@ -48,7 +48,7 @@ describe('Phishing Detection', function () {
         title: this.test.fullTitle(),
         testSpecificMock: async (mockServer) => {
           return setupPhishingDetectionMocks(mockServer, {
-            blockProvider: BlockProvider.MetaMask,
+            blockProvider: BlockProvider.BlockStar,
             blocklist: ['127.0.0.1'],
           });
         },
@@ -57,7 +57,7 @@ describe('Phishing Detection', function () {
       async ({ driver }) => {
         await unlockWallet(driver);
         await openDapp(driver);
-        await driver.switchToWindowWithTitle('MetaMask Phishing Detection');
+        await driver.switchToWindowWithTitle('BlockStar Phishing Detection');
         await driver.clickElement({
           text: 'Proceed anyway',
         });
@@ -76,7 +76,7 @@ describe('Phishing Detection', function () {
         ganacheOptions: defaultGanacheOptions,
         testSpecificMock: async (mockServer) => {
           return setupPhishingDetectionMocks(mockServer, {
-            blockProvider: BlockProvider.MetaMask,
+            blockProvider: BlockProvider.BlockStar,
             blocklist: [IFRAMED_HOSTNAME],
           });
         },
@@ -102,7 +102,7 @@ describe('Phishing Detection', function () {
           });
         }
 
-        await driver.switchToWindowWithTitle('MetaMask Phishing Detection');
+        await driver.switchToWindowWithTitle('BlockStar Phishing Detection');
         await driver.clickElement({
           text: 'Proceed anyway',
         });
@@ -111,7 +111,7 @@ describe('Phishing Detection', function () {
       };
     }
 
-    it('should redirect users to the the MetaMask Phishing Detection page when an iframe domain is on the phishing blocklist', async function () {
+    it('should redirect users to the the BlockStar Phishing Detection page when an iframe domain is on the phishing blocklist', async function () {
       await withFixtures(
         getFixtureOptions({
           title: this.test.fullTitle(),
@@ -123,7 +123,7 @@ describe('Phishing Detection', function () {
       );
     });
 
-    it('should display the MetaMask Phishing Detection page in an iframe and take the user to the blocked page if they continue', async function () {
+    it('should display the BlockStar Phishing Detection page in an iframe and take the user to the blocked page if they continue', async function () {
       await withFixtures(
         getFixtureOptions({
           title: this.test.fullTitle(),
@@ -136,7 +136,7 @@ describe('Phishing Detection', function () {
     });
   });
 
-  it('should display the MetaMask Phishing Detection page in an iframe but should NOT take the user to the blocked page if it is not an accessible resource', async function () {
+  it('should display the BlockStar Phishing Detection page in an iframe but should NOT take the user to the blocked page if it is not an accessible resource', async function () {
     await withFixtures(
       {
         fixtures: new FixtureBuilder().build(),
@@ -144,7 +144,7 @@ describe('Phishing Detection', function () {
         title: this.test.fullTitle(),
         testSpecificMock: async (mockServer) => {
           return setupPhishingDetectionMocks(mockServer, {
-            blockProvider: BlockProvider.MetaMask,
+            blockProvider: BlockProvider.BlockStar,
             blocklist: ['127.0.0.1'],
           });
         },
@@ -168,7 +168,7 @@ describe('Phishing Detection', function () {
         await driver.clickElement({
           text: 'Open this warning in a new tab',
         });
-        await driver.switchToWindowWithTitle('MetaMask Phishing Detection');
+        await driver.switchToWindowWithTitle('BlockStar Phishing Detection');
         await driver.clickElement({
           text: 'Proceed anyway',
         });
@@ -190,7 +190,7 @@ describe('Phishing Detection', function () {
         title: this.test.fullTitle(),
         testSpecificMock: (mockServer) => {
           setupPhishingDetectionMocks(mockServer, {
-            blockProvider: BlockProvider.MetaMask,
+            blockProvider: BlockProvider.BlockStar,
             blocklist: ['127.0.0.1'],
           });
           mockConfigLookupOnWarningPage(mockServer, { statusCode: 500 });
@@ -201,21 +201,21 @@ describe('Phishing Detection', function () {
         await unlockWallet(driver);
         await openDapp(driver);
 
-        await driver.switchToWindowWithTitle('MetaMask Phishing Detection');
+        await driver.switchToWindowWithTitle('BlockStar Phishing Detection');
         await driver.clickElement({ text: 'report a detection problem.' });
 
         // wait for page to load before checking URL.
         await driver.findElement({
-          text: `Empty page by ${BlockProvider.MetaMask}`,
+          text: `Empty page by ${BlockProvider.BlockStar}`,
         });
         await driver.waitForUrl({
-          url: `https://github.com/MetaMask/eth-phishing-detect/issues/new?title=[Legitimate%20Site%20Blocked]%20127.0.0.1&body=http%3A%2F%2F127.0.0.1%2F`,
+          url: `https://github.com/BlockStar/eth-phishing-detect/issues/new?title=[Legitimate%20Site%20Blocked]%20127.0.0.1&body=http%3A%2F%2F127.0.0.1%2F`,
         });
       },
     );
   });
 
-  it('should navigate the user to eth-phishing-detect to dispute a block from MetaMask', async function () {
+  it('should navigate the user to eth-phishing-detect to dispute a block from BlockStar', async function () {
     // Must be site on actual eth-phishing-detect blocklist
     const phishingSite = new URL('https://test.metamask-phishing.io');
 
@@ -226,7 +226,7 @@ describe('Phishing Detection', function () {
         title: this.test.fullTitle(),
         testSpecificMock: async (mockServer) => {
           return setupPhishingDetectionMocks(mockServer, {
-            blockProvider: BlockProvider.MetaMask,
+            blockProvider: BlockProvider.BlockStar,
             blocklist: [phishingSite.hostname],
           });
         },
@@ -236,16 +236,16 @@ describe('Phishing Detection', function () {
         await unlockWallet(driver);
         await driver.openNewPage(phishingSite.href);
 
-        await driver.switchToWindowWithTitle('MetaMask Phishing Detection');
+        await driver.switchToWindowWithTitle('BlockStar Phishing Detection');
         await driver.clickElement({ text: 'report a detection problem.' });
 
         // wait for page to load before checking URL.
         await driver.findElement({
-          text: `Empty page by ${BlockProvider.MetaMask}`,
+          text: `Empty page by ${BlockProvider.BlockStar}`,
         });
         assert.equal(
           await driver.getCurrentUrl(),
-          `https://github.com/MetaMask/eth-phishing-detect/issues/new?title=[Legitimate%20Site%20Blocked]%20${encodeURIComponent(
+          `https://github.com/BlockStar/eth-phishing-detect/issues/new?title=[Legitimate%20Site%20Blocked]%20${encodeURIComponent(
             phishingSite.hostname,
           )}&body=${encodeURIComponent(`${phishingSite.origin}/`)}`,
         );
@@ -253,7 +253,7 @@ describe('Phishing Detection', function () {
     );
   });
 
-  it('should open MetaMask Portfolio when clicking back to safety button', async function () {
+  it('should open BlockStar Portfolio when clicking back to safety button', async function () {
     await withFixtures(
       {
         fixtures: new FixtureBuilder().build(),
@@ -261,7 +261,7 @@ describe('Phishing Detection', function () {
         title: this.test.fullTitle(),
         testSpecificMock: async (mockServer) => {
           return setupPhishingDetectionMocks(mockServer, {
-            blockProvider: BlockProvider.MetaMask,
+            blockProvider: BlockProvider.BlockStar,
             blocklist: ['127.0.0.1'],
           });
         },
@@ -285,7 +285,7 @@ describe('Phishing Detection', function () {
         await driver.clickElement({
           text: 'Open this warning in a new tab',
         });
-        await driver.switchToWindowWithTitle('MetaMask Phishing Detection');
+        await driver.switchToWindowWithTitle('BlockStar Phishing Detection');
         await driver.clickElement({
           text: 'Back to safety',
         });
@@ -352,7 +352,7 @@ describe('Phishing Detection', function () {
             <script>
               // this script should not run.
               // it is meant to test for regressions in our redirect
-              // protection due to changes in either MetaMask or browsers.
+              // protection due to changes in either BlockStar or browsers.
               document.location.href = "${destination}";
               alert("trying to prevent phishing protection");
               while(true){}
@@ -398,7 +398,7 @@ describe('Phishing Detection', function () {
           title: this.test.fullTitle(),
           testSpecificMock: async (mockServer) => {
             await setupPhishingDetectionMocks(mockServer, {
-              blockProvider: BlockProvider.MetaMask,
+              blockProvider: BlockProvider.BlockStar,
               blocklist: [blocked],
             });
           },
@@ -410,7 +410,7 @@ describe('Phishing Detection', function () {
       );
       driver = await promise;
 
-      // required to ensure MetaMask is fully started before running tests
+      // required to ensure BlockStar is fully started before running tests
       // if we had a way of detecting when the offscreen/background were ready
       // we could remove this
       await unlockWallet(driver);
@@ -432,7 +432,7 @@ describe('Phishing Detection', function () {
       // they are being used safely here. We are intentionally sharing one
       // instance for each test.
       // eslint-disable-next-line no-loop-func
-      it(`should display the MetaMask Phishing Detection page if a blocked site redirects via HTTP Status Code ${code} to another page`, async function () {
+      it(`should display the BlockStar Phishing Detection page if a blocked site redirects via HTTP Status Code ${code} to another page`, async function () {
         const { port } = server.address();
         const refresh = { name: 'Refresh', value: `0;url="${destination}"` };
         const location = { name: 'Location', value: destination };
@@ -442,7 +442,7 @@ describe('Phishing Detection', function () {
         const blockedUrl = `http://${blocked}:${port}/`;
         await driver.openNewURL(blockedUrl);
         // check that the redirect was ultimately _not_ followed and instead
-        // went to our "MetaMask Phishing Detection" site
+        // went to our "BlockStar Phishing Detection" site
 
         await driver.waitForUrl({
           url:

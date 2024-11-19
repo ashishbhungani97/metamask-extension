@@ -5,7 +5,7 @@ export const version = 106;
 /**
  * This migration set preference securityAlertsEnabled to true.
  *
- * @param originalVersionedData - Versioned MetaMask extension state, exactly what we persist to dist.
+ * @param originalVersionedData - Versioned BlockStar extension state, exactly what we persist to dist.
  */
 export async function migrate(originalVersionedData) {
   const versionedData = cloneDeep(originalVersionedData);

@@ -43,10 +43,8 @@ export default function CreationSuccessful() {
   const trackEvent = useContext(MetaMetricsContext);
   const firstTimeFlowType = useSelector(getFirstTimeFlowType);
   const seedPhraseBackedUp = useSelector(getSeedPhraseBackedUp);
-  const learnMoreLink =
-    'https://support.metamask.io/hc/en-us/articles/360015489591-Basic-Safety-and-Security-Tips-for-MetaMask';
   const learnHowToKeepWordsSafe =
-    'https://community.metamask.io/t/what-is-a-secret-recovery-phrase-and-how-to-keep-your-crypto-wallet-secure/3440';
+    '#sec';
 
   const { createSession } = useCreateSession();
 
@@ -136,22 +134,7 @@ export default function CreationSuccessful() {
 
       {firstTimeFlowType === FirstTimeFlowType.create && (
         <Text variant={TextVariant.bodyLgMedium} marginBottom={6}>
-          {t('keepReminderOfSRP', [
-            <ButtonLink
-              key="keepReminderOfSRP"
-              size={ButtonLinkSize.Inherit}
-              textProps={{
-                variant: TextVariant.bodyMd,
-                alignItems: AlignItems.flexStart,
-              }}
-              as="a"
-              href={learnMoreLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t('learnMoreUpperCaseWithDot')}
-            </ButtonLink>,
-          ])}
+          {t('keepReminderOfSRP')}
         </Text>
       )}
 

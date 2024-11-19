@@ -801,7 +801,7 @@ export function updateCustomNonce(value: string) {
  * TODO: update previousGasParams to use typed gas params object
  * TODO: Not a thunk, but rather a wrapper around a background call
  *
- * @param txId - MetaMask internal transaction id
+ * @param txId - BlockStar internal transaction id
  * @param previousGasParams - Object of gas params to set as previous
  */
 export function updatePreviousGasParams(
@@ -1934,7 +1934,7 @@ export function addToken(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch: MetaMaskReduxDispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot add token without address');
+      throw new Error('BlockStar - Cannot add token without address');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -2043,10 +2043,10 @@ export function addNft(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch: MetaMaskReduxDispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot add NFT without address');
+      throw new Error('BlockStar - Cannot add NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot add NFT without tokenID');
+      throw new Error('BlockStar - Cannot add NFT without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -2070,10 +2070,10 @@ export function addNftVerifyOwnership(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch: MetaMaskReduxDispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot add NFT without address');
+      throw new Error('BlockStar - Cannot add NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot add NFT without tokenID');
+      throw new Error('BlockStar - Cannot add NFT without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -2110,10 +2110,10 @@ export function removeAndIgnoreNft(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch: MetaMaskReduxDispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot ignore NFT without address');
+      throw new Error('BlockStar - Cannot ignore NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot ignore NFT without tokenID');
+      throw new Error('BlockStar - Cannot ignore NFT without tokenID');
     }
     if (!shouldShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -2138,10 +2138,10 @@ export function removeNft(
 ): ThunkAction<void, MetaMaskReduxState, unknown, AnyAction> {
   return async (dispatch: MetaMaskReduxDispatch) => {
     if (!address) {
-      throw new Error('MetaMask - Cannot remove NFT without address');
+      throw new Error('BlockStar - Cannot remove NFT without address');
     }
     if (!tokenID) {
-      throw new Error('MetaMask - Cannot remove NFT without tokenID');
+      throw new Error('BlockStar - Cannot remove NFT without tokenID');
     }
     if (!dontShowLoadingIndicator) {
       dispatch(showLoadingIndication());
@@ -4360,7 +4360,7 @@ export function setNextNonce(nextNonce: string): PayloadAction<string> {
  * actually ephemeral application state. It does not appear to be part of the
  * background state.
  *
- * TODO: move this to a different slice, MetaMask slice will eventually be
+ * TODO: move this to a different slice, BlockStar slice will eventually be
  * deprecated because it should not contain any ephemeral/app state but just
  * background state. In addition we should key nextNonce by address to prevent
  * accidental usage of a stale nonce as the call to getNextNonce only works for
@@ -5421,13 +5421,13 @@ export function updateOnChainTriggersByAccount(
 }
 
 /**
- * Fetches and updates MetaMask notifications.
+ * Fetches and updates BlockStar notifications.
  *
  * This function sends a request to the background script to fetch the latest notifications.
  * If the operation encounters an error, it logs the error message and rethrows the error to ensure it is handled appropriately.
  *
  * @param previewToken - Optional preview token for fetching draft feature announcements.
- * @returns A thunk action that, when dispatched, attempts to fetch and update MetaMask notifications.
+ * @returns A thunk action that, when dispatched, attempts to fetch and update BlockStar notifications.
  */
 export function fetchAndUpdateMetamaskNotifications(
   previewToken?: string,
@@ -5502,14 +5502,14 @@ export function deleteAccountSyncingDataFromUserStorage(): ThunkAction<
 }
 
 /**
- * Marks MetaMask notifications as read.
+ * Marks BlockStar notifications as read.
  *
  * This function sends a request to the background script to mark the specified notifications as read.
  * Upon success, it dispatches an action with type `MARK_METAMASK_NOTIFICATIONS_AS_READ` to update the Redux state.
  * If the operation encounters an error, it logs the error message and rethrows the error to ensure it is handled appropriately.
  *
  * @param notifications - An array of notification identifiers to be marked as read.
- * @returns A thunk action that, when dispatched, attempts to mark MetaMask notifications as read.
+ * @returns A thunk action that, when dispatched, attempts to mark BlockStar notifications as read.
  */
 export function markMetamaskNotificationsAsRead(
   notifications: NotificationServicesController.Types.MarkAsReadNotificationsParam,
@@ -5600,8 +5600,8 @@ export function showConfirmTurnOffProfileSyncing(): ThunkAction<
 }
 
 /**
- * Triggers a modal to confirm the action of turning on MetaMask notifications.
- * This function dispatches an action to show a modal dialog asking the user to confirm if they want to turn on MetaMask notifications.
+ * Triggers a modal to confirm the action of turning on BlockStar notifications.
+ * This function dispatches an action to show a modal dialog asking the user to confirm if they want to turn on BlockStar notifications.
  *
  * @returns A thunk action that, when dispatched, shows the confirmation modal.
  */
@@ -5621,11 +5621,11 @@ export function showConfirmTurnOnMetamaskNotifications(): ThunkAction<
 }
 
 /**
- * Enables MetaMask notifications.
- * This function dispatches a request to the background script to enable MetaMask notifications.
+ * Enables BlockStar notifications.
+ * This function dispatches a request to the background script to enable BlockStar notifications.
  * If the operation fails, it logs the error message and rethrows the error to ensure it is handled appropriately.
  *
- * @returns A thunk action that, when dispatched, attempts to enable MetaMask notifications.
+ * @returns A thunk action that, when dispatched, attempts to enable BlockStar notifications.
  */
 export function enableMetamaskNotifications(): ThunkAction<
   void,
@@ -5643,11 +5643,11 @@ export function enableMetamaskNotifications(): ThunkAction<
 }
 
 /**
- * Disables MetaMask notifications.
- * This function dispatches a request to the background script to disable MetaMask notifications.
+ * Disables BlockStar notifications.
+ * This function dispatches a request to the background script to disable BlockStar notifications.
  * If the operation fails, it logs the error message and rethrows the error to ensure it is handled appropriately.
  *
- * @returns A thunk action that, when dispatched, attempts to disable MetaMask notifications.
+ * @returns A thunk action that, when dispatched, attempts to disable BlockStar notifications.
  */
 export function disableMetamaskNotifications(): ThunkAction<
   void,

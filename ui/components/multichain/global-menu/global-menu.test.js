@@ -29,7 +29,7 @@ jest.mock('../../../store/actions', () => ({
 }));
 
 describe('Global Menu', () => {
-  it('locks MetaMask when item is clicked', async () => {
+  it('locks BlockStar when item is clicked', async () => {
     render();
     fireEvent.click(document.querySelector('[data-testid="global-menu-lock"]'));
     await waitFor(() => {

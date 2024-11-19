@@ -142,7 +142,7 @@ async function start() {
     .join('')}</ul>`;
 
   const bundleSizeDataUrl =
-    'https://raw.githubusercontent.com/MetaMask/extension_bundlesize_stats/main/stats/bundle_size_data.json';
+    'https://raw.githubusercontent.com/BlockStar/extension_bundlesize_stats/main/stats/bundle_size_data.json';
 
   const coverageUrl = `${BUILD_LINK_BASE}/coverage/index.html`;
   const coverageLink = `<a href="${coverageUrl}">Report</a>`;
@@ -168,7 +168,7 @@ async function start() {
   const userActionsStatsLink = `<a href="${userActionsStatsUrl}">E2e Actions Stats</a>`;
 
   // link to artifacts
-  const allArtifactsUrl = `https://circleci.com/gh/MetaMask/metamask-extension/${CIRCLE_BUILD_NUM}#artifacts/containers/0`;
+  const allArtifactsUrl = `https://circleci.com/gh/BlockStar/metamask-extension/${CIRCLE_BUILD_NUM}#artifacts/containers/0`;
 
   const contentRows = [
     `builds: ${buildLinks}`,

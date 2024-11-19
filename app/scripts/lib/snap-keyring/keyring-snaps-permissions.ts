@@ -18,7 +18,7 @@ const PORTFOLIO_ORIGINS: string[] = [
 ];
 
 /**
- * List of keyring methods MetaMask can call.
+ * List of keyring methods BlockStar can call.
  */
 const METAMASK_ALLOWED_METHODS: string[] = [
   KeyringRpcMethod.ListAccounts,

@@ -66,7 +66,7 @@ export const DefaultStory = (args) => (
       description="This version of Button has been deprecated in favor of the component-library version. Contribute to replacing old Button with new Button by submitting a PR to metamask-extension."
       actionButtonLabel="See details"
       actionButtonProps={{
-        href: 'https://github.com/MetaMask/metamask-extension/issues/18896',
+        href: 'https://github.com/BlockStar/metamask-extension/issues/18896',
       }}
     />
     <Button {...args}>{args.children}</Button>
@@ -128,7 +128,7 @@ export const TypeLink = (args) => (
 );
 
 TypeLink.args = {
-  href: 'https://blockstar.site/',
+  href: 'https://blockstars.blockstar.site/knowledge-base/',
   type: 'link',
   children: 'Click me',
 };

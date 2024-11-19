@@ -1,7 +1,7 @@
 # Add Custom Build to Firefox
 
-* Create a local build of MetaMask using your preferred method.
-  * You can find build instructions in the [readme](https://github.com/MetaMask/metamask-extension#readme).
+* Create a local build of BlockStar using your preferred method.
+  * You can find build instructions in the [readme](https://github.com/BlockStar/metamask-extension#readme).
 * Go to the url `about:debugging#addons`.
 * Click the button `Load Temporary Add-On`.
 * Select the file `metamask-extension/dist/firefox/manifest.json`.

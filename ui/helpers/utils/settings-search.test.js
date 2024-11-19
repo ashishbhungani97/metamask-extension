@@ -59,7 +59,7 @@ const t = (key) => {
     case 'autoLockTimeLimit':
       return 'Auto-lock timer (minutes)';
     case 'autoLockTimeLimitDescription':
-      return 'Set the idle time in minutes before MetaMask will become locked.';
+      return 'Set the idle time in minutes before BlockStar will become locked.';
     case 'ipfsGateway':
       return 'IPFS Gateway';
     case 'ipfsGatewayDescription':
@@ -83,7 +83,7 @@ const t = (key) => {
     case 'participateInMetaMetrics':
       return 'Participate in MetaMetrics';
     case 'participateInMetaMetricsDescription':
-      return 'Participate in MetaMetrics to help us make MetaMask better';
+      return 'Participate in MetaMetrics to help us make BlockStar better';
     case 'alerts':
       return 'Alerts';
     case 'networks':
@@ -115,9 +115,9 @@ const t = (key) => {
     case 'about':
       return 'About';
     case 'metamaskVersion':
-      return 'MetaMask Version';
+      return 'BlockStar Version';
     case 'builtAroundTheWorld':
-      return 'MetaMask is designed and built around the world.';
+      return 'BlockStar is designed and built around the world.';
     case 'links':
       return 'Links';
     case 'privacyMsg':

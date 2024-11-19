@@ -198,7 +198,7 @@ describe('Interactive Replacement Token Page', function () {
     const mostRecentOverviewPage = '/institutional-features/done';
     const mostRecentOverviewPageState = {
       description:
-        'You can now use your custodian accounts in MetaMask Institutional.',
+        'You can now use your custodian accounts in BlockStar Institutional.',
       imgSrc: 'iconUrl',
       title: 'Your custodian token has been refreshed',
     };

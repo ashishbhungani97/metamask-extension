@@ -21,7 +21,7 @@ import {
 import { useI18nContext } from '../../../../hooks/useI18nContext';
 import { mapToTemplate } from './utils';
 
-// Component that maps Snaps UI JSON format to MetaMask Template Renderer format
+// Component that maps Snaps UI JSON format to BlockStar Template Renderer format
 const SnapUIRendererComponent = ({
   snapId,
   delineatorType = DelineatorType.Content,

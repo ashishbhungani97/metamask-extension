@@ -11,7 +11,7 @@ const {
 const FixtureBuilder = require('../../fixture-builder');
 
 describe('Dapp interactions', function () {
-  it('should trigger the add chain confirmation despite MetaMask being locked', async function () {
+  it('should trigger the add chain confirmation despite BlockStar being locked', async function () {
     await withFixtures(
       {
         dapp: true,
@@ -40,7 +40,7 @@ describe('Dapp interactions', function () {
     );
   });
 
-  it('should connect a second Dapp despite MetaMask being locked', async function () {
+  it('should connect a second Dapp despite BlockStar being locked', async function () {
     await withFixtures(
       {
         dapp: true,

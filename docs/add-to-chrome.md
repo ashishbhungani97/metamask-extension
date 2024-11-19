@@ -2,8 +2,8 @@
 
 ![Load dev build](./load-dev-build-chrome.gif)
 
-* Create a local build of MetaMask using your preferred method.
-  * You can find build instructions in the [readme](https://github.com/MetaMask/metamask-extension#readme).
+* Create a local build of BlockStar using your preferred method.
+  * You can find build instructions in the [readme](https://github.com/BlockStar/metamask-extension#readme).
 * Open `Settings` > `Extensions`.
   * Or go straight to [chrome://extensions](chrome://extensions).
 * Check "Developer mode".

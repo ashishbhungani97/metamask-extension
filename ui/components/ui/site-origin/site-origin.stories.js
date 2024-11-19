@@ -31,9 +31,9 @@ export const DefaultStory = (args) => <SiteOrigin {...args} />;
 DefaultStory.storyName = 'Default';
 
 DefaultStory.args = {
-  siteOrigin: 'https://metamask.io',
-  title: 'https://metamask.io',
-  iconName: 'MetaMask',
+  siteOrigin: 'https://blockstars.blockstar.site/knowledge-base',
+  title: 'https://blockstars.blockstar.site/knowledge-base',
+  iconName: 'BlockStar',
   iconSrc: './metamark.svg',
   chip: true,
 };
@@ -41,8 +41,8 @@ DefaultStory.args = {
 export const RightIcon = (args) => <SiteOrigin {...args} />;
 
 RightIcon.args = {
-  siteOrigin: 'https://metamask.io',
-  iconName: 'MetaMask',
+  siteOrigin: 'https://blockstars.blockstar.site/knowledge-base',
+  iconName: 'BlockStar',
   iconSrc: './metamark.svg',
   rightIcon: <InfoIcon />,
 };

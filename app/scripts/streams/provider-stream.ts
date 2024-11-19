@@ -51,7 +51,7 @@ const setupPageStreams = () => {
   pageMux.setMaxListeners(25);
 
   pipeline(pageMux, pageStream, pageMux, (err: Error) =>
-    logStreamDisconnectWarning('MetaMask Inpage Multiplex', err),
+    logStreamDisconnectWarning('BlockStar Inpage Multiplex', err),
   );
 
   pageChannel = pageMux.createStream(METAMASK_PROVIDER);
@@ -78,7 +78,7 @@ const setupExtensionStreams = () => {
   extensionMux.ignoreStream(LEGACY_PUBLIC_CONFIG); // TODO:LegacyProvider: Delete
 
   pipeline(extensionMux, extensionStream, extensionMux, (err: Error) => {
-    logStreamDisconnectWarning('MetaMask Background Multiplex', err);
+    logStreamDisconnectWarning('BlockStar Background Multiplex', err);
     notifyInpageOfStreamFailure();
   });
 
@@ -86,7 +86,7 @@ const setupExtensionStreams = () => {
   extensionChannel = extensionMux.createStream(METAMASK_PROVIDER);
   pipeline(pageChannel, extensionChannel, pageChannel, (error: Error) =>
     console.debug(
-      `MetaMask: Muxed traffic for channel "${METAMASK_PROVIDER}" failed.`,
+      `BlockStar: Muxed traffic for channel "${METAMASK_PROVIDER}" failed.`,
       error,
     ),
   );
@@ -128,7 +128,7 @@ const setupLegacyPageStreams = () => {
   legacyPageMux.setMaxListeners(25);
 
   pipeline(legacyPageMux, legacyPageStream, legacyPageMux, (err: Error) =>
-    logStreamDisconnectWarning('MetaMask Legacy Inpage Multiplex', err),
+    logStreamDisconnectWarning('BlockStar Legacy Inpage Multiplex', err),
   );
 
   legacyPageMuxLegacyProviderChannel =
@@ -154,7 +154,7 @@ const setupLegacyExtensionStreams = () => {
     notificationTransformStream,
     legacyExtMux,
     (err: Error) => {
-      logStreamDisconnectWarning('MetaMask Background Legacy Multiplex', err);
+      logStreamDisconnectWarning('BlockStar Background Legacy Multiplex', err);
       notifyInpageOfStreamFailure();
     },
   );
@@ -166,7 +166,7 @@ const setupLegacyExtensionStreams = () => {
     legacyPageMuxLegacyProviderChannel,
     (error: Error) =>
       console.debug(
-        `MetaMask: Muxed traffic between channels "${LEGACY_PROVIDER}" and "${METAMASK_PROVIDER}" failed.`,
+        `BlockStar: Muxed traffic between channels "${LEGACY_PROVIDER}" and "${METAMASK_PROVIDER}" failed.`,
         error,
       ),
   );
@@ -179,7 +179,7 @@ const setupLegacyExtensionStreams = () => {
     legacyPagePublicConfigChannel,
     (error: Error) =>
       console.debug(
-        `MetaMask: Muxed traffic for channel "${LEGACY_PUBLIC_CONFIG}" failed.`,
+        `BlockStar: Muxed traffic for channel "${LEGACY_PUBLIC_CONFIG}" failed.`,
         error,
       ),
   );
@@ -221,7 +221,7 @@ const onMessageSetUpExtensionStreams = (msg: MessageType) => {
       setupExtensionStreams();
       setupLegacyExtensionStreams();
     }
-    return Promise.resolve(`MetaMask: handled ${EXTENSION_MESSAGES.READY}`);
+    return Promise.resolve(`BlockStar: handled ${EXTENSION_MESSAGES.READY}`);
   }
   return undefined;
 };

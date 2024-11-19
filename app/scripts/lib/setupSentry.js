@@ -158,7 +158,7 @@ function setCircleCiTags() {
  * Returns whether MetaMetrics is enabled, given the application state.
  *
  * @param {{ state: unknown} | { persistedState: unknown }} appState - Application state
- * @returns `true` if MetaMask's state has been initialized, and MetaMetrics
+ * @returns `true` if BlockStar's state has been initialized, and MetaMetrics
  * is enabled, `false` otherwise.
  */
 function getMetaMetricsEnabledFromAppState(appState) {
@@ -184,7 +184,7 @@ function getMetaMetricsEnabledFromAppState(appState) {
  * Returns whether MetaMetrics is enabled, given the persisted state.
  *
  * @param {unknown} persistedState - Application state
- * @returns `true` if MetaMask's state has been initialized, and MetaMetrics
+ * @returns `true` if BlockStar's state has been initialized, and MetaMetrics
  * is enabled, `false` otherwise.
  */
 function getMetaMetricsEnabledFromPersistedState(persistedState) {

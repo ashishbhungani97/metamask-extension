@@ -13,7 +13,7 @@ type AppState = {
 const getMetamask = (state: AppState) => state.metamask;
 
 /**
- * Selector to get the list of MetaMask notifications.
+ * Selector to get the list of BlockStar notifications.
  *
  * @param {AppState} state - The current state of the Redux store.
  * @returns {Notification[]} An array of notifications.
@@ -24,7 +24,7 @@ export const getMetamaskNotifications = createSelector(
 );
 
 /**
- * Factory function to create a selector that retrieves a specific MetaMask notification by ID.
+ * Factory function to create a selector that retrieves a specific BlockStar notification by ID.
  *
  * This function returns a selector that is tailored to fetch a notification by its ID.
  *
@@ -41,7 +41,7 @@ export const getMetamaskNotificationById = (id: string) => {
 };
 
 /**
- * Selector to get the list of read MetaMask notifications.
+ * Selector to get the list of read BlockStar notifications.
  *
  * @param {AppState} state - The current state of the Redux store.
  * @returns {Notification[]} An array of notifications that have been read.
@@ -52,7 +52,7 @@ export const getMetamaskNotificationsReadList = createSelector(
 );
 
 /**
- * Selector to get the count of unread MetaMask notifications.
+ * Selector to get the count of unread BlockStar notifications.
  *
  * @param {AppState} state - The current state of the Redux store.
  * @returns {number} The count of notifications that have not been read.
@@ -143,10 +143,10 @@ export const getOnChainMetamaskNotificationsReadCount = createSelector(
 );
 
 /**
- * Selector to determine if the MetaMask notifications feature has been seen by the user.
+ * Selector to determine if the BlockStar notifications feature has been seen by the user.
  *
  * @param {AppState} state - The current state of the Redux store.
- * @returns {boolean} Returns true if the MetaMask notifications feature has been seen, false otherwise.
+ * @returns {boolean} Returns true if the BlockStar notifications feature has been seen, false otherwise.
  */
 export const selectIsMetamaskNotificationsFeatureSeen = createSelector(
   [getMetamask],
@@ -154,10 +154,10 @@ export const selectIsMetamaskNotificationsFeatureSeen = createSelector(
 );
 
 /**
- * Selector to determine if MetaMask notifications are enabled.
+ * Selector to determine if BlockStar notifications are enabled.
  *
  * @param {AppState} state - The current state of the Redux store.
- * @returns {boolean} Returns true if MetaMask notifications are enabled, false otherwise.
+ * @returns {boolean} Returns true if BlockStar notifications are enabled, false otherwise.
  */
 export const selectIsMetamaskNotificationsEnabled = createSelector(
   [getMetamask],
@@ -176,13 +176,13 @@ export const selectIsFeatureAnnouncementsEnabled = createSelector(
 );
 
 /**
- * Selector to determine if MetaMask notifications are currently being created.
+ * Selector to determine if BlockStar notifications are currently being created.
  *
  * This selector checks the `isUpdatingMetamaskNotifications` property of the `metamask` state to see if the notifications are in the process of being created.
  * It uses the `createSelector` function from 'reselect' for memoization, improving performance by avoiding unnecessary recalculations.
  *
  * @param state - The current state of the Redux store.
- * @returns Returns true if MetaMask notifications are being created, false otherwise.
+ * @returns Returns true if BlockStar notifications are being created, false otherwise.
  */
 export const getIsUpdatingMetamaskNotifications = createSelector(
   [getMetamask],
@@ -190,13 +190,13 @@ export const getIsUpdatingMetamaskNotifications = createSelector(
 );
 
 /**
- * Selector to determine if MetaMask notifications are currently being fetched.
+ * Selector to determine if BlockStar notifications are currently being fetched.
  *
  * This selector accesses the `isFetchingMetamaskNotifications` property from the `metamask` state to check if the notifications are currently being fetched.
  * It leverages the `createSelector` function for memoization, which helps in optimizing the performance by caching the result until the input selectors' outputs change.
  *
  * @param {AppState} state - The current state of the Redux store.
- * @returns {boolean} Returns true if MetaMask notifications are being fetched, false otherwise.
+ * @returns {boolean} Returns true if BlockStar notifications are being fetched, false otherwise.
  */
 export const isFetchingMetamaskNotifications = createSelector(
   [getMetamask],
@@ -204,13 +204,13 @@ export const isFetchingMetamaskNotifications = createSelector(
 );
 
 /**
- * Selector to determine if the MetaMask notifications account is currently being updated.
+ * Selector to determine if the BlockStar notifications account is currently being updated.
  *
- * This selector checks the `isUpdatingMetamaskNotificationsAccount` property of the `metamask` state to see if the account associated with MetaMask notifications is in the process of being updated.
+ * This selector checks the `isUpdatingMetamaskNotificationsAccount` property of the `metamask` state to see if the account associated with BlockStar notifications is in the process of being updated.
  * It uses the `createSelector` function from 'reselect' for memoization, improving performance by avoiding unnecessary recalculations.
  *
  * @param {AppState} state - The current state of the Redux store.
- * @returns {boolean} Returns true if the MetaMask notifications account is being updated, false otherwise.
+ * @returns {boolean} Returns true if the BlockStar notifications account is being updated, false otherwise.
  */
 export const getIsUpdatingMetamaskNotificationsAccount = createSelector(
   [getMetamask],

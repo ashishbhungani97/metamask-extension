@@ -13,7 +13,7 @@ const downloadsFolder = `${process.cwd()}/test-artifacts/downloads`;
 
 const getStateLogsJson = async () => {
   try {
-    const stateLogs = `${downloadsFolder}/MetaMask state logs.json`;
+    const stateLogs = `${downloadsFolder}/BlockStar state logs.json`;
     await fs.access(stateLogs);
     const contents = await fs.readFile(stateLogs);
     return JSON.parse(contents.toString());

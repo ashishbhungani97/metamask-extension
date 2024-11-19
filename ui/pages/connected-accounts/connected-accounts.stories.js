@@ -20,7 +20,7 @@ const subjectMetadata = {
   'local:http://localhost:8080/': {
     extensionId: null,
     iconUrl: null,
-    name: 'MetaMask Example Snap',
+    name: 'BlockStar Example Snap',
     origin: 'local:http://localhost:8080/',
     subjectType: 'snap',
     svgIcon: '<svg>...</svg>',

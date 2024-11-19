@@ -5,7 +5,7 @@ Below is a summary of the validations included:
 
 * Validate that the 'Network details check' toggle is present in the Security & Privacy settings and is ON by default.
 * Validate that the toggle can be turned on and off.
-* Validate that when the toggle is turned on, MetaMask checks the network details against the information provided by chainid.network when attempting to connect to a blockchain network.
+* Validate that when the toggle is turned on, BlockStar checks the network details against the information provided by chainid.network when attempting to connect to a blockchain network.
 
 ```markdown
 

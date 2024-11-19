@@ -21,7 +21,7 @@ class TestDapp {
   private readonly connectAccountButton = '#connectButton';
 
   private readonly connectMetaMaskMessage = {
-    text: 'Connect with MetaMask',
+    text: 'Connect with BlockStar',
     tag: 'h2',
   };
 

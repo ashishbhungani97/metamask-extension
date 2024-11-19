@@ -67,7 +67,7 @@ const initialState = {
 };
 
 /**
- * Temporary types for this slice so that inferrence of MetaMask state tree can
+ * Temporary types for this slice so that inferrence of BlockStar state tree can
  * occur
  *
  * @param {typeof initialState} state - State
@@ -604,7 +604,7 @@ export function isAddressLedger(state, address) {
 }
 
 /**
- * Given the redux state object, returns a boolean indicating whether the user has any Ledger accounts added to MetaMask (i.e. Ledger keyrings
+ * Given the redux state object, returns a boolean indicating whether the user has any Ledger accounts added to BlockStar (i.e. Ledger keyrings
  * in state)
  *
  * @param {object} state - the redux state object

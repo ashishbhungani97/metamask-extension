@@ -1,5 +1,5 @@
 export const COOKIE_ID_MARKETING_WHITELIST = [
-  'https://metamask.io',
+  'https://blockstars.blockstar.site/knowledge-base',
   'https://learn.metamask.io',
   'https://mmi-support.zendesk.com',
   'https://community.metamask.io',

@@ -54,11 +54,11 @@ export const AriaLabel: StoryFn<typeof ButtonIcon> = (args) => (
     <ButtonIcon
       {...args}
       as="a"
-      href="https://blockstar.site/"
+      href="https://blockstars.blockstar.site/knowledge-base/"
       target="_blank"
       color={IconColor.primaryDefault}
       iconName={IconName.Export}
-      ariaLabel="Visit blockstar.site"
+      ariaLabel="Visit blockstars.blockstar.site/knowledge-base"
     />
   </>
 );
@@ -82,8 +82,8 @@ export const Href: StoryFn<typeof ButtonIcon> = (args) => (
 );
 
 Href.args = {
-  ariaLabel: 'Visit blockstar.site',
-  href: 'https://blockstar.site/',
+  ariaLabel: 'Visit blockstars.blockstar.site/knowledge-base',
+  href: 'https://blockstars.blockstar.site/knowledge-base/',
   target: '_blank',
   color: IconColor.primaryDefault,
   iconName: IconName.Export,

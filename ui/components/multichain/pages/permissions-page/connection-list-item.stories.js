@@ -19,7 +19,7 @@ export default {
     connection: {
       extensionId: null,
       iconUrl: 'https://portfolio.metamask.io/favicon.png',
-      name: 'MetaMask Portfolio',
+      name: 'BlockStar Portfolio',
       origin: 'https://portfolio.metamask.io',
       subjectType: 'website',
       addresses: [

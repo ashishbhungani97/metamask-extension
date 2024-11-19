@@ -23,7 +23,7 @@ export const typeHash = {
  * {@see {@link https://metamask.github.io/metamask-storybook/?path=/docs/components-componentlibrary-banneralert--default-story#banneralert}}
  *
  * Help to replace `ActionableMessage` with `BannerAlert` by submitting a PR against
- * {@link https://github.com/MetaMask/metamask-extension/issues/19528}
+ * {@link https://github.com/BlockStar/metamask-extension/issues/19528}
  */
 
 export default function ActionableMessage({

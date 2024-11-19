@@ -27,7 +27,7 @@ const isOffscreenAvailable = Boolean(global.chrome?.offscreen);
 /**
  * A boolean indicating whether the current extension's manifest is version 3
  * while the current browser does not support the offscreen document. This can
- * happen to users on MetaMask versions 11.16.7 and higher, who are using a
+ * happen to users on BlockStar versions 11.16.7 and higher, who are using a
  * chromium browser with a version below 109.
  */
 const isMv3ButOffscreenDocIsMissing = isManifestV3 && !isOffscreenAvailable;

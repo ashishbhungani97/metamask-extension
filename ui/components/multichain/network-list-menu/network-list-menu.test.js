@@ -248,12 +248,12 @@ describe('NetworkListMenu', () => {
     expect(queryByText('Chain 5')).not.toBeInTheDocument();
   });
 
-  it('enables the "Add a custom network" button when MetaMask is locked', () => {
+  it('enables the "Add a custom network" button when BlockStar is locked', () => {
     const { queryByText } = render({ isUnlocked: false });
     expect(queryByText('Add a custom network')).toBeEnabled();
   });
 
-  it('enables the "AAdd a custom network" button when MetaMask is true', () => {
+  it('enables the "AAdd a custom network" button when BlockStar is true', () => {
     const { queryByText } = render({ isUnlocked: true });
     expect(queryByText('Add a custom network')).toBeEnabled();
   });

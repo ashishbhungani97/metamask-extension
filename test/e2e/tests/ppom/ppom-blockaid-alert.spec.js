@@ -165,7 +165,7 @@ describe('Confirmation Security Alert - Blockaid @no-mmi', function () {
   /**
    * todo: fix test
    *
-   * @see {@link https://github.com/MetaMask/MetaMask-planning/issues/1766}
+   * @see {@link https://github.com/BlockStar/BlockStar-planning/issues/1766}
    */
   // eslint-disable-next-line mocha/no-skipped-tests
   it.skip('should not show security alerts for benign requests', async function () {

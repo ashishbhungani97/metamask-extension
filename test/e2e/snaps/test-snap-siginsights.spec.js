@@ -70,7 +70,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(personalSignButton1);
         await driver.clickElement('#personalSign');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // wait for information from signature request screen
@@ -108,7 +108,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(signTypedButton1);
         await driver.clickElement('#signTypedData');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // wait for information from signature request screen
@@ -149,7 +149,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(signTypedV3Button1);
         await driver.clickElement('#signTypedDataV3');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // click down arrow
@@ -196,7 +196,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(signTypedV4Button1);
         await driver.clickElement('#signTypedDataV4');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // click down arrow
@@ -300,7 +300,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(personalSignButton1);
         await driver.clickElement('#personalSign');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // wait for and click sign
@@ -343,7 +343,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(signTypedButton1);
         await driver.clickElement('#signTypedData');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // wait for and click sign
@@ -386,7 +386,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(signTypedV3Button1);
         await driver.clickElement('#signTypedDataV3');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // click down arrow
@@ -433,7 +433,7 @@ describe('Test Snap Signature Insights', function () {
         await driver.scrollToElement(signTypedV4Button1);
         await driver.clickElement('#signTypedDataV4');
 
-        // switch back to MetaMask window and switch to tx insights pane
+        // switch back to BlockStar window and switch to tx insights pane
         await driver.switchToWindowWithTitle(WINDOW_TITLES.Dialog);
 
         // click down arrow

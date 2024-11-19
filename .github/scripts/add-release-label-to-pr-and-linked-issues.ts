@@ -18,7 +18,7 @@ async function main(): Promise<void> {
   // "GITHUB_TOKEN" does not have access to other repositories, even when they belong to the same organization.
   // As we want to update linked issues which are not necessarily located in the same repository,
   // we need to create our own "RELEASE_LABEL_TOKEN" with "repo" permissions.
-  // Such a token allows to access other repositories of the MetaMask organisation.
+  // Such a token allows to access other repositories of the BlockStar organisation.
   const personalAccessToken = process.env.RELEASE_LABEL_TOKEN;
   if (!personalAccessToken) {
     core.setFailed('RELEASE_LABEL_TOKEN not found');

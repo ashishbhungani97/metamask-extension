@@ -136,7 +136,7 @@ describe('Create BTC Account', function (this: Suite) {
         );
         await driver.clickElement({
           css: '[data-testid="global-menu-lock"]',
-          text: 'Lock MetaMask',
+          text: 'Lock BlockStar',
         });
 
         await driver.clickElement({

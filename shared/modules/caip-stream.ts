@@ -66,7 +66,7 @@ export const createCaipStream = (portStream: Duplex): Duplex => {
   const caipStream = new CaipStream();
 
   pipeline(portStream, caipStream, portStream, (err: Error) =>
-    console.log('MetaMask CAIP stream', err),
+    console.log('BlockStar CAIP stream', err),
   );
 
   return caipStream.substream;

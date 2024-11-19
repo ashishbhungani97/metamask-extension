@@ -5,7 +5,7 @@ const version = 52;
 
 /**
  * Migrate tokens in Preferences to be keyed by chainId instead of
- * providerType. To prevent breaking user's MetaMask and selected
+ * providerType. To prevent breaking user's BlockStar and selected
  * tokens, this migration copies the RPC entry into *every* custom RPC
  * chainId.
  */

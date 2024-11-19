@@ -13,17 +13,17 @@ This was occuring when there was data on the NetworkController state for which t
 
 `previousProviderStore` should not have been on the NetworkController state because of migration 85, which explictly deletes it.
 
-We discovered that for some users, that migration had failed to run because of an error in an earlier migration: `TypeError#1: MetaMask Migration Error #77: Cannot convert undefined or null to object`.
-This error was thrown from this line https://github.com/MetaMask/metamask-extension/commit/8f18e04b97af02e5a8a72e3e4872aac66595d1d8#diff-9e76a7c60c1e37cd949f729222338b23ab743e44938ccf63a4a6dab7d84ed8bcR38
+We discovered that for some users, that migration had failed to run because of an error in an earlier migration: `TypeError#1: BlockStar Migration Error #77: Cannot convert undefined or null to object`.
+This error was thrown from this line https://github.com/BlockStar/metamask-extension/commit/8f18e04b97af02e5a8a72e3e4872aac66595d1d8#diff-9e76a7c60c1e37cd949f729222338b23ab743e44938ccf63a4a6dab7d84ed8bcR38
 
 So the `data` property of the objects within `TokenListController.tokensChainsCache` could be undefined, and migration 77 didn't handle that case. It could be undefined because of the way the assets controller
-code was as of the core controller libraries 14.0.2 release https://github.com/MetaMask/core/blame/19f7bf3b9fd8abe6cef9cb1ac1fe831d9f651ae0/src/assets/TokenListController.ts#L270 (the `safelyExecute` call there
+code was as of the core controller libraries 14.0.2 release https://github.com/BlockStar/core/blame/19f7bf3b9fd8abe6cef9cb1ac1fe831d9f651ae0/src/assets/TokenListController.ts#L270 (the `safelyExecute` call there
 will return undefined if the network call failed)
 
 For users who were in that situation, where a `TokenListController.tokensChainsCache[chainId].data` property was undefined, some significant problems would occur after updating to v10.24.0, which is the
 release where migration 77 was shipped. In particular, migration 77 would fail, and all subsequent migrations would not run. The most plain case of this would be a user who was on v10.23.0
 with `TokenListController.tokensChainsCache[chainId].data === undefined`. Then suppose they didn't update until v10.34.0. None of migrations 77-89 would run. Leaving their state in a form that doesn't match
-with assumptions throughout our codebase. Various bugs could be caused, but the sentry error describe above is the worst case, where MetaMask simply could not be opened and users would hit the error screen.
+with assumptions throughout our codebase. Various bugs could be caused, but the sentry error describe above is the worst case, where BlockStar simply could not be opened and users would hit the error screen.
 
 To correct this situation we had to fix migration 77. Once we do that, all users who were in this situation (and then upgraded to the version which included the fixes for migration 77) would have all migrations
 from 77 upwards run for the first time. This could be problematic for users who had used the wallet on versions 10.24.0-10.34.0, where our controllers would be writing data to state under the assumption that
@@ -44,7 +44,7 @@ We added supplements for migrations 82, 84, 86 and 88 for the following reasons 
 **Migration 82**
 
 Attempts to convert `frequentRpcListDetail` - an array of objects with network related data - to a `networkConfigurations` object, with the objects that were in the array keyed by a unique id.
-If this migration had not run, then (prior to v10.34.0) a user would still have been able to use MetaMask, but the data they had in `frequentRpcListDetail` would now be ignored by application code,
+If this migration had not run, then (prior to v10.34.0) a user would still have been able to use BlockStar, but the data they had in `frequentRpcListDetail` would now be ignored by application code,
 and subsequent network data would between written to and modified in state in the `networkConfigurations` object. If migration 82 was later run (after fixing migration 77), the old `frequentRpcListDetail`
 data could overwrite the existing `networkConfigurations` data, and the user could lose `networkConfigurations` data that had been written to their state since migration 82 had first failed to run.
 

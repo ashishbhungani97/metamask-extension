@@ -23,7 +23,7 @@ describe('Account syncing - Opt-out Profile Sync @no-mmi', function () {
   if (!IS_ACCOUNT_SYNCING_ENABLED) {
     return;
   }
-  describe('from inside MetaMask', function () {
+  describe('from inside BlockStar', function () {
     let walletSrp: string;
     it('does not sync when profile sync is turned off - previously synced account', async function () {
       const userStorageMockttpController = new UserStorageMockttpController();

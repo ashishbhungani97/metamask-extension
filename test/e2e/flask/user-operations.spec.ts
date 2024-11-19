@@ -38,7 +38,7 @@ async function installExampleSnap(driver: Driver) {
     text: 'Connect',
     tag: 'button',
   });
-  await driver.findElement({ text: 'Add to MetaMask', tag: 'h3' });
+  await driver.findElement({ text: 'Add to BlockStar', tag: 'h3' });
   await driver.clickElementSafe('[data-testid="snap-install-scroll"]', 200);
   await driver.waitForSelector({ text: 'Confirm' });
   await driver.clickElement({
