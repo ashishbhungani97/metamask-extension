@@ -135,14 +135,7 @@ class SettingsPage extends PureComponent {
           <div className="settings-page__header__title-container">
             {isPopup && (
               <>
-                {currentPath === SETTINGS_ROUTE ? (
-                  <MetafoxLogo
-                    className="settings-page__header__title-container__metamask-logo"
-                    unsetIconHeight
-                    onClick={async () => history.push(DEFAULT_ROUTE)}
-                    display={[Display.Flex, Display.None]}
-                  />
-                ) : (
+
                   <ButtonIcon
                     ariaLabel={t('back')}
                     iconName={IconName.ArrowLeft}
@@ -152,7 +145,7 @@ class SettingsPage extends PureComponent {
                     display={[Display.Flex, Display.None]}
                     size={ButtonIconSize.Sm}
                   />
-                )}
+
               </>
             )}
             {this.renderTitle()}

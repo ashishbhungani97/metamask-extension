@@ -19,6 +19,8 @@ import {
   TextAlign,
   TextVariant,
 } from '../../../helpers/constants/design-system';
+import { ThemeType } from '../../../../shared/constants/preferences';
+import { useTheme } from '../../../hooks/useTheme';
 
 export enum ConfigureSnapPopupType {
   CONFIGURE = 'configure',
@@ -37,6 +39,7 @@ export default function ConfigureSnapPopup({
   link: string;
 }) {
   const t = useI18nContext();
+  const theme = useTheme()
 
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
@@ -54,7 +57,7 @@ export default function ConfigureSnapPopup({
           alignItems={AlignItems.center}
         >
           <img
-            src="images/logo/metamask-fox.svg"
+            src={theme === ThemeType.light ? '/images/logo/metamask-fox.svg' : '/images/logo/metamask-fox-dark.svg'}
             width="54x"
             height="50px"
             style={{ marginBottom: '16px' }}

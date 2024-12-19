@@ -5,6 +5,8 @@ import { I18nContext } from '../../../../contexts/i18n';
 import InfoTooltip from '../../../../components/ui/info-tooltip';
 import ExchangeRateDisplay from '../../exchange-rate-display';
 import { getUseCurrencyRateCheck } from '../../../../selectors';
+import { ThemeType } from '../../../../../shared/constants/preferences';
+import { useTheme } from '../../../../hooks/useTheme';
 
 const QuoteDetails = ({
   slippage,
@@ -21,6 +23,7 @@ const QuoteDetails = ({
 }) => {
   const t = useContext(I18nContext);
   const useCurrencyRateCheck = useSelector(getUseCurrencyRateCheck);
+  const theme = useTheme()
 
   return (
     <div className="quote-details">
@@ -92,7 +95,7 @@ const QuoteDetails = ({
       <div className="quote-details__row quote-details__row--high">
         <div className="quote-details__detail-header">
           <img
-            src="./images/logo/metamask-fox.svg"
+            src={theme === ThemeType.light ? '/images/logo/metamask-fox.svg' : '/images/logo/metamask-fox-dark.svg'}
             className="quote-details__metafox-logo"
             alt=""
           />

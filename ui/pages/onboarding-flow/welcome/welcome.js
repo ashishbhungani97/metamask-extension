@@ -40,11 +40,14 @@ import {
 } from '../../../helpers/constants/routes';
 import { getFirstTimeFlowType, getCurrentKeyring } from '../../../selectors';
 import { FirstTimeFlowType } from '../../../../shared/constants/onboarding';
+import { useTheme } from '../../../hooks/useTheme';
+import { ThemeType } from '../../../../shared/constants/preferences';
 
 
 export default function OnboardingWelcome() {
   const t = useI18nContext();
   const dispatch = useDispatch();
+  const theme = useTheme();
   const history = useHistory();
   const currentKeyring = useSelector(getCurrentKeyring);
   const firstTimeFlowType = useSelector(getFirstTimeFlowType);
@@ -147,12 +150,22 @@ export default function OnboardingWelcome() {
             <Text textAlign={TextAlign.Center} marginLeft={6} marginRight={6}>
               {t('welcomeToMetaMaskIntro')}
             </Text>
-            <div className="onboarding-welcome__mascot">
-              <img src="/images/logo/metamask-fox.svg"
-                width="250"
-                height="250"
-              />
-            </div>
+            {theme === ThemeType.light ? (
+              <div className="onboarding-welcome__mascot">
+                <img src="/images/logo/metamask-fox.svg"
+                  width="250"
+                  height="250"
+                />
+              </div>
+            ) : (
+              <div className="onboarding-welcome__mascot">
+                <img src="/images/logo/metamask-fox-dark.svg"
+                  width="250"
+                  height="250"
+                />
+              </div>
+            )}
+
           </div>
           <div>
             <Text
@@ -198,11 +211,19 @@ export default function OnboardingWelcome() {
             {t('installExtensionDescription')}
           </Text>
           <div className="onboarding-welcome__mascot">
+          {theme === ThemeType.light ? (
             <img
               src="/images/logo/metamask-fox.svg"
               width="250"
               height="250"
             />
+          ) : (
+            <img
+              src="/images/logo/metamask-fox-dark.svg"
+              width="250"
+              height="250"
+            />
+          )}
           </div>
         </div>
         ///: END:ONLY_INCLUDE_IF

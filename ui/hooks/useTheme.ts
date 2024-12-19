@@ -33,7 +33,7 @@ export function useTheme() {
       console.warn(
         `useTheme: Invalid theme resolved to "${result}". Defaulting to "${ThemeType.light}".`,
       );
-      setTheme(ThemeType.light);
+      setTheme(ThemeType.dark);
     }
 
     setTheme(result);

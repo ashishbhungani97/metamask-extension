@@ -25,11 +25,14 @@ import {
   Text,
 } from '../../../components/component-library';
 import PermissionsConnectFooter from '../../../components/app/permissions-connect-footer';
+import { ThemeType } from '../../../../shared/constants/preferences';
+import { useTheme } from '../../../hooks/useTheme';
 
 export default function PermissionsRedirect({ subjectMetadata }) {
   const t = useContext(I18nContext);
   const [cachedSubjectMetadata, setCachedSubjectMetadata] =
     useState(subjectMetadata);
+  const theme = useTheme()
 
   // While this redirecting screen is showing, the subject metadata will become invalidated
   // for that reason we cache the last seen valid subject metadata and show that.
@@ -84,7 +87,7 @@ export default function PermissionsRedirect({ subjectMetadata }) {
             />
           </Box>
           <AvatarToken
-            src="/images/logo/metamask-fox.svg"
+            src={theme === ThemeType.light ? '/images/logo/metamask-fox.svg' : '/images/logo/metamask-fox-dark.svg'}
             size={AvatarTokenSize.Lg}
             name="metamask-fox"
           />

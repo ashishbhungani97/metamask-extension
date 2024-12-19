@@ -17,6 +17,7 @@ import {
 } from '../../../helpers/constants/routes';
 import {
   lockMetamask,
+  setTheme,
   showConfirmTurnOnMetamaskNotifications,
 } from '../../../store/actions';
 import { useI18nContext } from '../../../hooks/useI18nContext';
@@ -74,6 +75,12 @@ import {
   JustifyContent,
 } from '../../../helpers/constants/design-system';
 import { AccountDetailsMenuItem, ViewExplorerMenuItem } from '..';
+import Dropdown from '../../ui/dropdown';
+import { ThemeType } from '../../../../shared/constants/preferences';
+import { useTheme } from '../../../hooks/useTheme';
+
+
+
 
 const METRICS_LOCATION = 'Global Menu';
 
@@ -123,6 +130,14 @@ export const GlobalMenu = ({ closeMenu, anchorElement, isOpen }) => {
 
   // Accessibility improvement for popover
   const lastItemRef = React.useRef(null);
+  const theme = useTheme()
+
+  const themesOptions = [
+    { name: t('lightTheme'), value: ThemeType.light },
+    { name: t('darkTheme'), value: ThemeType.dark },
+    { name: t('osTheme'), value: ThemeType.os },
+  ];
+
 
   React.useEffect(() => {
     const lastItem = lastItemRef.current;
@@ -176,6 +191,12 @@ export const GlobalMenu = ({ closeMenu, anchorElement, isOpen }) => {
     closeMenu();
   };
 
+
+  const onChange = (newTheme) => {
+    dispatch(setTheme(newTheme))
+  };
+
+
   return (
     <Popover
       data-testid="global-menu"
@@ -191,6 +212,17 @@ export const GlobalMenu = ({ closeMenu, anchorElement, isOpen }) => {
       borderStyle={BorderStyle.none}
       position={PopoverPosition.BottomEnd}
     >
+      <MenuItem
+        iconName={theme === ThemeType.dark ? IconName.Dark : IconName.Light}
+        data-testid="notifications-menu-item"
+      >
+        <Dropdown
+          id="select-theme"
+          options={themesOptions}
+          selectedOption={theme}
+          onChange={onChange}
+        />
+      </MenuItem>
       {basicFunctionality && (
         <>
           <MenuItem

@@ -31,7 +31,7 @@ export const FIXTURES_PREFERENCES = {
   useCurrencyRateCheck: true,
   useMultiAccountBalanceChecker: true,
   useRequestQueue: true,
-  theme: 'light',
+  theme: 'dark',
   useExternalNameSources: true,
   useTransactionSimulations: true,
   enableMV3TimestampSave: true,

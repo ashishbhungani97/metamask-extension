@@ -32,14 +32,15 @@ type AccountIdentityEntry = {
 };
 
 const mainNetworks = {
+  [CHAIN_IDS.BLOCKSTAR_MAINNET]: true,
   [CHAIN_IDS.MAINNET]: true,
-  [CHAIN_IDS.LINEA_MAINNET]: true,
+  [CHAIN_IDS.BSC]: true,
 };
 
 const testNetworks = {
-  [CHAIN_IDS.GOERLI]: true,
+  [CHAIN_IDS.BLOCKSTAR_TESTNET]: true,
   [CHAIN_IDS.SEPOLIA]: true,
-  [CHAIN_IDS.LINEA_SEPOLIA]: true,
+  [CHAIN_IDS.BSC_TESTNET]: true,
 };
 
 const controllerName = 'PreferencesController';
@@ -231,7 +232,7 @@ export const getDefaultPreferencesControllerState =
       ? LedgerTransportTypes.webhid
       : LedgerTransportTypes.u2f,
     snapRegistryList: {},
-    theme: ThemeType.os,
+    theme: ThemeType.dark,
     ///: BEGIN:ONLY_INCLUDE_IF(keyring-snaps)
     snapsAddSnapAccountModalDismissed: false,
     ///: END:ONLY_INCLUDE_IF

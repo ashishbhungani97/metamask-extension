@@ -44,6 +44,7 @@ export const AppHeaderLockedContent = ({
         />
       </div>
       <MetafoxLogo
+        isicon={true}
         unsetIconHeight
         onClick={async () => {
           history.push(DEFAULT_ROUTE);
