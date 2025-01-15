@@ -3149,7 +3149,7 @@ export default class MetamaskController extends EventEmitter {
   /**
    * Retrieves network state information relevant for external providers.
    *
-   * @param {string} origin - The origin identifier for which network state is requested (default: 'metamask').
+   * @param {string} origin - The origin identifier for which network state is requested (default: 'blockstar').
    * @returns {object} An object containing important network state properties, including chainId and networkVersion.
    */
   async getProviderNetworkState(origin = METAMASK_DOMAIN) {
@@ -6083,7 +6083,7 @@ export default class MetamaskController extends EventEmitter {
   }
 
   /**
-   * Adds a reference to a connection by origin. Ignores the 'metamask' origin.
+   * Adds a reference to a connection by origin. Ignores the 'blockstar' origin.
    * Caller must ensure that the returned id is stored such that the reference
    * can be deleted later.
    *

@@ -428,7 +428,7 @@ export function importNewAccount(
   args: any[],
   loadingMessage: ReactFragment,
 ): ThunkAction<
-  Promise<MetaMaskReduxState['metamask']>,
+  Promise<MetaMaskReduxState['blockstar']>,
   MetaMaskReduxState,
   unknown,
   AnyAction
@@ -771,7 +771,7 @@ export function encryptionPublicKeyMsg(
     log.debug(`actions calling background.encryptionPublicKey`);
 
     try {
-      await submitRequestToBackground<MetaMaskReduxState['metamask']>(
+      await submitRequestToBackground<MetaMaskReduxState['blockstar']>(
         'encryptionPublicKey',
         [msgData],
       );
@@ -1353,7 +1353,7 @@ export function cancelDecryptMsg(
     dispatch(showLoadingIndication());
 
     try {
-      await submitRequestToBackground<MetaMaskReduxState['metamask']>(
+      await submitRequestToBackground<MetaMaskReduxState['blockstar']>(
         'cancelDecryptMessage',
         [msgData.id],
       );
@@ -1380,7 +1380,7 @@ export function cancelEncryptionPublicKeyMsg(
     dispatch(showLoadingIndication());
 
     try {
-      await submitRequestToBackground<MetaMaskReduxState['metamask']>(
+      await submitRequestToBackground<MetaMaskReduxState['blockstar']>(
         'cancelEncryptionPublicKey',
         [msgData.id],
       );
@@ -2339,8 +2339,8 @@ export function createCancelTransaction(
 
   return (dispatch: MetaMaskReduxDispatch) => {
     const actionId = generateActionId();
-    return new Promise<MetaMaskReduxState['metamask']>((resolve, reject) => {
-      callBackgroundMethod<MetaMaskReduxState['metamask']>(
+    return new Promise<MetaMaskReduxState['blockstar']>((resolve, reject) => {
+      callBackgroundMethod<MetaMaskReduxState['blockstar']>(
         'createCancelTransaction',
         [txId, customGasSettings, { ...options, actionId }],
         (err, newState) => {
@@ -2388,8 +2388,8 @@ export function createSpeedUpTransaction(
 
   return (dispatch: MetaMaskReduxDispatch) => {
     const actionId = generateActionId();
-    return new Promise<MetaMaskReduxState['metamask']>((resolve, reject) => {
-      callBackgroundMethod<MetaMaskReduxState['metamask']>(
+    return new Promise<MetaMaskReduxState['blockstar']>((resolve, reject) => {
+      callBackgroundMethod<MetaMaskReduxState['blockstar']>(
         'createSpeedUpTransaction',
         [txId, customGasSettings, { ...options, actionId }],
         (err, newState) => {
@@ -2420,9 +2420,9 @@ export function createRetryTransaction(
   let newTx: TransactionMeta;
 
   return (dispatch: MetaMaskReduxDispatch) => {
-    return new Promise<MetaMaskReduxState['metamask']>((resolve, reject) => {
+    return new Promise<MetaMaskReduxState['blockstar']>((resolve, reject) => {
       const actionId = generateActionId();
-      callBackgroundMethod<MetaMaskReduxState['metamask']>(
+      callBackgroundMethod<MetaMaskReduxState['blockstar']>(
         'createSpeedUpTransaction',
         [txId, customGasSettings, { actionId }],
         (err, newState) => {
@@ -5834,7 +5834,7 @@ export async function sendMultichainTransaction(
 ) {
   await handleSnapRequest({
     snapId,
-    origin: 'metamask',
+    origin: 'blockstar',
     handler: HandlerType.OnRpcRequest,
     request: {
       method: 'startSendTransactionFlow',

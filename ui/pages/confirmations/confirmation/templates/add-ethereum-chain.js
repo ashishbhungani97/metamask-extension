@@ -104,7 +104,7 @@ const ERROR_CONNECTING_TO_RPC = {
 async function getAlerts(pendingApproval, data) {
   const alerts = [];
 
-  const originIsMetaMask = pendingApproval.origin === 'metamask';
+  const originIsMetaMask = pendingApproval.origin === 'blockstar';
   if (originIsMetaMask && Boolean(data.matchedChain)) {
     return [];
   }
@@ -145,7 +145,7 @@ function getState(pendingApproval) {
 }
 
 function getValues(pendingApproval, t, actions, history, data) {
-  const originIsMetaMask = pendingApproval.origin === 'metamask';
+  const originIsMetaMask = pendingApproval.origin === 'blockstar';
   const customRpcUrl = pendingApproval.requestData.rpcUrl;
 
   let title;

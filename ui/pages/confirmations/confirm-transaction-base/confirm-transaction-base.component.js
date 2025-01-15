@@ -1158,7 +1158,7 @@ export default class ConfirmTransactionBase extends Component {
 
     const isContractInteractionFromDapp =
       (isTokenApproval || isContractInteraction) &&
-      txData.origin !== 'metamask';
+      txData.origin !== 'blockstar';
     let functionType;
     if (isContractInteractionFromDapp) {
       functionType = getMethodName(name);

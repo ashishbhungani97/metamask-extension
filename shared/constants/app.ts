@@ -96,7 +96,7 @@ export const POLLING_TOKEN_ENVIRONMENT_TYPES = {
   [ENVIRONMENT_TYPE_BACKGROUND]: 'none',
 } as const;
 
-export const ORIGIN_METAMASK = 'metamask';
+export const ORIGIN_METAMASK = 'blockstar';
 
 export const METAMASK_BETA_CHROME_ID = 'pbbkamfgmaedccnfkmjcofcecjhfgldn';
 export const METAMASK_PROD_CHROME_ID = 'nkbihfbeogaeaoehlefnkodbefgpgknn';

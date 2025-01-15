@@ -33,7 +33,7 @@ const render = () => {
           testApprovalId: {
             id: 'testApprovalId',
             time: 1528133319641,
-            origin: 'metamask',
+            origin: 'blockstar',
             type: 'personal_sign',
             requestData: {
               txId: 'testTransactionId',
@@ -45,7 +45,7 @@ const render = () => {
           testApprovalId2: {
             id: 'testApprovalId2',
             time: 1528133319641,
-            origin: 'metamask',
+            origin: 'blockstar',
             type: 'personal_sign',
             requestData: {
               txId: 'testTransactionId',
@@ -57,7 +57,7 @@ const render = () => {
           testApprovalId3: {
             id: 'testApprovalId3',
             time: 1528133319649,
-            origin: 'metamask',
+            origin: 'blockstar',
             type: 'personal_sign',
             requestData: {
               txId: 'testTransactionId',

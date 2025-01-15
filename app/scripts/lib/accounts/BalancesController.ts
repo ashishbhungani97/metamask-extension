@@ -370,7 +370,7 @@ export class BalancesController extends BaseController<
       send: async (request: JsonRpcRequest) =>
         (await this.messagingSystem.call('SnapController:handleRequest', {
           snapId: snapId as SnapId,
-          origin: 'metamask',
+          origin: 'blockstar',
           handler: HandlerType.OnKeyringRequest,
           request,
         })) as Promise<Json>,

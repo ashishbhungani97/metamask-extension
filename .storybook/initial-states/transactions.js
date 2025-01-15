@@ -465,7 +465,7 @@ export const MOCK_TRANSACTION_BY_TYPE = {
       gas: '0x5208',
       gasPrice: '0x2540be400',
     },
-    origin: 'metamask',
+    origin: 'blockstar',
     type: 'simpleSend',
   },
   [MOCK_TX_TYPE.SMART]: {
@@ -1231,7 +1231,7 @@ export const MOCK_TRANSACTION_BY_TYPE = {
       maxPriorityFeePerGas: '0x59682f00',
       type: '0x2',
     },
-    origin: 'metamask',
+    origin: 'blockstar',
     type: 'transferfrom',
     history: [
       {
@@ -1280,7 +1280,7 @@ export const MOCK_TRANSACTION_BY_TYPE = {
           maxPriorityFeePerGas: '0x59682f00',
           type: '0x2',
         },
-        origin: 'metamask',
+        origin: 'blockstar',
         type: 'transferfrom',
       },
       [

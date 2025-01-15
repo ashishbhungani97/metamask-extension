@@ -101,7 +101,7 @@ export type CombinedBackgroundAndReduxState = RootReducerReturnType & {
   activeTab: {
     origin: string;
   };
-  metamask: RootReducerReturnType['metamask'] & TemporaryBackgroundState;
+  metamask: RootReducerReturnType['blockstar'] & TemporaryBackgroundState;
   appState: RootReducerReturnType['appState'];
   send: RootReducerReturnType['send'];
   DNS: RootReducerReturnType['DNS'];

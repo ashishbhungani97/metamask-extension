@@ -13,7 +13,7 @@ const TokenTransferInfo = () => {
   const { currentConfirmation: transactionMeta } =
     useConfirmContext<TransactionMeta>();
 
-  const isWalletInitiated = transactionMeta.origin === 'metamask';
+  const isWalletInitiated = transactionMeta.origin === 'blockstar';
 
   return (
     <>

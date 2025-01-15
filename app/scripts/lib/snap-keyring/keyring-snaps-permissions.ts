@@ -98,7 +98,7 @@ export function keyringSnapPermissionsBuilder(
   origin: string,
 ): () => string[] {
   return () => {
-    if (origin === 'metamask') {
+    if (origin === 'blockstar') {
       return METAMASK_ALLOWED_METHODS;
     }
 

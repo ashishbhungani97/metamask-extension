@@ -57,7 +57,7 @@ export function showCustodyConfirmLink({
 
 export function updateCustodyState(
   dispatch: ThunkDispatch<CombinedBackgroundAndReduxState, unknown, AnyAction>,
-  newState: MetaMaskReduxState['metamask'],
+  newState: MetaMaskReduxState['blockstar'],
   // TODO: Replace `any` with type
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   state: CombinedBackgroundAndReduxState & any,

@@ -88,7 +88,7 @@ const Header = () => {
     currentConfirmation?.type &&
     CONFIRMATIONS_WITH_NEW_HEADER.includes(currentConfirmation.type);
   const isWalletInitiated =
-    (currentConfirmation as TransactionMeta)?.origin === 'metamask';
+    (currentConfirmation as TransactionMeta)?.origin === 'blockstar';
   if (isConfirmationWithNewHeader && isWalletInitiated) {
     return <WalletInitiatedHeader />;
   } else if (isConfirmationWithNewHeader && !isWalletInitiated) {

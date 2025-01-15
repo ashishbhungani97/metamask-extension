@@ -832,7 +832,7 @@ export enum MetaMetricsEventName {
 }
 
 export enum MetaMetricsEventAccountType {
-  Default = 'metamask',
+  Default = 'blockstar',
   Hardware = 'hardware',
   Imported = 'imported',
   ///: BEGIN:ONLY_INCLUDE_IF(keyring-snaps)

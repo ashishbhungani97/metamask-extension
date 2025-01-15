@@ -19,7 +19,7 @@ export function getMethodName(camelCase) {
 
 export function formatAccountType(accountType) {
   if (accountType === 'default') {
-    return 'metamask';
+    return 'blockstar';
   }
 
   return accountType;

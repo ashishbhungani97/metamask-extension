@@ -83,7 +83,7 @@ export default function OnboardingWelcome() {
       category: MetaMetricsEventCategory.Onboarding,
       event: MetaMetricsEventName.OnboardingWalletCreationStarted,
       properties: {
-        account_type: 'metamask',
+        account_type: 'blockstar',
       },
     });
     dispatch(setTermsOfUseLastAgreed(new Date().getTime()));

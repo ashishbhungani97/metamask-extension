@@ -14,7 +14,7 @@ export class BitcoinWalletSnapSender implements Sender {
     // without having the pre-installed Snap, this will likely throw an error in
     // the `handleSnapRequest` action.
     return (await handleSnapRequest({
-      origin: 'metamask',
+      origin: 'blockstar',
       snapId: BITCOIN_WALLET_SNAP_ID,
       handler: HandlerType.OnKeyringRequest,
       request,

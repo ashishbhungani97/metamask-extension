@@ -352,7 +352,7 @@ export function getMultichainIsTestnet(
 
 export function getMultichainBalances(
   state: MultichainState,
-): BalancesState['metamask']['balances'] {
+): BalancesState['blockstar']['balances'] {
   return state.metamask.balances;
 }
 

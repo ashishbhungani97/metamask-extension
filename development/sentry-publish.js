@@ -21,12 +21,12 @@ async function start() {
     (_yargs) =>
       _yargs
         .option('org', {
-          default: 'metamask',
+          default: 'blockstar',
           description: 'The Sentry organization',
           type: 'string',
         })
         .option('project', {
-          default: 'metamask',
+          default: 'blockstar',
           description: 'The Sentry project to publish',
           type: 'string',
         })

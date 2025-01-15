@@ -410,7 +410,7 @@ const state = {
           gasPrice: '0x77359400',
         },
         type: 'standard',
-        origin: 'metamask',
+        origin: 'blockstar',
         transactionCategory: 'transfer',
         history: [
           {
@@ -428,7 +428,7 @@ const state = {
               gasPrice: '0x77359400',
             },
             type: 'standard',
-            origin: 'metamask',
+            origin: 'blockstar',
             transactionCategory: 'transfer',
           },
           [
@@ -758,7 +758,7 @@ const state = {
             dappSuggestedGasFees: null,
             id: 2360388496987298,
             loadingDefaults: true,
-            origin: 'metamask',
+            origin: 'blockstar',
             status: 'unapproved',
             time: 1629582710520,
             txParams: {
@@ -1044,7 +1044,7 @@ const state = {
         ],
         id: 7900715443136469,
         loadingDefaults: false,
-        origin: 'metamask',
+        origin: 'blockstar',
         r: '0x90a4dfb0646eef9815454d0ab543b5844acb8772101084565155c93ecce8ed69',
         rawTx:
           '0xf8ad82015b85012a05f2008302eb27942e8c05582176fa93b4590382e8290c73deb8217680b844a9059cbb0000000000000000000000004ef2d5a1d056e7c9e8bcdbf2bd9ac0df749a1c2900000000000000000000000000000000000000000000000029a2241af62c00008193a090a4dfb0646eef9815454d0ab543b5844acb8772101084565155c93ecce8ed69a07fd317c727025490f282c7990b8518a7dab7521b1ada1cb639f887966bc078df',

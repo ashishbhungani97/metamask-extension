@@ -9,7 +9,7 @@ describe('NetworkConfirmationPopover', () => {
   const mockUnapprovedConfirmations = [
     {
       id: '1',
-      origin: 'metamask',
+      origin: 'blockstar',
       type: ApprovalType.AddEthereumChain,
     },
   ];

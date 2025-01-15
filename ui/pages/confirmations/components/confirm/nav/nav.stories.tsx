@@ -16,7 +16,7 @@ const store = configureStore(getMockConfirmState({
       testApprovalId: {
         id: 'testApprovalId',
         time: 1528133319641,
-        origin: 'metamask',
+        origin: 'blockstar',
         type: 'personal_sign',
         requestData: {
           txId: 'testTransactionId',
@@ -28,7 +28,7 @@ const store = configureStore(getMockConfirmState({
       testApprovalId2: {
         id: 'testApprovalId2',
         time: 1528133319641,
-        origin: 'metamask',
+        origin: 'blockstar',
         type: 'personal_sign',
         requestData: {
           txId: 'testTransactionId',
@@ -40,7 +40,7 @@ const store = configureStore(getMockConfirmState({
       testApprovalId3: {
         id: 'testApprovalId3',
         time: 1528133319649,
-        origin: 'metamask',
+        origin: 'blockstar',
         type: 'personal_sign',
         requestData: {
           txId: 'testTransactionId',
